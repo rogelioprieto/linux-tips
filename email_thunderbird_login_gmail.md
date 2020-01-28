@@ -1,6 +1,8 @@
 # Gmail -  Getting authentication failure when using Mozilla Thunderbird.
 
-Problem: "Thunderbird: Authentication failure while connecting to server imap.gmail.com"
+## Problem: "Thunderbird: Authentication failure while connecting to server imap.gmail.com"
+
+## Solution:
 
 1. Set thunderbird in safe mode
 
@@ -24,4 +26,4 @@ click ```ok```
 
 7. Turn off safe mode and restart Thunderbird
 
-Source: <https://support.google.com/mail/thread/4528103?hl=en>
+### Source: <https://support.google.com/mail/thread/4528103?hl=en>
