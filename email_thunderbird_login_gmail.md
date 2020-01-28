@@ -1,6 +1,8 @@
 # Gmail -  Getting authentication failure when using Mozilla Thunderbird.
 
-## Problem: "Thunderbird: Authentication failure while connecting to server imap.gmail.com"
+## Problem:
+
+"Thunderbird: Authentication failure while connecting to server imap.gmail.com"
 
 ## Solution:
 
