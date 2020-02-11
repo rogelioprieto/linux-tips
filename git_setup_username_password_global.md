@@ -9,7 +9,7 @@ You can learn how to:
 
 ## 1. Save username and password in ```git``` using command line
 
-If you want want to use a ```push``` and ```pull``` automatically in GitExtension, without entering my ```username``` and ```password``` in a prompt, every time. In the command line type:
+If you want want to use a ```push``` and ```pull``` automatically in GitExtension, without entering your ```username``` and ```password``` in a prompt, every time. In the command line type:
 
 ```git config --global credential.helper store```
 
@@ -32,13 +32,20 @@ The storage format is a ```.git-credentials``` file, stored in plaintext.
 
 2. Add all files you want to update. In this case, I will include all files with ```.md``` extension.
 
-```git add *.md;```
+```git add *.md```
 
 
 3. Add to ```commit```, you can add a comment.
 
-```git commit -m "added minor changes";```
+```git commit -m "added minor changes"```
 
 4. Upload the changes (*push*) to the ```origin master``` branch.
 
-``` git push -u origin master;```
+``` git push -u origin master```
+
+5. BONUS (*optional*). You can execute all in a line:
+
+```
+git add *.md; git commit -m "added minor changes"; git push -u origin master;
+```
+
