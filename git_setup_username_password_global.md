@@ -26,21 +26,19 @@ The storage format is a ```.git-credentials``` file, stored in plaintext.
 
 ## 2. Update your repository using command line.
 
-Optional:
-
-You can show the list of changes in any time.
+1. This first step is *optional*. You can show the list of changes in any time.
 
 ```git status```
 
-Add all files you want to update.
+2. Add all files you want to update.
 
 ```git add *.md;```
 
 
-Add to commit, you can add a comment.
+3. Add to ```commit```, you can add a comment.
 
 ```git commit -m "added minor changes";```
 
-Upload the changes (*push*) to the ```origin master``` branch.
+4. Upload the changes (*push*) to the ```origin master``` branch.
 
 ``` git push -u origin master;```
