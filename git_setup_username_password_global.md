@@ -30,7 +30,7 @@ The storage format is a ```.git-credentials``` file, stored in plaintext.
 
 ```git status```
 
-2. Add all files you want to update.
+2. Add all files you want to update. In this case, I will include all files with ```.md``` extension.
 
 ```git add *.md;```
 
