@@ -14,7 +14,7 @@ In thunderbird, choose your ```email account->Settings...->Copies & Folders```. 
 
 
 
-Source03:
+Source:
 
  <https://support.mozilla.org/en-US/questions/1254264>
 
