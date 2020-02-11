@@ -12,6 +12,8 @@ Two things to consider: in the Copies & Folders section for a gmail account in T
 ### Step by step:
 In thunderbird, choose your ```email account->Settings...->Copies & Folders```. Uncheck (disable) ```place a copy in:```
 
+
+
 Source:
 
  <https://support.mozilla.org/en-US/questions/1254264>
