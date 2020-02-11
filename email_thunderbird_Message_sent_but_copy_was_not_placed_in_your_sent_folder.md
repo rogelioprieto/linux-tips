@@ -10,7 +10,7 @@ I'm constantly getting the message "Your message was sent but a copy was not pla
 Two things to consider: in the Copies & Folders section for a gmail account in Tools/Account Settings, uncheck 'Place a copy in' since gmail automatically copies sent messages to the Sent folder. Second, disable antivirus scanning of outgoing email, if it's in place.
 
 ### Step by step:
-In thunderbird, choose your ```email account->Settings...->Copies & Folders. Uncheck (disable) place a copy in:```
+In thunderbird, choose your ```email account->Settings...->Copies & Folders```. Uncheck (disable) ```place a copy in:```
 
 Source:
 
