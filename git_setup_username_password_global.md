@@ -24,7 +24,7 @@ The storage format is a ```.git-credentials``` file, stored in plaintext.
 <https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git>
 
 
-# 2. Update your repository using command line.
+## 2. Update your repository using command line.
 
 Optional:
 
