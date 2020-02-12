@@ -20,3 +20,7 @@ Homepage:
 Manual:
 <http://tjeb.nl/Projects/Mailbox_Alert/Manual/>
 
+
+
+Source:
+<http://forums.mozillazine.org/viewtopic.php?f=39&t=2816981>
