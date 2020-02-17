@@ -27,3 +27,4 @@ $ sudo apt install exfat-fuse exfat-utils
 ## Source:
 
  <https://linuxize.com/post/how-to-mount-an-exfat-drive-on-ubuntu/>
+ <https://help.ubuntu.com/community/Repositories/Ubuntu>
