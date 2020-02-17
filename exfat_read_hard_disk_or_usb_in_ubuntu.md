@@ -14,7 +14,7 @@ In a Terminal (```Ctrl+Alt+T```), try these commands:
 1. Add the ```Universe``` repository. This repository  is maintained by the greater Ubuntu community of users and developers. These are not officially supported, but tend to be the newer releases.
 
 ```bash
-sudo add-apt-repository universe
+$ sudo add-apt-repository universe
 ```
 
 2. Update repositories and install the exfat packages.
