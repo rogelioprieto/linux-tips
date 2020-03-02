@@ -17,8 +17,6 @@ This will show the columns:
     
 - Shell (by default ```/bin/bash```)
     
-    
-
 To display only the first colum, try this ```awk``` script:
 
 ```awk -F: '{ print $1}' /etc/passwd´´´
