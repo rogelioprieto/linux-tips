@@ -19,5 +19,7 @@ This will show the columns:
     
 To display only the first colum, try this ```awk``` script:
 
-```awk -F: '{ print $1}' /etc/passwd´´´
+```
+awk -F: '{ print $1}' /etc/passwd
+´´´
 
