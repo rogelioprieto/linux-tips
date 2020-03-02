@@ -3,19 +3,19 @@ The local user information is stored in: ```/etc/passwd```
 ```less /etc/passwd```
 
 This will show the columns:
--username
+- username
 
--Password encrypted (A ‘x‘ in this field denotes the password is encrypted and saved in the /etc/shadow file.    
+- Password encrypted (A ‘x‘ in this field denotes the password is encrypted and saved in the /etc/shadow file.    
     
--UID
+- UID
     
--GID
+- GID
     
--GECOS (Full name user)
+- GECOS (Full name user)
     
--User home directory
+- User home directory
     
--Shell (by default ```/bin/bash```)
+- Shell (by default ```/bin/bash```)
     
     
 
