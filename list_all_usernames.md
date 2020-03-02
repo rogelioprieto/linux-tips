@@ -21,5 +21,5 @@ To display only the first colum, try this ```awk``` script:
 
 ```
 awk -F: '{ print $1}' /etc/passwd
-´´´
+```
 
