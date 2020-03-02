@@ -1,6 +1,6 @@
 The local user information is stored in: ```/etc/passwd```
 
-´´´less /etc/passwd´´´
+```less /etc/passwd```
 
 This will show the columns:
     -username
