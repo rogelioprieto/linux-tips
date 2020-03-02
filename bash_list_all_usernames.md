@@ -1,8 +1,11 @@
+# List all users registered in Ubuntu using bash
+
 The local user information is stored in: ```/etc/passwd```
 
 ```less /etc/passwd```
 
 This will show the columns:
+
 - username
 
 - Password encrypted (A ‘x‘ in this field denotes the password is encrypted and saved in the /etc/shadow file.    
@@ -17,7 +20,7 @@ This will show the columns:
     
 - Shell (by default ```/bin/bash```)
     
-To display only the first colum, try this ```awk``` script:
+To display only the usernames (first column), try this ```awk``` script:
 
 ```
 awk -F: '{ print $1}' /etc/passwd
