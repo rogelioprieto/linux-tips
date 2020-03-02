@@ -2,7 +2,7 @@
 
 The local user information is stored in: ```/etc/passwd```
 
-```less /etc/passwd```
+1. List the file contents: ```less /etc/passwd```
 
 This will show the columns:
 
@@ -20,7 +20,7 @@ This will show the columns:
     
 - Shell (by default ```/bin/bash```)
     
-To display only the usernames (first column), try this ```awk``` script:
+2. To display only the usernames (first column), try this ```awk``` script:
 
 ```
 awk -F: '{ print $1}' /etc/passwd
