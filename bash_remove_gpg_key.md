@@ -1,5 +1,5 @@
 
-# Remove gpg key that I added using ```apt-key add```?
+# Remove gpg key that I added using ```apt-key add```
 
 1. First you need to find the key id of the key you added. Do this by the command:
 
