@@ -92,6 +92,7 @@ docker run hello-world
 docker images
 ```bash
 
+## Download and execute BUSCO
 7. Download (pull) the BUSCO docker image.
 ```bash
 docker pull ezlabgva/busco:v4.0.4_cv1
