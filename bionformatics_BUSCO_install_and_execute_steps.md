@@ -101,7 +101,7 @@ docker pull ezlabgva/busco:v4.0.4_cv1
 8. Execute BUSCO with an specific user
 Before execute, the user should make the working directory (WD). In this example the WD is: /home/ricardoparra/busco_host_mount.
 
-Login as ricardoparra user.
+Login as ```ricardoparra``` user.
 ```bash
 mkdir /home/ricardoparra/busco_host_mount
 ```
