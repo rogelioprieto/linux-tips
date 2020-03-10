@@ -90,7 +90,7 @@ docker info
 ```bash
 docker run hello-world
 docker images
-```bash
+```
 
 ## Download and execute BUSCO
 7. Download (pull) the BUSCO docker image.
