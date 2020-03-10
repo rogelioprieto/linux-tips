@@ -107,7 +107,7 @@ Login as ```ricardoparra``` user.
 mkdir /home/ricardoparra/busco_host_mount
 ```
 
-Execute ```docker``` with ```genome.fna``` file as input.
+Execute ```docker``` specifying working directory and with ```genome.fna``` input file.
 ```bash
 docker run -u $(id -u) -v /home/ricardoparra:/home/ricardoparra/busco_host_mount -w /home/ricardoparra/busco_host_mount ezlabgva/busco:v4.0.5_cv1 busco -i genome.fna
 ```
