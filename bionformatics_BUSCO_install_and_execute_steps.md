@@ -115,16 +115,3 @@ docker run -u $(id -u) -v /home/ricardoparra:/home/ricardoparra/busco_host_mount
 Source: <https://www.digitalocean.com/community/tutorials/como-instalar-y-usar-docker-en-ubuntu-16-04-es>
 
 
-
-###TRASH --- TO DO: DELETE THEM!
-# Real BUSCO input will be /home/name/genome.fna
-docker run -u $(id -u) -v /home/ricardoparra:/home/ricardoparra/host_mount -w /home/ricardoparra/host_mount ezlabgva/busco:v4.0.4_cv1 busco -i genome.fna
-docker run -u $(id -u) -v /home/name/:/busco_wd ezlabgva/busco:v4.0.5_cv1 busco -i genome.fna
-
-
-
-docker run -u $(id -u) -v /home/ricardoparra/busco-test:/busco_wd -w /busco_wd ezlabgva/busco:v4.0.4_cv1 busco -i genome.fna
-
-	
-docker run -u $(id -u) -v /home/name/:/busco_wd ezlabgva/busco:v4.0.5_cv1 busco -i genome.fna
-docker run -u $(id -u) -v /home/name:/host_mount -w /host_mount ezlabgva/busco:v4.0.5_cv1 busco -i genome.fna
