@@ -22,12 +22,3 @@ sudo mount -o loop /media/rogelio/timemachine/BORRAR/lxle-18043-64.iso /mnt/iso/
 umount /mnt/iso 
 sudo umount /mnt/iso
 ```
-
-
-
-    
-
-        sudo mkdir /mnt/iso # Optional - the ISO file can be mounted on an existing mount point if desired.
-        sudo mount -o loop /<path>/<filename>.iso /mnt/iso
-        gksu nautilus /mnt/iso
-        sudo umount /mnt/iso # When finished inspecting the contents.
