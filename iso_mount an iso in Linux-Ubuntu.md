@@ -23,3 +23,4 @@ sudo mount -o loop /media/rogelio/timemachine/lxle-18043-64.iso /mnt/iso/
 umount /mnt/iso 
 sudo umount /mnt/iso
 ```
+Source: <https://help.ubuntu.com/community/Grub2/ISOBoot>
