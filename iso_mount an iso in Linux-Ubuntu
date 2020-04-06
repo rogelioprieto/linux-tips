@@ -1,0 +1,9 @@
+#Mount an ISO image in Ubuntu
+
+```bash
+sudo mkdir /mnt/iso 
+sudo mount -o loop /media/rogelio/timemachine/BORRAR/lxle-18043-64.iso /mnt/iso/
+umount /mnt/iso 
+sudo umount /mnt/iso
+```
+
