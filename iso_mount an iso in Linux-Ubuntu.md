@@ -16,11 +16,14 @@ The user can mount the ISO image via a terminal and then inspect the contents vi
   + Example: ```sudo mount -o loop /home/username/Downloads/ubuntu-desktop-amd64.iso /mnt/iso/```
 4. Open a file browser to view the contents.
 
-In a commmand line use these.
+#### Step by step
+
 ```bash
 sudo mkdir /mnt/iso 
 sudo mount -o loop /media/rogelio/timemachine/lxle-18043-64.iso /mnt/iso/
 umount /mnt/iso 
 sudo umount /mnt/iso
 ```
-Source: <https://help.ubuntu.com/community/Grub2/ISOBoot>
+
+## Source:
+<https://help.ubuntu.com/community/Grub2/ISOBoot>
