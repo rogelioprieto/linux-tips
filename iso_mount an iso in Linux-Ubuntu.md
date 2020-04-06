@@ -16,7 +16,7 @@ The user can mount the ISO image via a terminal and then inspect the contents vi
   + Example: ```sudo mount -o loop /home/username/Downloads/ubuntu-desktop-amd64.iso /mnt/iso/```
 4. Open a file browser to view the contents.
 
-#### Step by step
+### Step by step
 
 ```bash
 sudo mkdir /mnt/iso 
