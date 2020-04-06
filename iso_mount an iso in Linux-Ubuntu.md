@@ -14,11 +14,12 @@ The user can mount the ISO image via a terminal and then inspect the contents vi
 1. Create a specific mount point, if desired. An existing mount point may also be used.
 1. Mount the ISO
   + Example: ```sudo mount -o loop /home/username/Downloads/ubuntu-desktop-amd64.iso /mnt/iso/```
-1. Open a file browser to view the contents
+4. Open a file browser to view the contents.
 
+In a commmand line use these.
 ```bash
 sudo mkdir /mnt/iso 
-sudo mount -o loop /media/rogelio/timemachine/BORRAR/lxle-18043-64.iso /mnt/iso/
+sudo mount -o loop /media/rogelio/timemachine/lxle-18043-64.iso /mnt/iso/
 umount /mnt/iso 
 sudo umount /mnt/iso
 ```
