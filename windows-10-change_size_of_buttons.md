@@ -1,4 +1,4 @@
-# Change size of buttons (close, minimize, etc)
+# Change size of buttons (close, minimize, etc) in Windows 10
 
 ## Problem: 
 In small screens the  size of caption buttons is so small and it's difficult to read.
