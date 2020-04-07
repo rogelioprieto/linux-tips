@@ -19,7 +19,7 @@ Using larger caption buttons will also increase the height of title bars.
 4. Enter a value between ```-120``` (smaller) to ```-1500``` (larger) for what you want, I prefer ```-420``` value, and click/tap on ```OK```.
 
 
-```-330``` is the default value. ```-420``` is the result of ```-15 x 28 px= -420```.
+```-330``` is the default value. ```-420``` is the result of ```-15 x 28 px= -420```, then buttons will set 28px size.
 
 The value uses the following formula: ```-15 x size``` (the size you want in pixels).
 
