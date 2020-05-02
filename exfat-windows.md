@@ -31,5 +31,5 @@ Besides, you can run ```chkdsk X: /F``` in cmd.exe or run the GUI based scan by 
 
 ## Source:
 
- <https://www.diskpart.com/articles/exfat-windows-7-read-only-4125.html>
-
+ <https://www.diskpart.com/articles/exfat-windows-7-read-only-4125.html>  
+<http://roblomtech.blogspot.com/2010/08/how-to-fix-exfat-drive-being-write.html>
