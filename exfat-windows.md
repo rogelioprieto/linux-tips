@@ -2,9 +2,7 @@
 
 ## Problem: 
 
-When you receive the exFAT is mounted as read-only in Windows 7; so you can't write in this drive.
-
-
+When you connect an exFAT drive is mounted as read-only in Windows 7; so you can't write in this drive.
 
 ## Solution:
 To solve it, you can make use of Windows ```Diskpart``` and check the disk using ```chkdsk``` command.
