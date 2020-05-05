@@ -13,4 +13,4 @@ URL=https://stackoverflow.com/
 Icon=text-html
 ```
 
-<Source: https://askubuntu.com/questions/359492/create-a-shortcut-for-url>
+Source: <https://askubuntu.com/questions/359492/create-a-shortcut-for-url>
