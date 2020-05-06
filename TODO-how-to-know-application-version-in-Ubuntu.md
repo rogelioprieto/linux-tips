@@ -6,7 +6,7 @@
 
 In a Terminal use these commands:
 
-```dpkg -s <package>``` - allows you to find the version of that you have installed. (source)
+```dpkg -s <package>``` - allows you to find the version of that you have installed.
 
 
 ```apt-cache showpkg <package>``` - will show a list of Versions of the package available. For each version, the source of the package, in the form of an index file name, will be given.
