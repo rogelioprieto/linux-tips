@@ -1,6 +1,6 @@
 # How to know application version in Ubuntu
 
-## Problem: What versions are installed or available in the repository?
+## Problem: What versions are installed in my computer or available in the repository?
 
 ## Solution
 
