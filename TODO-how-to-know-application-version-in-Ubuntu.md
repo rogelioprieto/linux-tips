@@ -12,4 +12,6 @@ In a Terminal use these commands:
 ```apt-cache showpkg <package>``` - will show a list of Versions of the package available. For each version, the source of the package, in the form of an index file name, will be given.
 
 
-### Source: <https://askubuntu.com/questions/8560/how-do-i-find-out-which-repository-a-package-comes-from>
+### Source: 
+<https://askubuntu.com/questions/8560/how-do-i-find-out-which-repository-a-package-comes-from>
+<https://www.howtogeek.com/howto/ubuntu/see-what-version-of-a-package-is-installed-on-ubuntu/>
