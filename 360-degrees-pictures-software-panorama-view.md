@@ -16,6 +16,9 @@ Some options are:
 <https://gopro.com/en/mx/shop/softwareandapp/gopro-fusion-studio-app/fusion-studio.html>
 
 
+Note 1. **Apps NOT** to waste your time on: *Arcsoft Panorama Maker*.
+
+
 ## Step by step
 
 1. Choose one software, download using the link.
@@ -25,7 +28,6 @@ Some options are:
 
 Note 1. If you use *FSP Viewer*
 
-Note 2. **Apps NOT** to waste your time on: *Arcsoft Panorama Maker*.
 
 ## Source:
 <https://www.reddit.com/r/Gear360/comments/6ux5eg/best_way_to_view_360_photos_on_mac/>  
