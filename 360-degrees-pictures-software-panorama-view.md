@@ -18,6 +18,8 @@ Some options are:
 
 Note 1. **Apps NOT** to waste your time on: *Arcsoft Panorama Maker*.
 
+Note 2. If you prefer see your files *inside a web browser*, try *Panorama Viewer* for Google Chrome.
+https://chrome.google.com/webstore/detail/panorama-viewer/cbplklgcjnhehkoigoankacpmehafhfk/related?hl=es
 
 ## Step by step
 
@@ -26,7 +28,8 @@ Note 1. **Apps NOT** to waste your time on: *Arcsoft Panorama Maker*.
 3. Run the software.
 4. Open a file or drag and drop it.
 
-Note 1. If you use *FSP Viewer*
+
+Note 1. Shortcuts for *FSP Viewer*: Shift zoom in, Command (or windows key) Zoom out.
 
 
 ## Source:
