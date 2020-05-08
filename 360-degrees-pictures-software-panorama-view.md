@@ -24,7 +24,7 @@ https://chrome.google.com/webstore/detail/panorama-viewer/cbplklgcjnhehkoigoanka
 ## Step by step
 
 1. Choose one software, download using the link.
-2. Install in your operating system.
+2. Install it in your operating system.
 3. Run the software.
 4. Open a file or drag and drop it.
 
