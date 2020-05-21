@@ -1,5 +1,6 @@
 # theme: jekyll-theme-minimal
-theme: minima
+#theme: minima
+
 #title: Your awesome title
 #author:
 #  name: GitHub User
@@ -54,7 +55,8 @@ minima:
 # - about.md
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll/minima
 
 plugins:
  - jekyll-feed
