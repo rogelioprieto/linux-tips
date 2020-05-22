@@ -17,10 +17,52 @@ You can learn how to setup your github respoitory using a command line.
 user: ```rogelioprieto```
 repository name: ```test```
 
-## Initial step.
-First install ```git```. Then, you should create a new folder  and go to this folder. In this example we'll create this folder at ```home```.
+## Initial steps.
+### 1. First install ```git```. 
 ```
 sudo apt install git
+```
+
+### 2. Tell to git who you are.
+Set your username and email. _Note:_ insert your email account.
+
+**Option a)** To set your account's identity.
+```
+git config --global user.email "myname@gmail.com"
+git config --global user.name "rogelioprieto"
+```
+
+**Option b)** To set the identity only in this repository.
+```
+git config user.email "myname@gmail.com"
+git config user.name "rogelioprieto"
+```
+
+### 3. Tell to git who you are.
+
+Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+```
+sudo apt install git
+git config user.email "myname@gmail.com"
+git config user.name "rogelioprieto"
+```
+
+
+
+
+
+
+### 4. Then, you should create a new folder  and go to this folder. In this example we'll create the folder ```test``` inside the  ```home``` folder.
+```
 mkdir ~/test
 cd ~/test
 ```
