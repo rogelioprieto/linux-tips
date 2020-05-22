@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: "Setup a git repository using command line."
