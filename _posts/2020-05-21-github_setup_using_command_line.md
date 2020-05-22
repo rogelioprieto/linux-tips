@@ -38,30 +38,8 @@ git config user.email "myname@gmail.com"
 git config user.name "rogelioprieto"
 ```
 
-### 3. Tell to git who you are.
 
-Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-```
-sudo apt install git
-git config user.email "myname@gmail.com"
-git config user.name "rogelioprieto"
-```
-
-
-
-
-
-
-### 4. Then, you should create a new folder  and go to this folder. In this example we'll create the folder ```test``` inside the  ```home``` folder.
+### 3. Then, you should create a new folder  and go to this folder. In this example we'll create the folder ```test``` inside the  ```home``` folder.
 ```
 mkdir ~/test
 cd ~/test
