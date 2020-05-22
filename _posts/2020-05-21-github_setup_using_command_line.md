@@ -18,8 +18,9 @@ user: ```rogelioprieto```
 repository name: ```test```
 
 ## Initial step.
-You should create a new folder  and go to this folder. In this example we'll create this folder at ```home```.
+First install ```git```. Then, you should create a new folder  and go to this folder. In this example we'll create this folder at ```home```.
 ```
+sudo apt install git
 mkdir ~/test
 cd ~/test
 ```
