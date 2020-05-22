@@ -36,8 +36,10 @@ git push -u origin master
 ```
 
 ## Option 2. Push an existing repository from the command line.
+```
 git remote add origin https://github.com/rogelioprieto/test.git
 git push -u origin master
+```
 
 ## Option 3. Import code from another repository.
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
