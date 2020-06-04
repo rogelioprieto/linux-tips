@@ -3,3 +3,10 @@ Source, page 60:\
 
 Source:\
 <https://tex.stackexchange.com/questions/193308/how-can-we-change-allowframebreaks-numbering-in-the-title>
+
+Source:\
+<https://tex.stackexchange.com/questions/147782/suppress-frame-title-when-using-allowframebreaks-in-beamer>
+```latex
+\setbeamertemplate{frametitle continuation}{}
+```
+
