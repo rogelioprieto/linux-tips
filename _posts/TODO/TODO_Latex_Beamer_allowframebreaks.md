@@ -10,3 +10,10 @@ Source:\
 \setbeamertemplate{frametitle continuation}{}
 ```
 
+If you want numbered as: [1] [2].
+```latex
+\setbeamertemplate{frametitle continuation}{[\insertcontinuationcount]}
+```
+
+
+
