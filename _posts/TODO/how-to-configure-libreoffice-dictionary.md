@@ -11,14 +11,12 @@ Dependiendo la versión de Libre Office puede ser:
 ```
 Menú Herramientas -> Opciones -> Configuración de Idioma
 ```
-Aparecerá la ventana 
-
 o esta otra opción:
 ```
 Herramientas -> Idioma -> Para todo el texto -> Más
+```
 
-
-Sin importar cuál manera utilizaste, aparecerá la ventana `Opciones - Configuración de idioma - idiomas`, En la sección `Idiomas predeterminados para los documentos` elige `Predetermnado - Español (México)` o el de tu país/región. También elige la misma opción en `Configuración regional` que permitirá ajustar los formatos de moneda, fecha y hora.
+Sin importar cuál manera utilizaste, aparecerá la ventana `Opciones - Configuración de idioma - idiomas`, En la sección `Idiomas predeterminados para los documentos` elige `Predeterminado - Español (México)` o el de tu país/región. También elige la misma opción en `Configuración regional` que permitirá ajustar los formatos de moneda, fecha y hora.
 
 Source:
 
