@@ -8,7 +8,7 @@ Trying to compile a file:
 using namespace std;
 int main()
 {
-    cout << "Hola, moondo.\n";
+    cout << "Hola, mundo.\n";
 }
 ```
 
