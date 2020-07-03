@@ -1,0 +1,111 @@
+\RequirePackage{fix-cm} %to improve performance of cm-super package when you are writing in spanish or another non-english language.
+
+
+\documentclass{beamer}
+
+
+\usepackage{listings}
+
+\input{assets/template/simple-theme-uas-blue.tex}
+
+
+\definecolor{UASbluebg}{HTML}{1C3C6C}
+%{1C3C6C} %UNAM Blue background
+%{063892} %UAS Blue background
+
+\definecolor{UASyellow}{HTML}{A48329}
+ \setbeamercolor{part title}{fg=UASyellow} %white
+
+
+\AtBeginSubsection{
+ \setbeamercolor{background canvas}{bg=UASbluebg}
+  \frame[plain,c,noframenumbering]{\subsectionpage}
+ \setbeamercolor{background canvas}{bg=white}
+
+}
+
+\AtBeginSection{
+ \setbeamercolor{background canvas}{bg=UASbluebg}
+  \frame[plain,c,noframenumbering]{\sectionpage}
+ \setbeamercolor{background canvas}{bg=white}
+}
+
+
+
+\title{Escribe aquí el título}
+\subtitle{Verano Empresarial 2020.~«Implementación de microservicios con
+	Google Kubernetes Engine».}
+\author{MC Gerardo Beltran \textbar{} MC Javier Muro}
+\date{Junio, 2020}
+\institute{FIUAS \textbar{} PITUAS}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\renewcommand*\contentsname{Agenda}
+\begin{frame}[allowframebreaks]
+	\frametitle{Agenda}
+	\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Tema Testing}
+
+
+\begin{frame}{Test listings format}
+aSDADF
+
+SAFDASFD
+%	\protect\hypertarget{test-listings-format}{}
+%	\begin{lstlisting}[language=bash]
+%	firefox --maximized
+%	fastqc
+%	\end{lstlisting}
+\end{frame}
+
+
+
+
+\section{Java Examples}
+
+
+
+
+	
+	
+\begin{frame}{Probar dividir diapositivas}
+texto de la diapositiva
+	
+\end{frame}	
+	
+\section{Images examples}
+\begin{frame}{Ejemplo de insertar imagen}
+	\protect\hypertarget{ejemplo-de-insertar-imagen}{}
+	\includegraphics{kubernetes}
+	
+	No es necesario agregar toda la ruta de la imagen. La imagen se debe guardar en el directorio: \texttt{assets/images}.
+	
+\end{frame}
+
+\begin{frame}{Acerca de este material}
+	\protect\hypertarget{acerca-de-este-material}{}
+	Este material forma parte del acervo del
+	\href{http://innovacion.uas.edu.mx/dsrg/}{Laboratorio de Ingeniería y
+		Ciencia de Datos} del \href{http://innovacion.uas.edu.mx}{Parque de
+		Innovación Tecnológica} de la \href{http://uas.edu.mx}{Universidad
+		Autónoma de Sinaloa}.
+	
+	\vspace{1cm}
+	
+	\emph{Historial}:
+	
+	\begin{itemize}
+		\item
+		Recopilación. Gerardo Beltrán Gutiérrez.
+		\item
+		Actualización. Rogelio Prieto Alvarado.
+	\end{itemize}
+\end{frame}
+	
+	
+\end{document}
