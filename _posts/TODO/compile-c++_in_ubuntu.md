@@ -22,7 +22,7 @@ then you get this error:
 myfile.cpp:(.text+0x39): undefined reference to `std::cout'
 ```
 
-##Solution:
+## Solution:
 ```bash
 gcc myfile.cpp -lstdc++ -o myfile
 ```
