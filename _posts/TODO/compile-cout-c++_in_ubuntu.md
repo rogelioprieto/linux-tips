@@ -31,5 +31,8 @@ or
 gcc myfile.cpp -lm -lstdc++ -o myfile
 ```
 
+## Source:
+https://stackoverflow.com/questions/28236870/undefined-reference-to-stdcout
+
 
 
