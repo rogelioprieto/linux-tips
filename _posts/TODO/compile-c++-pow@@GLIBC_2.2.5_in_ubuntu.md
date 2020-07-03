@@ -30,3 +30,5 @@ undefined reference to symbol 'pow@@GLIBC_2.2.5'
 gcc myfile.cpp -lm -o myfile
 ```
 
+## Source:
+https://askubuntu.com/questions/527665/undefined-reference-to-symbol-expglibc-2-2-5
