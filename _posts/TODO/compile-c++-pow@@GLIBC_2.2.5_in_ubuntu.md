@@ -4,7 +4,7 @@
 ## Problem:
 Compile a `.cpp` file and get this error:
 
-NOTE!!!! CHANGE THIS CODEEEEE EXAMPLEEEEEE!!!!!!!!!!!!!!
+**NOTE!!!! CHANGE THIS CODEEEEE EXAMPLEEEEEE!!!!!!!!!!!!!!**
 Trying to compile a file:
 ```cpp
 #include <iostream>
