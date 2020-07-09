@@ -1,7 +1,5 @@
 
-# Manual: Instalar y configurar una máquina virtual.
-
-![](verano2020-images/banner.jpeg)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/banner.jpeg)
 
 En los cursos de la «Segunda Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
@@ -23,7 +21,7 @@ Para Linux
 
 Sigue los pasos solicitados por el instalador.
 
-![](verano2020-images/00.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/00.png)
 
 
 
@@ -37,19 +35,19 @@ Sigue los pasos solicitados por el instalador.
     b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
     c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
-	![](verano2020-images/01.png)
+	![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/01.png)
 
 5. Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
-	5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](verano2020-images/02.png)
-	5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Ubuntu 18.04 Desktop.ova`. Dé clic en `Siguiente`. ![](verano2020-images/04.png) 
+	5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/02.png)
+	5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Ubuntu 18.04 Desktop.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/04.png) 
 
-![](verano2020-images/03.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/03.png)
 	5.3 Aparecerá la ventana `Preferencias del servicio`. Dé clic en `Importar`.  
 	5.4 Aparecerá una ventana emergente, espere a que termine el proceso de importación.  
-![](verano2020-images/05.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/05.png)
 	5.5 Después de terminar el proceso de importación, la máquina virtual estará disponible para usarse.  
-![](verano2020-images/06.jpeg)  
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/06.jpeg)  
 
     
 ¡Felicidades, te esperamos en el inicio de la Escuela de Verano!. Revisa el calendario.
