@@ -1,3 +1,4 @@
+# Manual: Instalar y configurar una máquina virtual.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/banner.jpeg)
 
