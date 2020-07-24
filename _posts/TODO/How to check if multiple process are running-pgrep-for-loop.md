@@ -1,7 +1,9 @@
-Problem:
+# Verify a set of shell scripts are running using pgrep and a for loop.
+
+## Problem:
 Loop through a chain of shell scripts to verify if they are running, before executing a new one.
 
-Solution:
+## Solution:
 ```bash
 #!/bin/bash
 
@@ -39,6 +41,6 @@ fi
 ```
 
 
-Source:
+## Source:  
 I answered this question in:
 <https://stackoverflow.com/questions/63022987/loop-through-a-chain-of-shell-scripts-to-verify-if-they-are-running-before-exec/63025365#63025365>
