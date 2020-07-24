@@ -41,6 +41,6 @@ fi
 ```
 
 
-## Source:  
+## Source:  
 I answered this question in:
 <https://stackoverflow.com/questions/63022987/loop-through-a-chain-of-shell-scripts-to-verify-if-they-are-running-before-exec/63025365#63025365>
