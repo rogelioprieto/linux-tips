@@ -1,3 +1,8 @@
+Problem:
+Loop through a chain of shell scripts to verify if they are running, before executing a new one.
+
+Solution:
+```bash
 #!/bin/bash
 
 shellScripts=('a.sh' 'firefox' 'b.sh' 'c.sh')
@@ -31,3 +36,9 @@ if test $notRunningCounter -eq $shellScriptsLength
 then
     echo "No scripts are running, executing somethingsomething.sh now"
 fi
+```
+
+
+Source:
+I answered this question in:
+<https://stackoverflow.com/questions/63022987/loop-through-a-chain-of-shell-scripts-to-verify-if-they-are-running-before-exec/63025365#63025365>
