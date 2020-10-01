@@ -9,3 +9,8 @@ Style 2:
 For periodism header\
 ![](https://d144mzi0q5mijx.cloudfront.net/img/R/O/Roboto-Slab-Regulara.png)\
 <https://www.whatfontis.com/FF_Roboto-Slab-Regular.font>
+
+
+Style 3:
+https://www.mypearsonshop.com.mx/
+https://fonts.google.com/specimen/Playfair+Display
