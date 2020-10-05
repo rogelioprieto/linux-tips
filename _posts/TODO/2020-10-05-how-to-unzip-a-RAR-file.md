@@ -21,3 +21,6 @@ make install
 cd ..
 rm -R rar
   ```
+
+## Source:
+<https://www.linuxadictos.com/tutorial-para-instalar-rar-en-linux-y-aprender-utilizarlo.html>
