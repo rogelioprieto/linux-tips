@@ -16,5 +16,5 @@ At ```Page``` tab, look ```custom size```, expand ```Resize page to content``` a
 \end{figure}
 ```
 
-Source:
+Source:\
 <https://code.luasoftware.com/tutorials/inkscape/inkscape-resize-document-to-fit-drawing/>
