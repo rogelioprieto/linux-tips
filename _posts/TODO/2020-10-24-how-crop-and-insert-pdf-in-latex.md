@@ -8,5 +8,13 @@
 
 At ```Page``` tab, look ```custom size```, expand ```Resize page to content``` and click on ```Resize page to drawing or selection```.
 
+5. Insert the pdf as figure in LaTeX, note that filename doesn't contain pdf extension.
+```latex
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.85]{filename}
+\end{figure}
+```
+
 Source:
 <https://code.luasoftware.com/tutorials/inkscape/inkscape-resize-document-to-fit-drawing/>
