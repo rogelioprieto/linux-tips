@@ -18,3 +18,6 @@ At ```Page``` tab, look ```custom size```, expand ```Resize page to content``` a
 
 Source:\
 <https://code.luasoftware.com/tutorials/inkscape/inkscape-resize-document-to-fit-drawing/>
+
+Review these steps too:
+<https://www.charlesrcook.com/archive/2012/08/31/how-to-export-excel-plots-to-a-vector-image-eps.aspx>
