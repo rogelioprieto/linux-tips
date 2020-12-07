@@ -25,7 +25,8 @@ Sigue los pasos solicitados por el instalador.
 
 
 
-3. Descargar la máquina virtual (archivo `.OVA`) que los instructores de la Escuela de Verano 2020 han preparado. Use este enlace:
+3. Descargar la máquina virtual (archivo `.OVA`) que el instructor del curso ha preparado. Use este enlace:
+
 
 <https://bit.ly/VMUbuntu1804>
 
