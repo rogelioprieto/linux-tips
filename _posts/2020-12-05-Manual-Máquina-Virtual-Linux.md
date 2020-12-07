@@ -27,7 +27,7 @@ Sigue los pasos solicitados por el instalador.
 
 3. Descargar la máquina virtual (archivo `.OVA`) que los instructores de la Escuela de Verano 2020 han preparado. Use este enlace:
 
-<https://bit.ly/VMUbuntu>
+<https://bit.ly/VMUbuntu1804>
 
 4. Ejecutar el software `Oracle VM VirtualBox`.
 	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
