@@ -8,7 +8,7 @@ I'm constantly getting the message _"Your message was sent but a copy was not pl
 -  elemento1
 -  elemento 2
 - elemento 3. El software utilizado fue ```CRIPSscan```.
-(diagrama de alineamiento)[http://url]
+![diagrama de alineamiento](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/misimagenes/Screen%20Shot%202020-12-12%20at%2010.25.38%20AM.png)
 
 
 ## Solution:
