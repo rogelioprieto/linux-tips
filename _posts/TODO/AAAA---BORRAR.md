@@ -162,7 +162,7 @@ Donde:
 
 ### Visualización y edición del árbol filogenético
 
-iTOL: Interactive Tree Of Life es una plataforma web que nos permitirá la visualización y edición del árbol genético. Mediante esta plataforma es posible renombrar taxas, agregar o mostrar metadatos.
+```iTOL```: _Interactive Tree Of Life_ es una plataforma web que nos permitirá la visualización y edición del árbol genético. Mediante esta plataforma es posible renombrar taxas, agregar o mostrar metadatos.
 
 ```bash
 https://itol.embl.de/
