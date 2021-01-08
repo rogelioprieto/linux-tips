@@ -1,4 +1,12 @@
 # Bioinformática. Generación de un árbol filogenético.
+
+## Creación de directorio
+
+```bash
+cd ~/rprieto/reads/
+mkdir genomas
+```
+
 ## Adquisición de datos
 
 Se descargarán genomas de cepas de Salmonella enterica encontradas en la base de datos pública del _National Center for Biotechnology Information_ (NCBI), las cuales pertenecen a algunos de los cinco serotipos predominantes en la región.
@@ -44,11 +52,18 @@ Para realizar el proceso de ensamble, se requiere convertir de formato SRA a for
  $ fastq-dump –split-files <nombre del archivo SRA> -O <ruta de salida>
 ```
 
-
 Donde:
 ```fastq-dump```: Es la opción para convertir información ```SRA``` en formato ```FASTQ```.
 ```-split-files```: Separa cada archivo leído en ```R1``` y ```R2```. Los archivos recibirán el sufijo correspondiente al número de archivo leído.
 ```-O```: Especifica la ruta de salida, tomando de inició la ruta del directorio activo.
+
+
+**Ejecutar:**
+```bash
+$ fastq-dump –split-files SRR304976.sra -O ~/rprieto/reads/genomas
+```
+
+
 
 
 ## Ensamble
@@ -70,7 +85,7 @@ Donde:
 2. Ensamble de contigs : Reads pareados y no pareados son usados para el ensamblado con el algoritmo IDBA-UD.
 3. Ensamble de Scaffolds : Los contigs son ensamblados para formar segmentos continuos de mayor longitud denominados Scaffolds.
 4. Correcciones de ensambles : Se detectan los ensambles que no corres- ponden con la distancia especificada por el proceso de mapeo.
-5. Re-Scaffolding final : Se realiza una ronda final para ensamblar Scaf- folds que pudieron quedar desalineados.
+5. Re-Scaffolding final : Se realiza una ronda final para ensamblar Scaffolds que pudieron quedar desalineados.
 -```out_base```: Es el nombre base, es decir, el nombre en común que se le asigna a todos los tipos de archivos de salida.
 
 
@@ -87,6 +102,9 @@ Donde:
 |```assembly.out.assembly_stats.csv```|Estadísticas de calidad separadas por tab|
 
 
+```bash
+a5_pipeline.pl –end=1-5 SRR13246501.fastq1 SRR13246501.fastq2 salm_1
+```
 
 ### Ensamble con ```Spades```.
 ```bash
