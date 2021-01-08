@@ -1,4 +1,6 @@
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/bioinformatics-adn-letras.png)
 # Bioinformática. Generación de un árbol filogenético.
+
 
 ## Creación de directorio
 
