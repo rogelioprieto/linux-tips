@@ -150,7 +150,7 @@ wget
 
 ## Generar el árbol filogenético
 
-Se utilizará la herramienta Parsnp que es parte del software harvest.
+Se utilizará la herramienta ```Parsnp``` que es parte del software ```harvest```.
 
 ```bash
 Parsnp -r ! -d directorio/fastas -c
