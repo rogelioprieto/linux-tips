@@ -7,7 +7,7 @@ cd ~/rprieto/reads/
 mkdir genomas
 ```
 
-## Adquisición de datos
+## Adquisición de datos.
 
 Se descargarán genomas de cepas de Salmonella enterica encontradas en la base de datos pública del _National Center for Biotechnology Information_ (NCBI), las cuales pertenecen a algunos de los cinco serotipos predominantes en la región.
 
@@ -44,7 +44,7 @@ Es la dirección de descarga del NCBI.
 
 
 
-## Conversión de formato: de ```SRA``` a ```FASTQ```
+## Conversión de formato: de ```SRA``` a ```FASTQ```.
 
 Para realizar el proceso de ensamble, se requiere convertir de formato ```SRA``` a formato ```FASTQ```, ya que este es un formato común para compartir secuenciación de datos leídos combinando ambos tanto secuencia como puntuación de calidad asociada por base. Esta conversión se realizó utilizando la herramienta ```SRA Toolkit``` siguiendo:
 
@@ -112,7 +112,7 @@ a5_pipeline.pl –end=1-5 SRR13246501_1.fastq SRR13246501_2.fastq salm_1
 $ spades.py -k 21,33,55,77 --careful -1 SRR13246501_1.fastq -2 SRR13246501_2.fastq -o spades_output
 ```
 
-## Evaluación de la calidad de los ensambles
+## Evaluación de la calidad de los ensambles.
 
 El control de calidad de los ensambles sirve como una evaluación para identificar y excluir datos con problemas serios de calidad, lo que permite ahorrar tiempo en análisis posteriores. Existen algunos indicadores métricos que permiten evaluar la calidad del ensamble cuantitativamente; entre estos indicadores se encuentran: 
 
@@ -165,7 +165,7 @@ gunzip GCA_016495825.1_PDT000927971.1_genomic.fna.gz
 gunzip *.fna.gz
 ```
 
-## Generar el árbol filogenético
+## Generar el árbol filogenético.
 
 Se utilizará la herramienta ```Parsnp``` que es parte del software ```harvest```.
 
@@ -177,7 +177,7 @@ Donde:
 - ```-r``` es la referencia, en este caso utilizamos ```!``` para indicar que tome una referencia al azar.
 
 
-### Visualización y edición del árbol filogenético
+### Visualización y edición del árbol filogenético.
 
 ```iTOL```: _Interactive Tree Of Life_ es una plataforma web que nos permitirá la visualización y edición del árbol genético. Mediante esta plataforma es posible renombrar taxas, agregar o mostrar metadatos.
 
