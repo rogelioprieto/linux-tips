@@ -138,15 +138,31 @@ En este caso se propone la descarga de 8 genomas en formato ```fasta```.
 
 **Ejecutar:**
 ```bash
-wget
-wget
-wget
-wget
-wget
-wget
-wget
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/825/GCA_016495825.1_PDT000927971.1/GCA_016495825.1_PDT000927971.1_genomic.fna.gz
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/145/GCA_016495145.1_PDT000927984.1/GCA_016495145.1_PDT000927984.1_genomic.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/625/GCA_016495625.1_PDT000927974.1/GCA_016495625.1_PDT000927974.1_genomic.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/465/GCA_016495465.1_PDT000808939.3/GCA_016495465.1_PDT000808939.3_genomic.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/765/GCA_016495765.1_PDT000927967.1/GCA_016495765.1_PDT000927967.1_genomic.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/885/GCA_016495885.1_PDT000927970.1/GCA_016495885.1_PDT000927970.1_genomic.fna.gz  
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/365/GCA_016495365.1_PDT000927985.1/GCA_016495365.1_PDT000927985.1_genomic.fna.gz 
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/016/495/965/GCA_016495965.1_PDT000927961.1/GCA_016495965.1_PDT000927961.1_genomic.fna.gz 
 ```
 
+En necesario descomprimir cada uno de los archivos descargados. 
+
+**Ejecutar:**
+```bash
+gunzip GCA_016495825.1_PDT000927971.1_genomic.fna.gz
+
+gunzip *.fna.gz
+```
 
 ## Generar el árbol filogenético
 
