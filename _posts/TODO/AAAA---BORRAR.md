@@ -156,8 +156,8 @@ Se utilizará la herramienta ```Parsnp``` que es parte del software ```harvest``
 Parsnp -r ! -d directorio/fastas -c
 ```
 Donde:
-- ```d``` es el directorio donde se enecuentran los archivos fastas.
-- -```r``` es la referencia, en este caso utilizamos ```!``` para indicar que tome una referencia al azar.
+- ```-d``` es el directorio donde se enecuentran los archivos fastas.
+- ```-r``` es la referencia, en este caso utilizamos ```!``` para indicar que tome una referencia al azar.
 
 
 ### Visualización y edición del árbol filogenético
