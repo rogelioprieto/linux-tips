@@ -131,7 +131,24 @@ Se utilizará ```QUAST``` para evaluar la calidad de los dos ensambles. Se ejecu
 $ quast.py ensamble_A5.fasta ensamble_spades.fasta
 ```
 
-## Generar el árbol filogenético
+## Descargar otros ensambles.
+Se descargarán genomas similares con la finalidad de ampliar el espacio muestral del organismo de interés. Esto permitirá contextualizar los datos analizados.
+
+En este caso se propone la descarga de 8 genomas en formato ```fasta```.
+
+**Ejecutar:**
+```bash
+wget
+wget
+wget
+wget
+wget
+wget
+wget
+```
+
+
+## Generar el árbol filogenético
 
 Se utilizará la herramienta Parsnp que es parte del software harvest.
 
@@ -143,9 +160,13 @@ Donde:
 - -```r``` es la referencia, en este caso utilizamos ```!``` para indicar que tome una referencia al azar.
 
 
+### Visualización y edición del árbol filogenético
 
+iTOL: Interactive Tree Of Life es una plataforma web que nos permitirá la visualización y edición del árbol genético. Mediante esta plataforma es posible renombrar taxas, agregar o mostrar metadatos.
 
-
+```bash
+https://itol.embl.de/
+```
 
 
 
