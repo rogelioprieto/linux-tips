@@ -184,17 +184,3 @@ Donde:
 ```bash
 https://itol.embl.de/
 ```
-
-
-
-
-
-
-wget
-SRAToolkit
-A5-miseq
-Spades
-QUAST
-
-
-Instalar harvest tools
