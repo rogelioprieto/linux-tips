@@ -53,6 +53,10 @@ Donde:
 
 ## Ensamble
 
+Se realizarán ensambles utilizando los programas ```A5-miseq``` y ```Spades```.
+
+### Ensamble con A5.
+
 Se realizará el ensamble utilizando la herramienta ```A5-miseq```. Se ejecutará:
 
 ```bash
@@ -83,6 +87,11 @@ Donde:
 |```assembly.out.assembly_stats.csv```|Estadísticas de calidad separadas por tab|
 
 
+### Ensamble con ```Spades```.
+```bash
+$ spades.py -k 21,33,55,77 --careful -1 FASTQ_1.fastq -2 FASTQ_2.fastq -o spades_output
+```
+
 ## Evaluación de la calidad de los ensambles
 
 El control de calidad de los ensambles sirve como una evaluación para identificar y excluir datos con problemas serios de calidad, lo que permite ahorrar tiempo en análisis posteriores. Existen algunos indicadores métricos que permiten evaluar la calidad del ensamble cuantitativamente; entre estos indicadores se encuentran: 
@@ -92,6 +101,16 @@ El control de calidad de los ensambles sirve como una evaluación para identifi
 - el _tamaño del genoma_
 - el valor de _N50_ y 
 - el _contenido de G+C_ (guaninas y citosinas)
+
+
+El valor de _N50_ corresponde al menor de los mayores contigs que cubren la mitad del genoma y constituye un indicador acerca de la contigüidad de nuestros genomas. Un valor de _N50_ pequeño está asociado a un mayor número de contigs y scaffolds, lo que también se podría ver reflejado en un aumento en pares de bases en el ensamble.
+
+ 
+Se utilizará QUAST para evaluar la calidad del ensamble. Se ejecuta el programa, se le envía el ensamble generado por A5-miseq y Spades:
+
+```bash
+$ quast.py ensamble_A5.fasta ensamble_spades.fasta
+```
 
 
 
