@@ -36,7 +36,7 @@ Es la dirección de descarga del NCBI.
 
 
 
-## Conversión de formato ensamble
+## Conversión de formato: de ```SRA``` a ```FASTQ```
 
 Para realizar el proceso de ensamble, se requiere convertir de formato SRA a formato ```FASTQ```, ya que este es un formato común para compartir secuenciación de datos leídos combinando ambos tanto secuencia como puntuación de calidad asociada por base. Esta conversión se realizó utilizando la herramienta ```SRA Toolkit``` siguiendo [5]:
 
