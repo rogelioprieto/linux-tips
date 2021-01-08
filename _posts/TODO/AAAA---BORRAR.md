@@ -55,8 +55,7 @@ Donde:
 
 Se realizarán ensambles utilizando los programas ```A5-miseq``` y ```Spades```.
 
-
-### Ensamble con A5
+### Ensamble con ```A5```.
 
 Se realizará el ensamble utilizando la herramienta ```A5-miseq```. Se ejecutará:
 
@@ -88,7 +87,7 @@ Donde:
 |```assembly.out.assembly_stats.csv```|Estadísticas de calidad separadas por tab|
 
 
-### Ensamble con ```Spades```.
+### Ensamble con ```Spades```.
 ```bash
 $ spades.py -k 21,33,55,77 --careful -1 FASTQ_1.fastq -2 FASTQ_2.fastq -o spades_output
 ```
