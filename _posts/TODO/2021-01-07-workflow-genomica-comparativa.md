@@ -106,6 +106,7 @@ Donde:
 a5_pipeline.pl –end=1-5 SRR13246501_1.fastq SRR13246501_2.fastq salm_1
 ```
 
+
 ### Ensamble con ```Spades```.
 ```bash
 $ spades.py -k 21,33,55,77 --careful -1 SRR13246501_1.fastq -2 SRR13246501_2.fastq -o spades_output
