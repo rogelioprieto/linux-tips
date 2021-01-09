@@ -1,4 +1,4 @@
-#Ubuntu tips
+# Ubuntu tips
 
 ## Ubuntu -Swap
 
