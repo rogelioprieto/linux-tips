@@ -174,7 +174,7 @@ gunzip *.fna.gz
 Se utilizará la herramienta ```Parsnp``` que es parte del software ```harvest```.
 
 ```bash
-Parsnp -r ! -d directorio/fastas -c
+parsnp -r ! -d directorio/fastas -c
 ```
 Donde:
 - ```-d``` es el directorio donde se enecuentran los archivos fastas.
