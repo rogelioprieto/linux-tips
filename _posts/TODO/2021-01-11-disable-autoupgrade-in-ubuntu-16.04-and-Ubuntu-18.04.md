@@ -29,7 +29,7 @@ change the line and save changes. That's all.
 sudo dpkg-reconfigure unattended-upgrades
 ```
 2. Choose ´´´No´´´ and hit ´´´ENTER´´´ to disable unattended upgrades.
-![screenshot terminal to disable unattended-upgrades](screenshot-at-2021-01-11 11-33-51.png)
+![screenshot terminal to disable unattended-upgrades](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/TODO/screenshot-at-2021-01-11%2011-33-51.png)
 
 
 
