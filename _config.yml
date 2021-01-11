@@ -40,6 +40,7 @@ minima:
 header_pages:
 - about.md
 
+
 # Build settings
 #TODOtheme: minima
 remote_theme: jekyll/minima
@@ -52,3 +53,6 @@ plugins:
 # theme: jekyll-theme-minima
 #remote_theme: jekyll/minima
 #remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+
+
+##rogelioprieto github site!
