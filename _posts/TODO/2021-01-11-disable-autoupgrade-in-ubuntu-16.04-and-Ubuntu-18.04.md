@@ -34,5 +34,5 @@ sudo dpkg-reconfigure unattended-upgrades
 
 
 ## Sources:
-<https://askubuntu.com/questions/798989/heavy-load-by-apt-unattended-upgrade>
+<https://askubuntu.com/questions/798989/heavy-load-by-apt-unattended-upgrade>\
 <https://ostechnix.com/how-to-disable-unattended-upgrades-on-ubuntu/>
