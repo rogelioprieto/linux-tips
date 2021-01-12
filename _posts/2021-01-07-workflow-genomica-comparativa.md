@@ -15,6 +15,30 @@ c) generación de árboles filogenéticos.
 
 ![Diagrama del proceso de ensamblaje y análisis](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/diagrama-secuenciacion-analisis-bioinformatica-fondo-azul-small.jpg)
 
+## Software requerido.
+
+1. ```Terminal``` y comando ```wget```. Descarga de cepas.
+2. ```SRA Toolkit```. Conversión de formato.
+3. ```A5-miseq``` y ```Spades``` para realizar los ensambles.
+1. ```quast```. Evaluación de la calidad de los ensambles. 
+1. ```parsnp```. Generar el árbol filogenético.
+1. iTOL: Interactive Tree Of Life. Visualización y edición del árbol filogenético.
+
+
+
+| Software      | Usado para         | URL           |
+|---------------|--------------------|---------------|
+| ```Terminal``` y comando ```wget```.  | Descarga de cepas.  |  No aplica |
+|  ```SRA Toolkit```.  | Conversión de formato.  |   |   |   |
+|   ```A5-miseq``` y ```Spades```  | realizar los ensambles.   |   |
+| ```quast```.  | Evaluación de la calidad de los ensambles.   |   |
+|  ```parsnp```  | Generar el árbol filogenético.   |   |
+|```iTOL: Interactive Tree Of Life.```| Visualización y edición del árbol filogenético.| |
+
+
+
+
+ $ fastq-dump 
 
 ## Creación de directorio.
 
