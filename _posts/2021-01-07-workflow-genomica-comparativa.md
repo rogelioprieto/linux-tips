@@ -13,6 +13,7 @@ c) generación de árboles filogenéticos.
 
 
 
+
 ## Diagrama general.
 
 ![Diagrama del proceso de ensamblaje y análisis](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/diagrama-secuenciacion-analisis-bioinformatica-fondo-azul-small.jpg)
