@@ -22,7 +22,7 @@ c) generación de árboles filogenéticos.
 3. ```A5-miseq``` y ```Spades``` para realizar los ensambles.
 1. ```quast```. Evaluación de la calidad de los ensambles. 
 1. ```parsnp```. Generar el árbol filogenético.
-1. iTOL: Interactive Tree Of Life. Visualización y edición del árbol filogenético.
+1. ```iTOL: Interactive Tree Of Life```. Visualización y edición del árbol filogenético.
 
 
 
@@ -30,7 +30,7 @@ c) generación de árboles filogenéticos.
 |---------------|--------------------|---------------|
 | ```Terminal``` y comando ```wget```.  | Descarga de cepas.  |  No aplica |
 |  ```SRA Toolkit```.  | Conversión de formato.  |   |   |   |
-|   ```A5-miseq``` y ```Spades```  | realizar los ensambles.   |   |
+|   ```A5-miseq``` y ```Spades```  | Realizar los ensambles.   |   |
 | ```quast```.  | Evaluación de la calidad de los ensambles.   |   |
 |  ```parsnp```  | Generar el árbol filogenético.   |   |
 |```iTOL: Interactive Tree Of Life.```| Visualización y edición del árbol filogenético.| |
