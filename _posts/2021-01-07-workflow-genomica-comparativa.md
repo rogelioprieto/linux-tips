@@ -30,6 +30,7 @@ c) generación de árboles filogenéticos.
 | Software      | Usado para         | URL           |
 |---------------|--------------------|---------------|
 | ```Terminal``` y comando ```wget```.  | Descarga de cepas.  |  No aplica |
+| ```fastq-dump``` de ```harvest tools``` |  https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software#header-global  |
 |  ```NCBI SRA Toolkit```.  | Conversión de formato.  |  https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software#header-global | 
 |   ```A5-miseq```   | Realizar los ensambles.   |  https://pubmed.ncbi.nlm.nih.gov/25338718/     https://sourceforge.net/projects/ngopt/   |
 |   ```A5-miseq``` y ```Spades```  | Realizar los ensambles.   |  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/  https://cab.spbu.ru/software/spades/   |
