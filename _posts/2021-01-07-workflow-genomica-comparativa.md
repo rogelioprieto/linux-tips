@@ -18,15 +18,6 @@ c) generación de árboles filogenéticos.
 
 ## Software requerido.
 
-1. ```Terminal``` y comando ```wget```. Descarga de cepas.
-2. ```SRA Toolkit```. Conversión de formato.
-3. ```A5-miseq``` y ```Spades``` para realizar los ensambles.
-1. ```quast```. Evaluación de la calidad de los ensambles. 
-1. ```parsnp```. Generar el árbol filogenético.
-1. ```iTOL: Interactive Tree Of Life```. Visualización y edición del árbol filogenético.
-
-
-
 | Software      | Usado para         | URL           |
 |---------------|--------------------|---------------|
 | ```Terminal``` y comando ```wget```.  | Descarga de cepas.  |  No aplica |
@@ -36,25 +27,6 @@ c) generación de árboles filogenéticos.
 | ```quast```.  | Evaluación de la calidad de los ensambles.   | https://pubmed.ncbi.nlm.nih.gov/23422339/  https://sourceforge.net/projects/quast/  |
 |  ```parsnp``` de ```harvest tools```  | Generar el árbol filogenético.   |  https://harvest.readthedocs.io/en/latest/content/parsnp.html |
 |```iTOL: Interactive Tree Of Life.```| Visualización y edición del árbol filogenético.| https://itol.embl.de/ |
-
-Instalar harvest tools
- https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software#header-global
-
-NCBI SRA Toolkit
-https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software#header-global
-
-a5-miseq
-https://pubmed.ncbi.nlm.nih.gov/25338718/
-https://sourceforge.net/projects/ngopt/
-
-SPAdes
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/
-https://cab.spbu.ru/software/spades/
-
-
-quast
-https://pubmed.ncbi.nlm.nih.gov/23422339/
-https://sourceforge.net/projects/quast/
 
 ## Creación de directorio.
 
