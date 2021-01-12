@@ -36,10 +36,6 @@ c) generación de árboles filogenéticos.
 |```iTOL: Interactive Tree Of Life.```| Visualización y edición del árbol filogenético.| |
 
 
-
-
- $ fastq-dump 
-
 ## Creación de directorio.
 
 ```bash
