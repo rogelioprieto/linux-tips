@@ -31,7 +31,8 @@ c) generación de árboles filogenéticos.
 |---------------|--------------------|---------------|
 | ```Terminal``` y comando ```wget```.  | Descarga de cepas.  |  No aplica |
 |  ```NCBI SRA Toolkit```.  | Conversión de formato.  |  https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software#header-global | 
-|   ```A5-miseq``` y ```Spades```  | Realizar los ensambles.   |  https://pubmed.ncbi.nlm.nih.gov/25338718/ https://sourceforge.net/projects/ngopt/  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/  https://cab.spbu.ru/software/spades/ |
+|   ```A5-miseq```   | Realizar los ensambles.   |  https://pubmed.ncbi.nlm.nih.gov/25338718/     https://sourceforge.net/projects/ngopt/   |
+|   ```A5-miseq``` y ```Spades```  | Realizar los ensambles.   |  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/  https://cab.spbu.ru/software/spades/   |
 | ```quast```.  | Evaluación de la calidad de los ensambles.   | https://pubmed.ncbi.nlm.nih.gov/23422339/  https://sourceforge.net/projects/quast/  |
 |  ```parsnp```  | Generar el árbol filogenético.   |  https://harvest.readthedocs.io/en/latest/content/parsnp.html |
 |```iTOL: Interactive Tree Of Life.```| Visualización y edición del árbol filogenético.| https://itol.embl.de/ |
