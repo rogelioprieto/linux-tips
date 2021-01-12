@@ -4,7 +4,19 @@ _Instructor: MC José Roberto Aguirre_
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/bioinformatics-adn-letras.png)
 
 
-## Creación de directorio
+Este documento muestra un flujo de trabajo para realizar: 
+
+a) ensamblaje de novo de genomas bacterianos\
+b) evaluación de calidad de los ensamblajes y\
+c) generación de árboles filogenéticos.
+
+
+## Diagrama general.
+
+![Diagrama del proceso de ensamblaje y análisis](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/diagrama-secuenciacion-analisis-bioinformatica-fondo-azul-small.jpg)
+
+
+## Creación de directorio.
 
 ```bash
 cd ~/rprieto/reads/
