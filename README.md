@@ -1,4 +1,4 @@
-# Welcome Linux and Ubuntu fan!
+# Welcome Linux and Ubuntu fan
 
 Here you will find tips for everyday use GNU/Linux and Ubuntu. 
 How to install, setup and custom software tools for all purpose that use  command line (CLI) or a Graphic User Interface (GUI).
