@@ -14,6 +14,10 @@ I need to know my hardware specs: Motherboard model, CPU, RAM, etc.
   Search for the hardinfo package in the Software Center or run ```sudo apt-get install hardinfo``` from the command line. 
 The motherboard make and model can be found on the ```Devices > DMI``` page.
 
+If appears this error:  ```Gtk-Message: Failed to load module "canberra-gtk-module"```, you need to install this libraries, open a ```Terminal``` and type this command:
+
+```sudo apt-get install libcanberra-gtk-module libcanberra-gtk0```
+
   b. ```lshw-gtk``` – Graphical frontend for ```lshw``` command.
 
 
