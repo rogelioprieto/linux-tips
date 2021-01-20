@@ -28,3 +28,14 @@ https://www.promodescuentos.com/ofertas/sams-club-rio-de-los-remedios-set-de-3-p
 https://www.aprendemachinelearning.com/sobre-mi/
 
 https://system76.com/desktops/thelio#specs
+
+Software para Linux:
+PhotoGIMP
+Shotwell
+gThumb
+Pinta
+equalX - formulas
+
+
+
+
