@@ -30,11 +30,11 @@ https://www.aprendemachinelearning.com/sobre-mi/
 https://system76.com/desktops/thelio#specs
 
 Software para Linux:
-PhotoGIMP
-Shotwell
-gThumb
-Pinta
-equalX - formulas
+- PhotoGIMP
+- Shotwell
+- gThumb
+- Pinta
+- equalX - formulas
 
 
 
