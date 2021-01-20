@@ -22,4 +22,5 @@ If appears this error:  ```Gtk-Message: Failed to load module "canberra-gtk-modu
 
 
 ## Source:
-<https://askubuntu.com/questions/179958/how-do-i-find-out-my-motherboard-model>
+<https://askubuntu.com/questions/179958/how-do-i-find-out-my-motherboard-model>\
+<https://raspberryparatorpes.net/dudas/como-arreglar-el-error-gtk-message-failed-to-load-module-canberra-gtk-module/>
