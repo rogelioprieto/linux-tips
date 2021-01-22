@@ -3,11 +3,11 @@
 
 
 1. ```WhatsDesk``` a WhatsApp client.
-<>
+
 ```bash
 sudo snap install whatsdesk
 ```
-Url:
+Url:\
 <https://snapcraft.io/whatsdesk>\
 <https://gitlab.com/zerkc/whatsdesk>
 
