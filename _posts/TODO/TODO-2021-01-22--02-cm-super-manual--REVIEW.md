@@ -45,7 +45,6 @@ sudo apt-get -y install lmodern
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
-
 \usepackage{lmodern}
 
 \begin{document}
@@ -58,8 +57,6 @@ To fix this problem you should install \texttt{cm-super} package.
 
 More information:\\
 \texttt{https://www.latex.um.es/retazos/apendice\_01/instalar\_T1\_vectoriales.htm}
-
-
 \end{document}
 ```
 
