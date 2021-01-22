@@ -43,7 +43,7 @@ Considerations: ```lmodern``` is included in ```texlive-fonts-recommended``` pac
 ```
 sudo apt-get -y install lmodern
 ```
-
+your ```.tex``` file contains lmodern package (line 3):
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
