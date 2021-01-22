@@ -1,3 +1,8 @@
+# How to fix pixeled letters in pdf compiled with LaTeX (spoiler: install cm-super package or lmodern package) 
+
+## Problem: 
+My pdf file looks with pixeled letters!
+
 1. Create a \LaTeX file with this content:
 ```latex
 \documentclass{article}
@@ -46,7 +51,6 @@ Considerations: ```lmodern``` is included in ```texlive-fonts-recommended``` pac
 ```
 sudo apt-get -y install lmodern
 ```
-
 
 2. Edit your ```.tex``` file, it contains ```lmodern``` package (line 3):
 ```latex
