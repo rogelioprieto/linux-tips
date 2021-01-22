@@ -19,3 +19,6 @@ Read the ```linux4me``` user comments:\
 3. PDF Reader
 Atril and Okular
 
+```bash
+sudo apt install okular
+```
