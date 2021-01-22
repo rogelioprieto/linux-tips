@@ -2,8 +2,15 @@
 
 
 
-1. WhatsDesk
+1. ```WhatsDesk``` a WhatsApp client.
+<>
+```bash
 sudo snap install whatsdesk
+```
+Url:
+<https://snapcraft.io/whatsdesk>\
+<https://gitlab.com/zerkc/whatsdesk>
+
 
 2. Increase size buttons in Ambiant-theme
 Read the ```linux4me``` user comments:\
