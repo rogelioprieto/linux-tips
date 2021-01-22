@@ -28,7 +28,7 @@ atril test.pdf
 
 If you increase zoom, you will see pixeled letters. Why is this happenning?
 
-Your document is using <<T3 fonts>>. You can see it in ```File->Properties->Fonts tab``` in evince, atril or in Adobe Reader.
+Your document is using ```T3 fonts```. You can see it in ```File->Properties->Fonts tab``` in evince, atril or in Adobe Reader.
 
 ## Solution:
 ### Option 1. Install ```cm-super``` package and do nothing in your ```.tex``` file.
@@ -39,7 +39,7 @@ sudo apt-get -y install cm-super
 
 ### Option 2. Install the ```lmodern``` LaTeX package and include it and your ```.tex``` file:
 
-1. Install lmodern package.
+1. Install ```lmodern``` package.
 
 Considerations: ```lmodern``` is included in ```texlive-fonts-recommended``` package. If you already have installed this package you don't need install lmodern package; in other way, you can install it alone:
 
