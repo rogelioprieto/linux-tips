@@ -37,13 +37,17 @@ sudo apt-get -y install cm-super
 ```
 
 
-### Option 2. Install the ```lmodern``` LaTeX package and includes this line your .tex file:
+### Option 2. Install the ```lmodern``` LaTeX package and include it and your ```.tex``` file:
+
+1. Install lmodern package.
+
 Considerations: ```lmodern``` is included in ```texlive-fonts-recommended``` package. If you already have installed this package you don't need install lmodern package; in other way, you can install it alone:
 
 ```
 sudo apt-get -y install lmodern
 ```
-your ```.tex``` file contains lmodern package (line 3):
+
+2. Edit your ```.tex``` file, it contains lmodern package (line 3):
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
