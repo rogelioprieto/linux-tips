@@ -43,3 +43,6 @@ And replace `yourprefix` in the command with the one you want:
 Now we have the core fonts in place. We can remove the package:
 
 ```$ sudo apt purge ttf-mscorefonts-installer```
+
+#Source:
+<https://gist.github.com/ibrahimtuzlak0295/2a66981f99f25e08cb2039df53391b05>
