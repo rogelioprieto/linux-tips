@@ -8,4 +8,8 @@ Source:
 
 To get USB support:
 
+<https://www.tecmint.com/enable-usb-in-virtualbox/>
+
+Download the right version:
+
 <https://www.virtualbox.org/wiki/Download_Old_Builds_6_1>
