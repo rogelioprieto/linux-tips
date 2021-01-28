@@ -44,5 +44,6 @@ Now we have the core fonts in place. We can remove the package:
 
 ```$ sudo apt purge ttf-mscorefonts-installer```
 
-#Source:
+## Source:
 <https://gist.github.com/ibrahimtuzlak0295/2a66981f99f25e08cb2039df53391b05>
+<https://www.solvetic.com/tutoriales/article/3361-como-instalar-microsoft-office-2013-en-linux/>
