@@ -42,9 +42,9 @@ c) Redacción del material de apoyo: flujo de trabajo de Genomica Comparativa: �
 
   a) Con los Responsables de proyecto para conocer la retroalimentación de la participación de los estudiantes en el programa.
 
-  b) Con Blanca, responsable operativa para identificación de áreas de oportunidad para futuras ediciones.
+  b) Con Blanca Vazquez, responsable operativa para identificación de áreas de oportunidad para futuras ediciones.
 
-  c) Con Blanca, en seguimiento a la firma del contrato y siguientes pasos para finiquitar la parte administrativa (pagos y cierre de proyecto).
+  c) Con Blanca Vazquez, en seguimiento a la firma del contrato y siguientes pasos para finiquitar la parte administrativa (pagos y cierre de proyecto).
 
 - Se revisó el informe de actividades enviado por Coppel.
 - Se informó a los estudiantes del cierre de actividades y se coordinó el regreso (entrega) de laptops a Coppel; cada estudiante utilizó una laptop durante el programa.
