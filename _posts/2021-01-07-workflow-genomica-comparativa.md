@@ -1,5 +1,6 @@
 # Bioinformática. Generación de un árbol filogenético.
 _Instructor: MC José Roberto Aguirre_
+_Colaborador y edición: Rogelio Prieto_
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2020-images/bioinformatics-adn-letras.png)
 
