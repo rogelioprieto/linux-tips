@@ -25,9 +25,9 @@ Se realizaron actividades de capacitación para el Posgrado: Maestría en Cienci
 Se culminó la 4ta semana de capacitación del curso. 
 Se generaron:
 
-a) Aula virtual en _Google Classroom_: <https://classroom.google.com/u/0/c/MjQxNDk3NjY2MjMy>
+a) Aula virtual en _Google Classroom_: <https://classroom.google.com/u/0/c/MjQxNDk3NjY2MjMy>. 
 
-b) Actualización de Diapositivas como material de apoyo.
+b) Actualización de Diapositivas como material de apoyo. Incluye videos educativos para las últimas sesiones.
 
 c) Redacción del material de apoyo: flujo de trabajo de Genomica Comparativa: «Generación de un árbol filogenético». Disponible en: 
 <https://rogelioprieto.github.io/linux-tips/2021/01/07/workflow-genomica-comparativa.html>
