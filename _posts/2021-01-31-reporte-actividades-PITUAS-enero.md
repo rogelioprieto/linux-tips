@@ -57,8 +57,8 @@ c) Redacción del material de apoyo: flujo de trabajo de Genomica Comparativa: �
   a. Capacitación virtual síncrona con profesores UAS.
   b. Capacitación virtual en Coursera. Administrar los cursos y seguimiento.
 - Estancia de estudiantes en Coppel. Septiembre/2020-febrero/2021.
-- Infografía que resume las actividades del proyecto (pdf).
-- Ficha ejecutiva (pdf).
+- (pdf) Infografía que resume las actividades del proyecto.
+- (pdf) Ficha ejecutiva.
 
 
 ###  2. Proyecto 2. SETO. «Efectos de la lente Anti Blu-Ray de seto en las funciones visuales y los estados de sueño»
