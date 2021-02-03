@@ -54,7 +54,9 @@ c) Redacción del material de apoyo: flujo de trabajo de Genomica Comparativa: �
 - Convocatoria. <https://fic.uas.edu.mx/convocatoria-verano-empresarial-2020-implementacion-de-microservicios-con-google-kubernetes-engine/>
 - Conferencia. <https://fic.uas.edu.mx/verano-empresarial-2020-conferencia-implementacion-de-kubernetes-en-entornos-a-gran-escala-google-y-su-contribucion-en-proyectos-open-source/>
 - Capacitación de estudiantes. Junio-septiembre 2020.
+
   a. Capacitación virtual síncrona con profesores UAS.
+  
   b. Capacitación virtual en Coursera. Administrar los cursos y seguimiento.
 - Estancia de estudiantes en Coppel. Septiembre/2020-febrero/2021.
 - (pdf) Infografía que resume las actividades del proyecto.
