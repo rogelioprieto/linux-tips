@@ -63,6 +63,7 @@ c) Redacción del material de apoyo: flujo de trabajo de Genomica Comparativa: �
 
 ###  2. Proyecto 2. SETO. «Efectos de la lente Anti Blu-Ray de seto en las funciones visuales y los estados de sueño»
  a) Envío de los entregables.
+ 
  b) Seguimiento para ejercer el recurso obtenido. Se reanudará en febrero debido a que el área de finanzas no opera estos trámites en enero.
  
 #### Actividades previas 2020.
