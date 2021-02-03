@@ -1,7 +1,7 @@
-Reporte de actividades Enero 2021
-Rogelio Prieto
+# Reporte de actividades Enero 2021 - Rogelio Prieto
 
-Actividades
+
+# Actividades
 
 ## Proyecto FCQB
 Se realizaron actividades de capacitación para el Posgrado: Maestría en Ciencias Biomédicas (<http://mcb.uas.edu.mx/>) de la Facultad de Ciencias Químico Biológicas . Se impartió el curso "Bioinformática - GNU/Linux"
@@ -29,7 +29,9 @@ Se sostuvieron 3 reuniones de trabajo.
 a) Con los Responsables de proyecto para conocer la retroalimentación de la participación de los estudiantes en el programa.
 b) Con Blanca, responsable operativa para identificación de áreas de oportunidad para futuras ediciones.
 c) Con Blanca, en seguimiento a la firma del contrato y siguientes pasos para finiquitar la parte administrativa.
- 
+
+Se revisó el informe de actividades enviado por Coppel.
+
 ###  2. Proyecto 2. SETO.
  a) Envío de los entregables.
  b) Seguimiento para ejercer el recurso obtenido. Se reanudará en febrero debido a que el área de finanzas no opera estos trámites en enero.
