@@ -24,7 +24,7 @@ Then you can open and edit ```listado.csv``` to add the new filenames in the sec
 2. Create a bash script. Save it as: ```rename-all-list.sh```.
 ```bash
 #!/bin/bash
-#Rogelio Prieto, February 2021.
+##Rogelio Prieto, February 2021.
 list_filename='listado.csv'
 n=1
 while read line; do
