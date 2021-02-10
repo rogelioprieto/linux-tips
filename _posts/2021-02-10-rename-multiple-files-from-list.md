@@ -22,6 +22,7 @@ ls *.txt > listado.csv
 Then you can open and edit ```listado.csv``` to add the new filenames in the second column (don't forget type comma).
 
 2. Create a bash script. Save it as: ```rename-all-list.sh```.
+
 ```bash
 #!/bin/bash
 ##Rogelio Prieto, February 2021.
