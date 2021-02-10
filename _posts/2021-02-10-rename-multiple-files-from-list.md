@@ -56,5 +56,6 @@ chmod +x rename-all-list.sh
 
 ### Source: 
 <https://linuxhint.com/read_file_line_by_line_bash/>
+
 <https://linuxhint.com/bash_command_output_variable/>
 
