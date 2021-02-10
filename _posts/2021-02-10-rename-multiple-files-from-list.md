@@ -14,7 +14,7 @@ uno.txt,1.txt
 dos.txt,2.txt
 tres.txt,3.txt
 ```
-Note: You don't need to type (write) the filenames in the first columns.
+**Note:** You don't need to type (write) the filenames in the first columns.
 You can get them using this command:
 ```bash
 ls *.txt > listado.csv
