@@ -28,7 +28,7 @@ Then you can open and edit ```listado.csv``` to add the new filenames in the sec
 list_filename='listado.csv'
 n=1
 while read line; do
-# reading each line
+#reading each line
 
 filename=$(echo $line | cut -d"," -f 1)
 newfilename=$(echo $line | cut -d"," -f 2)
