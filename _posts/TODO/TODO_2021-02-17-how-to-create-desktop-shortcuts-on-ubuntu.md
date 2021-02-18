@@ -23,6 +23,14 @@ Explanation: <https://www.howtogeek.com/445303/how-to-create-desktop-shortcuts-o
 
 
 2. Double clic in the file to execute. It will appear a alert windows,  Clic the "Trust and Launch” button'.
+If everything is correct the application appears.
+
+If not, you can get output errors, verify your file:
+```bash
+desktop-file-validate your-file-here.desktop
+```
+
+Explanation: <https://askubuntu.com/questions/436999/how-do-i-diagnose-there-was-an-error-launching-the-application>
 
 3. Copying the .desktop File To the Applications Folder
 ```bash
