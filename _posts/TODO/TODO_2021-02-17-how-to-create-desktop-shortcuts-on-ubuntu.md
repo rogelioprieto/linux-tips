@@ -1,6 +1,6 @@
 # How to create desktop shortcuts on Ubuntu
 
-##Problem: 
+## Problem: 
 I have installed a program or software but doesn't apears in launch bar (or launch menu).
 
 ## Solution:
