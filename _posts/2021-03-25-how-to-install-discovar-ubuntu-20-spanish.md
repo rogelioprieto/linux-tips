@@ -2,20 +2,22 @@
 layout: post
 title: How to install Discovar in Ubuntu 20.04? - spanish version (español)
 categories: github
+author: Rogelio Prieto Alvarado
+date: Marzo, 2021
 ---
 
-## Problem:
+## Problema:
 Al compilar utilizando ```make all```, se obtiene el error:
 
 ```bash
 make: *** [Makefile:288: install-recursive] Error 1
 ```
 
-## Solution:
+## Solución:
 Compilar usando una versión de gcc 4.x
 
 
-### Step by step:
+### Paso a paso:
 
 1. Instalar pre-requisitos:
 ```bash
