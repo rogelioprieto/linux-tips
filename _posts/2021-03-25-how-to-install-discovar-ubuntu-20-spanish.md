@@ -70,7 +70,7 @@ make install
 ```
 donde ```NNNNN``` es la versión, este caso es la versión 52488.
 
-9. Borrar las dos  últimas líneas agregadas al archivo.
+9. Borrar la url del repositorio. Borrar las dos últimas líneas agregadas al archivo.
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ``` 
