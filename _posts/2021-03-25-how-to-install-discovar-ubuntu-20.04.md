@@ -53,12 +53,12 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
 ```
 
-Elegir la versión 4.8
+7. Elegir la versión 4.8
 ```bash
 $ sudo update-alternatives --config gcc
 ```
 
-7. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
+8. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-NNNNN
@@ -69,7 +69,7 @@ make install
 ```
 donde ```NNNNN``` es la versión, este caso es la versión 52488.
 
-8. Borrar las dos  últimas líneas agregadas al archivo.
+9. Borrar las dos  últimas líneas agregadas al archivo.
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ``` 
