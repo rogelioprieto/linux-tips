@@ -77,12 +77,19 @@ $ sudo gedit /etc/apt/sources.list
 Para dejar de utilizar el repositorio de una versión anterior de Ubuntu.
 
 ## Source:
-Solución encontrada en el grupo de correo de Discovar:
+1. Solución encontrada en el grupo de correo de Discovar:
 
 <https://groups.google.com/a/broadinstitute.org/g/discovar-user-forum>
 
 buscar: _Makefile:288 install-recursive_
 
+2. Install gcc in Ubuntu 20.04
+
+<https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/>
+
+3. Discovar - manual and faq
+
+<https://software.broadinstitute.org/software/discovar/blog/?page_id=19>
 
 
 
