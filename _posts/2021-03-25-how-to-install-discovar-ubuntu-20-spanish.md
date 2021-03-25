@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to install Discovar in Ubuntu 20.04?
+title: How to install Discovar in Ubuntu 20.04? - spanish version (español)
 categories: github
 ---
 
