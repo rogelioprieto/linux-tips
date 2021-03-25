@@ -14,8 +14,9 @@ make: *** [Makefile:288: install-recursive] Error 1
 ## Solución:
 Solución encontrada en el grupo de correo de Discovar:
 
-buscar: 
-Makefile:288 install-recursive
+<https://groups.google.com/a/broadinstitute.org/g/discovar-user-forum>
+
+buscar: _Makefile:288 install-recursive_
 
 ## Pasos para resolver el problema:
 
