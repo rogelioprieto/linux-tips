@@ -58,8 +58,7 @@ Elegir la versión 4.8
 $ sudo update-alternatives --config gcc
 ```
 
-7. Instalar Discovar 
-Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
+7. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-NNNNN
