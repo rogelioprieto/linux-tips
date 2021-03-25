@@ -78,7 +78,7 @@ $ sudo gedit /etc/apt/sources.list
 This step is neccesary for stopping using a previous Ubuntu repository version. 
 
 ## Source:
-1. I solve this problem based in Discovar forum user group:
+- I solved this problem based in Discovar forum user group:
 
 <https://groups.google.com/a/broadinstitute.org/g/discovar-user-forum>
 
@@ -86,15 +86,15 @@ searching this: _Makefile:288 install-recursive_
 
 <https://groups.google.com/u/1/a/broadinstitute.org/g/discovar-user-forum/c/RWFyF11-cjc/m/VLwHBQqeCAAJ>
 
-2. Install gcc in Ubuntu 20.04
+- Install gcc in Ubuntu 20.04
 
 <https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/>
 
-3. Discovar - manual and faq
+- Discovar - manual and faq
 
 <https://software.broadinstitute.org/software/discovar/blog/?page_id=19>
 
-4. How to compile with gcc
+- How to compile with gcc
 
 <https://stackoverflow.com/questions/27390078/gcc-compiling-c-code-undefined-reference-to-operator-newunsigned-long-lon/27390293>
 
