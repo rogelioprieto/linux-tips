@@ -2,52 +2,50 @@
 layout: post
 title: How to install Discovar in Ubuntu 20.04?
 categories: github
-author: Rogelio Prieto Alvarado
 ---
 
 ## Problem:
-When you compile Discovar using ```make all```, you get this error:
-
+Al compilar utilizando ```make all```, se obtiene el error:
 
 ```bash
 make: *** [Makefile:288: install-recursive] Error 1
 ```
 
 ## Solution:
-Compile using gcc 4.x version.
+Compilar usando una versión de gcc 4.x
 
 
 ### Step by step:
 
-1. Install requirements:
+1. Instalar pre-requisitos:
 ```bash
 sudo apt-get install libjemalloc-dev
 ```
 
-2. Install samtools (required if using bam files)
+2. Instalar samtools (required if using bam files)
 **ESTE PASO NO LO HE PROBADO**
 ```bash
 $ sudo apt-get install samtools
 ```
 
 
-3. Add a repository. Open the file:
+3. abrir el archivo
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ```
 
-4. Add these lines, preferably at the end of the file.
+4. agregar esas dos lineas al final del archivo.
 ```bash
 #RPA ADDED
 deb http://us.archive.ubuntu.com/ubuntu bionic main universe
 ```
 
-5. Install gcc and g++ 4.8 version. Open a Terminal and execute:
+5. Ejecutar en Terminal:
 ```bash
 $ sudo apt upgrade && apt install gcc-4.8 g++-4.8
 ```
 
-6. Configure multiple GCC versions.
+6. Configurar las multiples versiones de GCC 
 ```bash
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8
@@ -55,12 +53,12 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
 ```
 
-7. Choose 4.8 versiont. Type in Terminal:
+7. Elegir la versión 4.8
 ```bash
 $ sudo update-alternatives --config gcc
 ```
 
-8. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
+8. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-NNNNN
@@ -69,20 +67,20 @@ cd discovardenovo-52488/
 make all
 make install
 ```
-where ```NNNNN``` is the Discovar version, in this example 52488 is the version.
+donde ```NNNNN``` es la versión, este caso es la versión 52488.
 
-9. Delete the repository url. Open the file and delete the last two lines added in previously step.
+9. Borrar las dos  últimas líneas agregadas al archivo.
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ``` 
-This step is neccesary for stopping using a previous Ubuntu repository version. 
+Para dejar de utilizar el repositorio de una versión anterior de Ubuntu.
 
 ## Source:
-1. I solve this problem based in Discovar forum user group:
+1. Solución encontrada en el grupo de correo de Discovar:
 
 <https://groups.google.com/a/broadinstitute.org/g/discovar-user-forum>
 
-searching this: _Makefile:288 install-recursive_
+buscar: _Makefile:288 install-recursive_
 
 <https://groups.google.com/u/1/a/broadinstitute.org/g/discovar-user-forum/c/RWFyF11-cjc/m/VLwHBQqeCAAJ>
 
