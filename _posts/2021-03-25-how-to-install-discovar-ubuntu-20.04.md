@@ -91,5 +91,7 @@ buscar: _Makefile:288 install-recursive_
 
 <https://software.broadinstitute.org/software/discovar/blog/?page_id=19>
 
+4. How to compile with gcc
 
+<https://stackoverflow.com/questions/27390078/gcc-compiling-c-code-undefined-reference-to-operator-newunsigned-long-lon/27390293>
 
