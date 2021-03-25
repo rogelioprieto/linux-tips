@@ -60,6 +60,7 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 $ sudo update-alternatives --config gcc
 ```
 
+
 8. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
