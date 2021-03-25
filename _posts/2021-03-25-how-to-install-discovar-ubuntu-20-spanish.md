@@ -14,18 +14,18 @@ make: *** [Makefile:288: install-recursive] Error 1
 ```
 
 ## Solución:
-Compilar usando una versión de gcc 4.x
+Compilar usando una versión de ```gcc 4.x```
 
 
 ### Paso a paso:
 
 1. Instalar pre-requisitos:
 ```bash
-sudo apt-get install libjemalloc-dev
+$ sudo apt-get install libjemalloc-dev
+$ sudo apt-get install zlib1g-dev
 ```
 
 2. Instalar samtools (required if using bam files)
-**ESTE PASO NO LO HE PROBADO**
 ```bash
 $ sudo apt-get install samtools
 ```
@@ -63,7 +63,6 @@ $ sudo update-alternatives --config gcc
 8. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
-cd discovardenovo-NNNNN
 cd discovardenovo-52488/
 ./configure
 make all

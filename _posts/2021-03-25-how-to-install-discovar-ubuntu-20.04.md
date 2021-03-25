@@ -14,18 +14,18 @@ make: *** [Makefile:288: install-recursive] Error 1
 ```
 
 ## Solution:
-Compile using gcc 4.x version.
+Compile using ```gcc 4.x``` version.
 
 
 ### Step by step:
 
 1. Install requirements:
 ```bash
-sudo apt-get install libjemalloc-dev
+$ sudo apt-get install libjemalloc-dev
+$ sudo apt-get install zlib1g-dev
 ```
 
 2. Install samtools (required if using bam files)
-**ESTE PASO NO LO HE PROBADO**
 ```bash
 $ sudo apt-get install samtools
 ```
@@ -47,7 +47,7 @@ deb http://us.archive.ubuntu.com/ubuntu bionic main universe
 $ sudo apt upgrade && apt install gcc-4.8 g++-4.8
 ```
 
-6. Configure multiple GCC versions.
+6. Configure multiple gcc versions.
 ```bash
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8
@@ -55,7 +55,7 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
 ```
 
-7. Choose 4.8 versiont. Type in Terminal:
+7. Choose 4.8 version. Type in Terminal:
 ```bash
 $ sudo update-alternatives --config gcc
 ```
@@ -63,7 +63,6 @@ $ sudo update-alternatives --config gcc
 8. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
-cd discovardenovo-NNNNN
 cd discovardenovo-52488/
 ./configure
 make all
