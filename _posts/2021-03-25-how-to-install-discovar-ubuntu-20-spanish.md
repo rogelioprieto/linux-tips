@@ -77,7 +77,7 @@ $ sudo gedit /etc/apt/sources.list
 ``` 
 Para dejar de utilizar el repositorio de una versión anterior de Ubuntu.
 
-## Source:
+## Referencias o enlaces:
 - Solución encontrada en el grupo de correo de Discovar:
 
 <https://groups.google.com/a/broadinstitute.org/g/discovar-user-forum>
