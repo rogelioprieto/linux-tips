@@ -83,6 +83,8 @@ Para dejar de utilizar el repositorio de una versión anterior de Ubuntu.
 
 buscar: _Makefile:288 install-recursive_
 
+<https://groups.google.com/u/1/a/broadinstitute.org/g/discovar-user-forum/c/RWFyF11-cjc/m/VLwHBQqeCAAJ>
+
 2. Install gcc in Ubuntu 20.04
 
 <https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/>
