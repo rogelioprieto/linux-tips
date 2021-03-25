@@ -43,13 +43,12 @@ $ sudo gedit /etc/apt/sources.list
 deb http://us.archive.ubuntu.com/ubuntu bionic main universe
 ```
 
-3. Ejecutar en Terminal:
-
+5. Ejecutar en Terminal:
 ```bash
 $ sudo apt upgrade && apt install gcc-4.8 g++-4.8
 ```
 
-4. Configurar las multiples versiones de GCC 
+6. Configurar las multiples versiones de GCC 
 ```bash
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8
@@ -62,7 +61,7 @@ Elegir la versión 4.8
 $ sudo update-alternatives --config gcc
 ```
 
-5. Instalar discovar 
+7. Instalar discovar 
 Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
