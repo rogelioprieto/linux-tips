@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to install Discovar in Ubuntu 20.04?
-categories: github
+categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: March 25, 2021
 ---
