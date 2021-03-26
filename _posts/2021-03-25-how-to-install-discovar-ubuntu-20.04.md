@@ -63,9 +63,11 @@ $ sudo update-alternatives --config gcc
 
 8. Install the libieee library.
 ```bash
-$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee.so
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
+/usr/lib/x86_64-linux-gnu/libieee.so
 
-$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee1284.so.3
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
+/usr/lib/x86_64-linux-gnu/libieee1284.so.3
 
 $ sudo ldconfig
 ```
