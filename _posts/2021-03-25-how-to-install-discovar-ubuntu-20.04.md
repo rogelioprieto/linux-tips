@@ -73,11 +73,11 @@ $ sudo ldconfig
 
 9. Install ```Discovar```. Open the ```INSTALL```file and follow the instructions. A short way:
 ```bash
-tar xzf discovardenovo-NNNNN.tar.gz
-cd discovardenovo-52488/
-./configure
-make all
-make install
+$ tar xzf discovardenovo-NNNNN.tar.gz
+$ cd discovardenovo-52488/
+$ ./configure
+$ make all
+$ make install
 ```
 where ```NNNNN``` is the Discovar version, in this example 52488 is the version.
 
