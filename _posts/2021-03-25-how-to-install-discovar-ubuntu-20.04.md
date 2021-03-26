@@ -13,6 +13,7 @@ You compiled [Discovar DE NOVO](https://software.broadinstitute.org/software/dis
 make: *** [Makefile:288: install-recursive] Error 1
 ```
 
+
 ## Solution:
 Compile using ```gcc 4.x``` version.
 
