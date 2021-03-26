@@ -7,7 +7,7 @@ date: March 25, 2021
 ---
 
 ## Problem:
-You compiled [Discovar DE NOVO](https://software.broadinstitute.org/software/discovar/blog/?page_id=14) using ```make all```, you get this error:
+You compiled [Discovar DE NOVO](https://software.broadinstitute.org/software/discovar/blog/?page_id=14){:target="_blank"} using ```make all```, you get this error:
 
 ```bash
 make: *** [Makefile:288: install-recursive] Error 1
