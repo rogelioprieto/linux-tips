@@ -61,7 +61,7 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 $ sudo update-alternatives --config gcc
 ```
 
-8. Installar la biblioteca libieee (lenguaje C/C++).
+8. Installar la biblioteca ```libieee``` (lenguaje C/C++).
 ```bash
 $ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
 /usr/lib/x86_64-linux-gnu/libieee.so
@@ -70,7 +70,7 @@ $ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
 $ sudo ldconfig
 ```
 
-9. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
+9. Instalar ```Discovar```. Seguir las instrucciones especificadas en el archivo ```INSTALL```. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-52488/

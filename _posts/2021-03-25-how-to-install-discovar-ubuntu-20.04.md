@@ -57,12 +57,12 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
 ```
 
-7. Choose 4.8 version. Type in Terminal:
+7. Choose ```gcc-4.8``` version. Type in Terminal:
 ```bash
 $ sudo update-alternatives --config gcc
 ```
 
-8. Install the libieee library.
+8. Install the ```libieee``` library.
 ```bash
 $ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
 /usr/lib/x86_64-linux-gnu/libieee.so
@@ -71,7 +71,7 @@ $ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 \
 $ sudo ldconfig
 ```
 
-9. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
+9. Install ```Discovar```. Open the ```INSTALL```file and follow the instructions. A short way:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-52488/
