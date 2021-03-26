@@ -112,4 +112,5 @@ searching this: _Makefile:288 install-recursive_
 <http://chenweixiang.github.io/2015/12/18/linux-series-05-libraries.html>
 
 - Discovar de novo manual
-https://banana-slug.soe.ucsc.edu/contributors:team_5:discovar_de_novo_manual
+
+<https://banana-slug.soe.ucsc.edu/contributors:team_5:discovar_de_novo_manual>

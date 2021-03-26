@@ -107,3 +107,10 @@ buscar: _Makefile:288 install-recursive_
 
 <https://stackoverflow.com/questions/27390078/gcc-compiling-c-code-undefined-reference-to-operator-newunsigned-long-lon/27390293>
 
+- Linux: C/C++ Libraries
+
+<http://chenweixiang.github.io/2015/12/18/linux-series-05-libraries.html>
+
+- Discovar de novo manual
+
+<https://banana-slug.soe.ucsc.edu/contributors:team_5:discovar_de_novo_manual>
