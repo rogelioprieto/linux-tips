@@ -23,6 +23,7 @@ Compilar usando una versión de ```gcc 4.x```
 ```bash
 $ sudo apt-get install libjemalloc-dev
 $ sudo apt-get install zlib1g-dev
+$ sudo apt install build-essential
 ```
 
 2. Instalar samtools (required if using bam files)
@@ -60,7 +61,16 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 $ sudo update-alternatives --config gcc
 ```
 
-8. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
+8. Installar la biblioteca libieee (lenguaje C/C++).
+```bash
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee.so
+
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee1284.so.3
+
+$ sudo ldconfig
+```
+
+9. Instalar Discovar. Seguir las instrucciones especificadas en el archivo INSTALL. En breve son:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-52488/
@@ -70,7 +80,7 @@ make install
 ```
 donde ```NNNNN``` es la versión, este caso es la versión 52488.
 
-9. Borrar la url del repositorio. Borrar las dos últimas líneas agregadas al archivo.
+10. Borrar la url del repositorio. Borrar las dos últimas líneas agregadas al archivo.
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ``` 

@@ -80,7 +80,7 @@ make install
 ```
 where ```NNNNN``` is the Discovar version, in this example 52488 is the version.
 
-9. Delete the repository url. Open the file and delete the last two lines added previously.
+10. Delete the repository url. Open the file and delete the last two lines added previously.
 ```bash
 $ sudo gedit /etc/apt/sources.list
 ``` 
