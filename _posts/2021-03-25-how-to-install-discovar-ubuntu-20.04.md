@@ -23,6 +23,7 @@ Compile using ```gcc 4.x``` version.
 ```bash
 $ sudo apt-get install libjemalloc-dev
 $ sudo apt-get install zlib1g-dev
+$ sudo apt install build-essential
 ```
 
 2. Install samtools (required if using bam files)
@@ -60,7 +61,16 @@ $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 \
 $ sudo update-alternatives --config gcc
 ```
 
-8. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
+8. Install the libieee library.
+```bash
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee.so
+
+$ sudo ln -sv /usr/lib/x86_64-linux-gnu/libieee1284.so.3.2.2 /usr/lib/x86_64-linux-gnu/libieee1284.so.3
+
+$ sudo ldconfig
+```
+
+9. Install Discovar. Open the INSTALL file and follow the instructions. A short way:
 ```bash
 tar xzf discovardenovo-NNNNN.tar.gz
 cd discovardenovo-52488/
@@ -97,3 +107,9 @@ searching this: _Makefile:288 install-recursive_
 
 <https://stackoverflow.com/questions/27390078/gcc-compiling-c-code-undefined-reference-to-operator-newunsigned-long-lon/27390293>
 
+- Linux: C/C++ Libraries
+
+<http://chenweixiang.github.io/2015/12/18/linux-series-05-libraries.html>
+
+- Discovar de novo manual
+https://banana-slug.soe.ucsc.edu/contributors:team_5:discovar_de_novo_manual
