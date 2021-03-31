@@ -17,3 +17,4 @@ tlmgr repository remove mirror.ctan.org/systems/texlive/tlnet tlmgr option repos
 tlmgr --verify-repo=none install beamer
 ```
 in this example I installed ```beamer``` package succesfully using the ```--verify-repo=none``` parameter.
+
