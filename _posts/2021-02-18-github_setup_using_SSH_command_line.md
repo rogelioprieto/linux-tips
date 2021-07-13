@@ -16,6 +16,10 @@ categories: github
 sudo apt update
 sudo apt install git
 git --version
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+git config --list
+cat ~/.gitconfig
 ```
 2. Connecting to GitHub with SSH. <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
 3. Checking for existing SSH keys.<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys>

@@ -48,4 +48,8 @@ The storage format is a ```.git-credentials``` file, stored in plaintext.
 ```
 git add *.md; git commit -m "added minor changes"; git push -u origin master;
 ```
-
+6. BONUS (*optional*). You can add all files and subfolders, execute all in a line:
+****
+```
+git add .; git commit -m "added minor changes"; git push -u origin master;
+```
