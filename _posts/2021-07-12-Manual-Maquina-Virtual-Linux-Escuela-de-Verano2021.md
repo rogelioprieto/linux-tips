@@ -58,4 +58,4 @@ Sigue los pasos solicitados por el instalador.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/06.jpeg)  
 
 
-¡Felicidades, te esperamos en el inicio del curso!. Revisa el calendario. La primera sesión será el lunes 26/julio/2021.
+¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 26/julio/2021.
