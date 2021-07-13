@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Geología) Manual Maquina Virtual Linux - 2021
+title: (Geología) Manual Máquina Virtual Linux - 2021
 categories: geology
 author: Rogelio Prieto Alvarado
 date: July 11, 2021
