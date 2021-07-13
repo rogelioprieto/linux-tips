@@ -3,7 +3,7 @@ numbersections: true
 lang: es-MX
 title: Reporte de actividades 
 author: Rogelio Prieto Alvarado
-date: Mayo 2021
+date: May 2021
 ---
 
 
