@@ -1,7 +1,3 @@
----
-title: Welcome!
----
-
 # Welcome Linux and Ubuntu fan
 
 Here you will find tips for everyday use GNU/Linux and Ubuntu. 
