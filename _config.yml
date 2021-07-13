@@ -49,7 +49,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-
+show_excerpts: true
 # theme: jekyll-theme-minima
 #remote_theme: jekyll/minima
 #remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
