@@ -1,3 +1,11 @@
+---
+layout: post
+title: Manual Máquina Virtual Linux - 2021
+categories: bioinformatics
+author: Rogelio Prieto Alvarado
+date: March 25, 2021
+---
+
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/Escuela-de-Verano2021-header.png)
 
 En los cursos de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
