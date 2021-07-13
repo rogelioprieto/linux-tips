@@ -63,7 +63,11 @@ Sigue los pasos solicitados por el instalador.
 5.5 Después de terminar el proceso de importación, la máquina virtual estará disponible para usarse.  
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/mv-rhyolite-MELTS-images/07.png)  
 
-**Paso 6.** Ejecutar la máquina virtual. Selecciona la máquina `Ubuntu MATE 20.04` Da clic en el botón `Iniciar`.
+**Paso 6.** Ejecutar la máquina virtual. Selecciona la máquina `Ubuntu MATE 20.04` Da clic en el botón `Iniciar`. 
+
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/mv-rhyolite-MELTS-images/08.png)  
+
+Usuario: `alumnos`  
+Contraseña: `12345678`
 
 ¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 26/julio/2021.
