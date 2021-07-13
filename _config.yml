@@ -49,7 +49,7 @@ minima:
 
 
 # Build settings
-#theme: minima
+#theme: minimal
 remote_theme: jekyll/minima
 
 plugins:
