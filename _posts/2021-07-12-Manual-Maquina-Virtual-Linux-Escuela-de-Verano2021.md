@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manual Maquina Virtual Linux - 2021
+title: Manual Máquina Virtual Linux - Escuela de Verano 2021
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: July 25, 2021
