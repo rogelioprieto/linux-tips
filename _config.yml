@@ -1,3 +1,12 @@
+title: Your awesome title
+author:
+  name: Rogelio Prieto Alvarado	
+  email: rogelioprieto@gmail.com
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  Here I am writing the tips or  the solutions for problems I've faced as a GNU/Linux user.
+  I hope this can help you!
+show_excerpts: false # set to true to show excerpts on the homepage
 
 minima:
   date_format: "%b %-d, %Y"
@@ -38,7 +47,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-# - about.md
+ - about.md
 
 
 # Build settings
