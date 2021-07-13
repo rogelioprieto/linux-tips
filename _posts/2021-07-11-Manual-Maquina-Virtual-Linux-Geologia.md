@@ -8,7 +8,7 @@ date: July 11, 2021
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/mv-rhyolite-MELTS-images/Escuela-de-Verano2021-header.png)
 
-Se desea utilizar el software rhyolite-MELTS v1.0.x que está disponible para ejecutarse en Linux.
+Se desea utilizar el software [rhyolite-MELTS v1.0.x](http://melts.ofm-research.org/) que está disponible para ejecutarse en Linux.
 Para ello, se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
