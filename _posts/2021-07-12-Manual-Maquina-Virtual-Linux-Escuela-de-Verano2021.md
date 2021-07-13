@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - 2021
+title: Manual Maquina Virtual Linux - 2021
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: March 25, 2021
