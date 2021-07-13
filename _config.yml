@@ -42,8 +42,8 @@ header_pages:
 
 
 # Build settings
-#TODOtheme: minima
-remote_theme: jekyll/minima
+theme: minima
+##TODO remote_theme: jekyll/minima
 
 plugins:
  - jekyll-feed
