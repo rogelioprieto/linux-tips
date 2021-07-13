@@ -6,6 +6,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Here I am writing the tips or  the solutions for problems I've faced as a GNU/Linux user.
   I hope this can help you!
+#To display post-excerpts on the Home Page
 show_excerpts: false # set to true to show excerpts on the homepage
 
 minima:
@@ -57,11 +58,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-
-#Enabling Excerpts on the Home Page
-#To display post-excerpts on the Home Page
-#show_excerpts: true
-
 
 # theme: jekyll-theme-minima
 #remote_theme: jekyll/minima
