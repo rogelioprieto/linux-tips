@@ -49,8 +49,8 @@ minima:
 
 
 # Build settings
-#theme: minimal
-remote_theme: jekyll/minima
+theme: minima
+#remote_theme: jekyll/minima
 
 plugins:
  - jekyll-feed
