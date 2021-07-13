@@ -43,7 +43,7 @@ Sigue los pasos solicitados por el instalador.
     b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
     c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
-	![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/01.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/01.png)
 
 **Paso 5.** Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
