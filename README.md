@@ -6,4 +6,8 @@ How to install, setup and custom software tools for all purpose that use  comman
 
 ¡Welcome and save your time!
 
+¡This year, we are celebrating the Linux 30th anniversary!
 
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_1000-617x705.png)
+
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_soc1-705x370-min.jpg)
