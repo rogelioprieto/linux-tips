@@ -11,4 +11,4 @@ How to install, setup and custom software tools for all purpose that use  comman
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_1000-247x282.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_soc1-353x185.jpg)
+
