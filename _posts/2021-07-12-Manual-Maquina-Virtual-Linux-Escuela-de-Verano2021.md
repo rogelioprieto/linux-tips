@@ -47,10 +47,10 @@ Sigue los pasos solicitados por el instalador.
 **Paso 5.** Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
 5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/02.png)
-5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Ubuntu 18.04 Desktop.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/04.png) 
+5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Linux Ubuntu 20.04.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/04.png) 
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/03.png)
-5.3 Aparecerá la ventana `Preferencias del servicio`. Dé clic en `Importar`.  
+5.3 Aparecerá la ventana `Preferencias del servicio`. Desactive la casilla `Controlador USB` y dé clic en `Importar`.  
 5.4 Aparecerá una ventana emergente, espere a que termine el proceso de importación.  
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/05.png)
 5.5 Después de terminar el proceso de importación, la máquina virtual estará disponible para usarse.  
