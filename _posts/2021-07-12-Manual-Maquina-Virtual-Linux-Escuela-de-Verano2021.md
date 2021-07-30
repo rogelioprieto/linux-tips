@@ -8,7 +8,7 @@ date: July 12, 2021
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/Escuela-de-Verano2021-header.png)
 
-En los cursos de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En los cursos (Linux, R, Python y Herramientas colaborativas) de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
