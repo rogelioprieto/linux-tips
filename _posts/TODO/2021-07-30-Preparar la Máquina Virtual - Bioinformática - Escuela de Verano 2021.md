@@ -1,14 +1,57 @@
-# Preparar la Máquina Virtual - Bioinformática - Escuela de Verano 2021
+---
+layout: post
+title: # Manuel para configurar la Máquina Virtual - Bioinformática - Escuela de Verano 2021
+categories: bioinformatics
+author: Rogelio Prieto Alvarado
+date: July 30, 2021
+---
 
-1. Descarga la imagen de la Máquina Virtual.  
-<http://drive.google.com/mimaquinavirtual.vdi>
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/Escuela-de-Verano2021-header.png)
 
-2. Abre `VirtualBox`, clic en el botón `Nuevo`.\
+
+En el curso **	Bioinformática para el Análisis de Genomas Bacterianos**  de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+
+Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+
+**Paso 1.** Descargar el software `Virtual Box` de Oracle.
+
+Para Windows:  
+<https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe>
+
+Para mac OS:  
+<https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-OSX.dmg>
+
+Para Linux  
+<https://www.virtualbox.org/wiki/Linux_Downloads>
+
+
+**Paso 2.** Instalar `VirtualBox`. Para ello ejecuta el archivo que se descargó en el paso anterior.
+
+Sigue los pasos solicitados por el instalador.
+
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/00.png)
+
+
+
+
+**Paso 3.** Descargar la máquina virtual (archivo `.VDI`) que los instructores han preparado. Use este enlace:
+
+[Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
+
+**Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
+	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
+    b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
+    c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
+
+
+clic en el botón `Nuevo`.\
 Escribe los datos del sistema operativo:  
 Nombre: `Ubuntu 20.04`  
 Tipo: `Linux`  
 Versión: `64 bits`  
 Clic en `Siguiente`.
+
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/01.png)
 
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-1.jpg)
 
@@ -36,6 +79,4 @@ Selecciona `Bridged Adapter` y el adaptador que tú estás usando actualmente (e
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-5.jpg)
 
 
-To use Network card that is already connected to Internet, navigate to Network
-Select Bridged Adapter and adapter you are using (for Wifi select wlan and for Lan select eth).
-Further you can play around with settings but these were important to configure. Also keep in mind that changing some settings can be a problem, you may not be able to boot virtual machine then you have to change those settings back.
+NOTA. Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También tenga en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
