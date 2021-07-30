@@ -33,6 +33,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 7. Configurar la red. Para usar la tarjeta de red que ya está conectada a Internet, ve a la opción `Redes`.\
 Selecciona `Bridged Adapter` y el adaptador que tú estás usando actualmente (elige ´wlan´ para Wifi o elige `eth` para red cableada -LAN-).
 
+![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-5.jpg)
 
 
 To use Network card that is already connected to Internet, navigate to Network
