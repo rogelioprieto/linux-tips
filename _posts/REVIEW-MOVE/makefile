@@ -1,6 +1,6 @@
 #setup
 SHELL=/bin/bash
-myfile = 2021-05-30-reporte-actividades-PITUAS-mayo
+myfile = 2021-06-30-reporte-actividades-PITUAS-junio
 
 all:
 	echo "file: $(myfile).md"
