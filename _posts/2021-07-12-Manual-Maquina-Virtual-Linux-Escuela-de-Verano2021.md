@@ -8,7 +8,7 @@ date: July 12, 2021
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/Escuela-de-Verano2021-header.png)
 
-En los cursos (Linux, R, Python y Herramientas colaborativas) de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En los cursos (Linux, R, Python y Herramientas colaborativas) de la «Tercera Escuela de Verano 2021», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
@@ -49,7 +49,7 @@ Sigue los pasos solicitados por el instalador.
 **Paso 5.** Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
 5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/02.png)
-5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Linux Ubuntu 20.04.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/03.png)
+5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Linux Ubuntu 20.04.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/03.png)
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/04.png) 
 
@@ -59,8 +59,9 @@ Sigue los pasos solicitados por el instalador.
 
 5.4 Aparecerá una ventana emergente, espere a que termine el proceso de importación.  
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/06.png)
+
 5.5 Después de terminar el proceso de importación, la máquina virtual estará disponible para usarse.  
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/07.jpeg)  
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/07.png)  
 
 
 ¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 26/julio/2021.
