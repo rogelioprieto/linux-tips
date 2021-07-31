@@ -1,6 +1,6 @@
 ---
 layout: post
-title: # Manuel para configurar la Máquina Virtual - Bioinformática - Escuela de Verano 2021
+title: Manual para configurar la Máquina Virtual - Bioinformática - Escuela de Verano 2021
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: July 30, 2021
