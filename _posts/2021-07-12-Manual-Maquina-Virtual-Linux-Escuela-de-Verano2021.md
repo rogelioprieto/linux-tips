@@ -37,7 +37,9 @@ Sigue los pasos solicitados por el instalador.
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 
 a) Si usas *Windows*, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
+
 b) Si usas _Mac OS_ ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
+
 c) Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/01.png)
