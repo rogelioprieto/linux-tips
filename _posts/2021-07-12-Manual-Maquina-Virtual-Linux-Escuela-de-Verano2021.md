@@ -32,7 +32,6 @@ Sigue los pasos solicitados por el instalador.
 
 
 
-
 **Paso 3.** Descargar la máquina virtual (archivo `.OVA`) que el instructor del curso ha preparado. Use este enlace:
 
 [Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
@@ -42,19 +41,25 @@ Sigue los pasos solicitados por el instalador.
     b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
     c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/01.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/01.png)
+
+
 
 **Paso 5.** Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
-5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/02.png)
-5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Linux Ubuntu 20.04.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/04.png) 
+5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/02.png)
+5.2 Aparecerá una ventana, de clic en el ícono `carpeta` y ubique el archivo que descargó, se llama `Linux Ubuntu 20.04.ova`. Dé clic en `Siguiente`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/03.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/03.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/04.png) 
+
 5.3 Aparecerá la ventana `Preferencias del servicio`. Desactive la casilla `Controlador USB` y dé clic en `Importar`.  
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/05.png)
+
+
 5.4 Aparecerá una ventana emergente, espere a que termine el proceso de importación.  
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/05.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/06.png)
 5.5 Después de terminar el proceso de importación, la máquina virtual estará disponible para usarse.  
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2020-images/06.jpeg)  
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/07.jpeg)  
 
 
 ¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 26/julio/2021.
