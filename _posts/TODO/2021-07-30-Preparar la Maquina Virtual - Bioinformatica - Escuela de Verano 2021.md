@@ -84,9 +84,14 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 
 
-NOTA. Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También tenga en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
+¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 2/agosto/2021.
 
 
+
+**NOTA Final.** Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También ten en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
+
+Referencias útiles:\
+<https://www.osboxes.org/guide/>
 
 
 
