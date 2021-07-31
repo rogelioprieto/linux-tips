@@ -36,7 +36,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.7z]()
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.7z](https://drive.google.com/file/d/16CU4bj159aRyXpCsjsI8p3SGFnoTHq42/view?usp=sharing)
 
 _3.2_ Descomprima el archivo descargado (archivo `Linux Ubuntu 20.04.7z`). Para ello:
 
@@ -102,10 +102,9 @@ Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic 
 **Paso 7.** Una vez que la Máquina Virtual ha sido creada.\
 Selecciona la Máquina Virtual y da clic en `Configuración`.
 
-
 En esta captura de pantalla, puedes observar la cantidad de memoria de video máxima que puede ser asignada a la Máquina Virtual. Si asignas la mayor cantidad posible, la Máquina Virtual puede tener un mejor rendimiento.
 
-También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desctivarla.
+También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desactivarla.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
@@ -120,4 +119,5 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 1. Documentación de Oracle. <https://docs.oracle.com/cd/E26217_01/E26796/html/qs-create-vm.html>
 2. How to attach/configure image with VirtualBox?. <https://www.osboxes.org/guide/>
+3. Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/)
 
