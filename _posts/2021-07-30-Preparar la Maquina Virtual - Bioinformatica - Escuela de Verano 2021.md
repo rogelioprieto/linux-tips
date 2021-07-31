@@ -56,14 +56,17 @@ Aparecerá el archivo `Ubuntu 20.04.vdi` (archivo ya descomprimido) en la misma 
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 
+_4.1_  
+
 a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.  
 
 b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
 
 c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
+_4.2_ 
 
-clic en el botón `Nuevo`.\
+Clic en el botón `Nuevo`.\
 Escribe los datos del sistema operativo:  
 Nombre: `Ubuntu 20.04`  
 Tipo: `Linux`  
