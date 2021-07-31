@@ -38,14 +38,14 @@ _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), 
 
 [![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.7z]()
 
-_3.2_ Descomprima el archivo descargado (archivo `.7z`). Para ello:
+_3.2_ Descomprima el archivo descargado (archivo `Linux Ubuntu 20.04.7z`). Para ello:
 
 a) si usted está utilizando Windows, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
 b) Si está utilizando macOS, a diferencia de Windows, no necesita instalar el software 7-Zip. macOS puede extraer archivos `.7z` con una aplicación ya existente llamada `Archive Utility`.\
 Para abrir el archivo `7z`: 
 
-1. Ubica el archivo .7z en tu Mac. (ubicado en Descargas).
+1. Ubica el archivo `Linux Ubuntu 20.04.7z` en tu Mac. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
 3. Selecciona `Abrir con`  ➙ `Archive Utility`.
 
