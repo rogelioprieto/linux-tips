@@ -78,14 +78,17 @@ Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantid
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02A.png)
 
-**Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`
-Clic el ícono de carpeta (pequeño) para abrir el explorador de archivos, navega al directorio donde está almacenado el archivo .VDI (que descargaste en el Paso 1).
-Selecciona el archivo `Ubuntu 20.04.vdi` y da clic en `OK`.
+**Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`.\
+Clic el ícono de carpeta (pequeño). Aparecerá una ventana, da clic en `Añadir`, navega al directorio donde está almacenado el archivo `.vdi` (que descargaste en el Paso 1).\
+Selecciona el archivo `Linux Ubuntu 20.04-disk001.vdi` y da clic en `Abrir`.
+Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic en el botón `Seleccionar`.
+
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/03A.png)
 
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/04A.png)
+
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/05A.png)
 
@@ -108,12 +111,10 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 2/agosto/2021.
 
 
-
 **NOTA Final.** Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También ten en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
 
-Referencias:\
-<https://docs.oracle.com/cd/E26217_01/E26796/html/qs-create-vm.html>
-<https://www.osboxes.org/guide/>
+### Referencias:
 
-
+1. Documentación de Oracle. <https://docs.oracle.com/cd/E26217_01/E26796/html/qs-create-vm.html>
+2. How to attach/configure image with VirtualBox?. <https://www.osboxes.org/guide/>
 
