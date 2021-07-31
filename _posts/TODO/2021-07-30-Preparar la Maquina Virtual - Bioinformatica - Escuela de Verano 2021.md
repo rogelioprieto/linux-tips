@@ -51,11 +51,9 @@ Clic en `Siguiente`.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/01A.png)
 
-![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-1.jpg)
 
 4. En la siguiente ventana, elige la cantidad de memoria RAM que asignarás a tu Máquina virtual.
 Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
-![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-2.jpg)
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02A.png)
 
@@ -71,7 +69,6 @@ Selecciona el archivo ´Ubuntu 20.04.vdi` y da clic en `OK`.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/05A.png)
 
 
-![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-3.jpg)
 
 
 
@@ -85,19 +82,11 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
-![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-4.jpg)
-
-
-
 
 
 NOTA. Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También tenga en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
 
 
 
-BORRAR.
-7. Configurar la red. Para usar la tarjeta de red que ya está conectada a Internet, ve a la opción `Redes`.\
-Selecciona `Bridged Adapter` y el adaptador que tú estás usando actualmente (elige ´wlan´ para Wifi o elige `eth` para red cableada -LAN-).
 
-![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-5.jpg)
 
