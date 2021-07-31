@@ -90,7 +90,8 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 **NOTA Final.** Es importante asignar una configuración inicial, ya lo hicimos. Además de esto, puedes modificar o  "jugar" con la configuración. También ten en cuenta que cambiar algunas configuraciones puede ser un problema, es posible que no pueda iniciar la máquina virtual y luego tenga que volver a cambiar esas configuraciones.
 
-Referencias útiles:\
+Referencias:\
+<https://docs.oracle.com/cd/E26217_01/E26796/html/qs-create-vm.html>
 <https://www.osboxes.org/guide/>
 
 
