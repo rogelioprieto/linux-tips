@@ -40,7 +40,7 @@ _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), 
 
 _3.2_ Descomprima el archivo descargado (archivo .7z). Para ello:
 
-a) si usted está utilizando Windows, se requiere el software 7zip o Winzip. Se recomienda 7zip por ser de _código abierto_ y gratuito. Para instalar 7zip siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
+a) si usted está utilizando Windows, se requiere el software `7zip` o `Winzip`. Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
 b) Si está utilizando macOS, a diferencia de Windows, no necesita instalar el software 7-Zip. macOS puede extraer archivos .7z con una aplicación ya existente llamada Archive Utility.\
 Para abrir el archivo 7z: 
