@@ -29,14 +29,14 @@ Para Linux
 
 Sigue los pasos solicitados por el instalador.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/00.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/00.png)
 
 
 
 
 **Paso 3.** Descargar la máquina virtual (archivo `.VDI`) que los instructores han preparado. Use este enlace:
 
-[Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
+![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)[Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
