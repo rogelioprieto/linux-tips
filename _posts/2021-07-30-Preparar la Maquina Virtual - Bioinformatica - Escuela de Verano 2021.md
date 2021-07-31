@@ -32,9 +32,27 @@ Sigue los pasos solicitados por el instalador.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/00A.png)
 
 
-**Paso 3.** Descargar la máquina virtual (archivo `.VDI`) que los instructores han preparado. Use este enlace:
+**Paso 3.** Descargar y descomprimir la máquina virtual que los instructores han preparado.
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
+_3.1_ Para descargar la máquina virtual (archivo `.vdi`), use este enlace:
+
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.vdi]()
+
+_3.2_ Descomprima el archivo descargado (archivo .7z). Para ello:
+
+a) si usted está utilizando Windows, se requiere el software 7zip o Winzip. Se recomienda 7zip por ser de _código abierto_ y gratuito. Para instalar 7zip siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
+
+b) Si está utilizando macOS, a diferencia de Windows, no necesita instalar el software 7-Zip. macOS puede extraer archivos .7z con una aplicación ya existente llamada Archive Utility.\
+Para abrir el archivo 7z: 
+
+1. Ubica el archivo .7z en tu Mac. (ubicado en Descargas).
+2. Da clic derecho sobre él para abrir el menú contextual.
+3. Selecciona `Abrir con`  ➙ Archive Utility.
+Aparecerá el archivo `Ubuntu 20.04.vdi` (archivo ya descomprimido) en la misma ubicación (en Descargas). 
+
+
+
+
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 
