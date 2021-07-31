@@ -29,12 +29,12 @@ Para Linux
 
 Sigue los pasos solicitados por el instalador.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/00.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/00A.png)
 
 
 **Paso 3.** Descargar la máquina virtual (archivo `.VDI`) que los instructores han preparado. Use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32pxA.png)Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
@@ -49,7 +49,7 @@ Tipo: `Linux`
 Versión: `64 bits`  
 Clic en `Siguiente`.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/01.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/01A.png)
 
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-1.jpg)
 
@@ -57,18 +57,18 @@ Clic en `Siguiente`.
 Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-2.jpg)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02A.png)
 
 5. Cuando aparezca esta ventana, selecciona la 3ra opción: ´Usar un disco duro virtual existente`.
 Clic el ícono de carpeta (pequeño) para abrir el explorador de archivos, navega al directorio donde está almacenado el archivo .VDI (que descargaste en el Paso 1).
 Selecciona el archivo ´Ubuntu 20.04.vdi` y da clic en `OK`.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/03.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/03A.png)
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/04.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/04A.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/05.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/05A.png)
 
 
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-3.jpg)
@@ -83,7 +83,7 @@ En esta captura de pantalla, puedes observar la cantidad de memoria de video má
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desctivarla.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
 ![](https://www.osboxes.org/wp-content/uploads/2014/09/ot/vbox-4.jpg)
 
