@@ -32,13 +32,14 @@ Sigue los pasos solicitados por el instalador.
 
 
 
-**Paso 3.** Descargar la máquina virtual (archivo `.OVA`) que el instructor del curso ha preparado.\ Use este enlace: [Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
+**Paso 3.** Descargar la máquina virtual (archivo `.OVA`) que el instructor del curso ha preparado.\
+ Use este enlace: [Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
 
 a. Si usas *Windows*, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.\
 b. Si usas _Mac OS_ ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.\
-c. Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.\
+c. Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/01.png)
 
