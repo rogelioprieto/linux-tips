@@ -44,7 +44,6 @@ c. Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/01.png)
 
 
-
 **Paso 5.** Importar la máquina virtual (el archivo `.OVA` que ya fue descargado).
 
 5.1 Elija el menú `Archivo`, la opción `Importar servicio virtualizado`. ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-images/02.png)
