@@ -34,9 +34,9 @@ Sigue los pasos solicitados por el instalador.
 
 **Paso 3.** Descargar y descomprimir la máquina virtual que los instructores han preparado.
 
-_3.1_ Para descargar la máquina virtual (archivo `.vdi`), use este enlace:
+_3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.vdi]()
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.7z]()
 
 _3.2_ Descomprima el archivo descargado (archivo .7z). Para ello:
 
@@ -48,9 +48,9 @@ Para abrir el archivo 7z:
 1. Ubica el archivo .7z en tu Mac. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
 3. Selecciona `Abrir con`  ➙ Archive Utility.
-Aparecerá el archivo `Ubuntu 20.04.vdi` (archivo ya descomprimido) en la misma ubicación (en Descargas). 
 
 
+Aparecerá el archivo `Ubuntu 20.04.vdi` (archivo ya descomprimido) en la misma ubicación (en Descargas). Compruebe esto, antes de continuar al Paso 4.
 
 
 
