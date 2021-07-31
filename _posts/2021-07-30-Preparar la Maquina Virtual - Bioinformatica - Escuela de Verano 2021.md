@@ -37,8 +37,11 @@ Sigue los pasos solicitados por el instalador.
 [![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.ova](https://drive.google.com/file/d/12wth4EfguJgB95OolTBm7J-MwdK7YE03/view?usp=sharing)
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
-	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.
+
+	a) Si usas Windows, ve a menú Inicio y busca el programa, le das clic para ejecutarlo.  
+
     b) Si usas Mac OS ejecuta la aplicación `Launchpad`, desde ahí busca y da clic en `Oracle VM VirtualBox`.
+
     c) Si usas Linux, busca la aplicación en el menú de aplicaciones y ejecuta `Oracle VM VirtualBox`.
 
 
@@ -76,7 +79,7 @@ Selecciona el archivo `Ubuntu 20.04.vdi` y da clic en `OK`.
 Selecciona la Máquina Virtual y da clic en `Configuración`.
 
 
-En esta captura de pantalla, puedes observar la cantidad de memoria de video máxima que puede ser asignada a la Máquina Virtual. Si lo haces, la Máquina Virtual puede tener un mejor rendimiento.
+En esta captura de pantalla, puedes observar la cantidad de memoria de video máxima que puede ser asignada a la Máquina Virtual. Si asignas la mayor cantidad posible, la Máquina Virtual puede tener un mejor rendimiento.
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desctivarla.
 
