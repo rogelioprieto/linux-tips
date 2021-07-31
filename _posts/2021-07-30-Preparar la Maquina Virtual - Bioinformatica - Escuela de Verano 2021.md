@@ -82,9 +82,9 @@ Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantid
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02A.png)
 
 **Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`.\
-Clic el ícono de carpeta (pequeño). Aparecerá una ventana, da clic en `Añadir`, navega al directorio donde está almacenado el archivo `.vdi` (que descargaste en el Paso 1).\
+Clic el ícono de carpeta (2). Aparecerá una ventana, da clic en `Añadir` (3), navega al directorio (4) donde está almacenado el archivo `.vdi` (fue descargado y descomprimido en el Paso 3).\
 Selecciona el archivo `Linux Ubuntu 20.04-disk001.vdi` y da clic en `Abrir`.
-Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic en el botón `Seleccionar`.
+Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic en el botón `Seleccionar`(7).
 
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/03A.png)
