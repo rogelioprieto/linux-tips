@@ -54,5 +54,6 @@ plugins:
 #remote_theme: jekyll/minima
 #remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
+timezone: America/Mazatlan
 
 ##rogelioprieto github site!
