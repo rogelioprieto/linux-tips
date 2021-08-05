@@ -11,8 +11,6 @@ date: August 04, 2021
 Ubuntu no reconoce mi teclado correctamente. Estoy utilizando VirtualBox para ejecutar Ubuntu 20.04 (máquina virtual) en una computadora macOS (máquina _host_) con teclado en español.
 
 
-https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/
-
 ## Solución:
 
 Configurar la distribución de teclado en `Ubuntu 20.04`, deberá elegir `Español (Macintosh)`.
