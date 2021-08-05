@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configurar el teclado si ejecuto una maquina virtual de Ubuntu en macOS
-categories: ["bioinformatics","linux"]
+categories: bioinformatics linux
 author: Rogelio Prieto Alvarado
 date: August 04, 2021
 ---
