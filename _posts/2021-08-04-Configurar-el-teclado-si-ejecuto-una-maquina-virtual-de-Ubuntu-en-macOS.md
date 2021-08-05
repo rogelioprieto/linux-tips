@@ -6,7 +6,7 @@ author: Rogelio Prieto Alvarado
 date: August 04, 2021
 ---
 
-## Problema (escuela de verano):
+## Problema:
 
 Ubuntu no reconoce mi teclado correctamente. Estoy utilizando VirtualBox para ejecutar Ubuntu 20.04 (máquina virtual) en una computadora macOS (máquina _host_) con teclado en español.
 
