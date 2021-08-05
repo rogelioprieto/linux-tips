@@ -53,7 +53,9 @@ Cierre esa ventana, se aceptarán los cambios realizados.
 ¡Listo, hemos terminado! Su teclado está configurado en Ubuntu (máquina virtual) con la distribución de teclado adecuada.
 
 
-
+## Source:
+Ubuntu. Usar distribuciones de teclado alternativas.\ 
+<https://help.ubuntu.com/stable/ubuntu-help/keyboard-layouts.html.es>
 
 
 
