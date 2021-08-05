@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configurar el teclado si ejecuto una maquina virtual de Ubuntu en macOS
+title: Configurar el teclado si ejecuto una máquina virtual de Ubuntu en macOS
 categories: linux
 author: Rogelio Prieto Alvarado
 date: August 04, 2021
