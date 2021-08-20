@@ -25,7 +25,7 @@ LibreOffice is a powerful and free office suite, a successor to OpenOffice(.org)
 sudo snap install libreoffice
 ```
 
-2. Activate Ribbon style interface, Clic View `Menu` -> `User Interface`. Choose `Tabbed` option.
+2. Activate Ribbon style interface, Clic View `Menu` -> `User Interface`. Choose `Tabbed` option, finally `Apply to All`.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface01.png)
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface02.png)
 
