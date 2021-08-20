@@ -1,5 +1,6 @@
 ---
 author: Rogelio Prieto Alvarado
+title: Welcome!
 ---
 
 # Welcome!
