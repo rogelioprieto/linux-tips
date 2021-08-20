@@ -1,8 +1,11 @@
 ---
+layout: post
 title: How to install linux software
-autor: Rogelio Prieto
-date: 2021-05-31
+categories: linux
+author: Rogelio Prieto Alvarado
+date: May 05, 2021
 ---
+
 
 Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu 20.04 MATE to make the typical tasks.
 
@@ -22,8 +25,8 @@ sudo snap install libreoffice
 ```
 
 2. Activate Ribbon style interface, Clic View `Menu` -> `User Interface`. Choose `Tabbed` option.
-![](libreoffice-userinterface01.png)
-![](libreoffice-userinterface02.png)
+![](linux-images/libreoffice-userinterface01.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface01.png)
 
 
 ## Fonts
