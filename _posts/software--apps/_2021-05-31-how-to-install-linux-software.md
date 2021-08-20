@@ -1,3 +1,15 @@
+---
+title: How to install linux software
+autor: Rogelio Prieto
+date: 2021-05-31
+---
+
+Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu 20.04 MATE to make the typical tasks.
+
+I recommend this software because is my fav,  it's the software I use and I've installed in my computer.
+
+The categories are: Office Suite, Fonts, Text Editors, Web Browsers, FTP clients, PDF Software, Converter utilities, LaTeX, Music, Video, Images, Compression, Calendar or todo tasks apps software, 
+
 ## Office suite
 
 ### LibreOffice
@@ -165,6 +177,7 @@ To install pandoc-crossref filter:
 
     
 ## LaTeX (TexLive base distribution)
+
 script:
 /home/rogelio/Downloads/install-latex-pandoc/02_install-texlive-ubuntu-v20.04.sh
 
