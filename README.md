@@ -1,4 +1,4 @@
-# Welcome Linux and Ubuntu fan
+# Welcome Linux and Ubuntu fan!
 
 **Linux in a easy way!**
 
