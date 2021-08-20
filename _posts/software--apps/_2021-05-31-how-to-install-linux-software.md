@@ -26,7 +26,7 @@ sudo snap install libreoffice
 
 2. Activate Ribbon style interface, Clic View `Menu` -> `User Interface`. Choose `Tabbed` option.
 ![](linux-images/libreoffice-userinterface01.png)
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface01.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface02.png)
 
 
 ## Fonts
