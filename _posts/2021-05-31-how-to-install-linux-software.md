@@ -51,10 +51,12 @@ This package allows for easy installation of the Microsoft True Type Core Fonts 
 
 1. Install:
 ```bash
-/home/rogelio/github/linux-tips/_posts/TODO/TODO-install-microsoft-fonts-ubuntu.md
+sudo apt install ttf-mscorefonts-installer
+sudo fc-cache -vr
 ```
 
-
+If you are interested and know more details about microsoft fonts and Linux, you can read:
+[How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/12/how-to-install-microsoft-fonts-ubuntu.html)
 
 ## Text Editors
 
