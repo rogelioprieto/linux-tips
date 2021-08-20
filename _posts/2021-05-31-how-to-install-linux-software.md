@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to install linux software
+title: How to install linux software - my favs apps!
 categories: linux
 author: Rogelio Prieto Alvarado
 date: May 05, 2021
