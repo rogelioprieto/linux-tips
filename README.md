@@ -4,7 +4,7 @@ author: Rogelio Prieto Alvarado
 
 # Welcome!
 
-## Linux and Ubuntu fan
+## Linux and Ubuntu fan
 
 **Linux in a easy way!**
 
