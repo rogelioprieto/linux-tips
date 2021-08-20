@@ -19,4 +19,5 @@ sudo fc-cache -vr
 The first step install them, the second step update cache.
 
 ## Source:  
+[Why Microsoft fonts are not installed by default in Linux?](https://itsfoss.com/install-microsoft-fonts-ubuntu/)
 <https://itsfoss.com/install-microsoft-fonts-ubuntu/>
