@@ -1,8 +1,3 @@
----
-author: Rogelio Prieto Alvarado
-title: Welcome!
----
-
 # Welcome!
 
 ## Linux and Ubuntu fan
