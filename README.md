@@ -1,5 +1,4 @@
 ---
-title: Welcome Linux and Ubuntu fan
 author: Rogelio Prieto Alvarado
 ---
 
