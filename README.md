@@ -2,6 +2,8 @@
 author: Rogelio Prieto Alvarado
 ---
 
+## Welcome Linux and Ubuntu fan
+
 **Linux in a easy way!**
 
 Here you will find tips for everyday use GNU/Linux and Ubuntu. 
