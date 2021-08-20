@@ -1,4 +1,7 @@
-# Welcome Linux and Ubuntu fan
+---
+title: Welcome Linux and Ubuntu fan
+author: Rogelio Prieto Alvarado
+---
 
 **Linux in a easy way!**
 
