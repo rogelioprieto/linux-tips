@@ -1,3 +1,19 @@
+## Office suite
+
+### LibreOffice
+
+LibreOffice is a powerful and free office suite, a successor to OpenOffice(.org), used by millions of people around the world. Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. LibreOffice includes several applications that make it the most versatile Free and Open Source office suite on the market: Writer (word processing), Calc (spreadsheets), Impress (presentations), Draw (vector graphics and flowcharts), Base (databases), and Math (formula editing).
+
+1. Install:
+```bash
+sudo snap install libreoffice
+```
+
+2. Activate Ribbon style interface, Clic View `Menu` -> `User Interface`. Choose `Tabbed` option.
+![](libreoffice-userinterface01.png)
+![](libreoffice-userinterface02.png)
+
+
 ## Fonts
 ### Microsoft fonts.
 
@@ -20,8 +36,44 @@ This package allows for easy installation of the Microsoft True Type Core Fonts 
 /home/rogelio/github/linux-tips/_posts/TODO/TODO-install-microsoft-fonts-ubuntu.md
 ```
 
+
+
+## Text Editors
+
+### ReText
+A markdown editor with live preview capabilities.
+
+```bash
+sudo apt install retext
+
+```
+
+### VScodium
+Website:  
+<https://vscodium.com/#install>
+
+1. Add the GPG key of the repository:
+```bash
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
+```bash
+
+2. Add the repository:
+```bash
+echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+```
+
+3. Update then install vscodium:
+
+```bash
+sudo apt update && sudo apt install codium 
+```
+
+
+
+
 ## Web browsers
 
+Firefox is installed in Ubuntu, if you want another web browser try Chromium (Google Chrome is based in Chromium). 
 ### Chromium
 ```bash
 sudo apt-get install chromium-browser
@@ -83,35 +135,6 @@ pdftk is a command-line tool for working with PDF files. It is commonly used for
 $ sudo snap install pdftk
 ```
 
-## Text Editors
-
-### ReText
-A markdown editor with live preview capabilities.
-
-```bash
-sudo apt install retext
-
-```
-
-### VScodium
-Website:  
-<https://vscodium.com/#install>
-
-1. Add the GPG key of the repository:
-```bash
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
-```bash
-
-2. Add the repository:
-```bash
-echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
-```
-
-3. Update then install vscodium:
-
-```bash
-sudo apt update && sudo apt install codium 
-```
 
 
 
