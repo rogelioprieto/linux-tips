@@ -77,6 +77,6 @@ c. Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/07.png)  
 
 
-¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el jueves 26/agosto/2021.
+¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/diplomado-en-bioinformatica/). La primera sesión de Linux será el jueves 26/agosto/2021.
 
 **PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Se tendrá una sesión de asesoría el día Miércoles 25/agosto/2021 para resolver preguntas o problemas específicos.
