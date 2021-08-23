@@ -102,12 +102,19 @@ sudo apt-get install chromium-browser
 
 ### WhatsDesk
 
+If you need a WhatsApp client in Linux, is not a official app.
+WhatsDesk is a good option!
 
+Install:
+
+```bash
+$ sudo snap install whatsdesk
+```
 ### Franz
 
 «Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and many many more.»
 
-Multiplattform chat software available for Linux, Windows and MacOS. 
+Multiplattform chat software available for Linux, Windows and MacOS. And have a simple TO DO tasks  manager too!. 
 
 https://meetfranz.com/
 
