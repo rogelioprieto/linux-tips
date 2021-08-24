@@ -34,20 +34,20 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Linux Ubuntu 20.04.7z](https://drive.google.com/file/d/16CU4bj159aRyXpCsjsI8p3SGFnoTHq42/view?usp=sharing)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Ubuntu Desktop 20.04 Bioinformatica.ova.7z](https://drive.google.com/file/d/16CU4bj159aRyXpCsjsI8p3SGFnoTHq42/view?usp=sharing)
 
-_3.2_ Descomprima el archivo descargado (archivo `Linux Ubuntu 20.04.7z`). Para ello:
+_3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinformatica.ova.7z`). Para ello:
 
 a) si usted está utilizando Windows, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
 b) Si está utilizando macOS, requiere utilizar el software [The Unarchiver](https://theunarchiver.com/). Para instalarlo solo ingrese al link y elija `Instalar desde la App Store`. Una vez instalada la aplicación, deberá abrir el archivo `.7z`: 
 
-1. Ubica el archivo `Linux Ubuntu 20.04.7z` en tu Mac. (ubicado en Descargas).
+1. Ubica el archivo `Ubuntu Desktop 20.04 Bioinformatica.ova.7z` en tu Mac. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
 3. Selecciona `Abrir con`  ➙ `The Unarchiver.app`.
 
 
-Aparecerá el archivo `Ubuntu 20.04.ova` (archivo ya descomprimido) en la misma ubicación (en Descargas). Compruebe esto, antes de continuar al Paso 4.
+Aparecerá el archivo `Ubuntu Desktop 20.04 Bioinformatica.ova` (archivo ya descomprimido) en la misma ubicación (en `Descargas`). Compruebe esto, antes de continuar al Paso 4.
 
 
 **Paso 4.** Ejecutar el software `Oracle VM VirtualBox`.
