@@ -166,7 +166,8 @@ Using `pdftk` is a tool to edit pdf files:  divide, combine, encrypt, decrypt, d
 $ sudo snap install pdftk
 ```
 
-Examples of use:
+2. Examples of use:
+
 a) Cut or extract some pages:
 ```bash
 pdftk first.pdf cat 2 5 6 9 output 1.pdf 
