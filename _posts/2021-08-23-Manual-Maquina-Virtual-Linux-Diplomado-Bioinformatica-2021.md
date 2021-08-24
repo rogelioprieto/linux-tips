@@ -34,7 +34,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Ubuntu Desktop 20.04 Bioinformatica.ova.7z](https://drive.google.com/file/d/16CU4bj159aRyXpCsjsI8p3SGFnoTHq42/view?usp=sharing)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Ubuntu Desktop 20.04 Bioinformatica.ova.7z](https://drive.google.com/drive/folders/1-o-3pwf8oLXQz88wJsc1lJY5HIrVhOrt)
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinformatica.ova.7z`). Para ello:
 
