@@ -79,4 +79,5 @@ c. Si usas _Linux_, busca la aplicación en el menú de aplicaciones y ejecuta `
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/diplomado-en-bioinformatica/). La primera sesión de Linux será el **jueves 26/agosto/2021**.
 
-**PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Se tendrá una sesión de asesoría el día **Miércoles 25/agosto/2021 6:00 pm** para resolver preguntas o problemas específicos.
+**PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.
+También, se tendrá una sesión de asesoría el día **Miércoles 25/agosto/2021 6:00 pm** para resolver preguntas o problemas específicos. 
