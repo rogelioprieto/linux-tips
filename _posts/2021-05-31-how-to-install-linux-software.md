@@ -156,11 +156,28 @@ $ snap install okular
 
 ### Pdftk
 
-pdftk is a command-line tool for working with PDF files. It is commonly used for client-side scripting or server-side processing of PDF files.
+`pdftk` is a command-line tool for working with PDF files. It is commonly used for client-side scripting or server-side processing of PDF files.
 
+Using `pdftk` is a tool to edit pdf files:  divide, combine, encrypt, decrypt, decompress, recompress and repair.
+
+
+1. Install
 ```bash
 $ sudo snap install pdftk
 ```
+
+Examples of use:
+a) Cut or extract some pages:
+```bash
+pdftk first.pdf cat 2 5 6 9 output 1.pdf 
+```
+
+b) Extract some pages from 2 files:
+```bash
+pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
+```
+
+
 
 
 
