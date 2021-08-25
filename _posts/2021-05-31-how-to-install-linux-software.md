@@ -195,12 +195,12 @@ Execute this script:
 
 pandoc-crossref is a pandoc filter for numbering figures, equations, tables and cross-references to them.
 
-website:
+website:  
 <https://github.com/lierdakil/pandoc-crossref>
 
 To install pandoc-crossref filter:
 
-1. Download
+1. Download  
 <https://github.com/lierdakil/pandoc-crossref/releases/tag/v0.3.11.0a>
 
 2. Install, execute this script:
