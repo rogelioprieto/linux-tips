@@ -11,3 +11,11 @@ How to install, setup and custom software tools for all purpose that use  comman
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_1000-247x282.png)
 
 
+
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+
+This work and repositorie is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/)
+
+
