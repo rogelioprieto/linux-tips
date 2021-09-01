@@ -6,6 +6,8 @@
 ```
 sudo adduser $USER vboxsf
 ```
+3. log out and log in  Ubuntu session again.
+
 
 
 ## Source:
