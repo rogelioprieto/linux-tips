@@ -239,6 +239,19 @@ sudo apt-get install lollypop
 Choose `Preferences->Music(tab)` and add your `music folder.`
 
 
+## Pulse Effects
+A graphical equalizer.
+
+1. Install 
+´´´bash
+sudo apt install -y pulseeffects lsp-plugins
+
+´´´
+
+2. Search and open the application `PulseEffects` 
+
+
+
 ## Video 
 
 ### VLC player
