@@ -10,10 +10,7 @@ Here I am writing the tips or the solutions for problems I've faced as a GNU/Lin
 I hope this can help you!
 
 
-
-![](firma-Rogelio-Prieto02.png)
-
-![](firma-Rogelio-Prieto03.png)
+![](firma-Rogelio-Prieto.png)
 
 
 You can see or install **my favorite apps**:\
