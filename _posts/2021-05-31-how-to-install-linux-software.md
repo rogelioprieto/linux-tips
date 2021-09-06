@@ -228,6 +228,32 @@ sudo apt-get install texstudio
 ```bash
 sudo apt-get install equalx
 ```
+
+### Jab Ref - Bibliography manager
+
+JabRef is an open source bibliography reference manager. The native file format used by JabRef is BibTeX, the standard LaTeX bibliography format.
+
+There are two versions available in repositories:
+
+Install 5.3.450 version:
+
+```bash
+sudo snap install jabref
+```
+
+or install 3.8.2 version.
+```bash
+sudo apt-get install jabref
+```
+
+
+
+
+
+
+
+
+
 ## Music
 ### Lollypop
 1. Install the app using the Terminal.
