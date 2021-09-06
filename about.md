@@ -10,8 +10,7 @@ Here I am writing the tips or the solutions for problems I've faced as a GNU/Lin
 I hope this can help you!
 
 
-![](firma-Rogelio-Prieto.png)
-
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/about-firma-Rogelio-Prieto.png)
 
 You can see or install **my favorite apps**:\
 <https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html>
