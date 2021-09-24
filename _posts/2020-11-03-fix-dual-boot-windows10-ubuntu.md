@@ -31,7 +31,7 @@ You can also try to deactivate fast boot function of Windows 10 to access the GR
 4. Click on the `Change settings currently unavailable` control panel power options
 ![](http://kmpic.asus.com/images/2021/03/10/476772b2-09b0-4448-beff-825d9a08833d.png)
 5. Uncheck the item `Turn on fast start up (recommended)`
-![](https://cdn.windowsreport.com/wp-content/uploads/2018/08/turn-on-fast-start-up.png)
+![](http://kmpic.asus.com/images/2021/03/10/2185acca-7b8e-4f02-a41f-cc42f8058f76.png)
 
 
 
