@@ -10,9 +10,13 @@ Click Advance in the right bottom corner.
 Click on the Change.. under who has access.
 Make it On- Public on the web.
 Click Save button.
-Copy the link for sharing…like…https://drive.google.com/file/d/1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA/view?usp=sharing
-Extrac FILEID part like….from above….1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA
+Copy the link for sharing…like…
+
+https://drive.google.com/file/d/1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA/view?usp=sharing
+
+Extract FILEID part like….from above….1UibyVC_C2hoT_XEw15gPEwPW4yFyJFeOEA
 SO for small file run following command on your terminal:
+
 
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAMEIn the above command change the FILEID by above id extracted and rename FILENAME for your own simple use.
 

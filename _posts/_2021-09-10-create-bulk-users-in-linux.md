@@ -1,0 +1,1 @@
+<https://www.2daygeek.com/linux-bulk-users-creation-useradd-newusers/>

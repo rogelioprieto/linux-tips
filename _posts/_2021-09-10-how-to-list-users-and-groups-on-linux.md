@@ -1,0 +1,1 @@
+<https://devconnected.com/how-to-list-users-and-groups-on-linux/>
