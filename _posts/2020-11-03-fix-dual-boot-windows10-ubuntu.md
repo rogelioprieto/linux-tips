@@ -38,5 +38,5 @@ You can also try to deactivate fast boot function of Windows 10 to access the GR
 
 Source:
 
-<https://windowsreport.com/fix-dual-boot-windows-10-ubuntu/>\ 
+<https://windowsreport.com/fix-dual-boot-windows-10-ubuntu/>\
 <https://www.asus.com/support/FAQ/1045548/>
