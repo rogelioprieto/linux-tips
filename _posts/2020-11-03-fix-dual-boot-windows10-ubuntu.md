@@ -17,7 +17,7 @@ The simplest way to try to solve this issue is by using the Command Prompt from 
 
 4. Restart your computer.
 
-**¡IMPORTANT! TRY SOLUTION 01 FIRST. IF NOT WORKS, AFTER THAT TRY SOLUTION 02**
+**¡IMPORTANT! TRY SOLUTION 01 FIRST. if not works, after that try Solution 02.**
 
 ## Solution 2: Disable Fast Boot
 
