@@ -93,7 +93,7 @@ Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic 
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/05.png)
 
-
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/06.png)
 
 
 
@@ -104,7 +104,7 @@ En esta captura de pantalla, puedes observar la cantidad de memoria de video má
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desactivarla.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/06.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/07.png)
 
 **Paso 8.** Inicia (ejecuta) la Máquina Virtual creada.\
 Selecciona la Máquina Virtual (MV) y da clic en `Iniciar`. Deberá iniciar la MV con Windows 10.
