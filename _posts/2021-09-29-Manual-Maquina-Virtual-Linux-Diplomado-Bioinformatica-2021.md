@@ -116,4 +116,4 @@ Selecciona la Máquina Virtual (MV) y da clic en `Iniciar`. Deberá iniciar la M
 
 
 **PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
-También, se tendrá una sesión de asesoría el día **Miércoles 29/septiembre/2021 6:30 pm** para resolver preguntas o problemas específicos.
+
