@@ -3,7 +3,7 @@ layout: post
 title: (Opción 02) Manual Máquina Virtual Linux - Diplomado en Bioinformática 2021 
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
-date: August 27, 2021
+date: September 29, 2021
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/DipBio-header-01.jpg)
