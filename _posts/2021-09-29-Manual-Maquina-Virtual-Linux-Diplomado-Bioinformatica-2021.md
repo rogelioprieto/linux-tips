@@ -71,7 +71,7 @@ Tipo: `Linux`
 Versión: `64 bits`  
 Clic en `Siguiente`.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/01A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/01.png)
 
 
 **Paso 5.** En la siguiente ventana, elige la cantidad de memoria RAM que asignarás a tu Máquina virtual.
