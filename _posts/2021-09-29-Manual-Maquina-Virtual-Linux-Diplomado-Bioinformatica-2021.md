@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Opción 02) Manual Máquina Virtual Linux - Diplomado en Bioinformática 2021 
+title:  Manual Máquina Virtual - Módulo Análisis bioinformático I - Diplomado en Bioinformática 2021
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: September 29, 2021
