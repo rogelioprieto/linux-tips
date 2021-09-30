@@ -77,7 +77,7 @@ Clic en `Siguiente`.
 **Paso 5.** En la siguiente ventana, elige la cantidad de memoria RAM que asignarás a tu Máquina virtual.
 Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/02A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/02.png)
 
 **Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`.\
 Clic el ícono de carpeta (2). Aparecerá una ventana, da clic en `Añadir` (3), navega al directorio (4) donde está almacenado el archivo `.vdi` (fue descargado y descomprimido en el Paso 3).\
@@ -85,13 +85,13 @@ Selecciona el archivo `Linux Ubuntu 20.04-disk001.vdi` y da clic en `Abrir`.
 Finalmente, (6) selecciona la línea `Linux Ubuntu 20.04-disk001.vdi` y da clic en el botón `Seleccionar`(7).
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/03A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/03.png)
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/04A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/04A.png)
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/05A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/05.png)
 
 
 
@@ -104,7 +104,7 @@ En esta captura de pantalla, puedes observar la cantidad de memoria de video má
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desactivarla.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/modbioinfoI/06.png)
 
 **Paso 8.** Inicia (ejecuta) la Máquina Virtual creada.\
 Selecciona la Máquina Virtual (MV) y da clic en `Iniciar`. Deberá iniciar la MV con Windows 10.
