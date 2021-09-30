@@ -111,7 +111,7 @@ Selecciona la Máquina Virtual (MV) y da clic en `Iniciar`. Deberá iniciar la M
 
 
 
-¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/diplomado-en-bioinformatica/). La primera sesión de Linux será el **jueves 30/septiembre/2021**.
+¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/diplomado-en-bioinformatica/). La primera sesión de «Análisis bioinformático I» será el **jueves 30/septiembre/2021**.
 
 
 
