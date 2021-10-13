@@ -348,10 +348,15 @@ Another option is install "Save image as PNG"
 
 ### shutter - The feature-rich screenshot tool
 
+Website: <https://shutter-project.org/>
+
+How to install:
 ```bash
-sudo snap install shutter
+sudo add-apt-repository ppa:shutter/ppa
+sudo apt install shutter
+sudo apt install gir1.2-appindicator3-0.1
 ```
-<https://shutter-project.org/>
+
 
 
 ### ksnip
