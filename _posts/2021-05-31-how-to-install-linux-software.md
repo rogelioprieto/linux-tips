@@ -346,6 +346,7 @@ Another option is install "Save image as PNG"
 <https://chrome.google.com/webstore/detail/save-image-as-png/nkokmeaibnajheohncaamjggkanfbphi>
 
 
+
 ### shutter - The feature-rich screenshot tool
 
 Website: <https://shutter-project.org/>
