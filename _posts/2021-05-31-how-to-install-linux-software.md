@@ -6,8 +6,6 @@ author: Rogelio Prieto Alvarado
 date: May 05, 2021
 ---
 
-
-
 Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu 20.04 MATE to make the typical tasks.
 
 I recommend this software because is my fav,  it's the software I use and I've installed in my computer.
