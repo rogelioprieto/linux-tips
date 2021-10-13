@@ -75,7 +75,7 @@ Website:
 1. Add the GPG repository key:
 ```bash
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
-```bash
+```
 
 2. Add the repository:
 ```bash
