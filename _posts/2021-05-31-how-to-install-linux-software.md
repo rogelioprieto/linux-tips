@@ -72,7 +72,7 @@ sudo apt install retext
 Website:  
 <https://vscodium.com/#install>
 
-1. Add the GPG key of the repository:
+1. Add the GPG repository key:
 ```bash
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
 ```bash
@@ -86,6 +86,33 @@ echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium mai
 
 ```bash
 sudo apt update && sudo apt install codium 
+```
+
+### Sublime Text (Versión 4)
+Website:\
+<https://www.sublimetext.com/download>
+
+
+1.  Install the GPG key:
+```bash
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+```bash
+
+2.  Ensure apt is set up to work with https sources: 
+```bash
+sudo apt-get install apt-transport-https
+```
+
+3. Add the repository:
+```bash
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+
+3.  Update apt sources and install Sublime Text:
+
+```bash
+sudo apt-get update
+sudo apt-get install sublime-text
 ```
 
 
