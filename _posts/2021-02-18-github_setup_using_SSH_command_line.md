@@ -42,24 +42,19 @@ ssh-keygen -t ed25519 -C "rogelioprieto@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
-xclip 
-xclipboard 
-xclipboard -selection clipboard < ~/.ssh/id_ed25519.pub
 sudo apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPa6j40nxVIAAK8wIuk6x7Ya6rDmbHcbCHJ3oFAnA6Ss rogelioprieto@gmail.com
-ignore the command beforessh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPa6j40nxVIAAK8wIuk6x7Ya6rDmbHcbCHJ3oFAnA6Ss rogelioprieto@gmail.comss
-h-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPa6j40nxVIAAK8wIuk6x7Ya6rDmbHcbCHJ3oFAnA6Ss rogelioprieto@gmail.com!
-dfdf
+#Test ssh connection
 ssh -T git@github.com
-git clone git@github.com:rogelioprieto/linux-tips.git
-ls -la
+mkdir ~/github
+cd github
 cd /home/rogelio/github/
 git clone git@github.com:rogelioprieto/linux-tips.git
 git status
+ls -la
 cd linux-tips
 git status
-git add *
+git add .
 git status
 git commit -m "added minor changes"
 git push -u origin master
