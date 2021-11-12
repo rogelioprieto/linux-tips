@@ -9,9 +9,6 @@ categories: github
 
 
 ### updated July 2021
-![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/menu-32px.png)
-![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/winner-32px.png)
-![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/favourite-32px.png)
 
 
 1. How to Install Git on Ubuntu 20.04  
