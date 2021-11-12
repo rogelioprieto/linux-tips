@@ -14,6 +14,12 @@ I hope this can help you!
 
 You can see or install **my favorite apps**:\
 <https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html>
+[![winner-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/winner-32px.png)How to install linux software](https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html)
+
+
+
 
 You can see all the **tips and posts** here:\
+[![apps-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/menu-32px.png)Tips and posts](https://rogelioprieto.github.io/linux-tips/)
+
 <https://rogelioprieto.github.io/linux-tips/>
