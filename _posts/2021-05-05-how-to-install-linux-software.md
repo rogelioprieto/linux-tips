@@ -353,6 +353,7 @@ How to install:
 ```bash
 sudo add-apt-repository ppa:shutter/ppa
 sudo apt install shutter
+sudo apt install gnome-web-photo
 sudo apt install gir1.2-appindicator3-0.1
 ```
 
