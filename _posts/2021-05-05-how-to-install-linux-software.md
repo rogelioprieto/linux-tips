@@ -260,7 +260,7 @@ JabRef is an open source bibliography reference manager. The native file format 
 
 There are two versions available in repositories:
 
-Install 5.3.450 version:
+Install 5.3 version:
 
 ```bash
 sudo snap install jabref
