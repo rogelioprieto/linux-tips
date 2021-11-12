@@ -9,7 +9,7 @@ categories: github
 
 
 ### updated July 2021
-
+![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/assets/icons/menu-32px.png)
 1. How to Install Git on Ubuntu 20.04  
 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
 ```bash
@@ -46,6 +46,7 @@ sudo apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 #Test ssh connection
 ssh -T git@github.com
+#make dir and clone
 mkdir ~/github
 cd github
 cd /home/rogelio/github/
