@@ -21,8 +21,3 @@ You can see or install **my favorite apps**:\
 You can see all the **tips and posts** here:\
 [![apps-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/menu-32px.png) Tips and posts](https://rogelioprieto.github.io/linux-tips/)
 
-
-
-<https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html>
-
-<https://rogelioprieto.github.io/linux-tips/>
