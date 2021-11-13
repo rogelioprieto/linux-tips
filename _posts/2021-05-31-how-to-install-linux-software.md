@@ -389,6 +389,19 @@ How to use, example:
 unrar e ia.rar
 ```
 
+## Network tools
+
+
+### linssid
+
+LinSSID is a simple graphical software that can be used to find the wireless networks available and channels. It is completely open source, written in C++ using Linux wireless tools, Qt5, and Qwt 6.1., and is similar to Inssider (MS Windows) in terms of look and functionality.
+
+How to install:
+```bash
+sudo apt-get install linssid
+```
+<https://sourceforge.net/projects/linssid/>
+
 ## Calendar or todo tasks apps
 
 ### Todoist
@@ -413,7 +426,6 @@ Happy organizing!
 How to install:
 ```bash
 sudo snap install todoist
-
 ```
 Source:\
 <https://todoist.com/es/downloads>
