@@ -403,6 +403,7 @@ sudo apt-get install linssid
 ```
 <https://sourceforge.net/projects/linssid/>
 
+
 ## Calendar or todo tasks apps
 
 ### Todoist
@@ -430,3 +431,28 @@ sudo snap install todoist
 ```
 Source:\
 <https://todoist.com/es/downloads>
+
+
+## Video call or web conferences
+
+### OBS Studio
+Free and open source software for video recording and live streaming.
+
+OBS Studio allows you to use virtual background (replace your background), add captions or images. You can stream your screen too.
+
+How to install:
+```
+sudo apt install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt install obs-studio
+```
+After install OBS Studio. You need to install the virtual cam:\
+```
+sudo apt install linux-headers-$(uname -r) v4l2loopback-dkms
+```
+The virtual cam will allow you to use your webcam in a webconference software: Google Meet, Zoom, etc.
+
+website:\
+<https://obsproject.com/es/download>
+
+
