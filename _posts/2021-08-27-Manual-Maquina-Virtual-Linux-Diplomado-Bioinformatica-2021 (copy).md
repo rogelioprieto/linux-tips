@@ -3,7 +3,7 @@ layout: post
 title: Manual Máquina Virtual Linux - Bioinformática 2021 
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
-date: August 27, 2021
+date: Noviembre 16, 2021
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2021-images/bioinformatics-adn-letras.png)
