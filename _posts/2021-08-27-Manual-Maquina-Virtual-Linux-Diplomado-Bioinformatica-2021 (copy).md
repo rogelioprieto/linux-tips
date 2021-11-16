@@ -1,14 +1,14 @@
 ---
 layout: post
-title: (Opción 02) Manual Máquina Virtual Linux - Diplomado en Bioinformática 2021 
+title: Manual Máquina Virtual Linux - Bioinformática 2021 
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: August 27, 2021
 ---
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/DipBio-header-01.jpg)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2021-images/bioinformatics-adn-letras.png)
 
-En los cursos del «Diplomado en Bioinformática 2021», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En los cursos «Introducción a GNU/Linux» y «Python para Bioinformática» de la materia «Tópicos Selectos», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
@@ -108,7 +108,10 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 
 
-¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/diplomado-en-bioinformatica/). La primera sesión de Linux será el **jueves 26/agosto/2021**.
+¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
+La primera sesión de Linux será el **lunes 16/noviembre/2021**
+- 16:00 horas. Asesoría para responder preguntas o problemas específicos de este manual.
+- 17:00 horas. Primera sesión.
 
-**PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
-También, se tendrá una sesión de asesoría el día **Miércoles 25/agosto/2021 6:00 pm** para resolver preguntas o problemas específicos.
+**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
+También, puede asistir a la sesión de asesoría.
