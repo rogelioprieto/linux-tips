@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - Bioinformática 2021 (Tópicos selectos)
+title: Manual Máquina Virtual Linux - Bioinformática 2021 - Tópicos selectos
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 date: Noviembre 16, 2021
