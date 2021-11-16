@@ -114,11 +114,11 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 La primera sesión de Linux será el **lunes 16/noviembre/2021**
 - **16:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-Enlace a la videollamada (Google Meet): <https://meet.google.com/htj-ifqn-qir>
+🟢Enlace a la videollamada (Google Meet): <https://meet.google.com/htj-ifqn-qir>
 O marca el: ‪(US) +1 502-622-8067‬ PIN: ‪701 662 995‬#
 
 - **17:00 horas.** Primera sesión.\
-Enlace a la videollamada(Google Meet): <https://meet.google.com/yna-cayk-rdq>
+🟢Enlace a la videollamada(Google Meet): <https://meet.google.com/yna-cayk-rdq>
 O marca el: ‪(US) +1 470-443-0514‬ PIN: ‪501 338 070‬#
 
 **PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
