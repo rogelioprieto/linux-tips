@@ -110,8 +110,11 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 La primera sesión de Linux será el **lunes 16/noviembre/2021**
-- 16:00 horas. Asesoría para responder preguntas o problemas específicos de este manual.
-- 17:00 horas. Primera sesión.
+- **16:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.  
+Enlace a la videollamada (Google Meet): <https://meet.google.com/htj-ifqn-qir>
+O marca el: ‪(US) +1 502-622-8067‬ PIN: ‪701 662 995‬#
+
+- **17:00 horas.** Primera sesión.
 
 **PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
 También, puede asistir a la sesión de asesoría.
