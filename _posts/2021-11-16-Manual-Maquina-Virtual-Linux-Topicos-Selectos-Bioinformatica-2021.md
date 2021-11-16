@@ -107,6 +107,9 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
 
+**Paso 8.** Ejecutar la Máquina Virtual. Selecciona la Máquina Virtual y da clic en el botón `Iniciar`.\
+
+
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 La primera sesión de Linux será el **lunes 16/noviembre/2021**
