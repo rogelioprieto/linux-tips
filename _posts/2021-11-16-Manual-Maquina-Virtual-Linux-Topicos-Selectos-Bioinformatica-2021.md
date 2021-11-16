@@ -118,8 +118,7 @@ Enlace a la videollamada (Google Meet): <https://meet.google.com/htj-ifqn-qir>
 O marca el: ‪(US) +1 502-622-8067‬ PIN: ‪701 662 995‬#
 
 - **17:00 horas.** Primera sesión.\
-Enlace a la videollamada(Google Meet): <https://meet.google.com/yna-cayk-rdq>
-O marca el: ‪(US) +1 470-443-0514‬ PIN: ‪501 338 070‬#
+<https://meet.google.com/yna-cayk-rdq> Enlace a la videollamada(Google Meet) o marca el: ‪(US) +1 470-443-0514‬ PIN: ‪501 338 070‬#
 
 **PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
 También, puede asistir a la sesión de asesoría.
