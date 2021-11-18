@@ -69,7 +69,7 @@ VBoxManage modifyhd /path/to/thedisk.vdi --compact
 
 ## brief explanation:
 
-First, stop all processes writing to the disk so you don't get mount /: mount busy error
+First, stop all processes writing to the disk so you don't get `mount /: mount busy` error
 ```
 systemctl stop systemd-journald.socket
 systemctl stop systemd-journald.service
@@ -96,8 +96,7 @@ zerofree -v /dev/sda1
 ```
 Whens zerofree is done, shutdown Ubuntu
 ```
-halt
-```
+halt`
 
 
 
