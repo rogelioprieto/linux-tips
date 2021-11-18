@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "write here the title!!!!"
+title: "How to shrink vdi virtual disk in virtual box to reduce filesize"
 categories: github virtualbox
 ---
 
