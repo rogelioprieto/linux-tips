@@ -67,22 +67,37 @@ VBoxManage modifyhd /path/to/thedisk.vdi --compact
 ========
 
 
-https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04
+## brief explanation:
 
-systemctl stop systemd-journald.socket && systemctl stop systemd-journald.service && sudo swapoff -a && mount -n -o remount,ro -t ext2 /dev/sda1 / && zerofree /dev/sda1
-
+First, stop all processes writing to the disk so you don't get mount /: mount busy error
+```
 systemctl stop systemd-journald.socket
 systemctl stop systemd-journald.service
+```
 
+Check if any swap partitions are enabled:
+```
 swapon -s
+```
 
 If enabled, then disable them:
+```
 sudo swapoff -a
+```
+
+Then finally you should be able to mount dev/sda1 as read-only. (Your filesystem type might be different from ext2. To find the filesystem, run df -T)
+```
 mount -n -o remount,ro -t ext2 /dev/sda1 /
+```
 
+Then finally run zerofree
+```
 zerofree -v /dev/sda1
-
+```
+Whens zerofree is done, shutdown Ubuntu
+```
 halt
+```
 
 
 
