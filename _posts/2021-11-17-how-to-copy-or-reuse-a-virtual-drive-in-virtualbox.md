@@ -6,7 +6,7 @@ categories: github virtualbox
 
 ## Problem: 
 
-You copy a .vdi file (virtual drive) and you get an error when create a new Virtual Machine using this .vdi file.
+You copy a `.vdi` file (virtual drive) and you get an error when create a new Virtual Machine in Virtual Box using this `.vdi` file.
 
 ## Solution:
 To solve it, you can assing another `UUID` or clone the file using the `VBoxManage` tool.
