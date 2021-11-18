@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2021-11-17 how to copy or reuse a .vdi virtual drive  in virtualbox"
+title: "how to copy or reuse a .vdi virtual drive  in virtualbox"
 categories: virtualbox
 ---
 
