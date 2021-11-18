@@ -17,7 +17,7 @@ categories: github
 sudo apt update
 sudo apt install git
 git --version
-git config --global user.name "Your Name"
+git config --global user.name "YourUsername"
 git config --global user.email "youremail@yourdomain.com"
 git config --list
 cat ~/.gitconfig
@@ -36,10 +36,10 @@ sudo apt update
 sudo apt install git
 git --version
 git config --global user.name "rogelioprieto"
-git config --global user.email "rogelioprieto@gmail.com"
+git config --global user.email "roprieto@gmail.com"
 git config --list
 ls -al ~/.ssh
-ssh-keygen -t ed25519 -C "rogelioprieto@gmail.com"
+ssh-keygen -t ed25519 -C "roprieto@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
