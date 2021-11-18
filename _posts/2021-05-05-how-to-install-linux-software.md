@@ -70,20 +70,27 @@ sudo apt install retext
 Website:  
 <https://vscodium.com/#install>
 
+
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
+sudo apt update && sudo apt install codium
+
+
 1. Add the GPG repository key:
 ```bash
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
 ```
+
 
 2. Add the repository:
 ```bash
-echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
+
 ```
 
 3. Update then install vscodium:
 
 ```bash
-sudo apt update && sudo apt install codium 
+sudo apt update && sudo apt install codium
 ```
 
 ### Sublime Text (Versión 4)
@@ -176,7 +183,7 @@ This allows you view and annotate pdfs.
 
 1. Install using the snap package manager. Open a Terminal.
 ```bash
-$ snap install okular
+$ sudo snap install okular
 ```
 
 ### Pdftk
@@ -253,6 +260,30 @@ sudo apt-get install texstudio
 ```bash
 sudo apt-get install equalx
 ```
+(optional)
+If you want to create a shortcut:
+1. Open a new file in gedit and type:
+```
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=equalx &
+Name=equalx
+Comment=edit and preview your latex equations
+Icon=
+```
+Save the file as `equalx.desktop`
+
+2. Set permissions. 
+```
+chmod +x something.desktop
+```
+and click right mouse button on that label and select `Allow launching`.
+
+website: <https://equalx.sourceforge.io/>
+
 
 ### Jab Ref - Bibliography manager
 
@@ -271,6 +302,7 @@ or install 3.8.2 version.
 sudo apt-get install jabref
 ```
 
+website: <https://www.jabref.org/>
 
 
 
