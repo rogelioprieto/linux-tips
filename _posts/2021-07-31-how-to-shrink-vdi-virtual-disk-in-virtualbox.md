@@ -62,13 +62,13 @@ VBoxManage modifyhd /path/to/thedisk.vdi --compact
 
 
 ## Source:
-<https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04>\
+<https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04>\¸
 <http://manpages.ubuntu.com/manpages/focal/en/man1/systemctl.1.html>
 
 ========
 
 
-## brief explanation:
+## (bonus!) brief explanation:
 
 First, stop all processes writing to the disk so you don't get `mount /: mount busy` error
 ```
