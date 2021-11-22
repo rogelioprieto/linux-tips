@@ -7,7 +7,7 @@ categories: github virtualbox
 ## Problem:
 
 I use VirtualBox and I want to share my Virtual Machine (MV), the export file (`.ova`) is too big.\
-When I try to share in Google Drive, it takes many time to upload.
+When I try to share in Google Drive (or any other cloud service), it takes many time to upload.
 
 ## Solution:
 You shouldn't share the `.ova` file, you can share the virtual hard disk (`.vdi`) and then create a new MV with the same content.
