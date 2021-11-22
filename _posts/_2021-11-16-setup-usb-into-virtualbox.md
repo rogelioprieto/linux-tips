@@ -9,7 +9,7 @@ sudo usermod -aG vboxusers <USERNAME>
 ´´´
 Where USERNAME is the name of the user.
 
-Once the command runs, logout and log back int.
+Once the command runs, logout and log back in.
 
 3. Activate USB support
 
@@ -18,3 +18,7 @@ Open up VirtualBox, right-click on the virtual machine that needs access to USB,
 
 ## Source:
 <https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/>
+
+Note!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+sudo usermod -aG vboxusers $USER
