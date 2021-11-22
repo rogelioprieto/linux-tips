@@ -14,7 +14,7 @@ You shouldn't share the `.ova` file, you can share the virtual hard disk (`.vdi`
 
 ### Step by step:
 
-1. Iniciar con root
+1. Start you guest virtual machine con `root`.
 
 Reboot to GRUB menu (Press `Esc` as Ubuntu is booting up).
 
