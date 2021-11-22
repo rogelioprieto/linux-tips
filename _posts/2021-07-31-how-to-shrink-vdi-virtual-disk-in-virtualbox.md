@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to shrink vdi virtual disk in virtual box to reduce filesize"
-categories: github virtualbox
+title: "How to shrink vdi virtual disk in VirtualBox to reduce filesize"
+categories: virtualbox
 ---
 
 ## Problem:
