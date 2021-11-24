@@ -1,4 +1,19 @@
-# How to do exit an ssh connection?
+---
+layout: post
+title: How to do exit an ssh connection?
+# categories: 
+---
+
+## Problem: 
+
+I need to exit from an ssh connectio but is unresponsive (type and do nothing!).
+
+
+
+## Solution:
+To exit, you have to type a keys combination into the ssh connection.
+
+### Step by step:
 
 There are two ways:
 
