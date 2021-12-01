@@ -11,7 +11,8 @@ Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu
 I recommend this software because is my fav,  it's the software I use and I've installed in my computer.
 
 
-The categories are: [Office Suite](#office-suite), [Fonts](#fonts), [Text Editors](#text-editors), [Web Browsers](#web-browsers), [FTP clients](#ftp-clients), [PDF Software](pdf-software), [Converter utilities](converter-utilities), [LaTeX](#latex), [Music](#music), [Video](#video), [Images](#images), [Compression](#compression), [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps),[Video call or web conferences](#Video call or web conferences)
+The categories are: [Office Suite](#office-suite), [Fonts](#fonts), [Text Editors](#text-editors), [Web Browsers](#web-browsers), [Chat clients](#chat-clients), 
+[FTP clients](#ftp-clients), [PDF Software](pdf-software), [Converter utilities](converter-utilities), [LaTeX](#latex-(texLive-base-distribution)), [Music](#music), [Video](#video), [Images](#images), [Compression software](#compression-software), [Network tools](#network-tools), [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps), [Video call or web conferences](#video-call-or-web-conferences)
 
 Categories:  
 [Ir a Fonts](#fonts)
@@ -197,7 +198,7 @@ $ sudo apt-get install filezilla
 ```
 
 
-## Pdf software
+## PDF software
 
 ### Okular viewer
 This allows you view and annotate pdfs.
@@ -343,7 +344,7 @@ sudo apt-get install lollypop
 Choose `Preferences->Music(tab)` and add your `music folder.`
 
 
-## Pulse Effects
+### Pulse Effects
 A graphical equalizer.
 
 1. Install 
