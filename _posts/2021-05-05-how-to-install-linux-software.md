@@ -70,8 +70,8 @@ sudo apt install retext
 _Optional step:_\
 Install aditional beatiful and useful style for preview window. This style was designed by [MikePeralta1](https://github.com/a-mt/retext-themes/tree/master/Github)
 Copy these files to `~/.config/ReText project/` folder.
-- [ReText.conf]()
-- [github.css]()
+- [ReText.conf](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/ReText.conf)
+- [github.css](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/github.css)
 
 After that your preview will appears [like this](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/preview.png).
 
