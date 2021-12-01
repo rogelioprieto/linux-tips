@@ -65,10 +65,10 @@ A markdown editor with live preview capabilities.
 ```bash
 sudo apt install retext
 ```
-2. Improve visualization: clic in `Edit` Menu -> `Use webkit renderer`. This allows sincronization between code and preview windows.
+2. Improve visualization: clic in `Edit` Menu -> `Use webkit renderer`. This allows scroll sincronization between code and preview windows.
 
 _Optional step:_\
-Install aditional beatiful and useful style for preview window. This was designed by [MikePeralta1](https://github.com/a-mt/retext-themes/tree/master/Github)
+Install aditional beatiful and useful style for preview window. This style was designed by [MikePeralta1](https://github.com/a-mt/retext-themes/tree/master/Github)
 Copy these files to `~/.config/ReText project/` folder.
 - [ReText.conf]()
 - [github.css]()
