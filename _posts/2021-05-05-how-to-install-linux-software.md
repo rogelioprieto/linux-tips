@@ -61,10 +61,21 @@ If you are interested and know more details about microsoft fonts and Linux, you
 ### ReText
 A markdown editor with live preview capabilities.
 
+1. Install it!
 ```bash
 sudo apt install retext
-
 ```
+2. Improve visualization: clic in `Edit` Menu -> `Use webkit renderer`
+
+_Optional step:_\
+Install aditional beatiful and useful style for preview window. This was designed by [MikePeralta1](https://github.com/a-mt/retext-themes/tree/master/Github)
+Copy these files to ~/.config/ReText project/ folder.
+- [ReText.conf]()
+- [github.css]()
+
+after that your preview will appers like this:
+![preview-retext-github.png]() 
+
 
 ### VScodium
 Website:  
