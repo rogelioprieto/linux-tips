@@ -73,8 +73,7 @@ Copy these files to ~/.config/ReText project/ folder.
 - [ReText.conf]()
 - [github.css]()
 
-after that your preview will appers like this:
-![preview-retext-github.png]() 
+After that your preview will appears [like this](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/preview.png).
 
 
 ### VScodium
