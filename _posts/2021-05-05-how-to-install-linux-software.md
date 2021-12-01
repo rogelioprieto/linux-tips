@@ -15,7 +15,9 @@ The categories are: [Office Suite](#office-suite), [Fonts](#fonts), [Text Editor
 [FTP clients](#ftp-clients), [PDF Software](pdf-software), [Converter utilities](converter-utilities), [LaTeX](#latex-(texLive-base-distribution)), [Music](#music), [Video](#video), [Images](#images), [Compression software](#compression-software), [Network tools](#network-tools), [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps), [Video call or web conferences](#video-call-or-web-conferences)
 
 
-[Office suite](#office-suite),[Fonts](#fonts),[Text Editors](#text-editors),[Web browsers](#web-browsers),[Chat clients](#chat-clients),[FTP clients](#ftp-clients),[PDF software](#pdf-software),[Converter utilities](#converter-utilities),[LaTeX (TexLive base distribution)](#latex-texlive-base-distribution),[Music](#music),[Video](#video),[Images](#images),[Compression software](#compression-software),[Network tools](#network-tools),[Calendar or todo tasks apps](#calendar-or-todo-tasks-apps),[Video call or web conferences](#video-call-or-web-conferences)
+[Office suite](#office-suite), [Fonts](#fonts), [Text Editors](#text-editors), [Web browsers](#web-browsers), [Chat clients](#chat-clients), [FTP clients](#ftp-clients), [PDF software](#pdf-software), [Converter utilities](#converter-utilities), [LaTeX (TexLive base distribution)](#latex-texlive-base-distribution), [Music](#music), [Video](#video), [Images](#images), [Compression software](#compression-software), [Network tools](#network-tools), [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps), [Video call or web conferences](#video-call-or-web-conferences)
+
+
 
 ## Office suite
 
