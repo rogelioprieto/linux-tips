@@ -11,7 +11,7 @@ Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu
 I recommend this software because is my fav,  it's the software I use and I've installed in my computer.
 
 
-The categories are: Office Suite, Fonts, Text Editors, Web Browsers, FTP clients, PDF Software, Converter utilities, LaTeX, Music, Video, Images, Compression, Calendar or todo tasks apps software, 
+The categories are: [Office Suite](#office-suite), [Fonts](#fonts), [Text Editors](#text-editors), [Web Browsers](#web-browsers), [FTP clients](#ftp-clients), [PDF Software](pdf-software), [Converter utilities](converter-utilities), [LaTeX](#latex), [Music](#music), [Video](#video), [Images](#images), [Compression](#compression), [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps),[Video call or web conferences](#Video call or web conferences)
 
 Categories:  
 [Ir a Fonts](#fonts)
