@@ -1,37 +1,52 @@
 ---
 layout: post
-title: "write here the title!!!!"
+title: Make an index or table of contents in a markdown document
 categories: github virtualbox
 ---
 
 ## Problem: 
 
-When you connect an exFAT drive is mounted as read-only in Windows 7; so you can't write in this drive.
+I need to make an index or Table of Contents in a markdown document.
+For every: `## My title ` I have to make a link: [My title](#my-title)
 
 ## Solution:
-To solve it, you can make use of Windows ```Diskpart``` and check the disk using ```chkdsk``` command.
+To buil it automatically, you can use an awk script. 
 
 ### Step by step:
-
-1. Open CMD prompt, type ```windows+r```, then ```cmd```.  
-2. Type in the command as the following:  
-(Note: ```N``` refers the volume number of the read-only disk)
-
-```
-diskpart
-list volume
-
-select volume N 
-att vol clear readonly
+_Option 1_ Execute the script directly in Terminal.
+1. Open a `Terminal` and type the awk script:
+```bash
+awk '$0 ~ /^## / {gsub(/^## /,"",$0); gsub(/ $/,"",$0); mytitle=$0; $0=tolower($0);  gsub(/\(|\)|\[|\]|\/|\:|\./,"",$0);    gsub(/ /,"-",$0);    print "["mytitle"]""(#"$0")" }' mydatafile.md
 ```
 
-3. Check your disk/drive using chkdsk.
- 
-Besides, you can run ```chkdsk X: /F``` in cmd.exe or run the GUI based scan by right-clicking on the exFAT partitioned drive and selecting ```Properties-> Tools``` and running the ```Scan``` disk tool. The exFAT partition needs the scan to be done to reset it back to read/write capable.
+2. The last awk script get list of links: every link in a new row. If you want a list comma separated you can execute this script:
+```bash
+awk '$0 ~ /^## / {gsub(/^## /,"",$0); gsub(/ $/,"",$0); mytitle=$0; $0=tolower($0);  gsub(/\(|\)|\[|\]|\/|\:|\./,"",$0);    gsub(/ /,"-",$0);    print "["mytitle"]""(#"$0")" }' mydatafile.md | awk '{acumulador=acumulador", "$0}END{print substr(acumulador,3)}'
+```
+
+
+_Option 2_ Create awk files and then execute from Terminal.
+
+
+1. Create the file `make-index-links.md` with these lines:
+```
+#/bin/bash/awk
+$0 ~ /^## / {gsub(/^## /,"",$0); gsub(/ $/,"",$0); mytitle=$0; $0=tolower($0);  gsub(/\(|\)|\[|\]|\/|\:|\./,"",$0);    gsub(/ /,"-",$0);    print "["mytitle"]""(#"$0")" }
+```
+
+2. Create the file `replace-newline-for-comma-and-space.awk` with these lines:
+``` 
+#/bin/awk
+{acumulador=acumulador", "$0}END{print substr(acumulador,3)}
+```
+
+3. Execute from Terminal:
+```
+awk -f make-index-links-in-markdown.md mydatafile.md | awk -f replace-newline-for-comma-and-space.awk 
+```
 
 
 
 ## Source:
-
- <https://www.diskpart.com/articles/exfat-windows-7-read-only-4125.html>  
-<http://roblomtech.blogspot.com/2010/08/how-to-fix-exfat-drive-being-write.html>
+<https://www.gnu.org/software/gawk/manual/gawk.html>
+<https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html>
