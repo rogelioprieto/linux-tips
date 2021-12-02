@@ -13,7 +13,7 @@ For every: `## My title ` I have to make a link: [My title](#my-title)
 To buil it automatically, you can use an awk script. 
 
 ### Step by step:
-_Option 1_ Execute the script directly in Terminal.
+_Option 1._ Execute the script directly in Terminal.
 1. Open a `Terminal` and type the awk script:
 ```bash
 awk '$0 ~ /^## / {gsub(/^## /,"",$0); gsub(/ $/,"",$0); mytitle=$0; $0=tolower($0);  gsub(/\(|\)|\[|\]|\/|\:|\./,"",$0);    gsub(/ /,"-",$0);    print "["mytitle"]""(#"$0")" }' mydatafile.md
@@ -25,7 +25,7 @@ awk '$0 ~ /^## / {gsub(/^## /,"",$0); gsub(/ $/,"",$0); mytitle=$0; $0=tolower($
 ```
 
 
-_Option 2_ Create awk files and then execute from Terminal.
+_Option 2._ Create awk files and then execute them from Terminal.
 
 
 1. Create the file `make-index-links.md` with these lines:
@@ -48,5 +48,5 @@ awk -f make-index-links-in-markdown.md mydatafile.md | awk -f replace-newline-fo
 
 
 ## Source:
-<https://www.gnu.org/software/gawk/manual/gawk.html>
+<https://www.gnu.org/software/gawk/manual/gawk.html>\
 <https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html>
