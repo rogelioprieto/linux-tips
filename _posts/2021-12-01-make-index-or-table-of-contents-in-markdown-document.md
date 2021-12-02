@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make an index or table of contents in a markdown document
-categories: github virtualbox
+#categories: github virtualbox
 ---
 
 ## Problem: 
