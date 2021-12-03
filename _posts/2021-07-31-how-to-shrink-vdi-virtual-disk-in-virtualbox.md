@@ -6,7 +6,7 @@ categories: virtualbox
 
 ## Problem:
 
-I use VirtualBox and I want to share my Virtual Machine (MV), the export file (`.ova`) is too big.\
+I use `VirtualBox` and I want to share my Virtual Machine (MV), the export file (`.ova`) is too big.\
 When I try to share in Google Drive (or any other cloud service), it takes many time to upload.
 
 ## Solution:
@@ -34,7 +34,7 @@ IMPORTANT! In next step, REVIEW and set the partition you want to shrink.
 systemctl stop systemd-journald.socket && systemctl stop systemd-journald.service && sudo swapoff -a && mount -n -o remount,ro -t ext2 /dev/sda1 / && zerofree /dev/sda1
 ```
 
-3. shutdown your guest in VirtualBox.
+3. shutdown your guest in `VirtualBox`.
 ```
 halt
 ```

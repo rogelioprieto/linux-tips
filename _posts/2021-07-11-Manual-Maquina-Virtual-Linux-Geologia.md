@@ -11,9 +11,9 @@ date: July 11, 2021
 Se desea utilizar el software [rhyolite-MELTS v1.0.x](http://melts.ofm-research.org/) que está disponible para ejecutarse en Linux.
 Para ello, se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
-Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
-**Paso 1.** Descargar el software `Virtual Box` de Oracle.
+**Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
 <https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe>
@@ -25,7 +25,7 @@ Para Linux
 <https://www.virtualbox.org/wiki/Linux_Downloads>
 
 
-**Paso 2.** Instalar `Virtual Box`. Para ello ejecuta el archivo que se descargó en el paso anterior.
+**Paso 2.** Instalar `VirtualBox`. Para ello ejecuta el archivo que se descargó en el paso anterior.
 
 Sigue los pasos solicitados por el instalador.
 

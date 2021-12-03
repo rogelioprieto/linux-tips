@@ -25,7 +25,7 @@ Example:
 VBoxManage internalcommands sethduuid "/home/rogelio/VirtualBox VMs/myDisk1.vdi"
 ```
 
-**Option 02**\¸
+**Option 02**\
 You want to re-use the `.vdi file`. You should clone the file.
 1. Open a Terminal and type:
 ```

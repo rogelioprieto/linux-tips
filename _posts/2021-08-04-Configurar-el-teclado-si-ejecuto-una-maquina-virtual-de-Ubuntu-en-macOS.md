@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configurar el teclado si ejecuto una máquina virtual de Ubuntu en macOS
+title: VirtualBox - Configurar el teclado si ejecuto una máquina virtual de Ubuntu en macOS
 categories: linux
 author: Rogelio Prieto Alvarado
 date: August 04, 2021
@@ -8,7 +8,7 @@ date: August 04, 2021
 
 ## Problema:
 
-Ubuntu no reconoce mi teclado correctamente. Estoy utilizando VirtualBox para ejecutar Ubuntu 20.04 (máquina virtual) en una computadora macOS (máquina _host_) con teclado en español.
+Ubuntu no reconoce mi teclado correctamente. Estoy utilizando `VirtualBox` para ejecutar Ubuntu 20.04 (máquina virtual) en una computadora macOS (máquina _host_) con teclado en español.
 
 
 ## Solución:
