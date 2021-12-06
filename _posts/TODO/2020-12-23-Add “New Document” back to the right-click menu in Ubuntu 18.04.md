@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "`Add "New Document" back to the right-click menu in Ubuntu 18.04 or Ubuntu 20.04
+title: "Add "New Document" back to the right-click menu in Ubuntu 18.04 or Ubuntu 20.04
 #categories: github virtualbox
 #date: 2021-12-23
 ---
