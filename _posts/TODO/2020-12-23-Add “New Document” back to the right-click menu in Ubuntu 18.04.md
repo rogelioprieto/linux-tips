@@ -13,7 +13,7 @@ I recently shifted to Ubuntu 18.04 or 20.04, I noticed that there was no option 
 ## Solution:
 Create a file into `~/Templates` folder.
 
-Step by step:
+### Step by step:
 1. Open a Terminal and type:
 ```bash
 touch ~/Templates/"Untitled Document"
