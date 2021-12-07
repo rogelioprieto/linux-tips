@@ -2,9 +2,9 @@
 
 En el curso de «Bioinformática-Linux», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
-Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
-1. Descargar el software `Virtual Box` de Oracle.
+1. Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
 <https://download.virtualbox.org/virtualbox/6.1.16/VirtualBox-6.1.16-140961-Win.exe>
@@ -16,7 +16,7 @@ Para Linux
 <https://www.virtualbox.org/wiki/Linux_Downloads>
 
 
-2. Instalar `Virtual Box`. Para ello ejecuta el archivo que se descargó en el paso anterior.
+2. Instalar `VirtualBox`. Para ello ejecuta el archivo que se descargó en el paso anterior.
 
 Sigue los pasos solicitados por el instalador.
 

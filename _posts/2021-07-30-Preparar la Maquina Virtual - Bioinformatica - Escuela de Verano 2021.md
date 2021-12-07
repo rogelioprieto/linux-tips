@@ -11,9 +11,9 @@ date: July 30, 2021
 
 En el curso **Bioinformática para el Análisis de Genomas Bacterianos**  de la «Tercera Escuela de Verano 2020», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
-Utilizaremos el software `Virtual Box` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
-**Paso 1.** Descargar el software `Virtual Box` de Oracle.
+**Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
 <https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe>
