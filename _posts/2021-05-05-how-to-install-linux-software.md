@@ -526,3 +526,10 @@ website:\
 <https://obsproject.com/es/download>
 
 
+## For teaching
+
+### Open Board
+Interactive whiteboard for schools and universities. For Windows, macOS and Linux.
+
+Source:\
+<https://openboard.ch/index.en.html>
