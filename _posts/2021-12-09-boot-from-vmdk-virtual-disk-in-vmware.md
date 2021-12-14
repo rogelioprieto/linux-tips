@@ -35,7 +35,8 @@ After that,
 1. Open the vmx-file in a texteditor.
 2. Search for the line\
 `firmware = "efi"`
-and delete it.
+and change it for:\
+`firmware = "bios"`
 3. On next boot the VM will start with a legacy BIOS but will very very likely fail to boot.
 
 
