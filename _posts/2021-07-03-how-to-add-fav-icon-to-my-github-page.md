@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "write here the title!!!!"
+title: "add a favicon in your github page"
 categories: github virtualbox
 ---
 
@@ -17,7 +17,7 @@ To specify a favicon you need to create it and setup your github page.
 1. Create your favicon using an online tool:\
 <https://realfavicongenerator.net/>
 Please specify  the path `/assets/images` in *Favicon Generator Options*. This is a recomendation at the Jekyll documentation.
- 
+
 
 Download the zip file.
 
