@@ -15,7 +15,7 @@ To specify a favicon you need to create it and setup your github page.
 ### Step by step:
 
 1. Create your favicon using an online tool:\
-<https://realfavicongenerator.net/>
+<https://realfavicongenerator.net/>\
 Please specify  the path `/assets/images` in *Favicon Generator Options*. This is a recomendation at the Jekyll documentation.
 
 
