@@ -5,7 +5,6 @@ categories: linux
 author: Rogelio Prieto Alvarado
 date: May 05, 2021
 ---
-<!DOCTYPE html>
 
 Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu 20.04 MATE to make the typical tasks.
 
