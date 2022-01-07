@@ -13,21 +13,21 @@ I recommend this software because is my fav,  it's the software I use and I've i
 The categories are:
 - [![Writer](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Office suite](#office-suite)
 - [![Fonts](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/fonts-32px.png) Fonts](#fonts)
-- [Text Editors](#text-editors)
-- [Web browsers](#web-browsers)
-- [Chat clients](#chat-clients)
-- [FTP clients](#ftp-clients)
-- [PDF software](#pdf-software)
-- [Converter utilities](#converter-utilities)
-- [LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
-- [Music](#music)
-- [Video](#video)
-- [Images](#images)
-- [Compression software](#compression-software)
-- [Network tools](#network-tools)
-- [Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
-- [Video call or web conferences](#video-call-or-web-conferences)
-- [For teaching](#for-teaching)
+- [![Text Editors](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/text-editor-32px.png) Text Editors](#text-editors)
+- [![Web browsers](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/web-browser-32px.png) Web browsers](#web-browsers)
+- [![Chat clients](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/chat-client-32px) Chat clients](#chat-clients)
+- [![FTP clients](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/ftp-32px) FTP clients](#ftp-clients)
+- [![PDF software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) PDF software](#pdf-software)
+- [![Converter utilities](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Converter utilities](#converter-utilities)
+- [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
+- [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Music](#music)
+- [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Video](#video)
+- [![Images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Images](#images)
+- [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Compression software](#compression-software)
+- [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Network tools](#network-tools)
+- [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
+- [![Video call or web conferences](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Video call or web conferences](#video-call-or-web-conferences)
+- [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) For teaching](#for-teaching)
 
 
 ## Office suite
@@ -524,3 +524,13 @@ Interactive whiteboard for schools and universities. For Windows, macOS and Linu
 
 Source:\
 <https://openboard.ch/index.en.html>
+
+
+Credits:\
+Icons made by [https://www.flaticon.com/authors/freepik](Freepik) from [https://www.flaticon.com/](www.flaticon.com)
+
+Icons made by [https://www.flaticon.com/authors/good-ware](Good Ware) from [https://www.flaticon.com/](www.flaticon.com)</a></div>
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
