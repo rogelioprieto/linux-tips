@@ -17,17 +17,17 @@ The categories are:
 - [![Web browsers](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/web-browser-32px.png) Web browsers](#web-browsers)
 - [![Chat clients](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/chat-client-32px) Chat clients](#chat-clients)
 - [![FTP clients](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/ftp-32px) FTP clients](#ftp-clients)
-- [![PDF software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) PDF software](#pdf-software)
-- [![Converter utilities](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Converter utilities](#converter-utilities)
-- [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
-- [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Music](#music)
-- [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Video](#video)
-- [![Images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Images](#images)
-- [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Compression software](#compression-software)
-- [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Network tools](#network-tools)
-- [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
-- [![Video call or web conferences](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Video call or web conferences](#video-call-or-web-conferences)
-- [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) For teaching](#for-teaching)
+- [![PDF software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/pdf-file-32px) PDF software](#pdf-software)
+- [![Converter utilities](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/convert-32px) Converter utilities](#converter-utilities)
+- [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/tex-icon-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
+- [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/music-note32px.png) Music](#music)
+- [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/video-play-32px.png) Video](#video)
+- [![Images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images](#images)
+- [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/compression-32px.png) Compression software](#compression-software)
+- [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/network-32px.png) Network tools](#network-tools)
+- [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/calendar-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
+- [![Video call or web conferences](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/videocall-32px.png) Video call or web conferences](#video-call-or-web-conferences)
+- [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/teacher-class-32px.png) For teaching](#for-teaching)
 
 
 ## Office suite
@@ -534,3 +534,28 @@ Icons made by [https://www.flaticon.com/authors/good-ware](Good Ware) from [http
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+TeX icon provided by [https://iconarchive.com/artist/mart.html](Mart) from 
+[https://iconarchive.com/show/glaze-icons-by-mart/tex-icon.html](Icon Archive).
+
+
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/bingge-liu" title="Bingge Liu">Bingge Liu</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/lakonicon" title="lakonicon">lakonicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
