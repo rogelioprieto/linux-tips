@@ -30,8 +30,10 @@ The categories are:
 - [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/teacher-class-32px.png) For teaching](#for-teaching)
 
 
+[<< Inicio](#)
 ## Office suite
 
+[<< Inicio](#)
 ### LibreOffice
 
 LibreOffice is a powerful and free office suite, a successor to OpenOffice(.org), used by millions of people around the world. Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity. LibreOffice includes several applications that make it the most versatile Free and Open Source office suite on the market: Writer (word processing), Calc (spreadsheets), Impress (presentations), Draw (vector graphics and flowcharts), Base (databases), and Math (formula editing).
@@ -48,7 +50,9 @@ sudo snap install libreoffice
 
 
 
+[<< Inicio](#)
 ## Fonts
+[<< Inicio](#)
 ### Microsoft fonts.
 
 This package allows for easy installation of the Microsoft True Type Core Fonts for the Web including:
@@ -74,8 +78,10 @@ sudo fc-cache -vr
 If you are interested and know more details about microsoft fonts and Linux, you can read:
 [How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/12/how-to-install-microsoft-fonts-ubuntu.html)
 
+[<< Inicio](#)
 ## Text Editors
 
+[<< Inicio](#)
 ### ReText
 A markdown editor with live preview capabilities.
 
@@ -94,6 +100,7 @@ Copy these files to `~/.config/ReText project/` folder.
 After that your preview will appears [like this](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/preview.png).
 
 
+[<< Inicio](#)
 ### VScodium
 Website:  
 <https://vscodium.com/#install>
@@ -117,6 +124,7 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
 sudo apt update && sudo apt install codium
 ```
 
+[<< Inicio](#)
 ### Sublime Text (Versión 4)
 Website:\
 <https://www.sublimetext.com/download>
@@ -147,15 +155,19 @@ sudo apt-get install sublime-text
 
 
 
+[<< Inicio](#)
 ## Web browsers
 
 Firefox is installed in Ubuntu, if you want another web browser try Chromium (Google Chrome is based in Chromium). 
+[<< Inicio](#)
 ### Chromium
 ```bash
 sudo apt-get install chromium-browser
 ```
+[<< Inicio](#)
 ## Chat clients
 
+[<< Inicio](#)
 ### WhatsDesk
 
 If you need a WhatsApp client in Linux, there is not a official app.
@@ -170,6 +182,7 @@ $ sudo snap install whatsdesk
 Website:\
 <https://snapcraft.io/whatsdesk>
 
+[<< Inicio](#)
 ### Franz
 
 «Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and many many more.»
@@ -196,8 +209,10 @@ in case of error: `dpkg: error processing package`
 $ sudo apt install -f
 ```
 
+[<< Inicio](#)
 ## FTP clients
 
+[<< Inicio](#)
 ### Filezilla
 
 ```bash
@@ -205,8 +220,10 @@ $ sudo apt-get install filezilla
 ```
 
 
+[<< Inicio](#)
 ## PDF software
 
+[<< Inicio](#)
 ### Okular viewer
 This allows you view and annotate pdfs.
 
@@ -215,6 +232,7 @@ This allows you view and annotate pdfs.
 $ sudo snap install okular
 ```
 
+[<< Inicio](#)
 ### Pdftk
 
 `pdftk` is a command-line tool for working with PDF files. It is commonly used for client-side scripting or server-side processing of PDF files.
@@ -244,14 +262,17 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 
 
+[<< Inicio](#)
 ## Converter utilities
 
+[<< Inicio](#)
 ### Pandoc
 
 Execute this script:
 
 /home/rogelio/Downloads/install-latex-pandoc/03_install-pandoc-2.14-ubuntu-v20.04.sh
 
+[<< Inicio](#)
 ### pandoc-crossref
 
 pandoc-crossref is a pandoc filter for numbering figures, equations, tables and cross-references to them.
@@ -270,11 +291,13 @@ To install pandoc-crossref filter:
 
 
     
+[<< Inicio](#)
 ## LaTeX (TexLive base distribution)
 
 script:
 /home/rogelio/Downloads/install-latex-pandoc/02_install-texlive-ubuntu-v20.04.sh
 
+[<< Inicio](#)
 ### TexStudio (LaTeX IDE)
 website: <https://www.texstudio.org/>
 
@@ -284,6 +307,7 @@ sudo apt-get update
 sudo apt-get install texstudio
 ```
 
+[<< Inicio](#)
 ### equalx - LaTeX Equation Editor 
 
 ```bash
@@ -314,6 +338,7 @@ and click right mouse button on that label and select `Allow launching`.
 website: <https://equalx.sourceforge.io/>
 
 
+[<< Inicio](#)
 ### Jab Ref - Bibliography manager
 
 JabRef is an open source bibliography reference manager. The native file format used by JabRef is BibTeX, the standard LaTeX bibliography format.
@@ -340,7 +365,9 @@ website: <https://www.jabref.org/>
 
 
 
+[<< Inicio](#)
 ## Music
+[<< Inicio](#)
 ### Lollypop
 1. Install the app using the Terminal.
 ```bash
@@ -351,6 +378,7 @@ sudo apt-get install lollypop
 Choose `Preferences->Music(tab)` and add your `music folder.`
 
 
+[<< Inicio](#)
 ### Pulse Effects
 A graphical equalizer.
 
@@ -364,8 +392,10 @@ sudo apt install -y pulseeffects lsp-plugins
 
 
 
+[<< Inicio](#)
 ## Video 
 
+[<< Inicio](#)
 ### VLC player
 website: <https://www.videolan.org/vlc/download-ubuntu.html>
 
@@ -373,8 +403,10 @@ website: <https://www.videolan.org/vlc/download-ubuntu.html>
 sudo snap install vlc
 ```
 
+[<< Inicio](#)
 ## Images
 
+[<< Inicio](#)
 ### webp viewer
 
 ```bash
@@ -384,6 +416,7 @@ Optional: Make gThumb the default application for WebP images in Ubuntu.
 
 1. Select a webp file. Right clic->Properties->Open With (tab)->gThumb Image Viewer
 
+[<< Inicio](#)
 ### webp converter
 Using command line to convert WebP images in Linux
 1. Install WebP tools 
@@ -406,6 +439,7 @@ Another option is install "Save image as PNG"
 
 
 
+[<< Inicio](#)
 ### shutter - The feature-rich screenshot tool
 
 Website: <https://shutter-project.org/>
@@ -420,6 +454,7 @@ sudo apt install gir1.2-appindicator3-0.1
 
 
 
+[<< Inicio](#)
 ### ksnip
 
 `Ksnip`  is a Qt5 screenshot tool for Linux which uses a minimalistic interface, but provides an extensive list of features.
@@ -438,8 +473,10 @@ $ sudo snap install ksnip
 <https://github.com/ksnip/ksnip/releases>
 
 
+[<< Inicio](#)
 ## Compression software
 
+[<< Inicio](#)
 ### Unrar
 
 ```bash
@@ -451,9 +488,11 @@ How to use, example:
 unrar e ia.rar
 ```
 
+[<< Inicio](#)
 ## Network tools
 
 
+[<< Inicio](#)
 ### linssid
 
 LinSSID is a simple graphical software that can be used to find the wireless networks available and channels. It is completely open source, written in C++ using Linux wireless tools, Qt5, and Qwt 6.1., and is similar to Inssider (MS Windows) in terms of look and functionality.
@@ -465,8 +504,10 @@ sudo apt-get install linssid
 <https://sourceforge.net/projects/linssid/>
 
 
+[<< Inicio](#)
 ## Calendar or todo tasks apps
 
+[<< Inicio](#)
 ### Todoist
 "The best to-do list app right now" - The Verge
 
@@ -494,8 +535,10 @@ Source:\
 <https://todoist.com/es/downloads>
 
 
+[<< Inicio](#)
 ## Video call or web conferences
 
+[<< Inicio](#)
 ### OBS Studio
 Free and open source software for video recording and live streaming.
 
@@ -517,8 +560,10 @@ website:\
 <https://obsproject.com/es/download>
 
 
+[<< Inicio](#)
 ## For teaching
 
+[<< Inicio](#)
 ### Open Board
 Interactive whiteboard for schools and universities. For Windows, macOS and Linux.
 
@@ -527,20 +572,15 @@ Source:\
 
 
 Credits:\
-Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
-
-Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com]( https://www.flaticon.com/)
-
+Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)\
+Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com]( https://www.flaticon.com/)\
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-TeX icon provided by [https://iconarchive.com/artist/mart.html](Mart) from 
-[https://iconarchive.com/show/glaze-icons-by-mart/tex-icon.html](Icon Archive).
+TeX icon provided by [Mart](https://iconarchive.com/artist/mart.html )  from [Icon Archive](https://iconarchive.com/show/glaze-icons-by-mart/tex-icon.html).
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/bingge-liu" title="Bingge Liu">Bingge Liu</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
 <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
 <div>Icons made by <a href="https://www.flaticon.com/authors/lakonicon" title="lakonicon">lakonicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
