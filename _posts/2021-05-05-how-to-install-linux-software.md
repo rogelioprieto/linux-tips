@@ -12,7 +12,7 @@ I recommend this software because is my fav,  it's the software I use and I've i
 
 The categories are:
 - [![Writer](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/libreofficewriter_113234-32px.png) Office suite](#office-suite)
-- ![Fonts](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/fonts-32px.png) [Fonts](#fonts)
+- [![Fonts](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/fonts-32px.png)  Fonts](#fonts)
 - [Text Editors](#text-editors)
 - [Web browsers](#web-browsers)
 - [Chat clients](#chat-clients)
