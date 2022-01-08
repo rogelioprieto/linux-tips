@@ -548,6 +548,7 @@ Source:\
 
 
 Credits:\
+LibreOffice icon provided by [icons-icons.com](https://icon-icons.com/es/icono/libreoffice-escritor/113234) in the Macaron pack.\
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)\
 Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com]( https://www.flaticon.com/)\
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
