@@ -30,6 +30,8 @@ The categories are:
 - [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/teacher-class-32px.png) For teaching](#for-teaching)
 
 
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
+
 ## Office suite
 
 ### LibreOffice
