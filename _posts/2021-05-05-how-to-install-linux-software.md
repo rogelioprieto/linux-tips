@@ -47,7 +47,6 @@ sudo snap install libreoffice
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
 
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
@@ -79,7 +78,7 @@ sudo fc-cache -vr
 If you are interested and know more details about microsoft fonts and Linux, you can read:
 [How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/12/how-to-install-microsoft-fonts-ubuntu.html)
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Text Editors
 
 ### ReText
@@ -153,7 +152,7 @@ sudo apt-get install sublime-text
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Web browsers
 
 Firefox is installed in Ubuntu, if you want another web browser try Chromium (Google Chrome is based in Chromium). 
@@ -161,7 +160,7 @@ Firefox is installed in Ubuntu, if you want another web browser try Chromium (Go
 ```bash
 sudo apt-get install chromium-browser
 ```
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Chat clients
 
 ### WhatsDesk
@@ -204,7 +203,7 @@ in case of error: `dpkg: error processing package`
 $ sudo apt install -f
 ```
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## FTP clients
 
 ### Filezilla
@@ -214,7 +213,7 @@ $ sudo apt-get install filezilla
 ```
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## PDF software
 
 ### Okular viewer
@@ -254,7 +253,7 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Converter utilities
 
 ### Pandoc
@@ -281,7 +280,7 @@ To install pandoc-crossref filter:
 
 
     
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## LaTeX (TexLive base distribution)
 
 script:
@@ -352,7 +351,7 @@ website: <https://www.jabref.org/>
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Music
 ### Lollypop
 1. Install the app using the Terminal.
@@ -377,7 +376,7 @@ sudo apt install -y pulseeffects lsp-plugins
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Video 
 
 ### VLC player
@@ -387,7 +386,7 @@ website: <https://www.videolan.org/vlc/download-ubuntu.html>
 sudo snap install vlc
 ```
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Images
 
 ### webp viewer
@@ -453,7 +452,7 @@ $ sudo snap install ksnip
 <https://github.com/ksnip/ksnip/releases>
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Compression software
 
 ### Unrar
@@ -467,7 +466,7 @@ How to use, example:
 unrar e ia.rar
 ```
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Network tools
 
 
@@ -482,7 +481,7 @@ sudo apt-get install linssid
 <https://sourceforge.net/projects/linssid/>
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Calendar or todo tasks apps
 
 ### Todoist
@@ -536,7 +535,7 @@ website:\
 <https://obsproject.com/es/download>
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## For teaching
 
 ### Open Board
