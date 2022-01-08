@@ -29,6 +29,7 @@ The categories are:
 - [![Video call or web conferences](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/videocall-32px.png) Video call or web conferences](#video-call-or-web-conferences)
 - [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/teacher-class-32px.png) For teaching](#for-teaching)
 
+
 [<< Inicio](#)
 ## Office suite
 
@@ -44,6 +45,7 @@ sudo snap install libreoffice
 2. Activate Ribbon style interface. Open the `LibreOffice Writer` application, clic View `Menu` -> `User Interface`. Choose `Tabbed` option, finally `Apply to All`.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface01.png)
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images/libreoffice-userinterface02.png)
+
 
 
 
@@ -73,6 +75,7 @@ sudo fc-cache -vr
 
 If you are interested and know more details about microsoft fonts and Linux, you can read:
 [How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/12/how-to-install-microsoft-fonts-ubuntu.html)
+
 [<< Inicio](#)
 ## Text Editors
 
@@ -146,6 +149,7 @@ sudo apt-get install sublime-text
 
 
 
+
 [<< Inicio](#)
 ## Web browsers
 
@@ -153,7 +157,8 @@ Firefox is installed in Ubuntu, if you want another web browser try Chromium (Go
 ### Chromium
 ```bash
 sudo apt-get install chromium-browser
-```[<< Inicio](#)
+```
+[<< Inicio](#)
 ## Chat clients
 
 ### WhatsDesk
@@ -195,6 +200,7 @@ in case of error: `dpkg: error processing package`
 ```bash
 $ sudo apt install -f
 ```
+
 [<< Inicio](#)
 ## FTP clients
 
@@ -203,6 +209,7 @@ $ sudo apt install -f
 ```bash
 $ sudo apt-get install filezilla
 ```
+
 
 [<< Inicio](#)
 ## PDF software
@@ -243,6 +250,7 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 
 
+
 [<< Inicio](#)
 ## Converter utilities
 
@@ -269,7 +277,8 @@ To install pandoc-crossref filter:
 
 
 
-    [<< Inicio](#)
+    
+[<< Inicio](#)
 ## LaTeX (TexLive base distribution)
 
 script:
@@ -339,6 +348,7 @@ website: <https://www.jabref.org/>
 
 
 
+
 [<< Inicio](#)
 ## Music
 ### Lollypop
@@ -363,6 +373,7 @@ sudo apt install -y pulseeffects lsp-plugins
 2. Search and open the application `PulseEffects` 
 
 
+
 [<< Inicio](#)
 ## Video 
 
@@ -372,6 +383,7 @@ website: <https://www.videolan.org/vlc/download-ubuntu.html>
 ```bash
 sudo snap install vlc
 ```
+
 [<< Inicio](#)
 ## Images
 
@@ -437,6 +449,7 @@ $ sudo snap install ksnip
 
 <https://github.com/ksnip/ksnip/releases>
 
+
 [<< Inicio](#)
 ## Compression software
 
@@ -450,6 +463,7 @@ How to use, example:
 ```bash
 unrar e ia.rar
 ```
+
 [<< Inicio](#)
 ## Network tools
 
@@ -463,6 +477,7 @@ How to install:
 sudo apt-get install linssid
 ```
 <https://sourceforge.net/projects/linssid/>
+
 
 [<< Inicio](#)
 ## Calendar or todo tasks apps
@@ -493,6 +508,7 @@ sudo snap install todoist
 Source:\
 <https://todoist.com/es/downloads>
 
+
 [<< Inicio](#)
 ## Video call or web conferences
 
@@ -515,6 +531,7 @@ The virtual cam will allow you to use your webcam in a webconference software: G
 
 website:\
 <https://obsproject.com/es/download>
+
 
 [<< Inicio](#)
 ## For teaching
