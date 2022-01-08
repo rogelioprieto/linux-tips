@@ -47,7 +47,7 @@ sudo snap install libreoffice
 
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-16px.png) Inicio](#)
 
 [↑ Inicio](#)
 ## Fonts
