@@ -30,7 +30,6 @@ The categories are:
 - [![For teaching](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/teacher-class-32px.png) For teaching](#for-teaching)
 
 
-[↑ Inicio](#)
 ## Office suite
 
 ### LibreOffice
@@ -48,6 +47,7 @@ sudo snap install libreoffice
 
 
 
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow.png) Inicio](#)
 
 [↑ Inicio](#)
 ## Fonts
@@ -509,7 +509,7 @@ Source:\
 <https://todoist.com/es/downloads>
 
 
-[↑ Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow.png) Inicio](#)
 ## Video call or web conferences
 
 ### OBS Studio
@@ -555,4 +555,4 @@ TeX icon provided by [Mart](https://iconarchive.com/artist/mart.html )  from [Ic
 <div>Icons made by <a href="https://www.flaticon.com/authors/bingge-liu" title="Bingge Liu">Bingge Liu</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <div>Icons made by <a href="https://www.flaticon.com/authors/lakonicon" title="lakonicon">lakonicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
+<div>Icons made by <a href="https://www.flaticon.com/authors/andy-horvath" title="Andy Horvath">Andy Horvath</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
