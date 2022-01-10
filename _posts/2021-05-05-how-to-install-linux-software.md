@@ -543,7 +543,7 @@ website:\
 ### Open Board
 Interactive whiteboard for schools and universities. For Windows, macOS and Linux.
 
-Source:\
+website:\
 <https://openboard.ch/index.en.html>
 
 
