@@ -513,7 +513,7 @@ Source:\
 <https://todoist.com/es/downloads>
 
 
-[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow.png) Inicio](#)
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Inicio](#)
 ## Video call or web conferences
 
 ### OBS Studio
