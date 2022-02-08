@@ -22,13 +22,12 @@ You can see all the **tips and posts** here:\
 [![apps-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/menu-32px.png) Linux tips](https://rogelioprieto.github.io/linux-tips/)
 
 
-<<<<<<< HEAD
 ## License:
 
 This project is licensed under the terms of the Creative Commons license:\
-**Creative Commons Attribution-ShareAlike 4.0 International**
+**Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 
-[![cc-by-sa-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![cc-by-sa-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
