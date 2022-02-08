@@ -25,7 +25,7 @@ You can see all the **tips and posts** here:\
 This project is licensed under the terms of the Creative Commons license:\
 [**Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![cc-by-sa-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![cc-by-sa-4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
