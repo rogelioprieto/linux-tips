@@ -22,10 +22,10 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
 ### Step by step:
 
 1. Open a Terminal, and open `/usr/share/codium/resources/app/product.json` file:
-   ```bash
+```bash
   cd /usr/share/codium/resources/app
   sudo nano product.json
-  ```
+```
 2. Modify the `product.json` file.\
 *Option one* Open an editor. Search and modify to set these lines: 
 ```bash
