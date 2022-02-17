@@ -34,7 +34,7 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
     "itemUrl": "https://marketplace.visualstudio.com/items"
 }
 ```
-*Option two* In a short way you can used sed command.
+*Option two* A short way, you can use the sed command.
 
 ```bash
 sudo cp product.json product.json.BACKUP
