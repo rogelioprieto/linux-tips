@@ -26,7 +26,7 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
   cd /usr/share/codium/resources/app
   sudo nano product.json
   ```
-2. Modify the `product.json` file.
+2. Modify the `product.json` file.\
 *Option one* Open an editor. Search and modify to set these lines: 
 ```bash
 "extensionsGallery": {
@@ -34,7 +34,7 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
     "itemUrl": "https://marketplace.visualstudio.com/items"
 }
 ```
-*Option two* Optionally, in a short way you can used sed command.
+*Option two* In a short way you can used sed command.
 
 ```bash
 sudo cp product.json product.json.BACKUP
