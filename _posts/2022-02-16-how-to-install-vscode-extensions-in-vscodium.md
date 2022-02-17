@@ -53,6 +53,6 @@ You can find it in the path (replace YourUsername for yours): `/home/YourUsernam
 
 ## Source:
 
-<https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace>
+<https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace>\
 <https://www.chrisatmachine.com/Neovim/22-vscodium-neovim/>\
 <https://www.reddit.com/r/vscode/comments/mqip0o/vs_codium_extentions_different_to_vs_code/>
