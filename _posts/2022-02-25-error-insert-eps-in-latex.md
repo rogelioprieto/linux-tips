@@ -10,7 +10,7 @@ When you insert an eps file in LaTeX you get this error:
 `Converted xxx-eps-converted-to.pdf not found`
 
 ## Solution:
-Install `texlive-font-utils`, a TeXLive package to solve this problem. In specific you need the `repstopdf`, this is included in `texlive-font-utils`.
+Install `texlive-font-utils`, a TeXLive package to solve this problem. In specific you need the  package `repstopdf` and their requirements, this is included in `texlive-font-utils`.
 
 
 ### Step by step:
