@@ -101,6 +101,11 @@ Copy these files to `~/.config/ReText project/` folder.
 After that your preview will appears [like this](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/retext-github-style/preview.png).
 
 
+### Remarkable
+It's a markdown editor. It's good but now their "live preview" feature is ⚠️NOT working⚠️ in Ubuntu 20.04. Meanwhile it receives an update, I am using `ReText`c Editor.
+
+Website: <https://remarkableapp.github.io/>
+
 ### VScodium
 Website:  
 <https://vscodium.com/#install>
