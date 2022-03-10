@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "write here the title!!!!"
+title: Error insert eps file in LaTeX
 categories: github virtualbox
 ---
 
