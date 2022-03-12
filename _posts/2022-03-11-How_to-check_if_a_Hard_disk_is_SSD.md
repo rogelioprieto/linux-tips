@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How_to-check_if_a_Hard_disk_is_SSD"
+title: "How to check if a Hard disk is SSD"
 categories: ubuntu
 ---
 
