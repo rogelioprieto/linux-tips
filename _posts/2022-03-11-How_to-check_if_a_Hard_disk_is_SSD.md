@@ -16,20 +16,17 @@ To know, you can use the Terminal and type some commands.
 
 ### Step by step:
 
-1. Where is my root?
+1.Where is my root?
 ```
 df / -h
 ```
-
-You can see the column `Mounted on`, and find `/`
-
+You can see the column `Mounted on`, and find `/`\
 You can get more info using this:
-
 ```
 sudo lshw -short -C disk 
 ```
 
-2.  
+2.Detect is my disk is a hard disk or SSD  
 ```
 sudo smartctl -a /dev/sda | grep 'Rotation Rate'
 ```
@@ -38,7 +35,7 @@ else, you have an SSD.
 
 NOTE: the `smartmontools` may need to be installed in order to use smartctl command. You can use: `sudo apt-get install smartmontools`
 
-3. Another option is:
+3.Another option is:
 
 ```
 $ lsblk -o NAME,ROTA  
