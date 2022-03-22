@@ -1,6 +1,6 @@
 ---
 layout: post
-title: calculate bpm in all mp3 files (music collection)
+title: calculate and tag bpm in all mp3 files (music collection)
 categories: bash
 ---
 
