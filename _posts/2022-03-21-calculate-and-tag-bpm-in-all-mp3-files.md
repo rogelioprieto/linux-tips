@@ -24,17 +24,14 @@ To solve it, you can make execute a script that use the `bpm-tools` in Ubuntu. B
 sudo apt-get install bpm-tools
 sudo apt-get install libsox-fmt-mp3
 ```
-
 2. Rename all the directories in your music folder. This will replace spaces in the filename.
 ```
 find . -type d -name "* *" -follow -print | while read file; do echo "$file" new name is: ${file// /_}; mv "$file" ${file// /_}; done
 ```
-
 3. Rename all the directories in your music folder. This will replace spaces in the filename.
 ```
 find . -type f -name "* *" -follow -print | while read file; do echo "$file" new name is: ${file// /_}; mv "$file" ${file// /_}; done
 ```
-
 4. [Download the file here](https://raw.githubusercontent.com/rogelioprieto/bash-scripts/master/get-bpm-current-folder.sh) or create it as a new file, use this name: `get-bpm-current-folder.sh`. Type these lines inside:
 ```
 #!/bin/bash
@@ -69,7 +66,6 @@ Execute the script:
 ```
 ./get-bpm-current-folder.sh
 ```
-
 
 
 ## Source:
