@@ -13,12 +13,6 @@ To solve it, you can make execute a script that use the `bpm-tools` in Ubuntu. B
 
 ### Step by step:
 
-1. uno
-2. dos
-3. tres
-4. cuatro
-
-
 1. Install the required packages. Open a Terminal and type:
 ```
 sudo apt-get install bpm-tools
