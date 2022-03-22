@@ -1,0 +1,26 @@
+
+
+How to install
+
+1. Install toucheeg
+
+sudo add-apt-repository ppa:touchegg/stable
+sudo apt update
+sudo apt install touchegg
+
+2. Install touche (GUI)
+
+Download the .deb and open it\
+<https://github.com/JoseExposito/touche/releases>
+
+
+Sources:
+Steps to install toucheeg and touche(GUI)\
+<https://ubuntuhandbook.org/index.php/2021/06/multi-touch-gestures-ubuntu-20-04/>
+
+<https://github.com/JoseExposito/touchegg/#ubuntu-debian-and-derivatives>
+
+<https://ubuntuhandbook.org/index.php/2021/06/multi-touch-gestures-ubuntu-20-04/>
+
+<https://github.com/JoseExposito/touche/releases>
+
