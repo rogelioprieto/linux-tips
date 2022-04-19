@@ -1,10 +1,16 @@
-# How to know application version in Ubuntu
+---
+layout: post
+title: How to know application version in Ubuntu
+categories: apt ubuntu
+---
+
+ 
 
 ## Problem: What versions are installed in my computer and/or available in the repository?
 
 ## Solution
 
-In a Terminal use these commands:
+In a Terminal, you can use these commands:
 
 ```dpkg -s <package>``` - allows you to find the version of that you have installed.
 
