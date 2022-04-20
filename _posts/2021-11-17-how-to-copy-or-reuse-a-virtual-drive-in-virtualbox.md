@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to copy or reuse a .vdi virtual disk  in VirtualBox (error: UUID already exists)"
+title: "How to copy or reuse a .vdi virtual disk  in VirtualBox (error: UUID already exists)"
 categories: virtualbox
 ---
 
