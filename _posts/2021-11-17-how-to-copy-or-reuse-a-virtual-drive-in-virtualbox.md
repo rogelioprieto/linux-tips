@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "how to copy or reuse a .vdi virtual drive  in VirtualBox"
+title: "how to copy or reuse a .vdi virtual drive  in VirtualBox (error: UUID already exists)"
 categories: virtualbox
 ---
 
 ## Problem: 
 
 You copy a `.vdi` file (virtual drive) and you get an error when create a new Virtual Machine in Virtual Box using this `.vdi` file.
+
+![2021-11-17-error-Screenshot](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images_posts/2021-11-17-error-Screenshot.png)
 
 ## Solution:
 To solve it, you can assing another `UUID` or clone the file using the `VBoxManage` tool.
