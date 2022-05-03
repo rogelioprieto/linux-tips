@@ -27,8 +27,8 @@ you'll get this output table:
 ```
 page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
 --------------------------------------------------------------------------------------------
-   1     0 image     240   240  rgb     3   8  image  no       233  0   180   180 8088B 4.7%
-  13     4 image     209   177  rgb     3   8  jpeg   no       415  0   219   219 6412B 5.8%
+1      0 image     240   240  rgb     3   8  image  no       233  0   180   180 8088B 4.7%
+13     4 image     209   177  rgb     3   8  jpeg   no       415  0   219   219 6412B 5.8%
 ```
 
 **Plus 01!**
