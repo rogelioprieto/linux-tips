@@ -1,4 +1,8 @@
-# Exfat partition. How to read a hard disk or usb with exfat format in Ubuntu
+---
+layout: post
+title: Exfat partition. How to read a hard disk or usb with exfat format in Ubuntu
+categories: exfat linux
+---
 
 
 ## Problem: 

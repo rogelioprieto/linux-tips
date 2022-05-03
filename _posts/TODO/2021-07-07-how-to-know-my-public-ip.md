@@ -1,4 +1,9 @@
-# How to know my public IP
+---
+layout: post
+title:  How to know my public IP
+categories: networking
+---
+
 
 ## Option 1. Using a web browser
 
