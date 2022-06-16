@@ -46,6 +46,7 @@ b) Luis Gerardo García Medina.
 Por invitación de Editorial UAS realicé el dictamen de una obra de divulgación científica (adjunto constancia en -pdf-) cumpliendo con su proceso certificado de Edición, publicación y difusión.
 
 
+
 # Administración de proyectos.
 
 ## Actividad 4. Planeación estratégica del PITUAS.
@@ -93,6 +94,15 @@ Sostuve dos reuniones de trabajo con Gabriel Zuñiga y/o JRLA para definir accio
 
 Gabriel ya inició esta actividad. Está colaborando Eduardo Elenes, del área de Taller.
 
+
+
+## Actividad complementaria. Capacitaciones.
+
+Estas capacitaciones las tomé por indicaciones de JRLA:
+
+    (4 hrs) Curso de Capacitación  en BD  - Elsevier
+
+    (20 hrs) Curso de Capacitación en BD - Dir. Gral de Bibliotecas
 
 
 
