@@ -1,7 +1,19 @@
 #setup
 SHELL=/bin/bash
-myfile=_2022-05-15-reporte-actividades-PITUAS-mayo
+myfile=_2022-05-30-reporte-actividades-PITUAS-mayo
+mytemplate=docx-templates/custom-reference-georgia-arial.docx
+mytemplate02=docx-templates/custom-reference-franklin-arial.docx
 
-all:
+all:	pdf docx01
+
+pdf:
 	@echo "file: $(myfile).md"
 	pandoc $(myfile).md --toc  -o $(myfile).pdf && xdg-open $(myfile).pdf &
+	@echo ------------------
+docx01:
+	pandoc $(myfile).md --reference-doc=$(mytemplate) --number-sections -V lang=es_MX -o $(myfile).docx && xdg-open $(myfile).docx &
+	@echo ------------------
+	
+docx02:
+	pandoc $(myfile).md --reference-doc=$(mytemplate02) --number-sections -V lang=es_MX -o $(myfile).docx && xdg-open $(myfile).docx &
+	@echo ------------------
