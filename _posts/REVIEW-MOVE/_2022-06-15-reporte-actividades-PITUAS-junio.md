@@ -1,19 +1,20 @@
 ---
 title: Reporte de actividades
 author: Rogelio Prieto Alvarado
-date: 30 de mayo 2022
+date: 15 de junio 2022
 toc: true
 toc-title: ÍNDICE
 number-sections: true
 lang: es-MX
 ---
 
+**Nota.** Este reporte tiene menor actividad porque estuve en recuperación de Covid-19.
 
 
 # Bioinformática
 ## Actividad 1. Documentación de Bioinformática
 
-a) Se concluyó el primer borrador del tercer Capítulo. 
+a) Sin avance.
 
 
 ## Actividad 2. Proyecto/colaboración con FCQB. Configuración del servidor.
@@ -27,25 +28,24 @@ a) Se concluyó el primer borrador del tercer Capítulo.
 
 Colaboro en el proyecto: «Desarrollo de Algoritmos y Métodos Informáticos para el Análisis Genómico de Procariotas a Gran Escala». Se realizaron las actividades:
 
-Revisión de convocatoria para publicación en Congreso.
 
-Reunión de trabajo para reportar seguimiento con Dr. Inés Vega y los dos estudiantes participantes.
 
 Asesoré a los dos estudiantes participantes.  
 a) Samaniego Gurrola César Eduardo
 
-- Asesoría en dudas de Linux (comandos y scripts), awk y sed.
-- Instalación y uso del gestor de base de datos Postgresql para almacenar las secuenciaciones y las anotaciones de procariotas.
+- Asesoría en dudas de Linux (comandos y scripts).
+- Respaldo de los datos de Postgresql.
 
 b) Luis Gerardo García Medina.
 
-- Asesoría en dudas de Linux (comandos y scripts), awk y sed.
-- Instalación y uso del gestor de base de datos Postgresql para almacenar las secuenciaciones y las anotaciones de procariotas.
+- Asesoría en dudas de Linux (comandos y scripts).
+- Respaldo de los datos de Postgresql y datos de la workstation de otros usuarios.
+- Pruebas para mover la Instalación de Postgresql a otra ubicación. Se agotó el espacio en la partición / (root).
 
 
 ## Actividad 4. Apoyo en el Club de Programación - FICUAS.
 
-Por invitación del profr. Gerardo Beltrán para colaborar en el Club de Programación FICUAS. Asistí como apoyo a las sesiones virtuales sabatinas de 9:00 a 11:00 hrs.
+Sin actividad.
 
 
 
@@ -53,38 +53,42 @@ Por invitación del profr. Gerardo Beltrán para colaborar en el Club de Program
 
 ## Actividad 4. Planeación estratégica del PITUAS.
 
-- Se actualizó el diagnóstico integral del PITUAS en al menos 2 ocasiones como resultado de la revisión que realizamos bajo la guía del Dr. Garzón.
-
-- Se sostuvo reunión de trabajo el 19/mayo/2022 con Dr. Nieves (DGIP) y con un asesor externo (maestro Chavero) para la revisión del diagnóstico integral del PITUAS.
-- Se reunió la información que el asesor externo solicitó: documentos del diagnóstico integral y de planeación estratégica del PITUAS.
+- Diagnóstico integral y de planeación estratégica del PITUAS. En equipo con Saraí, Revisé y edité los documentos para obtener la versión final que fue enviada al asesor externo (maestro Chavero).
 
 
 
 ## Actividad 5. PROFAPI 2022. «Optimización de la producción en granjas acuícolas a través de la ingeniería de control»
 
-Se sostuvo reunión de arranque con los colaboradores PITUAS: Gabriel Zúñiga, Abitia y Eduardo Elenes.
 
-Se realizaron al menos tres (3) reuniones de trabajo para realizar diagnóstico del proyecto y para discutir requerimientos técnicos y materiales.
 
-Se revisaron las opciones administrativas para recibir y ejecutar el financiamiento.
+Se dio VoBo a la lista de materiales.  Se obtuvieron dos ministraciones por parte de la Dra. Moraila.
+
+Gabriel y Eduardo se responsabilizaron de la compra de materiales.
 
 
 ## Actividad 6. Dr. Emiliano Terán
 
-Sin actividad. 
+Sin actividad.
 
 
 ## Actividad 6. SETO-Vinculación. 
 
-Sin actividad.
-
+SETO cuenta con una nueva razón social. Sostuve una reunión con Dr. Emiliano Terán para analizar la posibilidad de realizar un servicio a petición de la «nueva» empresa distribuidora de material oftálmico.
 
 
 ## Actividad 9. Proyectos de acuacultura.
 
-MC Gabriel Zúñiga y Eduardo Elenes realizaron un diagnóstico del prototipo. Se realizó una primera propuesta de modificaciones requeridas.
 
-Se generó una lista de materiales.
+MC Gabriel Zúñiga sostuvo una reunión con JRLA para discutir sobre el alcance del segundo prototipo; Yo no pude asistir por convalencia de Covid-19. 
+
+Les escribí mis comentarios producto de la última reunión con la Dra. Moraila, quien había realizado observaciones críticas al alcance.
 
 
+## Actividad 10. Escuela de Verano en Analítica de Datos 2022.
+
+Dos reuniones de trabajo para los preparativos del programa.
+
+La primera reunión fue con los nuevos instructores para realizar la invitación y dar a conocer el objetivo y los lineamientos.
+
+La segunda reunión fue con Dr. Inés Vega, MC Gerardo Beltrán y Juan Campos para precisar: contenido de cada módulo, integración de los módulos al calendario y costos.
 
