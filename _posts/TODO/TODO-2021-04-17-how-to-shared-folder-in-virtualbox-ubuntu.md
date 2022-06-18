@@ -17,4 +17,5 @@ sudo usermod -aG vboxusers $USER
 
 
 ## Source:
-<https://stackoverflow.com/questions/26740113/virtualbox-shared-folder-permissions>
+<https://stackoverflow.com/questions/26740113/virtualbox-shared-folder-permissions>\
+<https://www.easytechguides.com/install-virtualbox-guest-additions/>

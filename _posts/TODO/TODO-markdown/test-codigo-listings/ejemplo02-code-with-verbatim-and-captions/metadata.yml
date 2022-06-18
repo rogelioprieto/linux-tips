@@ -1,0 +1,18 @@
+---
+lang: es-MX
+#used by references
+lstPrefix:
+  - "Código"
+  - "Códigos"
+#to include table-style-captions
+codeBlockCaptions: true
+#used in captions
+listingTitle: "Código"
+#for using lisitings package. If true, it needs --listings in pandoc
+listings: false
+
+#with listings true doesn't add codelistings environment to thread captions in an independent line
+#cross-ref manual http://lierdakil.github.io/pandoc-crossref/#table-style-captions
+header-includes:
+    - "\\newcommand{\\passthrough}[1]{#1}"
+---
