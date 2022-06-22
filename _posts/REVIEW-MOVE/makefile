@@ -1,6 +1,6 @@
 #setup
 SHELL=/bin/bash
-myfile=_2022-05-30-reporte-actividades-PITUAS-mayo
+myfile=_2022-06-15-reporte-actividades-PITUAS-junio
 mytemplate=docx-templates/custom-reference-georgia-arial.docx
 mytemplate02=docx-templates/custom-reference-franklin-arial.docx
 

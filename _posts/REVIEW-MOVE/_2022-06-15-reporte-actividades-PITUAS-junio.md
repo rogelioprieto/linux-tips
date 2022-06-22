@@ -1,5 +1,6 @@
 ---
 title: Reporte de actividades
+subtitle: Parque de Innovación Tecnológica UAS
 author: Rogelio Prieto Alvarado
 date: 15 de junio 2022
 toc: true
