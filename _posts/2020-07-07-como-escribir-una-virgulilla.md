@@ -2,6 +2,7 @@
 layout: post
 title: Cómo escribir una virgulilla(~) or tilde de la ñ?
 categories: [bashespanol, verano2022]
+resource: true
 ---
 
 ## Problema: 

@@ -2,7 +2,7 @@
 layout: post
 title: How to insert unicode character or special character or symbols
 categories: [bashespanol, bash, Ubuntu]
-
+resource: true
 ---
 
 ## Problem: 
