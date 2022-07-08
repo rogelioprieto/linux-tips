@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Verano 2022
-permalink: /verano2022/
+permalink: /verano2030/
 ---
 
 
