@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Verano 2022
+title: Verano 2030
 permalink: /verano2030/
 ---
 
