@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to insert unicode character or special character or symbols
+title: How to insert unicode character or special character or symbols
 categories: bash Ubuntu
 ---
 
@@ -9,7 +9,7 @@ categories: bash Ubuntu
 When you connect an exFAT drive is mounted as read-only in Windows 7; so you can't write in this drive.
 
 ## Solution:
-To solve it, you can make use of Windows ```Diskpart``` and check the disk using ```chkdsk``` command.
+To solve it, you can make use of Windows `Diskpart` and check the disk using `chkdsk` command.
 
 ### Step by step:
 
@@ -19,7 +19,6 @@ To solve it, you can make use of Windows ```Diskpart``` and check the disk using
 If you need to view the Unicode codes table:\
 - [Legacy Entity sets](https://www.w3.org/TR/xml-entity-names/Overview.html#legacysets)\
 - [Unicode Character Ranges for Scientific Documents](https://www.w3.org/TR/xml-entity-names/Overview.html#blocks)
-
 
 
 ## Source:
