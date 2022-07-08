@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Categorías
+title: Verano 2022
 permalink: /verano2022/
 ---
 
