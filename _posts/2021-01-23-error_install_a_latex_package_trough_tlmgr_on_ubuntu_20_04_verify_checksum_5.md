@@ -1,4 +1,9 @@
-# I got an error when trying to install a latex package trough tlmgr on ubuntu 20.04, verify_checksum: -5
+---
+layout: post
+title: I got an error when trying to install a latex package trough tlmgr on ubuntu 20.04, verify_checksum: -5
+categories: vmware virtual
+---
+
 
 ## Problem:
 I tried to install a LaTeX package in texlive 2019 in Ubuntu 20.04.
