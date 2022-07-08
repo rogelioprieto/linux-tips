@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How to insert unicode character or special character or symbols
-categories: bash Ubuntu
+categories: [bashespanol, bash, Ubuntu]
+
 ---
 
 ## Problem: 

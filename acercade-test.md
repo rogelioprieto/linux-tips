@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Categorias
+title: Categorías
 permalink: /categorias/
 ---
 
