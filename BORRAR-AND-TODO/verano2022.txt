@@ -14,8 +14,6 @@ permalink: /verano2022/
             {% for pc in page.categories %}
                 {% if pc == cat %}
                 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                {% else %}
-               {{ pc }} - {{ page.title }} No pertenece a categoría....
                 {% endif %}
             {% endfor %}
     {% endfor %} <!-- page -->
