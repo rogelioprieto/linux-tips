@@ -108,6 +108,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
 
+**Paso 8.** Ejecute la máquina virtual. Oprime el botón `Iniciar`. La contraseña es `12345678`\
 
 ¡Felicidades, te esperamos en el inicio del curso!. Revisa el [calendario](https://fic.uas.edu.mx/escueladeverano/). La primera sesión será el lunes 2/agosto/2021.
 
