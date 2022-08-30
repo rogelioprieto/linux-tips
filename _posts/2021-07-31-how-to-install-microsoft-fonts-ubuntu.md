@@ -71,9 +71,9 @@ cat vistafonts-installer.sh | bash
 
 
 ## Source:  
-Why Microsoft fonts are not installed by default in Linux?\
+1. Why Microsoft fonts are not installed by default in Linux?\
 <https://itsfoss.com/install-microsoft-fonts-ubuntu/>\
-Aristotle Pagaltzis - blog\
+2. Aristotle Pagaltzis - blog\
 <http://plasmasturm.org/code/vistafonts-installer/>\
 <http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer>\
 <http://plasmasturm.org/log/457/>
