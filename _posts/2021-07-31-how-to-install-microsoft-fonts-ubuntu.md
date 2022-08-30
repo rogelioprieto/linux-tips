@@ -41,7 +41,7 @@ The first step install them, the second step update cache.
 
 ## Solution (part 02):
 
-If you want to install more microsoft fonts, for example Windows Vista fonts; you consider these fonts has copyrights.\
+If you want to install more microsoft fonts, for example Windows Vista fonts. You should consider these fonts has copyrights.\
 You can install these fonts: 
 - Calibri
 - Cambria
