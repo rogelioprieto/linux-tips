@@ -146,7 +146,7 @@ sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 ```
 
-3.  Update apt sources and install Sublime Text:
+4.  Update apt sources and install Sublime Text:
 ```bash
 sudo apt-get update
 sudo apt-get install sublime-text
