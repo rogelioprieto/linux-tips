@@ -10,23 +10,12 @@ date: July 31, 2021
 ## Problem:
 You open some Microsoft documents in LibreOffice on Linux, you’ll notice that the fonts look a bit different.  
 You’ll also notice that you cannot find common fonts like:
-Andale Mono
-Arial Black
-Arial (Bold, Italic, Bold Italic)
-Comic Sans MS (Bold)
-Courier New (Bold, Italic, Bold Italic)
-Georgia (Bold, Italic, Bold Italic)
-Impact
-Times New Roman (Bold, Italic, Bold Italic)
-Trebuchet (Bold, Italic, Bold Italic)
-Verdana (Bold, Italic, Bold Italic)
-Webdings
 
 **Important note.** [Libre Office installs fonts with the same metrics](https://en.wikipedia.org/wiki/Liberation_fonts) as Times (Liberation Serif), Arial (Liberation Sans)  Arial narrow (Liberation Sans Narrow) and Courier (Liberation Mono); Nevertheless if you prefer install the microsoft font versions, follow this page.
 
 
 ## Solution (part 01):
-Install microsoft core fonts package; it includes the following font list:
+Install [microsoft core fonts](https://en.wikipedia.org/wiki/Core_fonts_for_the_Web) [https://packages.debian.org/stretch/ttf-mscorefonts-installer](package); it includes the following font list:
 
 - Andale Mono
 - Arial Black
@@ -40,7 +29,7 @@ Install microsoft core fonts package; it includes the following font list:
 - Verdana (Bold, Italic, Bold Italic)
 - Webdings
 
-To install execute this:
+To install, just execute this:
 
 ```bash
 sudo apt install ttf-mscorefonts-installer
@@ -52,7 +41,8 @@ The first step install them, the second step update cache.
 
 ## Solution (part 02):
 
-If you want to install more microsoft fonts, you consider these fonts has copyrights. You can install these fonts: 
+If you want to install more microsoft fonts, for example Windows Vista fonts; you consider these fonts has copyrights.\
+You can install these fonts: 
 - Calibri
 - Cambria
 - Candara
@@ -65,11 +55,19 @@ Execute this:
 wget -qO- http://plasmasturm.org/dl/vistafonts-installer | bash
 ```
 
-Note. If you get this error: `There is no .fonts directory in your home`. Try to create the fonts directory first:
+_Note 01._ If you get this error: `There is no .fonts directory in your home`. Try to create the fonts directory first:
 
 ```
 mkdir ~/.fonts
 ``` 
+_Note 02._ If wget fails, you can download the script here: []()
+and execute in this way:
+
+```
+cat vistafonts-installer.sh | bash
+```
+
+
 
 
 
