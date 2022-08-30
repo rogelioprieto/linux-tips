@@ -112,20 +112,16 @@ Website:
 
 
 1. Add the GPG repository key:
-
 ```bash
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
 ```
 
-
 2. Add the repository:
-
 ```bash
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
 ```
 
 3. Update then install vscodium:
-
 ```bash
 sudo apt update && sudo apt install codium
 ```
@@ -151,7 +147,6 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 ```
 
 3.  Update apt sources and install Sublime Text:
-
 ```bash
 sudo apt-get update
 sudo apt-get install sublime-text
