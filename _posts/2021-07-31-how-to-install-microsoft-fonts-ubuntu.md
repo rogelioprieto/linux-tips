@@ -60,7 +60,7 @@ _Note 01._ If you get this error: `There is no .fonts directory in your home`. T
 ```
 mkdir ~/.fonts
 ``` 
-_Note 02._ If wget fails, you can download the script here: []()
+_Note 02._ If wget fails, you can download the script [https://github.com/rogelioprieto/linux-tips/blob/master/_posts/microsoft-fonts/vistafonts-installer.sh](here **↓**)
 and execute in this way:
 
 ```
