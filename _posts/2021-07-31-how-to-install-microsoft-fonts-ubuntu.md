@@ -15,7 +15,7 @@ You’ll also notice that you cannot find common fonts like:
 
 
 ## Solution (part 01):
-Install [microsoft core fonts](https://en.wikipedia.org/wiki/Core_fonts_for_the_Web) [https://packages.debian.org/stretch/ttf-mscorefonts-installer](package); it includes the following font list:
+Install [microsoft core fonts](https://en.wikipedia.org/wiki/Core_fonts_for_the_Web) [package in the Ubuntu repository](https://packages.debian.org/stretch/ttf-mscorefonts-installer); it includes the following font list:
 
 - Andale Mono
 - Arial Black
@@ -60,14 +60,12 @@ _Note 01._ If you get this error: `There is no .fonts directory in your home`. T
 ```
 mkdir ~/.fonts
 ``` 
-_Note 02._ If wget fails, you can download the script [https://github.com/rogelioprieto/linux-tips/blob/master/_posts/microsoft-fonts/vistafonts-installer.sh](here **↓**)
+_Note 02._ If wget fails, you can download the script [here **↓**](https://github.com/rogelioprieto/linux-tips/blob/master/_posts/microsoft-fonts/vistafonts-installer.sh)
 and execute in this way:
 
 ```
 cat vistafonts-installer.sh | bash
 ```
-
-
 
 
 
