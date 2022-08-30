@@ -65,7 +65,7 @@ Execute this:
 wget -qO- http://plasmasturm.org/dl/vistafonts-installer | bash
 ```
 
-Note. If you get `There is no .fonts directory in your home.' error, try to create the fonts directory first`
+Note. If you get `There is no .fonts directory in your home.` error, try to create the fonts directory first
 ```
 mkdir ~/.fonts
 ``` 
