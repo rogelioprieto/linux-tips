@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "How to restart frozen or unresponsive desktop GUI in Ubuntu"
-categories: github virtualbox
- --
+categories: [bash, ubuntu]
+resource: true
+---
 
 ## Problem: 
 
