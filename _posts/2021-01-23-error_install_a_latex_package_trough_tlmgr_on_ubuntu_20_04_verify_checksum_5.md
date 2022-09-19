@@ -6,7 +6,7 @@ categories: vmware virtual
 
 
 ## Problem:
-I tried to install a LaTeX package in texlive 2019 in Ubuntu 20.04.
+I tried to install a LaTeX package in TeX Live (texlive) 2019 in Ubuntu 20.04. I got the error: verify_checksum: -5.
 
 ## Solution:
 
