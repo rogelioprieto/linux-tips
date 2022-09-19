@@ -3,7 +3,6 @@ layout: post
 title: (Opción 02) Manual Máquina Virtual Linux - Diplomado en Bioinformática 2022
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
-date: september 27, 2022
 ---
 
 ![Poster diplomado en bioinformática 2022](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2022-images/DiplomadoBioinformatica_PosterSep2022-477x360.jpg)
