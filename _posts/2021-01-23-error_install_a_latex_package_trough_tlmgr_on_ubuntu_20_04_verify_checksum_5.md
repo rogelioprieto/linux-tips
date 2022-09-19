@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I got an error when trying to install a latex package trough tlmgr on ubuntu 20.04, verify_checksum: -5
+title: "I got an error when trying to install a latex package trough tlmgr on ubuntu 20.04, verify_checksum: -5"
 categories: vmware virtual
 ---
 
