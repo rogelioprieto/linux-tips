@@ -6,7 +6,7 @@ author: Rogelio Prieto Alvarado
 date: september 27, 2022
 ---
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2021-images/DipBio-header-01.jpg)
+![Poster diplomado en bioinformática 2022](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/dip-bio-2022-images/DiplomadoBioinformatica_PosterSep2022-477x360.jpg)
 
 En los cursos del «Diplomado en Bioinformática 2022», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
@@ -107,8 +107,9 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/06A.png)
 
 
+**Paso 8.** Selecciona `Ubuntu 20.04` y da clic en `Iniciar`. Se ejecutará Ubuntu. La contraseña es `12345678`.
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. La primera sesión de Linux será el **jueves 15/septiembre/2022** en el aula de capacitación, Facultad de Informática Culiacán UAS.
 
-**PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puede solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
+**PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puedes solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
 También, se tendrá una sesión de asesoría el día **Miércoles 21/septiembre/2022 6:00 pm** para resolver preguntas o problemas específicos.
