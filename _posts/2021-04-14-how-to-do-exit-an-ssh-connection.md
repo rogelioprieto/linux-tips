@@ -28,6 +28,8 @@ with the shell builtin command, `exit`, followed by `Enter`, or `Ctrl+d`, (end-o
 
 - In MacOS on U.S. International - PC layout, press `Alt+N` and then `Space`.
 
+- In Ubuntu, hold down together: `Alt Gr` + `4`.
+
 - In Ubuntu, hold down together: `Ctrl` + `Shift` + `u` then a underlined u letter should appear.  Release keys. Enter `7E`(Unicode for ~), press `space` or `Enter`.
 
  

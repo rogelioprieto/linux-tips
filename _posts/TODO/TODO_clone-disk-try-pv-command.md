@@ -23,3 +23,6 @@ https://askubuntu.com/questions/999580/why-is-exfat-greyed-out-in-gparted
 this solved my problem with the disk inodes etc (when I ask for helping to Beltrán)
 <https://www.cgsecurity.org/testdisk.pdf>
 
+
+
+

@@ -116,15 +116,12 @@ Website:
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
 ```
 
-
 2. Add the repository:
 ```bash
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
-
 ```
 
 3. Update then install vscodium:
-
 ```bash
 sudo apt update && sudo apt install codium
 ```
@@ -149,8 +146,7 @@ sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 ```
 
-3.  Update apt sources and install Sublime Text:
-
+4.  Update apt sources and install Sublime Text:
 ```bash
 sudo apt-get update
 sudo apt-get install sublime-text
@@ -374,16 +370,28 @@ Choose `Preferences->Music(tab)` and add your `music folder.`
 A graphical equalizer.
 
 1. Install 
-´´´bash
+```bash
 sudo apt install -y pulseeffects lsp-plugins
-
-´´´
+```
 
 2. Search and open the application `PulseEffects` 
 
 
+### Spotify
+
+Spotify is a digital music, podcast, and video service (streaming).
+
+```bash
+download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+```
+
+Source: [Spotify website. Install spotify using apt-get](https://www.spotify.com/es/download/linux/)
+
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
+
 ## Video 
 
 ### VLC player
