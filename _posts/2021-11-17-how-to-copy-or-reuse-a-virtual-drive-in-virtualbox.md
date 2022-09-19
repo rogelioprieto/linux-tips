@@ -10,6 +10,11 @@ You copy a `.vdi` file (virtual disk) and you get an error when create a new Vir
 
 ![2021-11-17-error-Screenshot](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images_posts/2021-11-17-error-Screenshot.png)
 
+Result Code:  
+NS_ERROR_INVALID_ARG (0x80070057)  
+Component:  
+VirtualBoxWrap
+
 ## Solution:
 To solve it, you can assign another `UUID` or clone the file using the `VBoxManage` tool.
 
