@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to setup a shared a folder in Vmware"
+title: "How to setup a shared a folder in Vmware"
 categories: vmware virtual
 ---
 
