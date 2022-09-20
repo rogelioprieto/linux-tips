@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Opción 02) Manual Máquina Virtual Linux - Diplomado en Bioinformática 2022
+title: Manual Máquina Virtual Linux - Diplomado en Bioinformática 2022
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
 ---
