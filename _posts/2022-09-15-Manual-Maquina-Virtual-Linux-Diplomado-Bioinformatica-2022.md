@@ -14,10 +14,10 @@ Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máq
 **Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
-<https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe>
+<https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-Win.exe>
 
 Para mac OS:  
-<https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-OSX.dmg>
+<https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-OSX.dmg>
 
 Para Linux  
 <https://www.virtualbox.org/wiki/Linux_Downloads>
