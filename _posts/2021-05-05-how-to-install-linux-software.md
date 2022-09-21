@@ -78,7 +78,8 @@ sudo fc-cache -vr
 ```
 
 If you are interested and know more details about microsoft fonts and Linux, you can read:
-[How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/12/how-to-install-microsoft-fonts-ubuntu.html)
+[How to install microsoft fonts in Ubuntu - Manual](https://rogelioprieto.github.io/linux-tips/linux/2021/07/31/how-to-install-microsoft-fonts-ubuntu.html)
+
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 ## Text Editors
