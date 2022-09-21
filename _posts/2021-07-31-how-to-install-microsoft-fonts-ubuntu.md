@@ -8,8 +8,8 @@ date: July 31, 2021
 
 
 ## Problem:
-You open some Microsoft documents in LibreOffice on Linux, you’ll notice that the fonts look a bit different.  
-You’ll also notice that you cannot find common fonts like:
+You open some Microsoft Office documents in LibreOffice on Linux, you’ll notice that the fonts look a bit different.  
+You’ll also notice that you cannot find common fonts like: Times New Roman, Arial, etc.
 
 **Important note.** [Libre Office installs fonts with the same metrics](https://en.wikipedia.org/wiki/Liberation_fonts) as Times (Liberation Serif), Arial (Liberation Sans)  Arial narrow (Liberation Sans Narrow) and Courier (Liberation Mono); Nevertheless if you prefer install the microsoft font versions, follow this page.
 
