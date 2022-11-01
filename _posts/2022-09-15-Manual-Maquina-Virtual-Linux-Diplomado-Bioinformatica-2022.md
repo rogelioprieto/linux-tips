@@ -111,4 +111,4 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. La primera sesión de Linux será el **jueves 15/septiembre/2022** en el aula de capacitación, Facultad de Informática Culiacán UAS.
 
 **PD.** Si seguiste este manual y no fue posible correr con éxito la Máquina Virtual. Puedes solicitar soporte al correo: rogelioprieto@uas.edu.mx.\
-También, se tendrá una sesión de asesoría el día **Miércoles 21/septiembre/2022 6:00 pm** para resolver preguntas o problemas específicos.
+También, se tendrá una sesión de asesoría el día **Miércoles 21/septiembre/2022 5:30 pm** para resolver preguntas o problemas específicos.
