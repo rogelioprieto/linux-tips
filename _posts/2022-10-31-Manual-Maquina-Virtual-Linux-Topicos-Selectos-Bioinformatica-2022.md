@@ -43,6 +43,10 @@ _3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinform
 
 a) si usted está utilizando Windows, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
+1. Ubica el archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z` en tu el explorador de archivos. (ubicado en Descargas).
+2. Da clic derecho sobre él para abrir el menú contextual.
+3. Selecciona `7zip`  ➙ `Extraer Aquí`.
+
 b) Si está utilizando macOS, requiere utilizar el software [The Unarchiver](https://theunarchiver.com/). Para instalarlo solo ingrese al link y elija `Instalar des la Mac App Store`. Una vez instalada la aplicación, deberá abrir el archivo `.7z`: 
 
 1. Ubica el archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z` en tu Mac. (ubicado en Descargas).
