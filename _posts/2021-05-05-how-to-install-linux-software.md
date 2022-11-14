@@ -22,7 +22,8 @@ The categories are:
 - [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/tex-icon-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
 - [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/music-note32px.png) Music](#music)
 - [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/video-play-32px.png) Video](#video)
-- [![Images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images](#images)
+- [![Images bitmap](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images](#images-bitmap)
+- [![Images vectorial](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-diseno-vectorial-32px.png) Images](#images-vectorial)
 - [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/compression-32px.png) Compression software](#compression-software)
 - [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/network-32px.png) Network tools](#network-tools)
 - [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/calendar-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
@@ -403,13 +404,15 @@ sudo snap install vlc
 ```
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
-## Images
+
+## Images (bitmap)
 
 ### webp viewer
 
 ```bash
 sudo apt-get install gthumb
 ```
+
 Optional: Make gThumb the default application for WebP images in Ubuntu.
 
 1. Select a webp file. Right clic->Properties->Open With (tab)->gThumb Image Viewer
@@ -469,6 +472,38 @@ $ sudo snap install ksnip
 
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
+
+
+## Images - vectorial
+
+### Inkscape
+
+Inkscape is a Free and open source vector graphics editor for GNU/Linux, Windows and macOS. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting. It uses vector graphics to allow for sharp printouts and renderings at unlimited resolution and is not bound to a fixed number of pixels like raster graphics. 
+
+Website: <https://inkscape.org/>
+
+```bash
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt update
+sudo apt install inkscape
+```
+
+Recommended manual: <https://inkscape-manuals.readthedocs.io/en/latest/export-png.html>
+
+
+### LibreOffice Draw
+
+Website: <https://www.libreoffice.org/discover/draw/>
+
+Draw is part of LibreOffice, LibreOffice is already installed in Ubuntu 20.04 Desktop.
+
+Draw lets you produce anything from a quick sketch to a complex plan, and gives you the means to communicate with graphics and diagrams. Draw is a an excellent package for producing technical drawings, brochures, posters and many other documents. Draw lets you manipulate graphical objects, group them, crop them, use objects in 3D and much more.
+
+
+
+[![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
+
+
 ## Compression software
 
 ### Unrar
