@@ -24,8 +24,8 @@ The categories are:
 - [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/tex-icon-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
 - [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/music-note32px.png) Music](#music)
 - [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/video-play-32px.png) Video](#video)
-- [![Images bitmap](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images](#images-bitmap)
-- [![Images vectorial](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-diseno-vectorial-32px.png) Images](#images-vectorial)
+- [![Images bitmap](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images bitmap](#images-bitmap)
+- [![Images vectorial](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-diseno-vectorial-32px.png) Images vectorial](#images-vectorial)
 - [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/compression-32px.png) Compression software](#compression-software)
 - [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/network-32px.png) Network tools](#network-tools)
 - [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/calendar-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
@@ -484,6 +484,7 @@ Inkscape is a Free and open source vector graphics editor for GNU/Linux, Windows
 
 Website: <https://inkscape.org/>
 
+How to install:
 ```bash
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt update
