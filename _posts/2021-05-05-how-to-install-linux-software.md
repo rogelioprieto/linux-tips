@@ -6,6 +6,8 @@ author: Rogelio Prieto Alvarado
 date: May 05, 2021
 ---
 
+Testing new version: updated in november 2022.
+
 Hi, this document contains the  software that I use in my Ubuntu 20.04 or Ubuntu 20.04 MATE to make the typical tasks.
 
 I recommend this software because is my fav,  it's the software I use and I've installed in my computer.
@@ -405,7 +407,7 @@ sudo snap install vlc
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 
-## Images (bitmap)
+## Images bitmap
 
 ### webp viewer
 
@@ -474,7 +476,7 @@ $ sudo snap install ksnip
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 
 
-## Images - vectorial
+## Images vectorial
 
 ### Inkscape
 
