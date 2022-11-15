@@ -22,8 +22,8 @@ The categories are:
 - [![LaTeX](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/tex-icon-32px.png) LaTeX (TexLive base distribution)](#latex-texlive-base-distribution)
 - [![Music](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/music-note32px.png) Music](#music)
 - [![Video](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/video-play-32px.png) Video](#video)
-- [![Images bitmap](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images-bitmap images](#images-bitmap)
-- [![Images vectorial](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-diseno-vectorial-32px.png) Images-vectorial images](#Images-(vectorial-images))
+- [![Images bitmap images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-32px.png) Images-bitmap images](#images-bitmap-images)
+- [![Images vectorial images](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/image-diseno-vectorial-32px.png) Images-vectorial images](#images-vectorial-images)
 - [![Compression software](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/compression-32px.png) Compression software](#compression-software)
 - [![Network tools](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/network-32px.png) Network tools](#network-tools)
 - [![Calendar or todo tasks apps](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/calendar-32px.png) Calendar or todo tasks apps](#calendar-or-todo-tasks-apps)
@@ -405,7 +405,7 @@ sudo snap install vlc
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 
-## Images bitmap
+## Images (bitmap images)
 
 ### webp viewer
 
