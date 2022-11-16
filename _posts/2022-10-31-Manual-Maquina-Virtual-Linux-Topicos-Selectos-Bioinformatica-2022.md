@@ -124,5 +124,5 @@ O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 - 📅 **Lunes 06/noviembre/2022** será la primera sesión de Linux.\
 Por Zoom, link pendiente.
 
-**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02.png).\
+**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02.png)\
 También, puede asistir a la sesión de asesoría.
