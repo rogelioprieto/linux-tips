@@ -7,15 +7,16 @@ resource: true
 
 ## Problem: 
 
-When you connect an exFAT drive is mounted as read-only in Windows 7; so you can't write in this drive.
+You need to type a special character but you can't find it on the keyboard.
 
 ## Solution:
-To solve it, you can make use of Windows `Diskpart` and check the disk using `chkdsk` command.
+
+You can type the code character (number)to get the character.
 
 ### Step by step:
 
-1. Open a Terminal, press `Ctrl+Alt+T`.  
-2. In Ubuntu, hold down together: `Ctrl` + `Shift` + `u` then a underlined u letter should appear.  Release keys. Enter the Unicode for the symbol you need. For example: Enter `7E`(Unicode code for `~`), press `space` or `Enter`.
+1. Open a Terminal, and press `Ctrl+Alt+T`.  
+2. In Ubuntu, hold down together: `Ctrl` + `Shift` + `u`. After that, a underlined `u̲` letter should appear.  Release keys. Enter the Unicode for the symbol you need. For example: Enter `7E`(Unicode code for `~`), press `space` or `Enter`.
 
 If you need to view the Unicode codes table:\
 - [Legacy Entity sets](https://www.w3.org/TR/xml-entity-names/Overview.html#legacysets)\
