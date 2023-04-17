@@ -1,0 +1,10 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+/**
+ * Headings. Updated by RPA 2023-04-17
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'League Spartan',-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+  font-weight: $base-font-weight;
+}
+
