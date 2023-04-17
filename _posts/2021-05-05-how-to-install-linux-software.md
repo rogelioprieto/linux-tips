@@ -128,6 +128,14 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
 sudo apt update && sudo apt install codium
 ```
 
+### ghostwriter
+
+Free and Open Source Markdown editor. No excuses. No distractions. Just write.\
+Specs: Distraction-Free Writing. Themes. Live Preview. Navigation. Focus mode. Document and Session Statistics
+
+Website: <https://ghostwriter.kde.org/download/#linux>
+
+
 ### Sublime Text (Versión 4)
 Website:\
 <https://www.sublimetext.com/download>

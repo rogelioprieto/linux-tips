@@ -15,9 +15,11 @@ In a Terminal, you can use these commands:
 ```dpkg -s <package>``` - allows you to find the version of that you have installed.
 
 
-```apt-cache showpkg <package>``` - will show a list of Versions of the package available. For each version, the source of the package, in the form of an index file name, will be given.
+`apt-cache showpkg <package>` - will show a list of Versions of the package available. For each version, the source of the package, in the form of an index file name, will be given.
 
+`apt-cache policy fastqc` - compare the package versions installed and the version in repositories.
 
 ### Source: 
 <https://askubuntu.com/questions/8560/how-do-i-find-out-which-repository-a-package-comes-from>
 <https://www.howtogeek.com/howto/ubuntu/see-what-version-of-a-package-is-installed-on-ubuntu/>
+<https://unix.stackexchange.com/questions/6284/how-do-i-check-package-version-using-apt-get-aptitude>

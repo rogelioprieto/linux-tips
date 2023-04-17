@@ -1,0 +1,13 @@
+.post-title {
+  font-size: 2.2em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: playfair display,serif;
+}
+
+Source:
+https://office-watch.com/2013/common-fonts-office-for-mac-office-for-windows/
