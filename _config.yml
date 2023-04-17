@@ -1,7 +1,8 @@
 
 minima:
   date_format: "%b %-d, %Y"
-
+  skin: auto
+  
   # generate social links in footer
   social_links:
     - { platform: twitter, user_url: https://twitter.com/rogelioprieto }
@@ -60,6 +61,9 @@ timezone: America/Mazatlan
 
 ##rogelioprieto github site!
 
+author:
+  name: Rogelio Prieto Alvarado 
+  email: "rogelioprieto@gmail.com"
 
 
 category-list: [bashespanol, bioinformatics]
