@@ -34,5 +34,6 @@ This project is licensed under the terms of the Creative Commons license:\
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 
-Credits. Icons by:\
+Credits. Icons by Flaticon:\
 [Leaderboard icons created by juicy_fish - Flaticon](https://www.flaticon.com/free-icons/leaderboard)
+[Widget icons created by riajulislam - Flaticon](https://www.flaticon.com/free-icons/widget)
