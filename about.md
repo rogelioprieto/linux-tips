@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-Here I am writing the tips or the solutions to problems I've faced as a GNU/Linux user. Some of these solutions I got it while helping to students using GNU/Linux for data science and bioinformatics.
+Here I am writing the tips or the solutions to problems I've faced recently as a GNU/Linux user. Some of these solutions I got it while helping to students using GNU/Linux for data science and bioinformatics.
 
 I hope this can help you to save time and learn!
 
