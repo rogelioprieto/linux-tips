@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimize SSD in Ubuntu MATE
+title: Optimize performance SSD or HDD in Ubuntu MATE
 categories: linux
 ---
 
