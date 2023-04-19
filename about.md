@@ -5,16 +5,12 @@ permalink: /about/
 ---
 
 
-Here I am writing the tips or the solutions to problems I've faced recently as a GNU/Linux user. Some of these solutions I got it while helping to students using GNU/Linux for data science and bioinformatics.
+Here I am writing the tips or the solutions to problems I've faced recently as a GNU/Linux user. Some of these solutions I got it while helping to students using GNU/Linux for data science and bioinformatics. I have been working in computer science since 2002. 
 
 I hope this can help you to save time and learn!
 
-I have been working in computer science since 2002. This website shows the latest solutions from my GNU/Linux  students and by me.
 
 ## Rogelio Prieto
-
-
-
 
 You can see or install **my favorite apps**:\
 [![winner-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/competition-32px.png) How to install linux software](https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html)
