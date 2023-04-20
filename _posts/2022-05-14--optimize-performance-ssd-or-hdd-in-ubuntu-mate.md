@@ -4,7 +4,7 @@ title: Optimize performance SSD or HDD in Ubuntu MATE
 categories: linux
 ---
 
-## Problem: 
+## Problem:
 Your computer is using Ubuntu or Ubuntu MATE and you would like improve the computer performance.
 
 # Solution
