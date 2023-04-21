@@ -1,4 +1,7 @@
 
+Read/review this link:
+<https://www.debugpoint.com/manual-installation-gnome-extension/>
+
 check gnome-shell version
 ```
 gnome-shell --version
