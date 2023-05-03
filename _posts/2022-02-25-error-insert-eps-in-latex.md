@@ -12,7 +12,7 @@ When you insert an eps file in LaTeX you get this error:
 ## Solution:
 Install `texlive-font-utils`, a TeXLive package to solve this problem in Ubuntu.  In specific you need the `repstopdf` package and their requirements, this is included in `texlive-font-utils`.
 
-_Note:_ If you are not using ubuntu try to install the `repstopdf` package using `tlmgr` or another package manager.
+_Note:_ if you are not using ubuntu try to install the `repstopdf` package using `tlmgr` or another package manager.
 
 
 ### Step by step:
