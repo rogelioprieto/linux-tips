@@ -37,7 +37,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Ubuntu Desktop 20.04 Bioinformatica.vdi.7z](https://drive.google.com/file/d/1jeuqd0nFAKj2zm45a0m9yL7KC11g8J2Z/view?usp=sharing)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/verano2021-bioinfo-images/file-icon-32px.png)Ubuntu Desktop 20.04 Bioinformatica.vdi.7z](https://drive.google.com/file/d/16CU4bj159aRyXpCsjsI8p3SGFnoTHq42/view?usp=sharing)
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z`). Para ello:
 
@@ -117,10 +117,13 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
-- 📅 **Lunes 19/noviembre/2023 17:30 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+- 📅 **Lunes 19/junio/2023 17:30 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
+- 📅 **Martes 20/junio/2023 13:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
+O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
 
 - 📅 **Martes 20/junio/2023. 17:00 horas.** será la primera sesión del curso.\
