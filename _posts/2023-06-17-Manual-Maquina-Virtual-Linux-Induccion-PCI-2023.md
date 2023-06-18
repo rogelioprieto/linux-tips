@@ -8,7 +8,7 @@ date: Junio 17, 2023
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/logo-pci-uas-fic.png)
 
-En los cursos «Introducción a GNU/Linux» y «Python para Bioinformática» de la materia «Tópicos Selectos», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En el «Curso de Inducción» de la Maestría en Ciencias de la Información, se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 - ⚠ **¡Nota!** El tiempo estimado para realizar este manual es de 2 horas debido al tiempo de descarga y configuración.
 
@@ -17,10 +17,10 @@ Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máq
 **Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
-<https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-Win.exe>
+<https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-Win.exe>
 
 Para mac OS:  
-<https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-OSX.dmg>
+<https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-OSX.dmg>
 
 Para Linux  
 <https://www.virtualbox.org/wiki/Linux_Downloads>
@@ -41,13 +41,13 @@ _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), 
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z`). Para ello:
 
-a) si usted está utilizando Windows, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
+a) si usted está utilizando **Windows**, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
 1. Ubica el archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z` en tu el explorador de archivos. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
 3. Selecciona `7zip`  ➙ `Extraer Aquí`.
 
-b) Si está utilizando macOS, requiere utilizar el software [The Unarchiver](https://theunarchiver.com/). Para instalarlo solo ingrese al link y elija `Instalar des la Mac App Store`. Una vez instalada la aplicación, deberá abrir el archivo `.7z`: 
+b) Si está utilizando **macOS**, requiere utilizar el software [The Unarchiver](https://theunarchiver.com/). Para instalarlo solo ingrese al link y elija `Instalar des la Mac App Store`. Una vez instalada la aplicación, deberá abrir el archivo `.7z`: 
 
 1. Ubica el archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z` en tu Mac. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
@@ -117,9 +117,13 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
-- 📅 **Viernes 4/noviembre/2022 16:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-Enlace a la videollamada: https://meet.google.com/hxz-myrx-qtr
+- 📅 **Lunes 19/noviembre/2022 17:30 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
+
+
+Para unirte a la videollamada, haz clic en este enlace: https://meet.google.com/hxz-myrx-qtr
+Si quieres unirte por teléfono, llama al +1 727-637-0823 e introduce este PIN: 903 647 863#
 
 - 📅 **Lunes 06/noviembre/2022** será la primera sesión de Linux.\
 Por Zoom, link pendiente.
