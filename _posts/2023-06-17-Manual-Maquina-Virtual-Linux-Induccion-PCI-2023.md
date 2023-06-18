@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - Maestría en Ciencias de la Información (Inducción 2023)
+title: Manual Máquina Virtual Linux - Maestría en Ciencias de la Información - Inducción 2023
 categories: programming
 author: Rogelio Prieto Alvarado
 date: Junio 17, 2023
@@ -8,11 +8,11 @@ date: Junio 17, 2023
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
 
-En el «Curso de Inducción» de la [Maestría en Ciencias de la Información-UAS](https://pci.uas.edu.mx/pci/maestria/), se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En la materia «Fundamentos de programación» del «Curso de Inducción» de la [Maestría en Ciencias de la Información-UAS](https://pci.uas.edu.mx/pci/maestria/), se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
-- ⚠ **¡Nota!** El tiempo estimado para realizar este manual es de 2 horas debido al tiempo de descarga y configuración.
+- ⚠ **¡Nota!** El tiempo estimado para realizar este manual es de **2 horas** debido al tiempo de descarga y configuración.
 
-Utilizaremos el software `VirtualBox` de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+Utilizaremos el software [`VirtualBox`](https://www.virtualbox.org/) de Oracle para ejecutar desde ahí la máquina virtual que utilizaremos. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
 **Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
