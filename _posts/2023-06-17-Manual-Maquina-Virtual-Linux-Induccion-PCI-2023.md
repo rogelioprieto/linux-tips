@@ -6,9 +6,9 @@ author: Rogelio Prieto Alvarado
 date: Junio 17, 2023
 ---
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/logo-pci-uas-fic.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
 
-En el «Curso de Inducción» de la Maestría en Ciencias de la Información, se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
+En el «Curso de Inducción» de la [Maestría en Ciencias de la Información-UAS](https://pci.uas.edu.mx/pci/maestria/), se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 - ⚠ **¡Nota!** El tiempo estimado para realizar este manual es de 2 horas debido al tiempo de descarga y configuración.
 
@@ -117,16 +117,14 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
-- 📅 **Lunes 19/noviembre/2022 17:30 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+- 📅 **Lunes 19/noviembre/2023 17:30 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
 
-Para unirte a la videollamada, haz clic en este enlace: https://meet.google.com/hxz-myrx-qtr
-Si quieres unirte por teléfono, llama al +1 727-637-0823 e introduce este PIN: 903 647 863#
 
-- 📅 **Lunes 06/noviembre/2022** será la primera sesión de Linux.\
-Por Zoom, link pendiente.
+- 📅 **Martes 20/junio/2023. 17:00 horas.** será la primera sesión del curso.\
+_Link_ pendiente.
 
-**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02.png)\
+**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02-small.png)\
 También, puede asistir a la sesión de asesoría.
