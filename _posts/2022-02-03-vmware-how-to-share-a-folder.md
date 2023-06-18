@@ -22,5 +22,5 @@ Type the path `\\vmware-host\Shared Folders\shared_folder_name`.
 
 
 ## Source:
-<https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-D6D9A5FD-7F5F-4C95-AFAB-EDE9335F5562.html>
+<https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-D6D9A5FD-7F5F-4C95-AFAB-EDE9335F5562.html>  
 <https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-13804128-3436-422C-80EC-A1697EF75C17.html#GUID-13804128-3436-422C-80EC-A1697EF75C17>

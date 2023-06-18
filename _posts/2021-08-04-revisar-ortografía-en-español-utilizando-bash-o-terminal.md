@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revisar la ortografía en español en bash o Terminal.
+title: Revisar la ortografía en español utilizando bash o Terminal.
 categories: linux
 author: Rogelio Prieto Alvarado
 date: August 04, 2021

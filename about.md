@@ -5,12 +5,12 @@ permalink: /about/
 ---
 
 
-Here I am writing the tips or the solutions for problems I've faced as a GNU/Linux user.
+Here I am writing the tips or the solutions to problems I've faced recently as a GNU/Linux user. Some of these solutions I got it while helping to students using GNU/Linux for data science and bioinformatics. I have been working in computer science since 2002. 
 
-I hope this can help you!
+I hope this can help you to save time and learn!
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/about-firma-Rogelio-Prieto.png)
+## Rogelio Prieto
 
 You can see or install **my favorite apps**:\
 [![winner-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/competition-32px.png) How to install linux software](https://rogelioprieto.github.io/linux-tips/linux/2021/05/05/how-to-install-linux-software.html)
@@ -30,5 +30,6 @@ This project is licensed under the terms of the Creative Commons license:\
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 
-Credits. Icons by:\
+Credits. Icons by Flaticon:\
 [Leaderboard icons created by juicy_fish - Flaticon](https://www.flaticon.com/free-icons/leaderboard)
+[Widget icons created by riajulislam - Flaticon](https://www.flaticon.com/free-icons/widget)

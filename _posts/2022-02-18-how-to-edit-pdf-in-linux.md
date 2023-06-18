@@ -12,9 +12,11 @@ What software or application do you recommends?
 
 ## Solution:
 There are many software to view and edit. I recommend these three:  
-- LibreOffice Draw 
-- Scribus
-- Okular (this one only for add comments with annotating tools).
+- [LibreOffice Draw](https://www.libreofficehelp.com/create-your-first-drawing-using-libreoffice-draw/),  already installed in Ubuntu and another distributions.
+
+- [Scribus](https://www.scribus.net/)
+
+- [Okular](https://en.wikipedia.org/wiki/Okular) (this one only for add comments with annotating tools).
 
 ### Step by step:
 

@@ -5,7 +5,7 @@ Here you will find tips for everyday use of GNU/Linux and Ubuntu. How to install
 
 ¡Welcome and save your time!
 
-¡This year, we are celebrating the Linux 30th anniversary!
+¡In 2021, we were celebrating the Linux 30th anniversary!
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-30th-images/30yearsoflinux_1000-247x282.png)
 

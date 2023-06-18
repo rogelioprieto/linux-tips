@@ -27,6 +27,7 @@ find . -type d -name "* *" -follow -print | while read file; do echo "$file" new
 find . -type f -name "* *" -follow -print | while read file; do echo "$file" new name is: ${file// /_}; mv "$file" ${file// /_}; done
 ```
 4. [Download the file here](https://raw.githubusercontent.com/rogelioprieto/bash-scripts/master/get-bpm-current-folder.sh) or create it as a new file, use this name: `get-bpm-current-folder.sh`. Type these lines inside:
+
 ```
 #!/bin/bash
 #author: Rogelio Prieto Alvarado
@@ -57,11 +58,13 @@ echo $counter_file"  .mp3 files were analyzed."
 ```
 
 Change the permissions to execute, type:
+
 ```
 chmod +x get-bpm-current-folder.sh
 ```
 
 Execute the script:
+
 ```
 ./get-bpm-current-folder.sh
 ```
