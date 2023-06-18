@@ -1,0 +1,12 @@
+Cannot register the hard disk '/home/rogelio/VirtualBox VMs/Linux Ubuntu 20.04-disk001.vdi' {9af70b26-b56c-4600-8437-23a9451f163b} because a hard disk '/home/rogelio/VirtualBox VMs/Linux Ubuntu 20.04/Linux Ubuntu 20.04-disk001.vdi' with UUID {9af70b26-b56c-4600-8437-23a9451f163b} already exists.
+
+
+Result Code: 
+NS_ERROR_INVALID_ARG (0x80070057)
+Component: 
+VirtualBoxWrap
+Interface: 
+IVirtualBox {d0a0163f-e254-4e5b-a1f2-011cf991c38d}
+Callee RC: 
+VBOX_E_OBJECT_NOT_FOUND (0x80BB0001)
+
