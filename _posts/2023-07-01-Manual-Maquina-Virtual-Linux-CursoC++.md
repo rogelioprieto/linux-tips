@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - Curso C++ verano 2023
+title: Manual Máquina Virtual Linux - Curso C++ Verano 2023
 categories: programming
 author: Rogelio Prieto Alvarado
 date: Julio 01, 2023
 ---
-![](c++_fic_logo_267x100.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/c++_fic_logo_267x100.png)
 
-![](images_posts/c++_fic_logo.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images_posts/c++_fic_logo.png)
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
 
