@@ -125,10 +125,10 @@ Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
 - 📅 **Lunes 3/julio/2023 18:15 horas.** será la primera sesión del curso.\
-_Link_ pendiente. Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software)**. Por favor, regístrese o inicie sesión en:\
+_Link_ pendiente. Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software)**. Por favor, regístrese o inicie sesión en:  
 <https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software>
 
-**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-email](rogelio-prieto-info-uas-firma-inkscape-v02.png)\
+**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-email](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-info-uas-firma-inkscape-v02.png)\
 También, puede asistir a la sesión de asesoría.
 
 
