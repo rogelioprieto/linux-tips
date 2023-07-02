@@ -7,10 +7,6 @@ date: Julio 01, 2023
 ---
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/c++_fic_logo_267x100.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images_posts/c++_fic_logo.png)
-
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
-
 En el curso «Introducción a C++», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 - 🚩 **¡Nota!** El tiempo estimado para realizar este manual es de **2 horas** debido al tiempo de descarga y configuración.
