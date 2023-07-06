@@ -120,7 +120,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
-- 📅 **Jueves 6/julio/2023 12:00 horas.** Sesión 03.\
+- 📅 **Jueves 6/julio/2023 17:00 horas (5pm).** Sesión 03.\
 Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software)**. Por favor, regístrese o inicie sesión en:  
 <https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software>
 
