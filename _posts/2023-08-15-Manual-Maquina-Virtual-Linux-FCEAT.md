@@ -7,6 +7,7 @@ date: Agosto 15, 2023
 ---
 
 
+
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/linux_fic_FCEAT_logo_378x100.png)
 
 
