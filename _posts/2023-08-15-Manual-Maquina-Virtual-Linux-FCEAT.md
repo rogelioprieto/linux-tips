@@ -14,6 +14,7 @@ En el curso «Fundamentos de GNU/Linux», se utilizará una [máquina virtual](h
 
 Utilizaremos el software [`VirtualBox`](https://www.virtualbox.org/) de Oracle para ejecutar desde ahí la máquina virtual. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
 
+
 **Paso 1.** Descargar el software `VirtualBox` de Oracle.
 
 Para Windows:  
