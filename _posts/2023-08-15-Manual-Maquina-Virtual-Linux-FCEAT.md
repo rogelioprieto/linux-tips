@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - Curso C++ Verano 2023
+title: Manual Máquina Virtual Linux - Curso GNU/Linux FCEAT
 categories: programming
 author: Rogelio Prieto Alvarado
-date: Julio 01, 2023
+date: Agosto 15, 2023
 ---
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/c++_fic_logo_267x100.png)
 
@@ -125,13 +125,13 @@ Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-team
 Link para sesión:
 <https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTAyY2QyODAtOGNjYS00Mzk1LWE3YTQtOTZjMzI2M2Q4Y2Nh%40thread.v2/0?context=%7b%22Tid%22%3a%22eb31d1f2-bdf1-4744-9066-11a291225de5%22%2c%22Oid%22%3a%22b1338e67-1f23-4120-8138-208bcb98bc7f%22%7d>
 
-- 📅 **Lunes 3/julio/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+- 📅 **Jueves 17/agosto/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
-- 📅 **Lunes 3/julio/2023 18:10 horas.** será la primera sesión del curso.\
-_Link_ pendiente. Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software)**. Por favor, regístrese o inicie sesión en:  
-<https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software>
+- 📅 **Lunes 21/agosto/2023 8:30 horas.** será la primera sesión del curso.\
+_Link_ pendiente. Se utilizará **[Zoom](https://zoom.us/es)**. Por favor, regístrese o inicie sesión en:  
+<https://zoom.us/es>
 
 **PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puede solicitar soporte al correo: ![rogelio-email](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-info-uas-firma-inkscape-v02.png)\
 También, puede asistir a la sesión de asesoría.
