@@ -9,11 +9,13 @@ date: Agosto 15, 2023
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/linux_fic_FCEAT_logo_378x100.png)
 
 
+
 En el curso «Fundamentos de GNU/Linux», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 - 🚩 **¡Nota!** El tiempo estimado para realizar este manual es de **2 horas** debido al tiempo de descarga y configuración.
 
 Utilizaremos el software [`VirtualBox`](https://www.virtualbox.org/) de Oracle para ejecutar desde ahí la máquina virtual. Para realizar la instalación y configuración, ejecuta los siguiente pasos:
+
 
 
 **Paso 1.** Descargar el software `VirtualBox` de Oracle.
