@@ -6,6 +6,7 @@ author: Rogelio Prieto Alvarado
 date: Agosto 15, 2023
 ---
 
+
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images_posts/linux_fic_logo_267x100.png)
 
 En el curso «Fundamentos de GNU/Linux», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
