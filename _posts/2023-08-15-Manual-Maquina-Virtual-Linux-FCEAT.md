@@ -114,22 +114,13 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
-- 📅 **Jueves 6/julio/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
-O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
-
-- 📅 **Jueves 6/julio/2023 17:00 horas (5pm).** Sesión 03.\
-Se utilizará **[Microsoft Teams](https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software)**. Por favor, regístrese o inicie sesión en:  
-<https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software>
-
-Link para sesión:
-<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTAyY2QyODAtOGNjYS00Mzk1LWE3YTQtOTZjMzI2M2Q4Y2Nh%40thread.v2/0?context=%7b%22Tid%22%3a%22eb31d1f2-bdf1-4744-9066-11a291225de5%22%2c%22Oid%22%3a%22b1338e67-1f23-4120-8138-208bcb98bc7f%22%7d>
-
 - 📅 **Jueves 17/agosto/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
-- 📅 **Lunes 21/agosto/2023 8:30 horas.** será la primera sesión del curso.\
+- 📅 **Lunes 21/agosto/2023 9:30 horas.** será la primera sesión del curso. **PRESENCIAL EN FCEAT**.
+
+- 📅 **Martes 21/agosto/2023 9:30 horas.** será la segunda sesión del curso.\
 _Link_ pendiente. Se utilizará **[Zoom](https://zoom.us/es)**. Por favor, regístrese o inicie sesión en:  
 <https://zoom.us/es>
 
