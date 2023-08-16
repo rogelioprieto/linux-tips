@@ -3,7 +3,7 @@ layout: post
 title: Manual Máquina Virtual Linux - Curso GNU/Linux FCEAT
 categories: programming
 author: Rogelio Prieto Alvarado
-date: Agosto 15, 2023
+date: 2023-08-15
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/linux_fic_FCEAT_logo_378x100.png)
