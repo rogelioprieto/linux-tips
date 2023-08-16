@@ -36,6 +36,7 @@ Sigue los pasos solicitados por el instalador.
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/00.png)
 
 
+
 **Paso 3.** Descargar y descomprimir la máquina virtual que los instructores han preparado.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
