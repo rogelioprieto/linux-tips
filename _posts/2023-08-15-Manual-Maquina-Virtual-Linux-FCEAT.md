@@ -42,7 +42,7 @@ _3.2_ Descomprima el archivo descargado (archivo `Ubuntu 22.04.3.7z`). Para ello
 
 a) si usted está utilizando **Windows**, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
 
-1. Ubica el archivo `Linux Ubuntu 20.04-disk001.vdi` en tu el explorador de archivos. (ubicado en Descargas).
+1. Ubica el archivo `Ubuntu 22.04.3.vdi` en tu el explorador de archivos. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
 3. Selecciona `7zip`  ➙ `Extraer Aquí`.
 
@@ -71,7 +71,7 @@ _4.2_
 
 Clic en el botón `Nuevo`.\
 Escribe los datos del sistema operativo:  
-Nombre: `Ubuntu 20.04`  
+Nombre: `Ubuntu 22.04.3`  
 Tipo: `Linux`  
 Versión: `64 bits`  
 Clic en `Siguiente`.
