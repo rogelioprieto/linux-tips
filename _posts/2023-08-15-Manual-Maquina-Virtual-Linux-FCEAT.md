@@ -133,4 +133,3 @@ _Link_ pendiente. Se utilizará **[Zoom](https://zoom.us/es)**. Por favor, regí
 **PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puedes solicitar soporte al correo: ![rogelio-email](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-info-uas-firma-inkscape-v02.png)\
 También, puede asistir a la sesión de asesoría.
 
-
