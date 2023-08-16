@@ -116,6 +116,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
+
 - 📅 **Jueves 17/agosto/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
