@@ -6,6 +6,7 @@ author: Rogelio Prieto Alvarado
 date: Agosto 15, 2023
 ---
 
+
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/linux_fic_FCEAT_logo_378x100.png)
 
 
@@ -47,6 +48,7 @@ _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu 22.04.3.7z`). Para ello:
 
 a) si usted está utilizando **Windows**, se requiere el software [`7zip`](https://www.7-zip.org/) o [`Winzip`](https://www.winzip.com/es/learn/file-formats/7z/). Se recomienda `7zip` por ser de _código abierto_ y gratuito. Para instalar `7zip` siga el **Método 2** de este manual: <https://es.wikihow.com/abrir-archivos-7z>.
+
 
 1. Ubica el archivo `Ubuntu 22.04.3.vdi` en tu el explorador de archivos. (ubicado en Descargas).
 2. Da clic derecho sobre él para abrir el menú contextual.
