@@ -118,7 +118,11 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
 
-- 📅 **Lunes 21/agosto/2023 9:30 horas.** será la primera sesión del curso. **PRESENCIAL EN FCEAT**.
+- 📅 **Viernes 18/agosto/2023 12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
+O marca el: ‪(US) +1 727-637-0823‬ PIN: ‪903 647 863‬#
+
+- 📅 **Lunes 21/agosto/2023 9:30 horas.** será la primera sesión del curso. **PRESENCIAL EN FCEAT-UAS**.
 
 - 📅 **Martes 21/agosto/2023 9:30 horas.** será la segunda sesión del curso.\
 _Link_ pendiente. Se utilizará **[Zoom](https://zoom.us/es)**. Por favor, regístrese o inicie sesión en:  
