@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - Maestría en Ciencias de la Información - Inducción 2023
+title: Manual Máquina Virtual Linux - CIAD-Culiaćan - Biología Computacional
 categories: programming
 author: Rogelio Prieto Alvarado
-date: Agosto 28, 2023
+date: 2023-08-28
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
