@@ -3,7 +3,7 @@ layout: post
 title: Manual Máquina Virtual Linux - Maestría en Ciencias de la Información - Inducción 2023
 categories: programming
 author: Rogelio Prieto Alvarado
-date: Junio 17, 2023
+date: Agosto 28, 2023
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/pci-uas-images/LogoPCI-499x100.jpg)
