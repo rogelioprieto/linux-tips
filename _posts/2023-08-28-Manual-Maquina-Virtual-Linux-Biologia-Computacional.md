@@ -40,7 +40,8 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://drive.google.com/file/d/1NRSSo43rxyPPsL-b4XxjTpXpJSzlN61z/view?usp=sharing)Ubuntu Desktop 20.04 Bioinformatica.vdi.7z](https://drive.google.com/file/d/1vFm9MKE2mYF06nHGPevOn_UWn4wjacvxRPA2023/view?usp=sharing)
+
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/file-icon-32px.png)Ubuntu 22.04.3.7z](https://drive.google.com/file/d/1vFm9MKE2mYF06nHGPevOn_UWn4wjacvxRPA2023/view?usp=sharing)
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu Desktop 20.04 Bioinformatica.vdi.7z`). Para ello:
 
