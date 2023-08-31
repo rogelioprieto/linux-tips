@@ -6,7 +6,9 @@ author: Rogelio Prieto Alvarado
 date: 2023-08-31
 ---
 
-# BIOLOGÍA COMPUTACIONAL
+Generalidades sobre el uso de GNU/Linux en Biología Computacional. 
+
+# Biología Computacional
 
 - Realizar análisis biológicos utilizando herramientas de cómputo (software e infraestructura de cómputo).
 - Analizar la información proporcionada por el software para generar conclusiones ("contar una historia").
