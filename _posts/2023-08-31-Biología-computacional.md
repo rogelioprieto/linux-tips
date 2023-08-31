@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducción a Linux
+title: Biología Computacional
 categories: programming
 author: Rogelio Prieto Alvarado
 date: 2023-08-31
