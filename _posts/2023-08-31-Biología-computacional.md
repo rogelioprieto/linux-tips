@@ -8,6 +8,9 @@ date: 2023-08-31
 
 # BIOLOGÍA COMPUTACIONAL
 
+- Realizar análisis biológicos utilizando herramientas de cómputo (software e infraestructura de cómputo).
+- Analizar la información proporcionada por el software para generar conclusiones ("contar una historia").
+
 # Servidores
 99% de los servidores de Internet o de alto rendimiento utilizan Unix (Linux, MacOS)
 
