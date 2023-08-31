@@ -14,7 +14,7 @@ Generalidades sobre el uso de GNU/Linux en Biología Computacional.
 - Analizar la información proporcionada por el software para generar conclusiones ("contar una historia").
 
 # Servidores
-99% de los servidores de Internet o de alto rendimiento utilizan Unix (Linux, MacOS)
+100% de los 500 servidores más potentes o de alto rendimiento utilizan Linux.
 
 # Software disponible
 Académico
