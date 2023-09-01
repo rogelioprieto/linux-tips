@@ -18,8 +18,8 @@ Generalidades sobre el uso de GNU/Linux en Biología Computacional.
 100% de los 500 servidores más potentes o de alto rendimiento utilizan Linux.
 
 # Software disponible
-Académico
-Linux - Sistema Operativo
+- Académico y/o de investigación
+- Linux - Sistema Operativo
 
 # Linux
 Sistema Operativo
@@ -29,8 +29,8 @@ Sistema Operativo
  - iOS
 
 
-# Linux - S.O.
-- núcleo (RAM,HDD,E/S)
+# Linux (Sistema Operativo)
+- Núcleo (administra RAM,CPU,HDD,E/S)
 
 # Distribuciones
 - núcleo
@@ -48,4 +48,4 @@ Sistema Operativo
 # GUI vs Línea de comandos
 
 # Terminal - bash
-
+[The command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
