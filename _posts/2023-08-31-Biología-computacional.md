@@ -5,6 +5,7 @@ categories: programming
 author: Rogelio Prieto Alvarado
 date: 2023-08-31
 ---
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/LogoUAS-CIAD-Linux-499x100.png)
 
 Generalidades sobre el uso de GNU/Linux en Biología Computacional. 
 
