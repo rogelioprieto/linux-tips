@@ -48,4 +48,4 @@ Sistema Operativo
 # GUI vs Línea de comandos
 
 # Terminal - bash
-[The command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+[The command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) - An Ubuntu official manual
