@@ -7,7 +7,7 @@ categories: support
 
 ## Problem: 
 
-I have installed a sound card, but I can't sound any sound, or I hear sound but no not in all speakers.
+I have installed a sound card, but I can't sound any sound, or I hear sound but not in all speakers.
 
 ## Solution:
 To solve it, try first to review if your volume for all speakers is right.
