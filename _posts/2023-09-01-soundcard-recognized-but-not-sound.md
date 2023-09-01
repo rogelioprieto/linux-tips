@@ -4,6 +4,7 @@ title: "My sound card is recognized but no sound"
 categories: support
 ---
 
+
 ## Problem: 
 
 I have installed a sound card, but I can't sound any sound, or I hear sound but no not in all speakers.
