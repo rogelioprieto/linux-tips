@@ -24,6 +24,8 @@ To solve it, try first to review if your volume for all speakers is right.
 
 ![](master/_posts/images-all/alsamixer-soundcard.png)
 
+If your speakers not still working, try this recommended steps:\
+<https://delightlylinux.wordpress.com/2017/01/13/experience-better-sound-in-linux-with-the-asus-xonar-dx-sound-card/>
 
 
 ## Source
