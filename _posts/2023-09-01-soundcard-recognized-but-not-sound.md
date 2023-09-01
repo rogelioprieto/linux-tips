@@ -22,7 +22,7 @@ To solve it, try first to review if your volume for all speakers is right.
 
 2. You can use `F6` to choose your sound card. Set volume for all speakers.
 
-![](master/_posts/images-all/alsamixer-soundcard.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/alsamixer-soundcard.png)
 
 If your speakers not still working, try this recommended steps:\
 <https://delightlylinux.wordpress.com/2017/01/13/experience-better-sound-in-linux-with-the-asus-xonar-dx-sound-card/>
