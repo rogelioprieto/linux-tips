@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manual Máquina Virtual Linux - GNU/Linux LICD
+title: Manual Máquina Virtual Linux - GNU/Linux - Ciencia de Datos (LICD)
 categories: programming
 author: Rogelio Prieto Alvarado
 date: 2023-09-11
@@ -125,7 +125,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el:  (US) +1 727-637-0823  PIN: 903 647 863#
 
-- 📅 **Martes 18/agosto/2023 18:00 horas (6pm).** Asesoría para responder preguntas o problemas específicos de este manual.\
+- 📅 **Martes 12/septiembre/2023 18:00 horas (6pm).** Asesoría para responder preguntas o problemas específicos de este manual.\
 Enlace a la videollamada: <https://meet.google.com/hxz-myrx-qtr>
 O marca el: (US) +1 727-637-0823 PIN: 903 647 863#
 
