@@ -6,7 +6,8 @@ author: Rogelio Prieto Alvarado
 date: 2023-09-11
 ---
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-images-verano2023/linux_fic_FCEAT_logo_378x100.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-licd-2023/LogoUAS--FIC-Linux-499x100.png)
+
 
 
 En la materia «Laboratorio de Sistemas Operativos», se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
