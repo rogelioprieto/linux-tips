@@ -45,6 +45,9 @@ ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
 sudo apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+#Paste the new SSH key to your GitHub account
+#follow these steps: 
+#https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 #Test ssh connection
 ssh -T git@github.com
 #make dir and clone
