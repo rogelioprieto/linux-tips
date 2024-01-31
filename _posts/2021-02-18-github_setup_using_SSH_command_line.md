@@ -5,31 +5,18 @@ categories: github
 ---
 
 
-## Problem: 
+## Problem 
 
 Why is Git always asking for my password? How to setup GitHub to SSH access.
 
 
-## Solution: 
+## Solution 
 
 Setup your github account using the Terminal and SSH.
 
-### Step by step:
-
+### Step by step
 
 1. How to Install Git on Ubuntu 22.04  
-```bash
-sudo apt update
-sudo apt install git
-git --version
-git config --global user.name "YourUsername"
-git config --global user.email "youremail@yourdomain.com"
-git config --list
-cat ~/.gitconfig
-```
-
-### .bash_history July 2021
-
 ```bash
 sudo apt update
 sudo apt install git
@@ -40,6 +27,7 @@ git --version
 git config --global user.name "rogelioprieto"
 git config --global user.email "rogelioprieto@googlemail.com"
 git config --list
+cat ~/.gitconfig
 ```
 3. Generate a new SSH key 
 ```bash
