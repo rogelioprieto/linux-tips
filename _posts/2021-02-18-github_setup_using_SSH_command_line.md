@@ -37,16 +37,12 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
 ```
-
 4.  Paste the new SSH key to your GitHub account
-
-Copy the ssh key into clipboard
 ```bash
 #copy the ssh key into clipboard
 sudo apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
-
 Then, add this new ssh key to your github account:\
 <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
 
@@ -62,9 +58,7 @@ git status
 ls -la
 cd linux-tips
 git status
-
 ```
-
 6. Finally, you can edit or create a file and push into the repository
 ```bash
 git add .
@@ -72,12 +66,7 @@ git status
 git commit -m "added minor changes"
 git push -u origin master
 git status
-
 ```
-
-
-
-### OLD VERSION February 2021
 
 ## Source:
 - Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
