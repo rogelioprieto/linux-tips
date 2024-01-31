@@ -45,7 +45,6 @@ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
 Then, add this new ssh key to your github account:\
 <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
-
 5. Connect to and clone the repository
 ```bash
 #Test ssh connection
