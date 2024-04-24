@@ -31,3 +31,4 @@ For example: ```-15 x 22 = -330```.
 ## Source:
 <https://www.tenforums.com/tutorials/79900-change-size-caption-buttons-windows-10-a.html>
 
+<https://answers.microsoft.com/en-us/windows/forum/all/size-of-close-minimise-and-maximise-buttons/4368fd4c-fd50-4955-8809-1e8bfdfdd88e>
