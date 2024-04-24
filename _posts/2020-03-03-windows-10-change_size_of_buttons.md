@@ -11,7 +11,7 @@ Using larger caption buttons will also increase the height of title bars.
 ## Step by step
 
 1. Open Registry Editor (```regedit.exe```). You can press ```Windows key + R``` and type ```regedit.exe```.
-2. Navigate to the key below in the left pane of Registry Editor. (see screenshot below)
+2. Navigate to the key below in the left pane of Registry Editor.
 
 ```HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics```
 
