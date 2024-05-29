@@ -17,7 +17,7 @@ To solve it, you can use the `dmidecode` command. This command works on Linux, U
 
 ```bash
 sudo dmidecode --type 17
-
+sudo dmidecode -t memory
 ```
 
 *Optional:*
