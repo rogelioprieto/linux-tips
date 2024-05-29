@@ -24,7 +24,6 @@ sudo dmidecode -t memory
 In case you need to install it:
 ```bash
 sudo apt install dmidecode
-
 ```
 
 
