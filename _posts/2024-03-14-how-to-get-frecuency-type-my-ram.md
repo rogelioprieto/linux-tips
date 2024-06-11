@@ -14,9 +14,9 @@ To solve it, you can determine the frequency and type of the current RAM install
 ### Step by step:
 
 1. Open a `Terminal`.
-2. Type this command:
+2. Type one of these commands:
 ```bash
- sudo lshw -short -C memory
+sudo lshw -short -C memory
 ```
 You'll get a table with the fields: H/W path, Device, Class, Description.
 
