@@ -26,8 +26,13 @@ In case you need to install it:
 sudo apt install dmidecode
 ```
 
-
-
+*Optional:*
+If you want to extract/show just few fields:
+```bash
+sudo dmidecode --type 17 | \
+awk '{if($0 ~ "^\t+Locator:") print "\n"$0; \
+else if($0 ~ "Type:" || $0 ~ "Speed:" || $0 ~ "Manufacturer:") print $0 }'
+```
 
 ## Source:
 
