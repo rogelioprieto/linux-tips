@@ -1,3 +1,11 @@
+1. Install pre-requisites
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install dkms
+    ```
+2. In Virtualbox choose `Device Menu` -> `Insert Guest Additions CD Image`, then choose Run in this temporary window.
+
 
 To get smoothest animations and fullscreen redimensioned.
 
