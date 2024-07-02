@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "install pip in an virtual environment in VS Codium or VS Code"
+title: "Install pip in an virtual environment in VS Codium or VS Code"
 categories: python programming
 ---
 
