@@ -11,7 +11,7 @@ or in your ubuntu host type:
 sudo usermod -aG vboxusers $USER
 ```
 
-3. log out and log in  Ubuntu session again.
+3. log out and log in  Ubuntu session again. Preferly, restart.
 
 
 
