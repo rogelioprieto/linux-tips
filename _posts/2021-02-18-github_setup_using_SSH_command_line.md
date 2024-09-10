@@ -16,7 +16,7 @@ Setup your github account using the Terminal and SSH.
 
 ### Step by step
 
-1. How to Install Git on Ubuntu 22.04  
+1. How to Install Git on Ubuntu 22.04 and 24.04
 ```bash
 sudo apt update
 sudo apt install git
@@ -64,6 +64,11 @@ git status
 git commit -m "added minor changes"
 git push -u origin master
 git status
+```
+
+or you can use this commands in one instruction/line:
+```bash
+git add . && git commit -m "added minor changes" && git push -u origin master
 ```
 
 ## Source:
