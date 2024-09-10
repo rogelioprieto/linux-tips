@@ -66,7 +66,7 @@ git push -u origin master
 git status
 ```
 
-    or you can use this commands in one instruction/line:
+    or you can use these commands in one instruction/line:
     ```bash
     git add . && git commit -m "added minor changes" && git push -u origin master
     ```
