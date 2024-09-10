@@ -66,10 +66,10 @@ git push -u origin master
 git status
 ```
 
-or you can use this commands in one instruction/line:
-```bash
-git add . && git commit -m "added minor changes" && git push -u origin master
-```
+    or you can use this commands in one instruction/line:
+    ```bash
+    git add . && git commit -m "added minor changes" && git push -u origin master
+    ```
 
 ## Source:
 - Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
