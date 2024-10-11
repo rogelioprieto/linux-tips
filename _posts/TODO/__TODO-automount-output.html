@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Auto Mount Drive in Ubuntu Server 22.04 at Startup</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.developerinsider.co">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://js.stripe.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://fundingchoicesmessages.google.com">
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.developerinsider.co">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://js.stripe.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fundingchoicesmessages.google.com">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,500,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <noscript><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,500,700&display=swap" rel="stylesheet" type="text/css" /></noscript>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css?v=c01f435534"/>
+
+    <link rel="icon" href="https://developerinsider.co/content/images/size/w256h256/format/png/2023/09/DILogo200x200.webp" type="image/png">
+    <link rel="canonical" href="https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/amp/">
+    
+    <meta property="og:site_name" content="Developer Insider">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Auto Mount Drive in Ubuntu Server 22.04 at Startup">
+    <meta property="og:description" content="When we connect an external drive, by default, Linux OS (or Ubuntu Server) doesn&#x27;t automount the external drive at startup. We can mount it very easily using the mount command but we want to enable automount feature on startup. So, we don&#x27;t need to mount the drive again after restarting">
+    <meta property="og:url" content="https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/">
+    <meta property="og:image" content="https://developerinsider.co/content/images/2022/09/auto_mount_drive_in_ubuntu_server_22_04_at_startup.webp">
+    <meta property="article:published_time" content="2022-09-30T16:36:40.000Z">
+    <meta property="article:modified_time" content="2022-09-30T16:36:40.000Z">
+    <meta property="article:tag" content="Wiki">
+    <meta property="article:tag" content="Ubuntu">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="DevOps">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Auto Mount Drive in Ubuntu Server 22.04 at Startup">
+    <meta name="twitter:description" content="When we connect an external drive, by default, Linux OS (or Ubuntu Server) doesn&#x27;t automount the external drive at startup. We can mount it very easily using the mount command but we want to enable automount feature on startup. So, we don&#x27;t need to mount the drive again after restarting">
+    <meta name="twitter:url" content="https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/">
+    <meta name="twitter:image" content="https://developerinsider.co/content/images/2022/09/auto_mount_drive_in_ubuntu_server_22_04_at_startup.webp">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Vineet Choudhary">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Wiki, Ubuntu, Linux, DevOps">
+    <meta name="twitter:site" content="@DevsInsider">
+    <meta name="twitter:creator" content="@vineet291">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="640">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Developer Insider",
+        "url": "https://developerinsider.co/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://developerinsider.co/content/images/2023/09/DILogo200x200-1.webp",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Vineet Choudhary",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/b0f938a16c481f44b6fa51841bb0324b?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://developerinsider.co/author/vineet/",
+        "sameAs": [
+            "https://vineet.developerinsider.co/",
+            "https://twitter.com/vineet291"
+        ]
+    },
+    "headline": "Auto Mount Drive in Ubuntu Server 22.04 at Startup",
+    "url": "https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/",
+    "datePublished": "2022-09-30T16:36:40.000Z",
+    "dateModified": "2022-09-30T16:36:40.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://developerinsider.co/content/images/2022/09/auto_mount_drive_in_ubuntu_server_22_04_at_startup.webp",
+        "width": 1200,
+        "height": 640
+    },
+    "keywords": "Wiki, Ubuntu, Linux, DevOps",
+    "description": "When we connect an external drive, by default, Linux OS (or Ubuntu Server) doesn&#x27;t automount the external drive at startup. We can mount it very easily using the mount command but we want to enable automount feature on startup. So, we don&#x27;t need to mount the drive again after restarting or logging into Linux OS. Here are steps to auto mount drive at startup -\n\n\n\n1. Create the Mount Point\n\n\nFirst, we need to create a directory which will be our mount point for a drive\n\n\nsudo mkdir /media/USB1\n\n\n\n",
+    "mainEntityOfPage": "https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.96">
+    <link rel="alternate" type="application/rss+xml" title="Developer Insider" href="https://developerinsider.co/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.44/umd/portal.min.js" data-i18n="false" data-ghost="https://developerinsider.co/" data-key="662263c50c87fbeb5274b02e5b" data-api="https://developerinsider.co/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.3/umd/sodo-search.min.js" data-key="662263c50c87fbeb5274b02e5b" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.3/umd/main.css" data-sodo-search="https://developerinsider.co/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://developerinsider.co/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=c01f435534"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=c01f435534">
+    <script defer src="/public/comment-counts.min.js?v=c01f435534" data-ghost-comments-counts-api="https://developerinsider.co/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=c01f435534"></script><style>:root {--ghost-accent-color: #01469b;}</style>
+    <!--Developer Insider Fixed Meta-->
+<meta name="google-site-verification" content="1REFlPDZJMpcGQe17NOWNbT3A91LBb4D5DNv9mQzg5U" />
+<meta name="google-site-verification" content="o5S_tuh9TKYLntzgvmn8UonPgOV0fsWp60hhH7wousw" />
+<meta name="keywords" content="Developer Insider, Developer, Developers, Insider, Windows, Windows Insider, iOS, iOS Insider, Android, Android Insider, News, News Insider, Tech News, Tech Insider, Technology News, C, C++, turbo c++, turbo c, c# tutorial, objective-c tutorial, programming, C++ tutorials, C++ programming, C programming, C Program, Basic C, C Language Program, Programming Language, C C, source code, programming quiz, c language, c tutorial, c interview questions, c programs, object oriented programming, turbo c++, iOS tutorial, iOS interview question, windows phone, windows 10 phone, universal windows platform, windows 10 programming, android programming, android interview questions">
+<meta name="theme-color" content="#222222"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/content/images/size/w300/2017/10/DILogo200x200-1-1.png">
+<link rel="manifest" href="/assets/manifest.json">
+
+<!--Custom Style Sheet-->
+<link rel="stylesheet" href="https://cdn.developerinsider.co/src/custom.css" />
+<link rel="stylesheet" href="https://cdn.developerinsider.co/src/youtube-lite/yt-light.css" />
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBV5XSV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBV5XSV');</script>
+<!-- End Google Tag Manager -->
+
+    <!--Page Level Ads-->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+	    google_ad_client: "ca-pub-3139212365885959",
+    	enable_page_level_ads: true
+  	});
+	</script>
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-3139212365885959?ers=1" nonce="7Wwux9Y-327c9HMTN1GpSg"></script><script nonce="7Wwux9Y-327c9HMTN1GpSg">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script>(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},ba="function"==typeof Object.create?Object.create:function(a){var b=function(){};b.prototype=a;return new b},k;if("function"==typeof Object.setPrototypeOf)k=Object.setPrototypeOf;else{var m;a:{var ca={a:!0},n={};try{n.__proto__=ca;m=n.a;break a}catch(a){}m=!1}k=m?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}
+var p=k,q=function(a,b){a.prototype=ba(b.prototype);a.prototype.constructor=a;if(p)p(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.v=b.prototype},r=this||self,da=function(){},t=function(a){return a};var u;var w=function(a,b){this.g=b===v?a:""};w.prototype.toString=function(){return this.g+""};var v={},x=function(a){if(void 0===u){var b=null;var c=r.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:t,createScript:t,createScriptURL:t})}catch(d){r.console&&r.console.error(d.message)}u=b}else u=b}a=(b=u)?b.createScriptURL(a):a;return new w(a,v)};var A=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^Date.now()).toString(36)};var B={},C=null;var D="function"===typeof Uint8Array;function E(a,b,c){return"object"===typeof a?D&&!Array.isArray(a)&&a instanceof Uint8Array?c(a):F(a,b,c):b(a)}function F(a,b,c){if(Array.isArray(a)){for(var d=Array(a.length),e=0;e<a.length;e++){var f=a[e];null!=f&&(d[e]=E(f,b,c))}Array.isArray(a)&&a.s&&G(d);return d}d={};for(e in a)Object.prototype.hasOwnProperty.call(a,e)&&(f=a[e],null!=f&&(d[e]=E(f,b,c)));return d}
+function ea(a){return F(a,function(b){return"number"===typeof b?isFinite(b)?b:String(b):b},function(b){var c;void 0===c&&(c=0);if(!C){C={};for(var d="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),e=["+/=","+/","-_=","-_.","-_"],f=0;5>f;f++){var h=d.concat(e[f].split(""));B[f]=h;for(var g=0;g<h.length;g++){var l=h[g];void 0===C[l]&&(C[l]=g)}}}c=B[c];d=Array(Math.floor(b.length/3));e=c[64]||"";for(f=h=0;h<b.length-2;h+=3){var y=b[h],z=b[h+1];l=b[h+2];g=c[y>>2];y=c[(y&3)<<
+4|z>>4];z=c[(z&15)<<2|l>>6];l=c[l&63];d[f++]=""+g+y+z+l}g=0;l=e;switch(b.length-h){case 2:g=b[h+1],l=c[(g&15)<<2]||e;case 1:b=b[h],d[f]=""+c[b>>2]+c[(b&3)<<4|g>>4]+l+e}return d.join("")})}var fa={s:{value:!0,configurable:!0}},G=function(a){Array.isArray(a)&&!Object.isFrozen(a)&&Object.defineProperties(a,fa);return a};var H;var J=function(a,b,c){var d=H;H=null;a||(a=d);d=this.constructor.u;a||(a=d?[d]:[]);this.j=d?0:-1;this.h=null;this.g=a;a:{d=this.g.length;a=d-1;if(d&&(d=this.g[a],!(null===d||"object"!=typeof d||Array.isArray(d)||D&&d instanceof Uint8Array))){this.l=a-this.j;this.i=d;break a}void 0!==b&&-1<b?(this.l=Math.max(b,a+1-this.j),this.i=null):this.l=Number.MAX_VALUE}if(c)for(b=0;b<c.length;b++)a=c[b],a<this.l?(a+=this.j,(d=this.g[a])?G(d):this.g[a]=I):(d=this.l+this.j,this.g[d]||(this.i=this.g[d]={}),(d=this.i[a])?
+G(d):this.i[a]=I)},I=Object.freeze(G([])),K=function(a,b){if(-1===b)return null;if(b<a.l){b+=a.j;var c=a.g[b];return c!==I?c:a.g[b]=G([])}if(a.i)return c=a.i[b],c!==I?c:a.i[b]=G([])},M=function(a,b){var c=L;if(-1===b)return null;a.h||(a.h={});if(!a.h[b]){var d=K(a,b);d&&(a.h[b]=new c(d))}return a.h[b]};J.prototype.toJSON=function(){var a=N(this,!1);return ea(a)};
+var N=function(a,b){if(a.h)for(var c in a.h)if(Object.prototype.hasOwnProperty.call(a.h,c)){var d=a.h[c];if(Array.isArray(d))for(var e=0;e<d.length;e++)d[e]&&N(d[e],b);else d&&N(d,b)}return a.g},O=function(a,b){H=b=b?JSON.parse(b):null;a=new a(b);H=null;return a};J.prototype.toString=function(){return N(this,!1).toString()};var P=function(a){J.call(this,a)};q(P,J);function ha(a){var b,c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document,d=null===(b=c.querySelector)||void 0===b?void 0:b.call(c,"script[nonce]");(b=d?d.nonce||d.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",b)};var Q=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},R=function(a){this.g=a||r.document||document};R.prototype.appendChild=function(a,b){a.appendChild(b)};var S=function(a,b,c,d,e,f){try{var h=a.g,g=Q(a.g,"SCRIPT");g.async=!0;g.src=b instanceof w&&b.constructor===w?b.g:"type_error:TrustedResourceUrl";ha(g);h.head.appendChild(g);g.addEventListener("load",function(){e();d&&h.head.removeChild(g)});g.addEventListener("error",function(){0<c?S(a,b,c-1,d,e,f):(d&&h.head.removeChild(g),f())})}catch(l){f()}};var ia=r.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ja=r.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),ka=r.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),la=function(a,b,c){this.h=a;this.j=new R(this.h);this.g=null;this.i=[];this.l=!1;this.o=b;this.m=c},V=function(a){if(a.h.body&&!a.l){var b=
+function(){T(a);r.setTimeout(function(){return U(a,3)},50)};S(a.j,a.o,2,!0,function(){r[a.m]||b()},b);a.l=!0}},T=function(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.h.body.appendChild(d);a.i.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style["background-color"]=ma(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=ma(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=X(a);c.style.width=W(80,85).toString()+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=Q(a.j.g,"IMG");d.className=A();d.src=ia;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=X(a),f=X(a);f.style["font-weight"]="bold";f.textContent=ja;var h=X(a);h.textContent=ka;Y(a,
+e,f);Y(a,e,h);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.h.body.appendChild(a.g);b=W(1,5);for(c=0;c<b;c++)d=X(a),a.h.body.appendChild(d),a.i.push(d)},Y=function(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)},W=function(a,b){return Math.floor(a+Math.random()*(b-a))},ma=function(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,
+255)).toString()+")"},X=function(a){a=Q(a.j.g,"DIV");a.className=A();return a},U=function(a,b){0>=b||null!=a.g&&0!=a.g.offsetHeight&&0!=a.g.offsetWidth||(na(a),T(a),r.setTimeout(function(){return U(a,b-1)},50))},na=function(a){var b=a.i;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:aa(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.i=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};var pa=function(a,b,c,d,e){var f=oa(c),h=function(l){l.appendChild(f);r.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},g=function(l){document.body?h(document.body):0<l?r.setTimeout(function(){g(l-1)},e):b()};g(3)},oa=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var L=function(a){J.call(this,a)};q(L,J);var qa=function(a){J.call(this,a)};q(qa,J);var ra=function(a,b){this.l=a;this.m=new R(a.document);this.g=b;this.i=K(this.g,1);b=M(this.g,2);this.o=x(K(b,4)||"");this.h=!1;b=M(this.g,13);b=x(K(b,4)||"");this.j=new la(a.document,b,K(this.g,12))};ra.prototype.start=function(){sa(this)};
+var sa=function(a){ta(a);S(a.m,a.o,3,!1,function(){a:{var b=a.i;var c=r.btoa(b);if(c=r[c]){try{var d=O(P,r.atob(c))}catch(e){b=!1;break a}b=b===K(d,1)}else b=!1}b?Z(a,K(a.g,14)):(Z(a,K(a.g,8)),V(a.j))},function(){pa(function(){Z(a,K(a.g,7));V(a.j)},function(){return Z(a,K(a.g,6))},K(a.g,9),K(a.g,10),K(a.g,11))})},Z=function(a,b){a.h||(a.h=!0,a=new a.l.XMLHttpRequest,a.open("GET",b,!0),a.send())},ta=function(a){var b=r.btoa(a.i);a.l[b]&&Z(a,K(a.g,5))};(function(a,b){r[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];r[a]=da;b.apply(null,d)}})("__h82AlnkH6D91__",function(a){"function"===typeof window.atob&&(new ra(window,O(qa,window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItMzEzOTIxMjM2NTg4NTk1OSIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi0zMTM5MjEyMzY1ODg1OTU5Il0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hWelZFMUdmUnJUX1ppRzJuQ1o1ZW5iXzlNeHd5THZ1eFgwakNSRFlFWkJOXzJXZ2MwVzUyRXQ1M0lQd0o0b1pRX1hDZkM3SmxDX0dnZjNRV20xNklVNzFBXHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFVSS3BUTWRfQTBlYzhla0xqMkxqUGdCSjJfcmRWcEV1WDZQZHpKbGU4eVZpbnpmLVpLQ1hZT2NXOEt5VmhPc3J4VGkyMkhZRlZTNG9sWGVFTkVvY1hYS2dcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFcxYkdxbXJLYjV2SmQ1a0lkdDJLdnhCaDhXMEFWZHlmM244ZmlWZ29IOGFsWnRsYUI0eFVyLTNic3MzX3AzTWphR2ZFU285XzdPUEpuYzVJTTVCck12RkFcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFhCRWpaMkNaVTdCU1RhSU5Td2lmM29VSTFvd21sLWhzLXpNeXM2ZFhkMWtndk53ZEF1UXVUSDhTR04wUUdOcld1MzBDTlltS1V0bkMtN1p1Y3lVNU9fblFcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUTXhNemt5TVRJek5qVTRPRFU1TlRrXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi0zMTM5MjEyMzY1ODg1OTU5LmpzP3VzcXBcdTAwM2RDQVkiXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4WFpncm9NdGh3Nm54Ql9qWWpsY29rUWI2R1ZsdTJoR01tcXZRWHliSlBxNEhGaTNMZ1JZblFoWDNVdmxMcXBIVThSaGtCS1pnU0FaZ2VHdHpjU1ZOZDBGZ1x1MDAzZFx1MDAzZCJd");
+</script>
+<script>
+    // Make sure that the properties exist on the window.
+    window.googlefc = window.googlefc || {};
+    window.googlefc.ccpa = window.googlefc.ccpa || {}
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+    // To guarantee functionality, this must go before the tag on the page.
+    googlefc.controlledMessagingFunction = (message) => {
+        message.proceed(true);
+    };
+</script>
+    
+    <script>
+        if (typeof(Storage) !== 'undefined') {
+            var selectTheme = localStorage.getItem('selected-theme');
+            if (selectTheme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark')
+            } else if (selectTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        }
+    </script>
+</head>
+<body class="is-article">
+
+    <div class="site-wrapper u-flexColumnTop">
+        <header class="header u-sizeFullWidth u-flexCenter">
+    <div class="header-wrap u-relative u-flexCenter u-flex--1">
+        <a class="header-logo u-inlineBlock u-flex0" href="https://developerinsider.co">
+                <img src="/content/images/size/w300/2023/09/DILogo200x200-1.webp" alt="Developer Insider"/>
+        </a>
+
+        <nav class="mainMenu u-flex u-flex1 u-paddingLeft20 u-flexCenter u-hide-before-lg">
+            <ul class="nav">
+    <li class="nav-c"><a href="https://developerinsider.co/c-and-cpp-insider/">C</a></li>
+    <li class="nav-c"><a href="https://developerinsider.co/cpp-inshort-insider/">C++</a></li>
+    <li class="nav-ios"><a href="https://developerinsider.co/ios/">iOS</a></li>
+    <li class="nav-wiki"><a href="https://developerinsider.co/wiki/">Wiki</a></li>
+    <li class="nav-interview"><a href="https://developerinsider.co/interview/">Interview</a></li>
+    <li class="nav-tech"><a href="https://developerinsider.co/tech/">Tech</a></li>
+    <li class="nav-tips"><a href="https://developerinsider.co/tips/">Tips</a></li>
+    <li class="nav-downloads"><a href="https://developerinsider.co/downloads/">Downloads</a></li>
+    <li class="nav-about"><a href="https://developerinsider.co/about/">About</a></li>
+</ul>
+
+        </nav>
+
+        <ul class="header-left u-flex0 u-flex u-flexEnd u-unstyled">
+            <li class="dropdown u-hide-before-lg u-relative">
+                <div class="hla u-fontSizeSmaller">Follow <svg class="icon icon--s top2"><use xlink:href="#icon-arrow"></use></svg></div>
+
+                <div class="header-dropdown-menu drop-content u-absolute">
+                    <div class="header-social-media drop-border js-social-media u-flex u-marginBottom30 u-paddingBottom20">
+                        
+                        <a href="https://twitter.com/DevsInsider"  title="Twitter @DevsInsider" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg></a>
+                    </div>
+
+                    <div class="u-textAlignCenter u-marginBottom30">
+                        <h5 class="u-fontSize26 u-fontWeightMedium u-marginBottom15">Subscribe to Developer Insider</h5>
+                        <div class="u-fontSize15 u-marginBottom20">Get the latest posts delivered right to your inbox</div>
+
+                        <form class="swf" data-members-form="subscribe">
+                            <div class="u-flex">
+                                <input
+                                    class="subscribe-email u-fontSizeSmaller u-flex1"
+                                    data-members-email
+                                    placeholder="youremail@example.com"
+                                    aria-label="Your email address"
+                                    aria-describedby="header-subscribe-btn"
+                                    autocomplete="off"
+                                    required
+                                />
+                                <button id="header-subscribe-btn" class="button button button--large button--filled u-flex0" type="submit">
+                                    <span class="button-text">Subscribe</span>
+                                    <svg class="icon icon--loader u-hide" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M32 16c-0.040-2.089-0.493-4.172-1.331-6.077-0.834-1.906-2.046-3.633-3.533-5.060-1.486-1.428-3.248-2.557-5.156-3.302-1.906-0.748-3.956-1.105-5.981-1.061-2.025 0.040-4.042 0.48-5.885 1.292-1.845 0.809-3.517 1.983-4.898 3.424s-2.474 3.147-3.193 4.994c-0.722 1.846-1.067 3.829-1.023 5.79 0.040 1.961 0.468 3.911 1.254 5.694 0.784 1.784 1.921 3.401 3.316 4.736 1.394 1.336 3.046 2.391 4.832 3.085 1.785 0.697 3.701 1.028 5.598 0.985 1.897-0.040 3.78-0.455 5.502-1.216 1.723-0.759 3.285-1.859 4.574-3.208 1.29-1.348 2.308-2.945 2.977-4.67 0.407-1.046 0.684-2.137 0.829-3.244 0.039 0.002 0.078 0.004 0.118 0.004 1.105 0 2-0.895 2-2 0-0.056-0.003-0.112-0.007-0.167h0.007zM28.822 21.311c-0.733 1.663-1.796 3.169-3.099 4.412s-2.844 2.225-4.508 2.868c-1.663 0.646-3.447 0.952-5.215 0.909-1.769-0.041-3.519-0.429-5.119-1.14-1.602-0.708-3.053-1.734-4.25-2.991s-2.141-2.743-2.76-4.346c-0.621-1.603-0.913-3.319-0.871-5.024 0.041-1.705 0.417-3.388 1.102-4.928 0.683-1.541 1.672-2.937 2.883-4.088s2.642-2.058 4.184-2.652c1.542-0.596 3.192-0.875 4.832-0.833 1.641 0.041 3.257 0.404 4.736 1.064 1.48 0.658 2.82 1.609 3.926 2.774s1.975 2.54 2.543 4.021c0.57 1.481 0.837 3.064 0.794 4.641h0.007c-0.005 0.055-0.007 0.11-0.007 0.167 0 1.032 0.781 1.88 1.784 1.988-0.195 1.088-0.517 2.151-0.962 3.156z"></path></svg>                                </button>
+                            </div>
+                            <div class="message-success u-hide"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription</div>
+                            <div class="message-error u-hide">Please enter a valid email address!</div>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="js-search-open search-toggle u-relative u-hide"><div class="hla"><svg class="icon icon--m top2"><use xlink:href="#icon-search"></use></svg></div></li>
+            <li class="u-hide-after-lg" style="margin-right:-10px"><div class="hla menu-burger js-menu-toggle u-relative"><span></span><span></span><span></span></div></li>
+        </ul>
+    </div>
+</header>
+
+<aside class="sideNav u-absolute0 u-hide-after-lg">
+    <div class="sideNav-wrap u-absolute0">
+        <nav class="sideNav-item sideNav-menu u-fontSizeBase">
+            <ul class="nav">
+    <li class="nav-c"><a href="https://developerinsider.co/c-and-cpp-insider/">C</a></li>
+    <li class="nav-c"><a href="https://developerinsider.co/cpp-inshort-insider/">C++</a></li>
+    <li class="nav-ios"><a href="https://developerinsider.co/ios/">iOS</a></li>
+    <li class="nav-wiki"><a href="https://developerinsider.co/wiki/">Wiki</a></li>
+    <li class="nav-interview"><a href="https://developerinsider.co/interview/">Interview</a></li>
+    <li class="nav-tech"><a href="https://developerinsider.co/tech/">Tech</a></li>
+    <li class="nav-tips"><a href="https://developerinsider.co/tips/">Tips</a></li>
+    <li class="nav-downloads"><a href="https://developerinsider.co/downloads/">Downloads</a></li>
+    <li class="nav-about"><a href="https://developerinsider.co/about/">About</a></li>
+</ul>
+
+        </nav>
+
+        <div class="sideNav-item sideNav-follow u-flex u-flexContentAround js-social-media">
+            
+            <a title="Twitter @DevsInsider" href="https://twitter.com/DevsInsider" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg></a>
+        </div>
+    </div>
+</aside>
+        <main class="site-main ">
+
+
+<div class="post extreme-container u-marginTop30 u-marginBottom40">
+    <div class="row">
+        <article class="col col-left">
+                <div class="mapache-ad-post-header u-textAlignCenter u-marginBottom20"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <center>
+            <ins class="adsbygoogle adslot_1" style="display:block;" data-full-width-responsive="true" data-ad-client="ca-pub-3139212365885959" data-ad-slot="8210608620"></ins>
+        </center>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+            <div class="post-header u-marginBottom20">
+    <h1 class="post-title u-fontSizeLargest u-md-fontSizeLarger">Auto Mount Drive in Ubuntu Server 22.04 at Startup</h1>
+</div>
+
+            <div class="post-author u-flex u-flexCenter">
+    <div class="u-flex0">
+        <a href="/author/vineet/" class="avatar-image avatar-image--smaller u-relative">
+            <img class="u-absolute u-image u-block u-round"
+                src="//www.gravatar.com/avatar/b0f938a16c481f44b6fa51841bb0324b?s&#x3D;250&amp;d&#x3D;mm&amp;r&#x3D;x"
+                alt="Go to the profile of Vineet Choudhary"
+            />
+        </a>
+    </div>
+
+    <div class="u-paddingLeft15 text-muted u-flex1 u-fontSize15 u-lineHeight1">
+        <div class="u-flexCenter u-block-before-md">
+            <span class="readingTime">2 min read</span>
+        </div>
+
+        <div class="u-block u-paddingTop5">
+            By <a href="/author/vineet/" class="link link--underline u-fontWeightMedium u-textColorDarker" title="Posts by Vineet Choudhary">Vineet Choudhary</a>
+
+            
+            <a class="post-author-social u-inlineBlock c-twitter i-twitter" href="https://twitter.com/vineet291" title="@vineet291" target="_blank" rel="noopener noreferrer"><svg class="icon icon--s top2"><use xlink:href="#icon-twitter"></use></svg></a>
+        </div>
+    </div>
+</div>
+            <div class="post-body u-relative">
+    <div class="post-body-wrap">
+        <div class="post-inner js-post-content"><!--kg-card-begin: markdown--><p>When we connect an external drive, by default, Linux OS (or Ubuntu Server) doesn't automount the external drive at startup. We can mount it very easily using the <code>mount</code> command but we want to enable automount feature on startup. So, we don't need to mount the drive again after restarting or logging into Linux OS. Here are steps to auto mount drive at startup -</p>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="1-create-the-mount-point">1. Create the Mount Point</h2>
+<p>First, we need to create a directory which will be our mount point for a drive</p>
+<pre><code>sudo mkdir /media/USB1
+</code></pre>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="2-get-drive-uuid-and-type">2. Get Drive UUID and Type</h2>
+<p>Now, we need to get the drive UUID and File System Type. This information we need in the next step. So, to find the drive's UUID and File System Type, run the following command -</p>
+<pre><code>lsblk -o NAME,FSTYPE,UUID,MOUNTPOINTS
+</code></pre>
+<p>This will return something like what we have below. Here you can see, sd2 is type exfat and doesn't have any mount point. So, we need to mount this sda2 on <code>/media/USB1</code>. There UUID for this is <code>632D-7154</code> and File System Type is <code>exfat</code>. So, Copy the UUID and File System Type from the disk.</p>
+<pre><code>NAME   FSTYPE   UUID                                 MOUNTPOINTS
+sda                                                  
+├─sda1 vfat     67E3-17ED                            
+└─sda2 exfat    632D-7154
+sdb                                                  
+├─sdb1 vfat     D7E2-9D99                            /boot/firmware
+└─sdb2 ext4     b09bb4c8-de4d-4ce6-a93f-30c4c9241a58 /
+</code></pre>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="3-edit-fstab">3. Edit fstab</h2>
+<p>To edit the fstab file run the following command (note I'm using nano here but use whatever editor you prefer)</p>
+<pre><code>sudo nano /etc/fstab
+</code></pre>
+<p>You'll see something like this -</p>
+<pre><code>LABEL=writable  /       ext4    discard,errors=remount-ro       0 1
+LABEL=system-boot       /boot/firmware  vfat    defaults        0       1
+</code></pre>
+<p>Here we need to add one more entry for our drive. The format for adding a new entry is something like this -</p>
+<pre><code>&lt;file system&gt; &lt;mount point&gt;   &lt;type&gt;  &lt;options&gt;       &lt;dump&gt;  &lt;pass&gt;
+UUID=&lt;UUID&gt; &lt;PATH_TO_MOUNT&gt; &lt;DRIVE_TYPE&gt;  defaults        0       0
+</code></pre>
+<p>So, here is the entry for our drive</p>
+<pre><code># USB1
+UUID=632D-7154 /media/USB1   exfat    defaults        0       0
+</code></pre>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="4-test-fstab">4. Test fstab</h2>
+<p>Now we'll test the <code>fstab</code> before rebooting because an invalid <code>fstab</code> can render a disk unbootable. So, for the test, run the following command and check if there is any error or warnings. Do not reboot your Ubuntu Server / Linux OS without resolving those errors or warnings (if any).</p>
+<pre><code>sudo findmnt --verify
+</code></pre>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="5-restart-ubuntu-server-linux-os">5. Restart Ubuntu Server / Linux OS</h2>
+<p>If the last step doesn't show any error or warnings then restart Ubuntu Server / Linux OS using the following command -</p>
+<pre><code>sudo reboot
+</code></pre>
+<!--kg-card-end: markdown--><!--kg-card-begin: markdown--><h2 id="6-test-the-mount-point">6. Test the Mount Point</h2>
+<p>Run the same command which we run in Step 2 to check if our drive is mounted to its mount point.</p>
+<pre><code>lsblk -o NAME,FSTYPE,UUID,MOUNTPOINTS
+</code></pre>
+<pre><code>NAME   FSTYPE   UUID                                 MOUNTPOINTS
+sda                                                  
+├─sda1 vfat     67E3-17ED                            
+└─sda2 exfat    632D-7154                            /media/USB1
+sdb                                                  
+├─sdb1 vfat     D7E2-9D99                            /boot/firmware
+└─sdb2 ext4     b09bb4c8-de4d-4ce6-a93f-30c4c9241a58 /
+</code></pre>
+<p>Here you can see, <code>sda2</code> is now mounted to <code>/media/USB1</code>.</p>
+<!--kg-card-end: markdown--></div>
+
+        <div class="post-tags u-marginTop30 buttonSet">
+            <a href="/tag/wiki/" title="Wiki" class="button button--tag button--line">Wiki</a><a href="/tag/ubuntu/" title="Ubuntu" class="button button--tag button--line">Ubuntu</a><a href="/tag/linux/" title="Linux" class="button button--tag button--line">Linux</a><a href="/tag/devops/" title="DevOps" class="button button--tag button--line">DevOps</a>
+        </div>
+
+        <hr>
+<div class="row u-marginTop30 prev-next">
+    <div class="col s12 m6">
+        <a href="/whats-new-in-xcode-14/" class="prev-next-link u-block u-marginBottom20">
+            <div class="prev-next-span text-muted u-block"><span class="u-inlineBlock u-hide-before-md arrow-left"><svg class="icon icon--m top2 rotate270"><use xlink:href="#icon-arrow-round"></use></svg></span> Prev article</div>
+            <h5 class="prev-next-title u-fontWeightMedium">What&#x27;s new in Xcode 14?</h5>
+        </a>
+    </div>
+
+    <div class="col s12 m6">
+        <a href="/install-omada-software-controller-on-raspberry-pi-ubuntu-22-04/" class="prev-next-link u-block u-marginBottom20 prev-next-right">
+            <div class="prev-next-span text-muted">Next article <span class="u-inlineBlock u-hide-before-md arrow-right"><svg class="icon icon--m top2 rotate90"><use xlink:href="#icon-arrow-round"></use></svg></span></div>
+            <h5 class="prev-next-title u-fontWeightMedium">Install Omada Software Controller on Raspberry Pi (Ubuntu Server 22.04)</h5>
+        </a>
+    </div>
+</div>
+            <hr class="post-footer-hr">
+            <h2>Discussion</h2>
+            <a class="text-muted" href="/community-guidelines/" target="_blank">Read Community Guidelines</a>
+            <script
+    data-ghost-comment-count="632dcccd18f68a9ce73d918d"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="comment"
+    data-ghost-comment-count-plural="comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+            
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~0.19/umd/comments-ui.min.js" data-ghost-comments="https://developerinsider.co/" data-api="https://developerinsider.co/ghost/api/content/" data-admin="https://developerinsider.co/ghost/" data-key="662263c50c87fbeb5274b02e5b" data-title="" data-count="false" data-post-id="632dcccd18f68a9ce73d918d" data-color-scheme="dark" data-avatar-saturation="80" data-accent-color="#01469b" data-comments-enabled="all" data-publication="Developer Insider" crossorigin="anonymous"></script>
+    
+    </div>
+</div>        </article>
+
+        <aside class="sidebar col sticky-parent col-right sidebar-sticky u-hide-before-lg">
+    <div class="sticky-bottom-wrap">
+        <div class="sticky">
+                <div class="mapache-ad u-textAlignCenter sidebar-items u-marginBottom30">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:300px;height:600px"
+            data-ad-client="ca-pub-3139212365885959"
+            data-ad-slot="1841474229"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+                    <div class="sidebar-items u-marginBottom30 u-flexColumn">
+    <h3 class="sidebar-title u-textColorDarker title-line">Latest Articles</h3>
+
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/sample-hls-m3u8-streams-test-urls-vod-and-live/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">1</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Sample HLS (m3u8) streams test URLs (VOD and LIVE)</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/fairplay-streaming-error-codes/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">2</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">FairPlay Streaming Error Codes</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/install-update-nginx-to-the-latest-stable-version-on-ubuntu/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">3</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Install/Update Nginx to the latest stable version on Ubuntu</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/debug-google-analytics-4-firebase-analytics-using-charles-proxy-for-mobile-apps/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">4</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Debug Google Analytics 4 / Firebase Analytics using Charles Proxy for Mobile Apps</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/apple-fairplay-streaming-overview/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">5</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Apple Fairplay Streaming Overview</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/how-to-measure-function-execution-time-in-swift/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">6</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">How to measure function execution time in Swift?</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/how-to-clear-reset-swiftui-preview-caches/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">7</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">How to clear/reset SwiftUI Preview Caches?</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/use-xcode-14-to-run-debug-code-on-ios-17-or-tvos-17/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">8</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Use Xcode 14 to run/debug code on iOS 17 or tvOS 17</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/fix-xcode-15-dt_toolchain_dir-cannot-be-used-to-evaluate-library_search_paths-use-toolchain_dir-instead/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">9</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Fix Xcode 15 DT_TOOLCHAIN_DIR cannot be used to evaluate LIBRARY_SEARCH_PATHS, use TOOLCHAIN_DIR instead</h3>
+        </a>
+    </div>
+    <div class="sidebar-post u-relative">
+        <a href="https://developerinsider.co/execute-async-await-method-from-swift-command-line-cli-application/" class="u-flex">
+            <span class="u-flex0 sidebar-post-border u-flexCenter u-fontSize36 u-fontWeightSemibold">10</span>
+            <h3 class="u-flex1 u-fontSize15 u-fontWeightMedium u-lineHeightTight u-flexCenter">Execute async/await method from Swift Command Line (CLI) Application</h3>
+        </a>
+    </div>
+
+</div>
+
+            <div class="sidebar-items u-marginBottom30 mp-category-item">
+    <ul class="mp-category-list">
+            <li class="u-relative">
+                <a href="https://developerinsider.co/tag/ios/" title="iOS" class="mp-category-link u-relative u-flexCenter u-fontWeightMedium">
+                    <span class="u-bgGradient u-absolute0" style="z-index: -1"></span>
+
+                    <span class="u-fontSizeBase u-textColorWhite u-flex0">iOS</span>
+                    <span class="bar u-flex1"></span>
+                    <span class="mp-category-count u-round u-flex0 u-flexCenter justify-content-center">95</span>
+                </a>
+            </li>
+            <li class="u-relative">
+                <a href="https://developerinsider.co/tag/primary/" title="Primary" class="mp-category-link u-relative u-flexCenter u-fontWeightMedium">
+                    <span class="u-bgGradient u-absolute0" style="z-index: -1"></span>
+
+                    <span class="u-fontSizeBase u-textColorWhite u-flex0">Primary</span>
+                    <span class="bar u-flex1"></span>
+                    <span class="mp-category-count u-round u-flex0 u-flexCenter justify-content-center">74</span>
+                </a>
+            </li>
+            <li class="u-relative">
+                <a href="https://developerinsider.co/tag/swift/" title="Swift" class="mp-category-link u-relative u-flexCenter u-fontWeightMedium">
+                    <span class="u-bgGradient u-absolute0" style="z-index: -1"></span>
+
+                    <span class="u-fontSizeBase u-textColorWhite u-flex0">Swift</span>
+                    <span class="bar u-flex1"></span>
+                    <span class="mp-category-count u-round u-flex0 u-flexCenter justify-content-center">45</span>
+                </a>
+            </li>
+            <li class="u-relative">
+                <a href="https://developerinsider.co/tag/xcode/" title="Xcode" class="mp-category-link u-relative u-flexCenter u-fontWeightMedium">
+                    <span class="u-bgGradient u-absolute0" style="z-index: -1"></span>
+
+                    <span class="u-fontSizeBase u-textColorWhite u-flex0">Xcode</span>
+                    <span class="bar u-flex1"></span>
+                    <span class="mp-category-count u-round u-flex0 u-flexCenter justify-content-center">42</span>
+                </a>
+            </li>
+            <li class="u-relative">
+                <a href="https://developerinsider.co/tag/c-programming/" title="C Programming" class="mp-category-link u-relative u-flexCenter u-fontWeightMedium">
+                    <span class="u-bgGradient u-absolute0" style="z-index: -1"></span>
+
+                    <span class="u-fontSizeBase u-textColorWhite u-flex0">C Programming</span>
+                    <span class="bar u-flex1"></span>
+                    <span class="mp-category-count u-round u-flex0 u-flexCenter justify-content-center">39</span>
+                </a>
+            </li>
+    </ul>
+</div>
+
+                <div class="mapache-ad u-textAlignCenter sidebar-items u-marginBottom30">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:300px;height:600px"
+            data-ad-client="ca-pub-3139212365885959"
+            data-ad-slot="1841474229"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+            <div class="sidebar-items witget-subscribe u-marginBottom30 u-textAlignCenter">
+    <h5 class="u-fontSizeLarge u-textColorDarker u-marginBottom20 u-fontWeightMedium">Newsletter</h5>
+    <div class="u-fontSize15 u-marginBottom20">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</div>
+
+    <form class="witget-subscribe--form swf" data-members-form="subscribe">
+        <div class="form-group">
+            <input
+                class="subscribe-email u-fontSize15 u-block u-marginBottom10"
+                data-members-email
+                placeholder="youremail@example.com"
+                aria-label="Your email address"
+                aria-describedby="sidebar-subscribe-btn"
+                autocomplete="off"
+                required
+            />
+            <button id="sidebar-subscribe-btn" class="button primary button button--filled u-sizeFullWidth" type="submit">
+                <span class="button-text"><svg class="icon"><use xlink:href="#icon-send"></use></svg> Subscribe</span>
+                <svg class="icon icon--loader u-hide" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M32 16c-0.040-2.089-0.493-4.172-1.331-6.077-0.834-1.906-2.046-3.633-3.533-5.060-1.486-1.428-3.248-2.557-5.156-3.302-1.906-0.748-3.956-1.105-5.981-1.061-2.025 0.040-4.042 0.48-5.885 1.292-1.845 0.809-3.517 1.983-4.898 3.424s-2.474 3.147-3.193 4.994c-0.722 1.846-1.067 3.829-1.023 5.79 0.040 1.961 0.468 3.911 1.254 5.694 0.784 1.784 1.921 3.401 3.316 4.736 1.394 1.336 3.046 2.391 4.832 3.085 1.785 0.697 3.701 1.028 5.598 0.985 1.897-0.040 3.78-0.455 5.502-1.216 1.723-0.759 3.285-1.859 4.574-3.208 1.29-1.348 2.308-2.945 2.977-4.67 0.407-1.046 0.684-2.137 0.829-3.244 0.039 0.002 0.078 0.004 0.118 0.004 1.105 0 2-0.895 2-2 0-0.056-0.003-0.112-0.007-0.167h0.007zM28.822 21.311c-0.733 1.663-1.796 3.169-3.099 4.412s-2.844 2.225-4.508 2.868c-1.663 0.646-3.447 0.952-5.215 0.909-1.769-0.041-3.519-0.429-5.119-1.14-1.602-0.708-3.053-1.734-4.25-2.991s-2.141-2.743-2.76-4.346c-0.621-1.603-0.913-3.319-0.871-5.024 0.041-1.705 0.417-3.388 1.102-4.928 0.683-1.541 1.672-2.937 2.883-4.088s2.642-2.058 4.184-2.652c1.542-0.596 3.192-0.875 4.832-0.833 1.641 0.041 3.257 0.404 4.736 1.064 1.48 0.658 2.82 1.609 3.926 2.774s1.975 2.54 2.543 4.021c0.57 1.481 0.837 3.064 0.794 4.641h0.007c-0.005 0.055-0.007 0.11-0.007 0.167 0 1.032 0.781 1.88 1.784 1.988-0.195 1.088-0.517 2.151-0.962 3.156z"></path></svg>            </button>
+        </div>
+        <div class="message-success u-hide"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription</div>
+        <div class="message-error u-hide">Please enter a valid email address!</div>
+    </form>
+</div>
+
+            <div class="widget-twitter js-twitter-feed sidebar-items u-hide"></div>
+        </div>
+    </div>
+</aside>
+    </div>
+</div>
+
+
+<section class="post-related u-overflowHidden">
+    <div class="extreme-container">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="post-related-title u-fontSizeBase title-line u-marginBottom40">Related Articles</h2>
+            </div>
+
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+            <a href="/install-update-nginx-to-the-latest-stable-version-on-ubuntu/" class="post-box-image-link image-hover">
+                <img class="u-absolute0 u-image u-block blur-up lazyload"
+                    src="/content/images/size/w600/2023/12/install-update-nginx-to-the-latest-stable-version-on-ubuntu.webp"
+                    srcset="/content/images/size/w30/2023/12/install-update-nginx-to-the-latest-stable-version-on-ubuntu.webp"
+                    data-srcset="/content/images/size/w300/2023/12/install-update-nginx-to-the-latest-stable-version-on-ubuntu.webp 300w,
+                            /content/images/size/w600/2023/12/install-update-nginx-to-the-latest-stable-version-on-ubuntu.webp 600w,
+                            /content/images/size/w1000/2023/12/install-update-nginx-to-the-latest-stable-version-on-ubuntu.webp 1000w"
+                    data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+                    alt="Install/Update Nginx to the latest stable version on Ubuntu"
+                />
+            </a>
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/nginx/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">Nginx</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/install-update-nginx-to-the-latest-stable-version-on-ubuntu/" class="u-block">Install/Update Nginx to the latest stable version on Ubuntu</a>
+        </h2>
+
+    </div>
+</article>            </div>
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+            <a href="/how-to-set-up-wireguard-client-on-debian/" class="post-box-image-link image-hover">
+                <img class="u-absolute0 u-image u-block blur-up lazyload"
+                    src="/content/images/size/w600/2023/08/Wireguard-Debian-Client-Cover.webp"
+                    srcset="/content/images/size/w30/2023/08/Wireguard-Debian-Client-Cover.webp"
+                    data-srcset="/content/images/size/w300/2023/08/Wireguard-Debian-Client-Cover.webp 300w,
+                            /content/images/size/w600/2023/08/Wireguard-Debian-Client-Cover.webp 600w,
+                            /content/images/size/w1000/2023/08/Wireguard-Debian-Client-Cover.webp 1000w"
+                    data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+                    alt="How to set up WireGuard Client on Debian?"
+                />
+            </a>
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/wireguard/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">WireGuard</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/how-to-set-up-wireguard-client-on-debian/" class="u-block">How to set up WireGuard Client on Debian?</a>
+        </h2>
+
+    </div>
+</article>            </div>
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+            <a href="/how-to-set-up-wireguard-client-on-ubuntu/" class="post-box-image-link image-hover">
+                <img class="u-absolute0 u-image u-block blur-up lazyload"
+                    src="/content/images/size/w600/2023/08/wireguard-ubuntu-client.webp"
+                    srcset="/content/images/size/w30/2023/08/wireguard-ubuntu-client.webp"
+                    data-srcset="/content/images/size/w300/2023/08/wireguard-ubuntu-client.webp 300w,
+                            /content/images/size/w600/2023/08/wireguard-ubuntu-client.webp 600w,
+                            /content/images/size/w1000/2023/08/wireguard-ubuntu-client.webp 1000w"
+                    data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+                    alt="How to set up WireGuard Client on Ubuntu?"
+                />
+            </a>
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/wireguard/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">WireGuard</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/how-to-set-up-wireguard-client-on-ubuntu/" class="u-block">How to set up WireGuard Client on Ubuntu?</a>
+        </h2>
+
+    </div>
+</article>            </div>
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/ubuntu/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">Ubuntu</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/how-to-fix-ubuntu-slow-wi-fi-internet-speed/" class="u-block">How to fix Ubuntu slow Wi-Fi internet speed?</a>
+        </h2>
+
+    </div>
+</article>            </div>
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+            <a href="/external-link-account-implementation-guide-reader-apps/" class="post-box-image-link image-hover">
+                <img class="u-absolute0 u-image u-block blur-up lazyload"
+                    src="/content/images/size/w600/2023/08/external-link-account-cover.webp"
+                    srcset="/content/images/size/w30/2023/08/external-link-account-cover.webp"
+                    data-srcset="/content/images/size/w300/2023/08/external-link-account-cover.webp 300w,
+                            /content/images/size/w600/2023/08/external-link-account-cover.webp 600w,
+                            /content/images/size/w1000/2023/08/external-link-account-cover.webp 1000w"
+                    data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+                    alt="External Link Account Implementation Guide (Reader Apps)"
+                />
+            </a>
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/ios/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">iOS</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/external-link-account-implementation-guide-reader-apps/" class="u-block">External Link Account Implementation Guide (Reader Apps)</a>
+        </h2>
+
+    </div>
+</article>            </div>
+            <div class="col col-s12 s6 l4">
+                <article class="post-box u-relative u-overflowHidden u-marginBottom40">
+    <figure class="post-box-image u-relative u-marginBottom15 u-block u-bgGray u-overflowHidden">
+            <a href="/apple-tv-app-and-universal-search-video-testing-guide/" class="post-box-image-link image-hover">
+                <img class="u-absolute0 u-image u-block blur-up lazyload"
+                    src="/content/images/size/w600/2023/08/apple-tv-app-and-universal-search-video-integration-1.webp"
+                    srcset="/content/images/size/w30/2023/08/apple-tv-app-and-universal-search-video-integration-1.webp"
+                    data-srcset="/content/images/size/w300/2023/08/apple-tv-app-and-universal-search-video-integration-1.webp 300w,
+                            /content/images/size/w600/2023/08/apple-tv-app-and-universal-search-video-integration-1.webp 600w,
+                            /content/images/size/w1000/2023/08/apple-tv-app-and-universal-search-video-integration-1.webp 1000w"
+                    data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px"
+                    alt="Apple TV App and Universal Search Video Testing Guide"
+                />
+            </a>
+    </figure>
+
+    <div class="post-box-body">
+        <div class="flow-meta u-fontSize13 text-muted">
+    
+        <a href="/tag/apple-tv/" class="flow-meta-cat u-lineHeight1 u-fontWeightMedium u-relative zindex4">Apple TV</a>
+    
+</div>
+
+        <h2 class="post-box-title title-hover u-fontSizeLarge u-fontWeightMedium u-marginBottom10 u-lineHeightTight">
+            <a href="/apple-tv-app-and-universal-search-video-testing-guide/" class="u-block">Apple TV App and Universal Search Video Testing Guide</a>
+        </h2>
+
+    </div>
+</article>            </div>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+        <div class="instagram js-instagram u-overflowHidden u-hide u-relative u-backgroundWhite u-bgGray"></div>
+
+
+        <footer class="footer">
+    <div class="extreme-container">
+        <div class="row">
+            <div class="col s12">
+                <div class="f-subscribe u-flexCenter u-block-before-md">
+                    <div class="f-subscribe-left u-marginBottom20">
+                        <h4 class="u-marginBottom10 u-textColorWhite u-fontWeightMedium">Sign Up To The Newsletter</h4>
+                        <p>Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                    </div>
+
+                    <div class="f-subscribe-right">
+                        <form class="f-form" data-members-form="subscribe">
+                            <div class="u-flex">
+                                <input
+                                    class="f-form-input u-block subscribe-email"
+                                    data-members-email
+                                    placeholder="youremail@example.com"
+                                    aria-label="youremail@example.com"
+                                    aria-describedby="f-form-subscribe-btn"
+                                    autocomplete="off"
+                                    required
+                                />
+
+                                <button id="f-form-subscribe-btn" class="button button--filled button--large" type="submit">
+                                    <span class="button-text">Subscribe</span>
+                                    <svg class="icon icon--loader u-hide" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M32 16c-0.040-2.089-0.493-4.172-1.331-6.077-0.834-1.906-2.046-3.633-3.533-5.060-1.486-1.428-3.248-2.557-5.156-3.302-1.906-0.748-3.956-1.105-5.981-1.061-2.025 0.040-4.042 0.48-5.885 1.292-1.845 0.809-3.517 1.983-4.898 3.424s-2.474 3.147-3.193 4.994c-0.722 1.846-1.067 3.829-1.023 5.79 0.040 1.961 0.468 3.911 1.254 5.694 0.784 1.784 1.921 3.401 3.316 4.736 1.394 1.336 3.046 2.391 4.832 3.085 1.785 0.697 3.701 1.028 5.598 0.985 1.897-0.040 3.78-0.455 5.502-1.216 1.723-0.759 3.285-1.859 4.574-3.208 1.29-1.348 2.308-2.945 2.977-4.67 0.407-1.046 0.684-2.137 0.829-3.244 0.039 0.002 0.078 0.004 0.118 0.004 1.105 0 2-0.895 2-2 0-0.056-0.003-0.112-0.007-0.167h0.007zM28.822 21.311c-0.733 1.663-1.796 3.169-3.099 4.412s-2.844 2.225-4.508 2.868c-1.663 0.646-3.447 0.952-5.215 0.909-1.769-0.041-3.519-0.429-5.119-1.14-1.602-0.708-3.053-1.734-4.25-2.991s-2.141-2.743-2.76-4.346c-0.621-1.603-0.913-3.319-0.871-5.024 0.041-1.705 0.417-3.388 1.102-4.928 0.683-1.541 1.672-2.937 2.883-4.088s2.642-2.058 4.184-2.652c1.542-0.596 3.192-0.875 4.832-0.833 1.641 0.041 3.257 0.404 4.736 1.064 1.48 0.658 2.82 1.609 3.926 2.774s1.975 2.54 2.543 4.021c0.57 1.481 0.837 3.064 0.794 4.641h0.007c-0.005 0.055-0.007 0.11-0.007 0.167 0 1.032 0.781 1.88 1.784 1.988-0.195 1.088-0.517 2.151-0.962 3.156z"></path></svg>                                </button>
+                            </div>
+                            <div class="message-success u-paddingTop15 u-hide"><strong>Great!</strong> Check your inbox and click the link to confirm your subscription</div>
+                            <div class="message-error u-paddingTop15 u-hide">Please enter a valid email address!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12"><hr class="footer-divider"></div>
+
+            <div class="col s12">
+                <nav class="footer-menu u-marginBottom30">
+                    <ul class="nav">
+    <li class="nav-c-programming"><a href="https://developerinsider.co/tag/c-programming/">C Programming</a></li>
+    <li class="nav-c"><a href="https://developerinsider.co/tag/cpp/">C++</a></li>
+    <li class="nav-data-structure"><a href="https://developerinsider.co/tag/data-structure/">Data Structure</a></li>
+    <li class="nav-downloads"><a href="https://developerinsider.co/tag/downloads/">Downloads</a></li>
+    <li class="nav-ios"><a href="https://developerinsider.co/tag/ios/">iOS</a></li>
+    <li class="nav-microsoft"><a href="https://developerinsider.co/tag/microsoft/">Microsoft</a></li>
+    <li class="nav-programming-puzzles"><a href="https://developerinsider.co/tag/programming-puzzles/">Programming Puzzles</a></li>
+    <li class="nav-swift-programming"><a href="https://developerinsider.co/tag/swift/">Swift Programming</a></li>
+    <li class="nav-wiki"><a href="https://developerinsider.co/tag/wiki/">Wiki</a></li>
+    <li class="nav-xcode"><a href="https://developerinsider.co/tag/xcode/">Xcode</a></li>
+    <li class="nav-interview-question"><a href="https://developerinsider.co/interview/">Interview Question</a></li>
+    <li class="nav-tips-and-tricks"><a href="https://developerinsider.co/tips/">Tips and Tricks</a></li>
+    <li class="nav-archive"><a href="https://developerinsider.co/archive/">Archive</a></li>
+</ul>
+
+                </nav>
+            </div>
+
+            <div class="col s12 m7 l8">
+                <div class="u-fontSizeSmaller u-marginBottom20">
+                    Copyright 2024, Developer Insider. All Rights Reserved.
+                </div>
+            </div>
+
+            <div class="col s12 m5 l4">
+                <aside class="footer-social-media js-social-media">
+                    
+                    <a title="Twitter @DevsInsider" href="https://twitter.com/DevsInsider" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg></a>
+                </aside>
+            </div>
+        </div>
+    </div>
+</footer>    </div>
+
+    <div class="search u-fixed u-flexColumnTop u-flexCenter u-fixed u-absolute0">
+    <div class="js-search-close search-shader u-absolute0 zindex1"></div>
+    <div class="js-search-close search-close zindex3 u-hide-after-lg button button--circle button--dark"><svg class="icon"><use xlink:href="#icon-close"></use></svg></div>
+
+    <div class="search-inner u-relative u-marginAuto zindex2">
+        <div class="search-wrap">
+            <form class="search-form u-sizeFullWidth u-flex u-flexCenter u-fontSizeBase">
+                <svg class="icon icon--search top2"><use xlink:href="#icon-search"></use></svg>
+                <input id="search-field" class="input--md u-sizeFullWidth" type="text" placeholder="Search..." aria-label="Search box"/>
+            </form>
+            <span class="js-search-message search-message u-block u-hide">No results found</span>
+            <div id="search-results" class="search-results u-marginAuto u-sizeFullWidth"></div>
+        </div>
+        <div class="search-nav-hints u-flex u-flexEnd u-hide-before-lg">
+            <div class="search-nav-hint"><span>↑</span> <span>↓</span> Navigate up/down</div>
+            <div class="search-nav-hint"><span>Enter</span> Go to article</div>
+            <div class="search-nav-hint"><span>/</span> Search new term</div>
+            <div class="search-nav-hint"><span>Esc</span> Close search</div>
+        </div>
+    </div>
+</div>
+
+    <div class="loadingBar"></div>
+
+    <div class="back-to-top js-back-to-top u-hide-before-lg u-flexCenter justify-content-center u-fontSize40">
+        <svg class="icon icon--arrow-up"><use xlink:href="#icon-arrow-round"></use></svg>
+    </div>
+
+     <div class="notification notification-subscribe">
+    <a class="notification-close u-absolute0" href="javascript:;"><svg class="icon icon--m u-absolute"><use xlink:href="#icon-close"></use></svg></a>
+    You've successfully subscribed to Developer Insider
+</div>
+
+<div class="notification notification-signup">
+    <a class="notification-close u-absolute0" href="javascript:;"><svg class="icon icon--m u-absolute"><use xlink:href="#icon-close"></use></svg></a>
+    Great! Next, complete checkout for full access to Developer Insider
+</div>
+
+<div class="notification notification-signin">
+    <a class="notification-close u-absolute0" href="javascript:;"><svg class="icon icon--m u-absolute"><use xlink:href="#icon-close"></use></svg></a>
+    Welcome back! You've successfully signed in
+</div>
+
+<div class="notification notification-checkout">
+    <a class="notification-close u-absolute0" href="javascript:;"><svg class="icon icon--m u-absolute"><use xlink:href="#icon-close"></use></svg></a>
+    Success! Your account is fully activated, you now have access to all content.
+</div>
+
+ 
+
+    <script>
+        var siteUrl = 'https://developerinsider.co';
+        var siteSearch = '/assets/scripts/search.js?v=c01f435534';
+        var sitePrismJs = '/assets/scripts/prismjs.js?v=c01f435534';
+        var sitePrismJscomponents = '/assets/scripts/components/';
+    </script>
+
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0" version="1.1" xmlns="http://www.w3.org/2000/svg" overflow="hidden"><defs><symbol id="icon-moon" viewBox="0 0 20 24"><title>moon</title><path d="M16.902 17.451A9.002 9.002 0 0 1 6.429 8.572a8.97 8.97 0 0 1 1.393-4.781 8.53 8.53 0 0 0-6.107 8.21c0 4.728 3.844 8.571 8.571 8.571a8.614 8.614 0 0 0 6.616-3.121zm2.719-1.138a10.316 10.316 0 0 1-9.335 5.973C4.621 22.286 0 17.665 0 12A10.243 10.243 0 0 1 9.897 1.728a.839.839 0 0 1 .817.522.86.86 0 0 1-.201.964 7.175 7.175 0 0 0-2.371 5.357c0 4.018 3.268 7.286 7.286 7.286a7.16 7.16 0 0 0 3.054-.683.859.859 0 0 1 1.138 1.138z"/></symbol><symbol id="icon-reddit" viewBox="0 0 24 24"><title>reddit</title><path d="M24 11.33a2.66 2.66 0 0 1-1.46 2.384c.107.415.161.844.161 1.286 0 4.232-4.781 7.661-10.674 7.661-5.879 0-10.661-3.429-10.661-7.661 0-.429.054-.857.147-1.259A2.688 2.688 0 0 1 0 11.33a2.664 2.664 0 0 1 4.607-1.821c1.808-1.259 4.219-2.076 6.897-2.17L13.058.361a.469.469 0 0 1 .549-.348l4.942 1.085a2.003 2.003 0 1 1-.215.911l-4.473-.991-1.393 6.321c2.692.08 5.129.884 6.951 2.143a2.664 2.664 0 0 1 4.58 1.848zM5.598 13.996a2.003 2.003 0 1 0 4.006.012 2.003 2.003 0 0 0-4.006-.012zm10.848 4.754a.477.477 0 0 0 0-.696.484.484 0 0 0-.683 0c-.804.817-2.531 1.098-3.763 1.098s-2.96-.281-3.763-1.098a.484.484 0 0 0-.683 0 .477.477 0 0 0 0 .696c1.272 1.272 3.723 1.366 4.446 1.366s3.174-.094 4.446-1.366zm-.04-2.746a2.004 2.004 0 0 0 0-4.005 2.003 2.003 0 1 0 0 4.005z"/></symbol><symbol id="icon-twitter" viewBox="0 0 22 24"><title>twitter</title><path d="M21.696 5.464a9.294 9.294 0 0 1-2.17 2.237c.013.188.013.375.013.562 0 5.719-4.353 12.308-12.308 12.308-2.451 0-4.728-.71-6.643-1.942.348.04.683.054 1.045.054a8.667 8.667 0 0 0 5.371-1.848 4.334 4.334 0 0 1-4.045-3c.268.04.536.067.817.067.388 0 .777-.054 1.138-.147a4.327 4.327 0 0 1-3.469-4.246v-.054a4.367 4.367 0 0 0 1.955.549 4.325 4.325 0 0 1-1.929-3.603c0-.804.214-1.54.589-2.183a12.297 12.297 0 0 0 8.92 4.527 4.875 4.875 0 0 1-.107-.991 4.324 4.324 0 0 1 4.326-4.326c1.246 0 2.371.522 3.161 1.366a8.523 8.523 0 0 0 2.746-1.045 4.313 4.313 0 0 1-1.902 2.384 8.673 8.673 0 0 0 2.491-.67z"/></symbol><symbol id="icon-github" viewBox="0 0 21 24"><title>github</title><path d="M10.286 1.714c5.679 0 10.286 4.607 10.286 10.286 0 4.54-2.946 8.397-7.031 9.763-.522.094-.71-.228-.71-.496 0-.335.013-1.446.013-2.826 0-.964-.321-1.58-.696-1.902 2.29-.254 4.701-1.125 4.701-5.076a3.985 3.985 0 0 0-1.058-2.759c.107-.268.455-1.313-.107-2.732-.857-.268-2.826 1.058-2.826 1.058a9.671 9.671 0 0 0-5.142 0S5.747 5.704 4.89 5.972c-.563 1.42-.214 2.464-.107 2.732a3.985 3.985 0 0 0-1.058 2.759c0 3.937 2.397 4.821 4.688 5.076-.295.268-.562.723-.656 1.379-.589.268-2.089.723-2.987-.857-.563-.978-1.58-1.058-1.58-1.058-1.004-.013-.067.629-.067.629.67.308 1.138 1.5 1.138 1.5.603 1.835 3.469 1.219 3.469 1.219 0 .857.013 1.661.013 1.915 0 .268-.188.589-.71.496C2.948 20.396.002 16.539.002 11.999c0-5.679 4.607-10.286 10.286-10.286zM3.897 16.487c.027-.054-.013-.121-.094-.161-.08-.027-.147-.013-.174.027-.027.054.013.121.094.161.067.04.147.027.174-.027zm.416.455c.054-.04.04-.134-.027-.214-.067-.067-.161-.094-.214-.04-.054.04-.04.134.027.214.067.067.161.094.214.04zm.401.603c.067-.054.067-.161 0-.254-.054-.094-.161-.134-.228-.08-.067.04-.067.147 0 .241s.174.134.228.094zm.563.562c.054-.054.027-.174-.054-.254-.094-.094-.214-.107-.268-.04-.067.054-.04.174.054.254.094.094.214.107.268.04zm.763.335c.027-.08-.054-.174-.174-.214-.107-.027-.228.013-.254.094s.054.174.174.201c.107.04.228 0 .254-.08zm.844.067c0-.094-.107-.161-.228-.147-.121 0-.214.067-.214.147 0 .094.094.161.228.147.121 0 .214-.067.214-.147zm.777-.134c-.013-.08-.121-.134-.241-.121-.121.027-.201.107-.188.201.013.08.121.134.241.107s.201-.107.188-.188z"/></symbol><symbol id="icon-linkedin" viewBox="0 0 21 24"><title>linkedin</title><path d="M4.674 8.371v13.272H.254V8.371h4.42zm.281-4.099c.013 1.272-.951 2.29-2.491 2.29h-.027c-1.487 0-2.438-1.018-2.438-2.29 0-1.299.991-2.29 2.491-2.29 1.513 0 2.451.991 2.464 2.29zm15.616 9.764v7.607h-4.406v-7.098c0-1.781-.643-3-2.237-3-1.219 0-1.942.817-2.263 1.607-.107.295-.147.683-.147 1.085v7.406H7.112c.054-12.027 0-13.272 0-13.272h4.406V10.3h-.027c.576-.911 1.621-2.237 4.004-2.237 2.906 0 5.076 1.902 5.076 5.973z"/></symbol><symbol id="icon-youtube" viewBox="0 0 24 24"><title>youtube</title><path d="M9.522 15.107l6.482-3.348-6.482-3.388v6.737zM12 3.563c5.049 0 8.397.241 8.397.241.469.054 1.5.054 2.411 1.018 0 0 .737.723.951 2.384.254 1.942.241 3.884.241 3.884v1.821s.013 1.942-.241 3.884c-.214 1.647-.951 2.384-.951 2.384-.911.951-1.942.951-2.411 1.004 0 0-3.348.254-8.397.254-6.241-.054-8.156-.241-8.156-.241-.536-.094-1.741-.067-2.652-1.018 0 0-.737-.737-.951-2.384C-.013 14.852 0 12.91 0 12.91v-1.821s-.013-1.942.241-3.884c.214-1.661.951-2.384.951-2.384.911-.964 1.942-.964 2.411-1.018 0 0 3.348-.241 8.397-.241z"/></symbol><symbol id="icon-instagram" viewBox="0 0 21 24"><title>instagram</title><path d="M13.714 12c0-1.888-1.54-3.429-3.429-3.429S6.856 10.111 6.856 12s1.54 3.429 3.429 3.429 3.429-1.54 3.429-3.429zm1.849 0c0 2.92-2.357 5.277-5.277 5.277S5.009 14.92 5.009 12s2.357-5.277 5.277-5.277S15.563 9.08 15.563 12zm1.446-5.491c0 .683-.549 1.232-1.232 1.232s-1.232-.549-1.232-1.232.549-1.232 1.232-1.232 1.232.549 1.232 1.232zm-6.723-2.946c-1.5 0-4.714-.121-6.067.415-.469.188-.817.415-1.179.777s-.589.71-.777 1.179c-.536 1.353-.415 4.567-.415 6.067s-.121 4.714.415 6.067c.188.469.415.817.777 1.179s.71.589 1.179.777c1.353.536 4.567.415 6.067.415s4.714.121 6.067-.415c.469-.188.817-.415 1.179-.777s.589-.71.777-1.179c.536-1.353.415-4.567.415-6.067s.121-4.714-.415-6.067c-.188-.469-.415-.817-.777-1.179s-.71-.589-1.179-.777c-1.353-.536-4.567-.415-6.067-.415zM20.571 12c0 1.42.013 2.826-.067 4.246-.08 1.647-.455 3.107-1.661 4.313s-2.665 1.58-4.313 1.661c-1.42.08-2.826.067-4.246.067s-2.826.013-4.246-.067c-1.647-.08-3.107-.455-4.313-1.661S.145 17.894.064 16.246c-.08-1.42-.067-2.826-.067-4.246s-.013-2.826.067-4.246c.08-1.647.455-3.107 1.661-4.313S4.39 1.861 6.038 1.78c1.42-.08 2.826-.067 4.246-.067s2.826-.013 4.246.067c1.647.08 3.107.455 4.313 1.661s1.58 2.665 1.661 4.313c.08 1.42.067 2.826.067 4.246z"/></symbol><symbol id="icon-facebook" viewBox="0 0 21 24"><title>facebook</title><path d="M19.433 1.714c.629 0 1.138.509 1.138 1.138v18.295c0 .629-.509 1.138-1.138 1.138h-5.237v-7.969h2.665l.402-3.107h-3.067V9.227c0-.897.241-1.5 1.54-1.5l1.634-.013V4.942c-.281-.04-1.259-.121-2.384-.121-2.371 0-4.004 1.446-4.004 4.098v2.29H8.303v3.107h2.679v7.969H1.138A1.137 1.137 0 0 1 0 21.147V2.852c0-.629.509-1.138 1.138-1.138h18.295z"/></symbol><symbol id="icon-pinterest" viewBox="0 0 17 24"><title>pinterest</title><path d="M0 7.996C0 3.054 4.527 0 9.107 0c4.205 0 8.036 2.893 8.036 7.326 0 4.165-2.129 8.786-6.871 8.786-1.125 0-2.545-.563-3.094-1.607-1.018 4.031-.938 4.634-3.188 7.714l-.188.067-.121-.134c-.08-.844-.201-1.674-.201-2.518 0-2.732 1.259-6.683 1.875-9.335-.335-.683-.429-1.513-.429-2.263 0-1.353.938-3.067 2.464-3.067 1.125 0 1.728.857 1.728 1.915 0 1.741-1.179 3.375-1.179 5.063 0 1.152.951 1.955 2.062 1.955 3.08 0 4.031-4.446 4.031-6.817 0-3.174-2.25-4.902-5.29-4.902-3.536 0-6.268 2.545-6.268 6.134 0 1.728 1.058 2.612 1.058 3.027 0 .348-.254 1.58-.696 1.58-.067 0-.161-.027-.228-.04C.693 12.308-.004 9.75-.004 7.996z"/></symbol><symbol id="icon-whatsapp" viewBox="0 0 21 24"><title>whatsapp</title><path d="M13.192 13.045c.228 0 2.411 1.138 2.504 1.299.027.067.027.147.027.201 0 .335-.107.71-.228 1.018-.308.75-1.554 1.232-2.317 1.232-.643 0-1.969-.563-2.545-.83-1.915-.871-3.107-2.357-4.259-4.058-.509-.75-.964-1.674-.951-2.598v-.107c.027-.884.348-1.513.991-2.116.201-.188.415-.295.696-.295.161 0 .321.04.496.04.362 0 .429.107.563.455.094.228.777 2.049.777 2.183 0 .509-.924 1.085-.924 1.393a.4.4 0 0 0 .067.201c.295.629.857 1.353 1.366 1.835.616.589 1.272.978 2.022 1.353a.587.587 0 0 0 .295.094c.402 0 1.071-1.299 1.42-1.299zm-2.719 7.098c4.634 0 8.411-3.777 8.411-8.411s-3.777-8.411-8.411-8.411-8.411 3.777-8.411 8.411c0 1.768.563 3.496 1.607 4.929l-1.058 3.121 3.241-1.031a8.47 8.47 0 0 0 4.621 1.393zm0-18.509c5.571 0 10.098 4.527 10.098 10.098S16.044 21.83 10.473 21.83c-1.701 0-3.388-.429-4.888-1.259L0 22.366l1.821-5.424a10.048 10.048 0 0 1-1.446-5.21c0-5.571 4.527-10.098 10.098-10.098z"/></symbol><symbol id="icon-sunny" viewBox="0 0 24 24"><title>sunny</title><path d="M12 18.141a.722.722 0 0 0-.722.722v2.166a.722.722 0 0 0 1.444 0v-2.166a.722.722 0 0 0-.722-.722zM12 2.25a.722.722 0 0 0-.722.722v2.166a.722.722 0 0 0 1.444 0V2.972A.722.722 0 0 0 12 2.25zM5.859 12a.722.722 0 0 0-.722-.722H2.971a.722.722 0 0 0 0 1.444h2.166A.722.722 0 0 0 5.859 12zm15.169-.722h-2.166a.722.722 0 0 0 0 1.444h2.166a.722.722 0 0 0 0-1.444zM7.148 16.13a.72.72 0 0 0-.511.211l-1.533 1.533a.72.72 0 0 0 0 1.022.72.72 0 0 0 1.022 0l1.533-1.533a.72.72 0 1 0-.511-1.233zm9.704-8.26a.72.72 0 0 0 .511-.211l1.533-1.533a.72.72 0 0 0 0-1.022.72.72 0 0 0-1.022 0l-1.533 1.533a.72.72 0 0 0 0 1.022.72.72 0 0 0 .511.211zM6.127 5.105a.72.72 0 0 0-1.022 0 .72.72 0 0 0 0 1.022L6.638 7.66a.72.72 0 0 0 1.022 0 .72.72 0 0 0 0-1.022L6.127 5.105zm11.235 11.236a.72.72 0 0 0-1.022 0 .725.725 0 0 0 0 1.022l1.533 1.533a.72.72 0 0 0 1.022 0 .72.72 0 0 0 0-1.022l-1.533-1.533zM12 7.5c-2.48 0-4.5 2.02-4.5 4.5s2.02 4.5 4.5 4.5 4.5-2.02 4.5-4.5-2.02-4.5-4.5-4.5z"/></symbol><symbol id="icon-user" viewBox="0 0 24 24"><title>user</title><path d="M12 2.25a9.747 9.747 0 0 0-9.694 10.777A9.744 9.744 0 0 0 12 21.75c5.386 0 9.75-4.364 9.75-9.75S17.386 2.25 12 2.25zm6.366 15.286a66.54 66.54 0 0 0-3.862-1.313c-.112-.033-.127-.042-.127-.502 0-.38.154-.764.31-1.092.169-.352.361-.947.431-1.481.197-.229.469-.679.637-1.542.15-.759.08-1.036-.019-1.294-.009-.028-.023-.056-.029-.079-.038-.178.014-1.102.145-1.819.089-.492-.023-1.538-.698-2.405-.427-.548-1.247-1.219-2.742-1.313h-.82c-1.472.094-2.287.764-2.719 1.313-.68.867-.792 1.913-.704 2.405.131.717.183 1.641.146 1.819-.009.033-.019.056-.028.085-.098.258-.173.535-.019 1.294.173.863.441 1.313.637 1.542.071.534.267 1.125.431 1.481.122.258.178.61.178 1.106 0 .464-.019.469-.122.502a51.313 51.313 0 0 0-3.75 1.303A8.364 8.364 0 0 1 3.561 12c0-2.255.877-4.373 2.471-5.967s3.713-2.471 5.967-2.471c2.255 0 4.373.877 5.967 2.471S20.437 9.745 20.437 12a8.356 8.356 0 0 1-2.072 5.536z"/></symbol><symbol id="icon-search" viewBox="0 0 24 24"><title>search</title><path d="M16.639 15.641a1 1 0 0 0-.696 1.716l4.35 4.35a1 1 0 1 0 1.414-1.414l-4.35-4.35a.997.997 0 0 0-.717-.303h-.002zM11 2c-4.959 0-9 4.041-9 9s4.041 9 9 9 9-4.041 9-9-4.041-9-9-9zm0 2c3.878 0 7 3.122 7 7s-3.122 7-7 7-7-3.122-7-7 3.122-7 7-7z"/></symbol><symbol id="icon-arrow-round" viewBox="0 0 24 24"><title>arrow-round</title><path d="M16.327 10.144a.614.614 0 0 1-.863.005l-2.855-2.845v10.842c0 .333-.272.605-.609.605s-.609-.272-.609-.605V7.304l-2.855 2.85a.617.617 0 0 1-.863-.005.608.608 0 0 1 .005-.858l3.891-3.862c.056-.052.117-.094.192-.127s.155-.047.234-.047c.159 0 .309.061.427.173l3.891 3.862c.244.23.248.614.014.853z"/></symbol><symbol id="icon-send" viewBox="0 0 24 24"><title>send</title><path d="M20.433 3.042l-17.208 7.5a.394.394 0 0 0 .014.717l4.655 2.63a.75.75 0 0 0 .858-.084l9.178-7.913c.061-.052.206-.15.263-.094.061.061-.033.202-.084.263l-7.941 8.944a.748.748 0 0 0-.075.895l3.042 4.88c.15.295.577.291.712-.009l7.116-17.208a.394.394 0 0 0-.53-.52z"/></symbol><symbol id="icon-globe" viewBox="0 0 24 24"><title>globe</title><path d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.01 18.047a8.3 8.3 0 0 1-4.899-2.387 8.303 8.303 0 0 1-2.448-5.909c0-2.01.705-3.911 1.997-5.422.033.399.115.827.094 1.133-.077 1.115-.187 1.813.466 2.754.254.367.317.892.441 1.316.121.415.605.633.938.888.673.516 1.317 1.116 2.031 1.57.471.3.765.449.627 1.024-.111.462-.142.747-.381 1.159-.073.126.275.934.391 1.05.351.351.7.674 1.083.99.594.491-.058 1.128-.341 1.834zm6.919-2.388a8.297 8.297 0 0 1-4.339 2.301 3.47 3.47 0 0 1 1.026-1.376c.333-.257.749-.75.923-1.141s.404-.729.636-1.088c.331-.511-.817-1.281-1.188-1.443-.837-.363-1.467-.854-2.211-1.377-.53-.373-1.606.195-2.204-.066-.819-.358-1.495-.98-2.207-1.516-.735-.554-.699-1.199-.699-2.015.576.021 1.395-.159 1.777.304.121.146.535.799.813.567.227-.19-.168-.949-.244-1.128-.235-.549.535-.763.928-1.136.514-.486 1.616-1.248 1.529-1.596s-1.103-1.335-1.699-1.181c-.089.023-.876.848-1.028.978l.012-.808c.003-.17-.317-.345-.302-.454.037-.277.809-.78 1.001-1.001-.134-.084-.593-.478-.732-.42-.336.14-.716.237-1.052.377 0-.117-.014-.226-.031-.334a8.056 8.056 0 0 1 2.078-.611l.046-.006.66.265.466.553.465.48.407.131.646-.609-.167-.435v-.391a8.269 8.269 0 0 1 3.54 1.397c-.189.017-.397.045-.631.075-.097-.057-.221-.083-.326-.123.306.658.625 1.307.95 1.957.347.694 1.115 1.438 1.25 2.17.159.863.049 1.647.136 2.663.084.978 1.103 2.089 1.103 2.089s.47.16.862.104a8.306 8.306 0 0 1-2.192 3.846z"/></symbol><symbol id="icon-star" viewBox="0 0 24 24"><title>star</title><path d="M21.703 9h-6.895l-2.095-6.253c-.103-.305-.389-.497-.712-.497s-.609.192-.712.497L9.194 9H2.252a.752.752 0 0 0-.75.75c0 .042.005.089.014.127.009.164.084.347.314.53l5.667 3.994-2.175 6.323a.752.752 0 0 0 .258.844c.136.098.262.183.422.183.155 0 .337-.08.469-.169l5.531-3.942 5.531 3.942a.876.876 0 0 0 .469.169c.159 0 .286-.08.417-.183a.742.742 0 0 0 .258-.844l-2.175-6.323 5.62-4.031.136-.117c.122-.131.244-.309.244-.502 0-.413-.384-.75-.797-.75z"/></symbol><symbol id="icon-link" viewBox="0 0 24 24"><title>link</title><path d="M13.125 15.989l-.056.005a.778.778 0 0 0-.45.211l-3.028 3.028c-.642.642-1.5.994-2.414.994s-1.772-.352-2.414-.994c-.642-.642-.994-1.5-.994-2.414s.352-1.772.994-2.414l3.216-3.216a3.425 3.425 0 0 1 1.228-.788c.225-.084.464-.141.703-.173a3.38 3.38 0 0 1 .478-.033c.066 0 .131.005.216.009.83.052 1.613.403 2.194.984.361.361.638.802.802 1.28a.737.737 0 0 0 .905.473c.005 0 .009-.005.014-.005s.009 0 .009-.005c.38-.117.6-.516.492-.895-.206-.731-.572-1.345-1.153-1.922a4.935 4.935 0 0 0-2.7-1.373 4.768 4.768 0 0 0-1.148-.052 4.744 4.744 0 0 0-.759.117c-.052.009-.098.023-.15.037a4.882 4.882 0 0 0-2.212 1.275l-3.216 3.216c-.919.933-1.43 2.17-1.43 3.492s.511 2.559 1.439 3.487a4.91 4.91 0 0 0 3.483 1.434 4.898 4.898 0 0 0 3.488-1.439l3.061-3.061c.487-.492.094-1.327-.595-1.261z"/><path d="M20.311 3.689c-.928-.928-2.166-1.439-3.483-1.439s-2.559.511-3.487 1.439l-2.986 2.986a.753.753 0 0 0 .473 1.284.759.759 0 0 0 .595-.216l2.991-2.981c.642-.642 1.5-.994 2.414-.994s1.772.352 2.414.994c.642.642.994 1.5.994 2.414s-.352 1.772-.994 2.414l-3.216 3.216a3.425 3.425 0 0 1-1.228.788 3.255 3.255 0 0 1-.703.173 3.38 3.38 0 0 1-.478.033c-.066 0-.136-.005-.216-.009a3.406 3.406 0 0 1-2.194-.984c-.342-.342-.6-.75-.769-1.195a.748.748 0 0 0-.895-.459.758.758 0 0 0-.53.961c.211.656.567 1.214 1.111 1.758l.009.009a4.935 4.935 0 0 0 3.853 1.425 4.882 4.882 0 0 0 3.117-1.425l3.216-3.216c.928-.928 1.439-2.166 1.439-3.487s-.52-2.559-1.448-3.488z"/></symbol><symbol id="icon-chat" viewBox="0 0 20 20"><title>chat</title><path d="M15.651 11.67V3.866c0-.771-.625-1.398-1.398-1.398H2.021A1.397 1.397 0 0 0 .623 3.866v7.804c0 .772.626 1.398 1.398 1.398h2.331v3.211l3.565-3.211h6.336c.773 0 1.398-.626 1.398-1.398zm2.327-6.134h-1.749v6.818c0 .586-.76 1.339-1.346 1.339s-6.841.034-6.841.034c0 .772.626 1.241 1.398 1.241h2.693l3.514 3.189-.004-3.189h2.335c.773 0 1.398-.469 1.398-1.241V6.895c0-.771-.625-1.359-1.398-1.359z"/></symbol><symbol id="icon-arrow" viewBox="0 0 24 24"><title>arrow</title><path d="M7.406 8.578L12 13.172l4.594-4.594L18 9.984l-6 6-6-6z"/></symbol><symbol id="icon-close" viewBox="0 0 24 24"><title>close</title><path d="M18.984 6.422L13.406 12l5.578 5.578-1.406 1.406L12 13.406l-5.578 5.578-1.406-1.406L10.594 12 5.016 6.422l1.406-1.406L12 10.594l5.578-5.578z"/></symbol><symbol id="icon-favorite" viewBox="0 0 24 24"><title>favorite</title><path d="M12 21.328l-1.453-1.313c-5.156-4.688-8.531-7.734-8.531-11.531C2.016 5.39 4.407 3 7.5 3c1.734 0 3.422.844 4.5 2.109C13.078 3.843 14.766 3 16.5 3c3.094 0 5.484 2.391 5.484 5.484 0 3.797-3.375 6.891-8.531 11.578z"/></symbol><symbol id="icon-rss" viewBox="0 0 24 24"><title>rss</title><path d="M3.984 10.078c5.484 0 9.938 4.453 9.938 9.938h-2.859c0-3.891-3.188-7.078-7.078-7.078v-2.859zm0-5.625c8.578 0 15.563 6.984 15.563 15.563h-2.813c0-7.031-5.719-12.75-12.75-12.75V4.453zm0 13.36c0-1.219.984-2.156 2.203-2.156s2.156.938 2.156 2.156-.938 2.203-2.156 2.203-2.203-.984-2.203-2.203z"/></symbol></defs></svg>
+    <script>
+    var followSocialMedia = {
+        'youtube': ['https://youtube.com/c/DeveloperinsiderInOfficial','YouTube'],
+        'github': ['https://github.com/developerinsider','Github'],
+        'linkedin': ['https://www.linkedin.com/company/developerinsider/','LinkedIn'],
+    };
+    var searchSettings = {
+    	key: 'dc25f18409f1dd24472491991a',
+    	url: 'https://developerinsider.co',
+ 	};
+    var youtubeChannelName = 'Developer Insider';
+    var youtubeChannelID = 'UCQcBsNiQEYj-JOCE_pAA5vg';
+</script>
+<script src="https://cdn.developerinsider.co/src/youtube-lite/yt-light.js"></script>
+
+    
+    <script src="/assets/scripts/main.js?v=c01f435534"></script>
+
+    
+
+    <script>
+    // Parse the URL parameter
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    // Give the parameter a variable name
+    var action = getParameterByName('action');
+    var stripe = getParameterByName('stripe');
+
+    function ready() {
+        var domBody = document.body;
+
+        if (action == 'subscribe') {
+            domBody.classList.add('subscribe-success');
+        }
+        if (action == 'signup') {
+            window.location = 'https://developerinsider.co/?action=checkout';
+        }
+        if (action == 'checkout') {
+            domBody.classList.add('signup-success');
+        }
+        if (action == 'signin') {
+            domBody.classList.add('signin-success');
+        }
+        if (stripe == 'success') {
+            domBody.classList.add('checkout-success');
+        }
+
+        var notificationClose = document.querySelectorAll('.notification-close');
+
+        notificationClose.forEach(function(item){ item.addEventListener('click', function() {
+            this.parentNode.classList.add('closed');
+
+            var uri = window.location.toString();
+            if (uri.indexOf('?') > 0) {
+                var clean_uri = uri.substring(0, uri.indexOf('?'));
+                window.history.replaceState({}, document.title, clean_uri);
+            }
+        })});
+    }
+
+    window.addEventListener('load', ready, false);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="ajs-local-base-url" content="https://jira-p-us.refined.site">
+  <meta name="ajs-host-base-url" content="">
+  <meta name="ajs-locale" content="en_US">
+  <meta name="ajs-atlassian-jwt-token" content="">
+  <meta name="ajs-commit-sha" content="dev">
+  <meta name="ajs-base-url" content="https://uconn.atlassian.net">
+  <meta name="csrf-token" content="APUUphXc-ACaZxKpLRmofNQb-VrZFyazpzM4">
+
+  <meta name="kb-show-article-link" content="false">
+  <meta name="kb-article-width" content="default">
+  <meta name="show-assignee-field" content="false">
+  
+
+
+  <meta name="cookie-latest-version" content="1">
+
+  <!-- Exposes CDN host value at runtime for webpack chunk paths. -->
+  <script type="text/javascript" nonce="">
+      window.cdnHost = 'https://static-us.dg.refined.site';
+  </script>
+      <style data-tippy-stylesheet="">.tippy-tooltip[data-animation=fade][data-state=hidden]{opacity:0}.tippy-iOS{cursor:pointer!important;-webkit-tap-highlight-color:transparent}.tippy-popper{pointer-events:none;max-width:calc(100vw - 10px);transition-timing-function:cubic-bezier(.165,.84,.44,1);transition-property:transform}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;background-color:#333;transition-property:visibility,opacity,transform;outline:0}.tippy-tooltip[data-placement^=top]>.tippy-arrow{border-width:8px 8px 0;border-top-color:#333;margin:0 3px;transform-origin:50% 0;bottom:-7px}.tippy-tooltip[data-placement^=bottom]>.tippy-arrow{border-width:0 8px 8px;border-bottom-color:#333;margin:0 3px;transform-origin:50% 7px;top:-7px}.tippy-tooltip[data-placement^=left]>.tippy-arrow{border-width:8px 0 8px 8px;border-left-color:#333;margin:3px 0;transform-origin:0 50%;right:-7px}.tippy-tooltip[data-placement^=right]>.tippy-arrow{border-width:8px 8px 8px 0;border-right-color:#333;margin:3px 0;transform-origin:7px 50%;left:-7px}.tippy-tooltip[data-interactive][data-state=visible]{pointer-events:auto}.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{position:absolute;border-color:transparent;border-style:solid}.tippy-content{padding:5px 9px}</style><link rel="preload" as="image" href="https://kb.uconn.edu/images/00c4c172-bc74-4040-bbb4-5820820e8ddc">
+
+  <!--[if IE 9]>
+  <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.10.1/css/aui-ie9.css" media="all"><![endif]-->
+  <link rel="stylesheet" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui.min.css" media="all">
+  <link rel="stylesheet" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui-iconfonts.min.css" media="all">
+
+  <link rel="stylesheet" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui-experimental.min.css" type="text/css">
+
+  <link rel="icon" sizes="128x128" type="image/png" href="https://kb.uconn.edu/images/e5727b65-734c-4a99-b5ed-3c7d3afa8d5f">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://static.refinedwiki.com/refinedsites-for-cloud/images/refined-apple-180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://static.refinedwiki.com/refinedsites-for-cloud/images/refined-apple-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://static.refinedwiki.com/refinedsites-for-cloud/images/refined-apple-180.png">
+  <link rel="apple-touch-icon-precomposed" href="https://static.refinedwiki.com/refinedsites-for-cloud/images/refined-apple-180.png">
+
+  <link rel="preconnect" href="https://static.refinedwiki.com/" crossorigin="">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/roboto-condensed.cfedc8473d715da304c3.css" type="text/css" rel="stylesheet">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/poppins.1222cf230e5c945b6ed7.css" type="text/css" rel="stylesheet">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/cormorant.3ef189468531e1d2181b.css" type="text/css" rel="stylesheet">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/playfair-display.f483c4cf7ec13d2c8299.css" type="text/css" rel="stylesheet">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/ibm-plex-mono.95f721d3c7cefef94cfc.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/jquery.minicolors.cb15836cccc78cad2f2e.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/featherlight.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/site.6d1ce9337121a8352a31.css" type="text/css" media="all">
+  <style>/*========== homepage title ==========*/
+.rw_search_module_container h2.rw_item_primary_text{
+margin-bottom: 20px!important;
+}
+/*========== hide top nav ==========*/
+#rw_navigation_menu{
+display:none!important;
+}
+/*========== footer links ==========*/
+#footer_content .rw_module_body ul{
+    display: flex!important;
+}
+
+/*========== footer BG color ==========*/
+#footer_content{
+    background-color: #000e2f;
+}
+
+/*========== default footer links for mobile ==========*/
+@media screen and (max-width: 500px){
+#footer_content .rw_module_body ul{
+    display: block!important;
+}
+}
+
+#footer_content .rw_module_body ul li{
+   padding-left:20px;
+}
+#footer_content .rw_module_body ul li::marker{
+    color: rgba(0,0,0, 0.0);
+}
+
+#footer_content .rw_module_body ul li{
+color:#ffffff;
+}
+
+#footer_content .rw_module_body ul li a{
+color:#ffffff;
+}
+
+/*========== increase logo ==========*/
+.rw_logo img[data-v-83d4f2de]{
+max-width: 16rem;
+}
+/*========== default logo size for mobile ==========*/
+@media screen and (max-width: 500px){
+.rw_logo img[data-v-83d4f2de] {
+    max-width: 100%!important;
+}
+}
+
+/*========== darken background of support topics ==========*/
+
+.rw_item.rw_image_mode .rw_item_content {
+    background-color: rgba(0,0,0,.8)!important;
+}
+
+/*========== support topics header - homepage ==========*/
+#rw_customer_portal .rw_module .rw_module_title h3 {
+    font-size: 2rem;
+margin-top: 30px;
+}
+
+/*========== article titles ==========*/
+.rw_confluence_page .header_top h1.title{
+font-size: 3rem!important;
+line-height: 1.15!important;
+}
+
+/*========== alert boxes color change ==========*/
+.ext_ui_alert.el-alert.el-alert--success {
+    border-color: #d7ffd8;
+    background-color: #f0fff1;
+}
+
+.ext_ui_alert.el-alert.el-alert--warning {
+    border-color: #eee2bf;
+    background-color: #fffbed;
+}
+
+.ext_ui_alert.el-alert.el-alert--info {
+    border-color: #aec3e2;
+    background-color: #DEEBFF;
+}
+
+/*========== hide articles from search results ==========*/
+.search_result_category.knowledgeBase {
+    display: none;
+} 
+
+/*==========text and line spacing on homepage ==========*/
+.rw_formatting_item>.rw_cell h2.rw_item_primary_text {
+    margin-top: -5px;
+    font-size: 20px;
+line-height:25px;
+}
+
+.rw_formatting_item>.rw_cell .rw_item_secondary_text{
+    font-size: 14px;
+    margin-top: 2px;
+color: #747474!important;
+}
+
+</style>
+
+  <!-- Sets up the Keen.io client and sends the page view event. This code should only be included from the base layout. -->
+    <script crossorigin="" src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/keen-tracking@4"></script>
+    <script type="text/javascript" nonce="">
+  
+      // Configure a client instance
+      let client;
+  
+      if (!client) {
+          //Keen IO RefinedTheme for JSD Cloud
+          client = new Keen({
+              projectId: '5992aa6ac9e77c0001a20ae3',
+              writeKey: '9C8DA57A7A6BB35C95FE484F1D8D87B3CEB1CDB60DBF6F00BE4C1F0076BB6EA82C3D6495C701E45B7B4BC2A560079220588D87017F40743DBF2CE3B238D9D980DB65062546682F50DDB82B3901C8B2818665E329EAE4CED403661A7382176965'
+          });
+          window.isProduction = true;
+      }
+  
+      // We put the client on the global scope to make sure we can send events from anywhere
+      window.keenClient = client;
+  
+      client.defaultData = {
+        adminUser: 'false',
+        customerId: '4924',
+        loggedIn: 'false',
+        uniqueKey: '857ffa65368900f0928fc1450b0d4beb9f19b43cfdaf020ec5274070cd3f16c15d8e20952b5010299f013910ecbd671f0dca0ab60bc665e475277ab9456be6e3',
+        siteId: '2536',
+        ipAddress: 'c8c6348bd60d7c183d43f56242435863',
+        userAgent: '${keen.user_agent}',
+        continent: 'NA',
+        country: 'MX',
+        realm: 'US',
+      }
+  
+      client.siteConfig = {
+        hasCustomCss: 'true',
+        hasCustomHtml: 'false',
+        nrSpaces: '9',
+        nrPortals: '1',
+      }
+  
+      /**
+       * Creates an event and appends our data to it. You can use the key unique containing either client or user to make properties that are unique to each user or client.
+       * (For example if you want to uniquely identify a space key globally, pass it in as <code>event.unique.client</code>)
+       * @param eventName The name of the event, for example pageviews
+       * @param event Any event data that should be submitted.
+       * @private
+       */
+      client._rwAddEvent = function(eventName, event) {
+        event = { ...client.defaultData, ...event };
+        event.siteConfig = client.siteConfig;
+        const keen = event.keen || {};
+        const addons = keen && keen.addons || [];
+        addons.push({
+          'name': 'keen:ua_parser',
+          'input': {
+            'ua_string': 'userAgent'
+          },
+          'output': 'parsedUserAgent'
+        });
+        keen.addons = addons;
+        event.keen = keen;
+        client.recordEvent(eventName, event);
+      };
+    </script>
+<link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/1849.bea1246b25870c260a52.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/1511.311283abf7c3e795b96d.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/11.aeb7d51a6bc0b60228c0.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/709.4c0bb462de7d5cfed3d5.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/2762.cc1c79f06c0fec7b877c.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/6732.b67e29a77479713730af.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/9532.8b5cb80ba679fae66ec6.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/4214.e8712ba99d7137c2ad12.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/6705.a07570fb9468f7acf290.css"><link id="rw_theme_css_11282" rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/theme.css" media="all"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/6321.2cca8ff8d798fed3c155.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/431.58cd62bbb08e9077cc2b.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/146.40fedbf3a676ae6fc7f9.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/4807.d5ae7fd87a9f9401f055.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/790.f3ae04c45e71f7be0b10.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/9346.ec712b48c870d7b92a2b.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/9130.0ecde00777e8e4fae51b.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/4915.ca92045987913b82d441.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/2868.c04fb710e01ce307d924.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/8875.4acf447373190cebe7e9.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/7098.3a838a4b4a516b4751e7.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/5140.6fa54f779102a05463f2.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/609.29a9eafe63b6465062d6.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/934.a25a70e7aa356280c8da.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/8146.9998a9b4232f880ee017.css"><title>Setting up OneDrive on Linux - Information Technology - UConn Knowledge Base</title><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/8010.9683e0929c45711d7d07.css"><link rel="stylesheet" type="text/css" href="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/2713.6a93905a365ecda4862d.css"></head>
+<body data-aui-version="7.9.11" cz-shortcut-listen="true" style="">
+  
+
+  
+
+  
+    <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/raven.min.js"></script>
+    <script nonce="">
+      function _getTrace(data) {
+        try {
+          return data.exception.values[0].stacktrace.frames;
+        } catch {
+          return null;
+        }
+      }
+  
+      function _isHTMLModule(data) {
+        const trace = _getTrace(data);
+        return trace && trace[trace.length-1].function === 'DOMEval';
+      }
+  
+      function _isLookAndFeelCustomHtml(data) {
+        const trace = _getTrace(data);
+        return trace && trace[0].function === '?' && data.breadcrumbs == undefined;
+      }
+  
+      Raven.config('https://6717174f5c2c44ea8373165aeef8f000@sentry.io/199572', {
+        release: 'dev',
+        environment: 'production',
+        realm: 'US',
+        tags: {
+          customerId: '4924',
+          baseUrl: '',
+        },
+        dataCallback: (data) => {
+          data.tags.custom = _isHTMLModule(data) || _isLookAndFeelCustomHtml(data);
+          return data;
+        }
+      }).install();
+  
+    </script>
+
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/vendor-bundle.5b188333ac5352f4a8b6.js"></script>
+
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui.min.js"></script>
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui-soy.min.js"></script>
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/aui-experimental.min.js"></script>
+
+  <script nonce="">
+      window.contextPath = '';
+  </script>
+
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/translations_en_US.48c07e335ebe6e255ee4.js"></script>
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/soy-bundle.eca42844c9729635ab4c.js"></script>
+  <script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/site-bundle.4ad7df3e94485e1b13a3.js"></script>
+  <script nonce="">
+    window.dataLayer = window.dataLayer || [];
+    window.gaTrackingCode = 'G-MQS2QMG6GQ';
+    function gtag(){dataLayer.push(arguments);}
+  </script>
+
+  
+
+<div><!----> <div class="rw_announcements"><!----> </div> <div data-v-494c6233="" id="rw_customer_portal" data-refined-theme-version="Cloud-version" data-jira-service-desk-version="3.3"><div data-v-494c6233="" id="rw_wrapper" class="rw_background_top rw_portal_fill_bg rw_title_position_center rw_theme_11282"><div data-v-494c6233="" id="rw_upload_attachments"></div> <div data-v-494c6233="" class="rw_structure"><div data-v-494c6233="" class="rw_banner"></div> <div data-v-494c6233="" class="rw_full"></div> <header data-v-3e3b5d06="" data-v-494c6233="" id="rw_header" class="rw_has_logo rw_navigation_mode_menu rw_menu_type_static" style="--header-width: 100%; --font-color: #fff; --navMenuItem-focus-color: rgba(17, 17, 17,0.1); --navMenuItem-hover-color: rgba(17, 17, 17, 0.2); --navMenuChildBtn-activeColor: rgba(17, 17, 17,0.04); --navMenu-height: 2.5rem; --navigationHeader-fontSize: 0.875rem; --navigationHeader-lineHeight: 1rem; --navigationHeader-height: 3.75rem; --logo-height: 2.5rem; opacity: 1; pointer-events: auto;"><div data-v-3e3b5d06="" class="rw_header_background"></div> <div data-v-3e3b5d06="" id="rw_header_content" data-ui-id="site-header-content" class="rw_header_content"><!----> <!----> <div data-v-a1bdf15a="" data-v-3e3b5d06="" class="rw_mobile_navigation_menu" style="--roundMenuBtn-hover-color: rgba(17, 17, 17, 0.2); --roundMenuBtn-color: #fff;"><button data-v-a1bdf15a="" id="mobile_navigation_dropdown" aria-label="Navigation Menu" title="Navigation Menu" class="rw_mobile_navigation_button"><span data-v-a1bdf15a="" class="icon rw_external_icon_bars"></span></button> <!----> <!----></div> <a data-v-4dd1f1b3="" data-v-3e3b5d06="" href="https://kb.uconn.edu/" aria-label="Quick links" title="Quick links" class="logo" style="--navigationHeader-fontSize: 0.875rem; --navigationHeader-lineHeight: 1rem; --navigationHeader-height: 3.75rem; --logo-height: 2.5rem;" id="logo-nav-item" data-ui-id="site-logo"><img data-v-4dd1f1b3="" src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/d9363a5d-80ab-4333-95aa-53758aad97d6.png" alt="Site logo"></a> <div data-v-3e3b5d06="" id="rw_navigation_menu" data-ui-id="nav-menu" class="rw_style_round" style="--navigationHeader-fontSize: 0.875rem; --navigationHeader-lineHeight: 1rem; --navigationHeader-height: 3.75rem; --logo-height: 2.5rem; --navMenuItem-focus-color: rgba(17, 17, 17,0.1); --navMenuItem-hover-color: rgba(17, 17, 17, 0.2); --navMenuChildBtn-activeColor: rgba(17, 17, 17,0.04); --navMenu-height: 2.5rem;"><ul id="rw_desktop_navigation" class="rw_desktop_navigation"><!---->  <li tabindex="" type="button" class="rw_has_action menu_folder" id="more_structures_item" style="visibility: visible;"><a title="More" data-ui-content="More" data-ui-id="structure-name" class="navigation_link">
+    More
+  </a> <div data-v-40664974="" data-popper-id="ext_ui_popover_879" class="ext_ui_popper_wrapper ext_ui_popover_wrapper_reference"><div id="ext_ui_popover_879" role="tooltip" aria-hidden="true" class="ext_ui_dropdown" style="display: none;"><div class="ext_ui_dropdown_list navigation_dropdown ext_ui_dropdown--main ext_ui_dropdown--light menu_style_light" style="min-width: 1408px; max-width: 100%; width: 1408px;"><!----> <div class="more_navigation_row column_layout_4"><div class="more_navigation_row_parent_wrapper_20800"><ul id="more_navigation_row_wrapper_20800" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Information Technology Services" href="https://kb.uconn.edu/page/ITS" title="Information Technology Services" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Information Technology Services
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20801"><ul id="more_navigation_row_wrapper_20801" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Data Management, Reporting, &amp; Analytics" href="https://kb.uconn.edu/space/DMRA" title="Data Management, Reporting, &amp; Analytics" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Data Management, Reporting, &amp; Analytics
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20802"><ul id="more_navigation_row_wrapper_20802" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Finance, Payroll, and Budget" href="https://kb.uconn.edu/space/FPB" title="Finance, Payroll, and Budget" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Finance, Payroll, and Budget
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20803"><ul id="more_navigation_row_wrapper_20803" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Parking" href="https://kb.uconn.edu/space/PAR" title="Parking" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Parking
+    </span> <!----> <!----></a> <!----></li></ul></div></div><div class="more_navigation_row column_layout_4"><div class="more_navigation_row_parent_wrapper_20804"><ul id="more_navigation_row_wrapper_20804" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Student Academics and Services" href="https://kb.uconn.edu/space/SAS" title="Student Academics and Services" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Student Academics and Services
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20805"><ul id="more_navigation_row_wrapper_20805" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Teaching and Learning" href="https://kb.uconn.edu/space/TL" title="Teaching and Learning" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Teaching and Learning
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20807"><ul id="more_navigation_row_wrapper_20807" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="UConn Foundation" href="https://kb.uconn.edu/space/UF" title="UConn Foundation" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      UConn Foundation
+    </span> <!----> <!----></a> <!----></li></ul></div><div class="more_navigation_row_parent_wrapper_20808"><ul id="more_navigation_row_wrapper_20808" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="Storrs HPC" href="https://kb.uconn.edu/space/SH" title="Storrs HPC" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      Storrs HPC
+    </span> <!----> <!----></a> <!----></li></ul></div></div><div class="more_navigation_row column_layout_4"><div class="more_navigation_row_parent_wrapper_20813"><ul id="more_navigation_row_wrapper_20813" class="navigation_children"><li class="navigation_item"><a data-ui-id="navigation-item-link" data-ui-content="System Integration and Management" href="https://kb.uconn.edu/space/SIM" title="System Integration and Management" target="" tabindex="0" role="button" class="navigation_item_link"><div class="icon icon_dot"><div class="dot"></div></div> <span class="title">
+      System Integration and Management
+    </span> <!----> <!----></a> <!----></li></ul></div></div></div> <!----></div> <button data-ui-id="child-more-button" type="button" aria-label="Submenu" aria-haspopup="true" class="rw_children_button rw_external_icon_angle-down" aria-describedby="tooltip" tabindex="0"></button> <!----> <!----></div> <!----></li></ul></div> <div data-v-0fe0da51="" data-v-3e3b5d06="" id="rw_my_menu" theme="[object Object]"><div data-v-0fe0da51="" data-popper-id="ext_ui_tooltip_7478" class="ext_ui_popper_wrapper ext_ui_tooltip_wrapper_reference menu_item"><div id="ext_ui_tooltip_7478" role="tooltip" aria-hidden="true" class="ext_ui_tooltip" style="display: none;">
+    Search
+    <span data-v-9e2ce182="" class="shortcut menu_style_dark"><!----> <span data-v-9e2ce182="" class="letter">/</span></span> <div id="arrow" data-popper-arrow=""></div></div>  <div data-v-172bafcf="" tabindex="-1" class="outer_container search_link_button" style="--roundMenuBtn-background-color: rgba(17, 17, 17, 0.2); --roundMenuBtn-hover-color: rgba(17, 17, 17,0.16); --roundMenuBtn-color: #fff;" aria-describedby="tooltip"><button data-v-172bafcf="" data-ui-id="global-search-link" aria-label="Search" class="round_button"><span data-v-172bafcf="" class="icon rw_external_icon_search"></span></button></div> <!----></div> <div data-v-40664974="" data-v-0fe0da51="" data-popper-id="ext_ui_popover_516" class="ext_ui_popper_wrapper ext_ui_popover_wrapper_reference rw_my_admin_menu menu_item" tabindex="-1"><div id="ext_ui_popover_516" role="tooltip" aria-hidden="true" class="ext_ui_dropdown" style="display: none;"><div class="ext_ui_dropdown_list ext_ui_dropdown--main ext_ui_dropdown--light ext_ui__has-section-icon"><div class="ext_ui_dropdown_section"><div class="ext_ui_section_header"><a class="ext_ui_section_anchor"><span class="ext_ui_section_icon_wrapper"><i class="ext_ui_section_icon rw_external_icon_cookie-bite"></i></span> <span class="ext_ui_section_title">Cookies</span></a></div> <div class="ext_ui_section_items"><div class="ext_ui_dropdown_item ext_ui_dropdown_item--light"><a tabindex="0" class="ext_ui_dropdown_item_anchor"><div class="ext_ui_dropdown_item_anchor_wrapper"><span class="ext_ui_dropdown_icon_wrapper"><!----></span> <span class="ext_ui_dropdown_item_text">
+    Cookie Settings
+  </span> <!----></div></a></div></div></div></div> <!----></div> <!----> <div data-v-172bafcf="" tabindex="-1" class="outer_container" style="--roundMenuBtn-background-color: rgba(17, 17, 17, 0.2); --roundMenuBtn-hover-color: rgba(17, 17, 17,0.16); --roundMenuBtn-color: #fff;" aria-describedby="tooltip"><button data-v-172bafcf="" data-ui-id="cog-icon" aria-label="Configuration" class="round_button"><span data-v-172bafcf="" class="icon rw_external_icon_cog"></span></button></div> <!----> <!----></div> <div data-v-99c28abe="" data-v-0fe0da51="" class="login_container menu_item"><form data-v-99c28abe=""><input data-v-99c28abe="" type="hidden" name="_csrf" value="APUUphXc-ACaZxKpLRmofNQb-VrZFyazpzM4"> <button data-v-99c28abe="" type="button" class="ext_ui_button ext_ui_border_primary ext_ui_color_primary ext_ui_button--default ext_ui_button--small header_login_button"><i class="ext_ui_icon rw_external_icon_arrow-right"></i> <span>
+      Log In
+    </span></button></form></div></div></div> </header> <main data-v-494c6233="" id="rw_main"><div data-v-494c6233="" class="rw_bg_shadow"><div data-v-494c6233="" class="rw_shadow_container" style="width: 85%;"><div data-v-494c6233="" class="rw_shadow_left"></div> <div data-v-494c6233="" class="rw_shadow_top"></div> <div data-v-494c6233="" class="rw_shadow_right"></div></div></div> <div data-v-494c6233="" id="rw_content" style="width: 85%;"><div data-v-383a494f="" data-v-494c6233="" class="rw_adf_app" ext-loading-background="rgba(254, 255, 254, 0.5)" style=""><div data-v-4657a51c="" class="confluence_page" data-v-383a494f=""><div data-v-4657a51c="" class="navigation"><!----> <div data-v-57365046="" data-v-4657a51c="" data-ui-id="space-sidebar" class="space_navigation sidebar" style=""><div data-v-57365046="" class="menu_container"><div data-v-57365046="" class="name_container"><span data-v-57365046="" class="space_name"><a data-v-57365046="" tabindex="0" data-ui-id="space-sidebar-title" class="space_name_link clickable">
+          Information Technology
+        </a></span> <!----></div> <!----> <div data-v-57365046="" class="list_container"><div data-v-7a3c0f20="" data-v-38f2990a="" data-v-57365046="" id="module_760719fc-f18f-467b-80b4-c790ae4091c2" class="layout_module page_tree_module small" data-ui-id="sidebar-page-tree" data-ui-content="10711237007"><!----> <!----> <div data-v-6a7f9bc2="" data-v-38f2990a="" class="children_container page_tree_container" data-v-7a3c0f20=""><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Guides" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Guides" href="https://kb.uconn.edu/space/IKB/26500005894" data-ui-id="pagetree-node-title" class="title">
+      Guides
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="IT Support and Information" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="IT Support and Information" href="https://kb.uconn.edu/space/IKB/10759275649" data-ui-id="pagetree-node-title" class="title">
+      IT Support and Information
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Google to Microsoft 365 Migration" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Google to Microsoft 365 Migration" href="https://kb.uconn.edu/space/IKB/26395312155" data-ui-id="pagetree-node-title" class="title">
+      Google to Microsoft 365 Migration
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Accounts, NetID, and Duo" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Accounts, NetID, and Duo" href="https://kb.uconn.edu/space/IKB/10724476730" data-ui-id="pagetree-node-title" class="title">
+      Accounts, NetID, and Duo
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Devices and Equipment" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Devices and Equipment" href="https://kb.uconn.edu/space/IKB/10852500909" data-ui-id="pagetree-node-title" class="title">
+      Devices and Equipment
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Digital Signage" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Digital Signage" href="https://kb.uconn.edu/space/IKB/10726900375" data-ui-id="pagetree-node-title" class="title">
+      Digital Signage
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Email" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Email" href="https://kb.uconn.edu/space/IKB/10726900296" data-ui-id="pagetree-node-title" class="title">
+      Email
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="UConn Email Address" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="UConn Email Address" href="https://kb.uconn.edu/space/IKB/26505445387" data-ui-id="pagetree-node-title" class="title">
+      UConn Email Address
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Listserv" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Listserv" href="https://kb.uconn.edu/space/IKB/10726900313" data-ui-id="pagetree-node-title" class="title">
+      Listserv
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Removing an Email Account from a Desktop Mail Client" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Removing an Email Account from a Desktop Mail Client" href="https://kb.uconn.edu/space/IKB/10730800614" data-ui-id="pagetree-node-title" class="title">
+      Removing an Email Account from a Desktop Mail Client
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Mass Mail" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Mass Mail" href="https://kb.uconn.edu/space/IKB/10726900311" data-ui-id="pagetree-node-title" class="title">
+      Mass Mail
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Security and Threat Prevention" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Security and Threat Prevention" href="https://kb.uconn.edu/space/IKB/10726900305" data-ui-id="pagetree-node-title" class="title">
+      Security and Threat Prevention
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Shared Resources" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Shared Resources" href="https://kb.uconn.edu/space/IKB/10726900307" data-ui-id="pagetree-node-title" class="title">
+      Shared Resources
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="EMS Room Scheduling" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="EMS Room Scheduling" href="https://kb.uconn.edu/space/IKB/26223083521" data-ui-id="pagetree-node-title" class="title">
+      EMS Room Scheduling
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Mail Merge" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Mail Merge" href="https://kb.uconn.edu/space/IKB/26327810066" data-ui-id="pagetree-node-title" class="title">
+      Mail Merge
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Mail-Merge In Outlook From a Shared Departmental Account" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Mail-Merge In Outlook From a Shared Departmental Account" href="https://kb.uconn.edu/space/IKB/26212139009" data-ui-id="pagetree-node-title" class="title">
+      Mail-Merge In Outlook From a Shared Departmental Account
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Alumni Forwarding Service" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Alumni Forwarding Service" href="https://kb.uconn.edu/space/IKB/26611122212" data-ui-id="pagetree-node-title" class="title">
+      Alumni Forwarding Service
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="File Storage" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="File Storage" href="https://kb.uconn.edu/space/IKB/10724476745" data-ui-id="pagetree-node-title" class="title">
+      File Storage
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="IT Accessibility" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="IT Accessibility" href="https://kb.uconn.edu/space/IKB/10769929875" data-ui-id="pagetree-node-title" class="title">
+      IT Accessibility
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="IT Security" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="IT Security" href="https://kb.uconn.edu/space/IKB/10794829230" data-ui-id="pagetree-node-title" class="title">
+      IT Security
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Managed Server" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Managed Server" href="https://kb.uconn.edu/space/IKB/26289373194" data-ui-id="pagetree-node-title" class="title">
+      Managed Server
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft 365" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Microsoft 365" href="https://kb.uconn.edu/space/IKB/10770819474" data-ui-id="pagetree-node-title" class="title">
+      Microsoft 365
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Getting Started with Microsoft 365" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Getting Started with Microsoft 365" href="https://kb.uconn.edu/space/IKB/26502823958" data-ui-id="pagetree-node-title" class="title">
+      Getting Started with Microsoft 365
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Office 365 Education Plan" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Microsoft Office 365 Education Plan" href="https://kb.uconn.edu/space/IKB/10795453479" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Office 365 Education Plan
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Installing Microsoft 365 apps" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Installing Microsoft 365 apps" href="https://kb.uconn.edu/space/IKB/10770822412" data-ui-id="pagetree-node-title" class="title">
+      Installing Microsoft 365 apps
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Seamless Single Sign-On" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Seamless Single Sign-On" href="https://kb.uconn.edu/space/IKB/26028507210" data-ui-id="pagetree-node-title" class="title">
+      Seamless Single Sign-On
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Bookings and Bookings with me" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Bookings and Bookings with me" href="https://kb.uconn.edu/space/IKB/10817011782" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Bookings and Bookings with me
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Delve" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Microsoft Delve" href="https://kb.uconn.edu/space/IKB/10803053536" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Delve
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft EndNote" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Microsoft EndNote" href="https://kb.uconn.edu/space/IKB/10865213680" data-ui-id="pagetree-node-title" class="title">
+      Microsoft EndNote
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Forms" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Microsoft Forms" href="https://kb.uconn.edu/space/IKB/10803053563" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Forms
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Create a Microsoft Form" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Create a Microsoft Form" href="https://kb.uconn.edu/space/IKB/10803053573" data-ui-id="pagetree-node-title" class="title">
+      Create a Microsoft Form
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Add Questions to Microsoft Forms" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Add Questions to Microsoft Forms" href="https://kb.uconn.edu/space/IKB/10803053607" data-ui-id="pagetree-node-title" class="title">
+      Add Questions to Microsoft Forms
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Share Microsoft Forms" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Share Microsoft Forms" href="https://kb.uconn.edu/space/IKB/26708672514" data-ui-id="pagetree-node-title" class="title">
+      Share Microsoft Forms
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="View Microsoft Forms Responses" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="View Microsoft Forms Responses" href="https://kb.uconn.edu/space/IKB/26977632306" data-ui-id="pagetree-node-title" class="title">
+      View Microsoft Forms Responses
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Present Microsoft Form to Audience" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Present Microsoft Form to Audience" href="https://kb.uconn.edu/space/IKB/26708770829" data-ui-id="pagetree-node-title" class="title">
+      Present Microsoft Form to Audience
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Allow Public File Uploads into Microsoft Forms" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Allow Public File Uploads into Microsoft Forms" href="https://kb.uconn.edu/space/IKB/26712080393" data-ui-id="pagetree-node-title" class="title">
+      Allow Public File Uploads into Microsoft Forms
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Recover Deleted Microsoft Forms" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Recover Deleted Microsoft Forms" href="https://kb.uconn.edu/space/IKB/26778435593" data-ui-id="pagetree-node-title" class="title">
+      Recover Deleted Microsoft Forms
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Graph" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Microsoft Graph" href="https://kb.uconn.edu/space/IKB/10803053540" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Graph
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Groups" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Groups" href="https://kb.uconn.edu/space/IKB/10770819476" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Groups
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft MyAnalytics" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft MyAnalytics" href="https://kb.uconn.edu/space/IKB/10802103123" data-ui-id="pagetree-node-title" class="title">
+      Microsoft MyAnalytics
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft OneDrive" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Microsoft OneDrive" href="https://kb.uconn.edu/space/IKB/10726900385" data-ui-id="pagetree-node-title" class="title">
+      Microsoft OneDrive
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="What is OneDrive?" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="What is OneDrive?" href="https://kb.uconn.edu/space/IKB/26247397509" data-ui-id="pagetree-node-title" class="title">
+      What is OneDrive?
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Set Up OneDrive on a Computer" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Set Up OneDrive on a Computer" href="https://kb.uconn.edu/space/IKB/10730800041" data-ui-id="pagetree-node-title" class="title">
+      Set Up OneDrive on a Computer
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Install OneDrive on Windows" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Install OneDrive on Windows" href="https://kb.uconn.edu/space/IKB/26229932033" data-ui-id="pagetree-node-title" class="title">
+      Install OneDrive on Windows
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Install OneDrive on MacOS" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Install OneDrive on MacOS" href="https://kb.uconn.edu/space/IKB/26228753649" data-ui-id="pagetree-node-title" class="title">
+      Install OneDrive on MacOS
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Setting up OneDrive on Linux" class="page_node selected"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Setting up OneDrive on Linux" href="https://kb.uconn.edu/space/IKB/26050527301" data-ui-id="pagetree-node-title" class="title">
+      Setting up OneDrive on Linux
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="OneDrive Files On-Demand" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="OneDrive Files On-Demand" href="https://kb.uconn.edu/space/IKB/26228721112" data-ui-id="pagetree-node-title" class="title">
+      OneDrive Files On-Demand
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Share Files/Folders in OneDrive" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Share Files/Folders in OneDrive" href="https://kb.uconn.edu/space/IKB/26224689178" data-ui-id="pagetree-node-title" class="title">
+      Share Files/Folders in OneDrive
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Using OneDrive and Managing Files" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Using OneDrive and Managing Files" href="https://kb.uconn.edu/space/IKB/26230390849" data-ui-id="pagetree-node-title" class="title">
+      Using OneDrive and Managing Files
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="OneDrive Photo Backup" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="OneDrive Photo Backup" href="https://kb.uconn.edu/space/IKB/26977632280" data-ui-id="pagetree-node-title" class="title">
+      OneDrive Photo Backup
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Troubleshoot OneDrive" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Troubleshoot OneDrive" href="https://kb.uconn.edu/space/IKB/26044760169" data-ui-id="pagetree-node-title" class="title">
+      Troubleshoot OneDrive
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft OneNote" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft OneNote" href="https://kb.uconn.edu/space/IKB/10819764998" data-ui-id="pagetree-node-title" class="title">
+      Microsoft OneNote
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Outlook" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Outlook" href="https://kb.uconn.edu/space/IKB/10726900301" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Outlook
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Planner" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right is_open"></div> <a data-v-3a31e748="" title="Microsoft Planner" href="https://kb.uconn.edu/space/IKB/10794830008" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Planner
+    </a></div> <div data-v-6a7f9bc2="" data-v-3a31e748="" class="children_container"><ul data-v-6a7f9bc2="" class="children open"><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Plan Views" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Plan Views" href="https://kb.uconn.edu/space/IKB/10794830036" data-ui-id="pagetree-node-title" class="title">
+      Plan Views
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Viewing Your Tasks" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Viewing Your Tasks" href="https://kb.uconn.edu/space/IKB/10794830049" data-ui-id="pagetree-node-title" class="title">
+      Viewing Your Tasks
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Mark a Task Complete" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Mark a Task Complete" href="https://kb.uconn.edu/space/IKB/10794830053" data-ui-id="pagetree-node-title" class="title">
+      Mark a Task Complete
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Creating a New Planner" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Creating a New Planner" href="https://kb.uconn.edu/space/IKB/10794830020" data-ui-id="pagetree-node-title" class="title">
+      Creating a New Planner
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Creating/Editing Tasks" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Creating/Editing Tasks" href="https://kb.uconn.edu/space/IKB/10794830029" data-ui-id="pagetree-node-title" class="title">
+      Creating/Editing Tasks
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Power Automate" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Power Automate" href="https://kb.uconn.edu/space/IKB/10802103772" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Power Automate
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Power BI Pro" class="page_node"><div data-v-3a31e748="" class="icon"><div data-v-3a31e748="" class="dot"></div></div> <a data-v-3a31e748="" title="Microsoft Power BI Pro" href="https://kb.uconn.edu/space/IKB/10802103124" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Power BI Pro
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Reflect" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Reflect" href="https://kb.uconn.edu/space/IKB/26973798401" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Reflect
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft SharePoint" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft SharePoint" href="https://kb.uconn.edu/space/IKB/26042663096" data-ui-id="pagetree-node-title" class="title">
+      Microsoft SharePoint
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Stream" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Stream" href="https://kb.uconn.edu/space/IKB/10794830164" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Stream
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Sway" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Sway" href="https://kb.uconn.edu/space/IKB/10803053528" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Sway
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Microsoft Teams" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Microsoft Teams" href="https://kb.uconn.edu/space/IKB/10749247599" data-ui-id="pagetree-node-title" class="title">
+      Microsoft Teams
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Viva Learning" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Viva Learning" href="https://kb.uconn.edu/space/IKB/26319683726" data-ui-id="pagetree-node-title" class="title">
+      Viva Learning
+    </a></div> <!----></div></li></ul></div></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Network" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Network" href="https://kb.uconn.edu/space/IKB/10724476737" data-ui-id="pagetree-node-title" class="title">
+      Network
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="On-Campus Printing" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="On-Campus Printing" href="https://kb.uconn.edu/space/IKB/10899849280" data-ui-id="pagetree-node-title" class="title">
+      On-Campus Printing
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Tools for IT Professionals" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Tools for IT Professionals" href="https://kb.uconn.edu/space/IKB/26488406060" data-ui-id="pagetree-node-title" class="title">
+      Tools for IT Professionals
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Television" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Television" href="https://kb.uconn.edu/space/IKB/10726900679" data-ui-id="pagetree-node-title" class="title">
+      Television
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Voice Services" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Voice Services" href="https://kb.uconn.edu/space/IKB/10726901173" data-ui-id="pagetree-node-title" class="title">
+      Voice Services
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Web Conferencing and Collaboration" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Web Conferencing and Collaboration" href="https://kb.uconn.edu/space/IKB/10724476727" data-ui-id="pagetree-node-title" class="title">
+      Web Conferencing and Collaboration
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Websites &amp; Web Applications" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Websites &amp; Web Applications" href="https://kb.uconn.edu/space/IKB/10726900682" data-ui-id="pagetree-node-title" class="title">
+      Websites &amp; Web Applications
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="Contributing to the Knowledge Base" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="Contributing to the Knowledge Base" href="https://kb.uconn.edu/space/IKB/10951524928" data-ui-id="pagetree-node-title" class="title">
+      Contributing to the Knowledge Base
+    </a></div> <!----></div></li><li data-v-6a7f9bc2=""><div data-v-3a31e748="" data-v-6a7f9bc2=""><div data-v-3a31e748="" data-ui-id="page-sidebar-node" data-ui-content="GitHub Codespaces" class="page_node"><div data-v-3a31e748="" tabindex="0" data-ui-id="page-sidebar-node-icon-arrow" type="button" class="icon rw_external_icon_angle-right"></div> <a data-v-3a31e748="" title="GitHub Codespaces" href="https://kb.uconn.edu/space/IKB/26820280420" data-ui-id="pagetree-node-title" class="title">
+      GitHub Codespaces
+    </a></div> <!----></div></li></ul></div></div></div></div> <div data-v-57365046="" id="page_view_collapse_sidebar" data-ui-id="page-view-collapse-sidebar" type="button" class="collapse_sidebar"><div data-v-57365046="" data-popper-id="ext_ui_tooltip_1304" class="ext_ui_popper_wrapper ext_ui_tooltip_wrapper_reference"><div id="ext_ui_tooltip_1304" role="tooltip" aria-hidden="true" class="ext_ui_tooltip" style="display: none;"><span data-v-f84bd5ba="" data-v-57365046="" class="container tooltip"><span data-v-f84bd5ba="" class="title">Collapse Sidebar</span> <span data-v-f84bd5ba="" class="shortcut"><!----> <span data-v-f84bd5ba="" class="letter adjust">[</span></span></span> <div id="arrow" data-popper-arrow=""></div></div>  <span data-v-57365046="" type="button" class="icon rw_external_icon_angle-left" aria-describedby="tooltip" tabindex="0"></span></div> <div data-v-57365046="" class="border"></div></div></div></div> <div data-v-4657a51c="" id="printable_document" class="document navigation_open"><div data-v-61fcc34c="" data-v-4657a51c="" class="adf_header page no_actions"><div data-v-61fcc34c="" class="header_top"><div data-v-61fcc34c="" class="title_container"><!----> <h1 data-v-61fcc34c="" data-ui-id="page-title" data-ui-content="Setting up OneDrive on Linux" title="Setting up OneDrive on Linux" class="title">
+        Setting up OneDrive on Linux
+      </h1></div> <!----></div> <div data-v-9edb44d8="" data-v-61fcc34c="" class="header_byline"><!----> <div data-v-a79d7da0="" data-v-9edb44d8="" class="byline_info"><span data-v-a79d7da0="" class="byline_info"><!----></span> <div data-v-a79d7da0="" class="date"><!----><span data-v-a79d7da0="" data-ui-id="author-last-updated/created-by" data-happo-hide="author-last-updated/created-by" class="updated_by">Last updated 8 November, 2023</span><span data-v-09eeef0c="" data-v-a79d7da0="" data-ui-id="reading-time" data-happo-hide="reading-time" class="reading_time">2 min read</span></div></div></div></div> <div data-v-346ea1a8="" data-v-4657a51c=""><div data-v-346ea1a8="" class="rw_adf_document page"><!----> <div data-v-dfdf25d2="" data-v-346ea1a8="" class="content document_adf_content"><p data-v-4d192987="" data-v-dfdf25d2="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">There
+ is no official OneDrive client for Linux computers. The functionality 
+of drive syncing can be achieved by using the third party software 
+RClone. RClone requires a Linux computer with a GUI interface (it will 
+not work on command line only installs).</span></p><div data-v-2869a0cf="" data-v-d5a58c18="" data-v-dfdf25d2="" role="alert" class="ext_alert alert ext_alert__warning has_description" data-ui-id="panel" data-ui-content="warning"><i data-v-2869a0cf="" class="alert_icon rw_external_icon_exclamation-circle"></i> <div data-v-2869a0cf="" class="alert_content"><!----> <div data-v-2869a0cf="" class="alert_description"> <p data-v-4d192987="" data-v-d5a58c18="" class="" data-v-2869a0cf=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">RClone is a third party software not supported by Microsoft.</span></p></div></div></div><ol data-v-e79aef76="" data-v-dfdf25d2="" type="1" start="1" class="ordered-list top_level"><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Open a terminal window and install RClone using the following command.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">curl https://rclone.org/install.sh | sudo bash</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Start configuring OneDrive in RClone by running the config command. </span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">rclone config</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">You will be prompted with configuration options. Choose </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">n</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to create a new remote.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q&gt; n</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Enter “OneDrive” as the name for the remote.</span></p></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">For storage type enter “onedrive”.</span></p></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Leave client_id and client_secret empty. Press enter to leave the fields blank.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;Option client_id.
+OAuth Client Id.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_id&gt; 
+&gt;&gt;&gt;Option client_secret.
+OAuth Client Secret.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_secret&gt;</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Enter </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">1</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> for the region.</span></p></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Press </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">n</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to skip advanced configuration.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;Edit advanced config?
+y) Yes
+n) No (default)
+y/n&gt; n</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Press </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">y</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to use auto configuration.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;Use auto config?
+ * Say Y if not sure
+ * Say N if you are working on a remote or headless machine
+y) Yes (default)
+n) No
+y/n&gt; y</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">A browser window will open to a Microsoft login screen. Login using your UConn email address and NetID password.</span></p><div data-v-44c30da0="" data-v-1ea343ae="" class="rw_adf_media rw_adf_mediasingle_center"><div data-v-44c30da0=""><img data-v-1dafa5d8="" data-v-17bb22b2="" data-v-44c30da0="" src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/microsoft%20login%201.png" alt="" width="1000" height="1000" title="microsoft login 1.png" loading="lazy" class="rw_adf_media_img" style="width: 283px; height: auto;"> <!----></div></div><div data-v-44c30da0="" data-v-1ea343ae="" class="rw_adf_media rw_adf_mediasingle_center"><div data-v-44c30da0=""><img data-v-1dafa5d8="" data-v-17bb22b2="" data-v-44c30da0="" src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/microsoft%20login%202.png" alt="" width="1000" height="1000" title="microsoft login 2.png" loading="lazy" class="rw_adf_media_img" style="width: 283px; height: auto;"> <!----></div></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">After logging in, close the browser window and go back to the terminal that is running RClone.</span></p><div data-v-44c30da0="" data-v-1ea343ae="" class="rw_adf_media rw_adf_mediasingle_center"><div data-v-44c30da0=""><img data-v-1dafa5d8="" data-v-17bb22b2="" data-v-44c30da0="" src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/login%20success.png" alt="" width="1000" height="1000" title="login success.png" loading="lazy" class="rw_adf_media_img" style="width: 283px; height: auto;"> <!----></div></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">When prompted for config_type enter “onedrive”.</span></p></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">You’ll be prompted to connect to the root of your OneDrive. Press </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">y</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to continue. </span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;Drive OK?
+Found drive "root" of type "business"
+URL: https://uconn-my.sharepoint.com/personal/timothy_bogues_uconn_edu/Documents
+y) Yes (default)
+n) No
+y/n&gt; y</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Press </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">y</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to confirm that the remote is ok. </span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">&gt;&gt;&gt;y) Yes this is OK (default)
+e) Edit this remote
+d) Delete this remote
+y/e/d&gt; y</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Press </span><span data-v-6a513cde="" data-v-4d192987="" class="text_node rw_adf_text_strong">q</span><span data-v-6a513cde="" data-v-4d192987="" class="text_node"> to close the remote configuration procedure.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">Current remotes:
+Name                 Type
+====                 ====
+OneDrive             onedrive
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q&gt; q</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Create a “OneDrive” directory in your home folder to mount the remote that you just created.</span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">mkdir ~/OneDrive</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Mount the remote by using the command: </span></p><div data-v-0ea3571d="" data-v-1ea343ae="" data-ui-id="code-block" data-ui-content="" class="code_block"><pre data-v-0ea3571d=""><code class="hljs">rclone --vfs-cache-mode writes mount OneDrive: ~/OneDrive &amp;</code></pre></div></li><li data-v-1ea343ae="" data-v-e79aef76="" class="list_item"><p data-v-4d192987="" data-v-1ea343ae="" class=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">Close the terminal window. You should now have OneDrive mounted in your file system.</span></p></li></ol><div data-v-2869a0cf="" data-v-d5a58c18="" data-v-dfdf25d2="" role="alert" class="ext_alert alert ext_alert__info has_description" data-ui-id="panel" data-ui-content="info"><i data-v-2869a0cf="" class="alert_icon rw_external_icon_info-circle"></i> <div data-v-2869a0cf="" class="alert_content"><!----> <div data-v-2869a0cf="" class="alert_description"> <p data-v-4d192987="" data-v-d5a58c18="" class="" data-v-2869a0cf=""><span data-v-6a513cde="" data-v-4d192987="" class="text_node">If you reboot the computer you will need to remount the remote using the command in step 17.</span></p></div></div></div><p data-v-4d192987="" data-v-dfdf25d2="">&nbsp;</p></div></div> <div data-v-346ea1a8="" class="bottom_section"><div data-v-00c3a073="" data-v-4657a51c="" class="container" data-v-346ea1a8=""><div data-v-00c3a073="" class="social_container"><div data-v-3d9df760="" data-v-00c3a073="" class="likes"><button data-v-5bbe40bc="" data-v-3d9df760="" disabled="disabled" class="button button" data-ui-id="like-button"><span data-v-5bbe40bc="" class="icon rw_external_icon_thumbs-up"></span> <!----></button> <span data-v-7860de16="" data-v-3d9df760="" class="counter">
+  No one liked this yet
+</span></div> <div data-v-00c3a073="" class="actions"><!----> <!----> <!----> <!----></div></div> <!----></div></div></div></div></div> <!----><div class="ext_loading" style="background-color: rgba(254, 255, 254, 0.5); display: none;"><div class="loading_spinner"><svg viewBox="25 25 50 50"><circle cx="50" cy="50" fill="none" class="path ext_ui_stroke_primary"></circle></svg></div></div></div></div></main> <!----> <footer data-v-9d1bfd96="" data-v-494c6233="" id="footer_layout" class="footer" style=""><div data-v-296dd01c="" data-v-9d1bfd96="" class="footer_wrapper"><div id="rw_layout_app" class="render_desktop"><div class="le_layout"><div class="le_sections"><div data-ui-id="layout-entity" data-ui-content="section" class="le_entity le_section" style="background-color: rgb(0, 14, 47);"><div class="le_entity_content le_entity_drop_shadow_dark le_entity_width_inherit le_section_spacing_tight" style="--element-text-colour: #707070; --element-title-colour: #111111;"><!----> <div data-ui-id="section-contents" class="le_rows"><div data-ui-id="layout-entity" data-ui-content="row" class="le_entity le_row"><div class="le_entity_content le_entity_spacing_tight le_content_alignment_start le_entity_height_fit-module"><div class="le_columns le_entity_spacing_custom le_entity_height_fit-module"><div data-ui-id="layout-entity" data-ui-content="column" class="le_entity le_column render_desktop" style="flex-basis: 100%; width: 100%;"><div class="le_entity_content le_entity_spacing_tight le_entity_height_fit-module"><div data-ui-id="column-modules" class="le_modules le_entity_spacing_tight le_entity_height_fit-module"><div data-ui-id="layout-entity" data-ui-content="module" class="le_entity le_module" style="background-color: transparent;"><div tabindex="-1" class="le_entity_content le_entity_spacing_tight le_element_spacing_default le_entity_height_fit-module le_entity_element_alignment_center le_entity_element_alignment_vertical_center le_module_render_class decorative divider"><div data-ui-id="module-contents" class="le_module_contents"><div class="le_module_column" style="flex-basis: 100%;"><div data-ui-id="element-render" data-ui-content="divider" class="le_element le_element_type_divider"><!----> <!----> <!----> <!----> <!----> <!----> <div data-v-39628b2d="" class="le_element_divider" style="--1ff35640: 2px; --19e565d4: 22px; --5837b4b4: rgba(228, 0, 43, 1);"><div data-v-39628b2d="" class="le_element_divider--divider"></div> <!----></div> </div></div></div></div></div></div></div></div></div></div></div><div data-ui-id="layout-entity" data-ui-content="row" class="le_entity le_row"><div class="le_entity_content le_entity_spacing_tight le_content_alignment_start le_entity_height_fit-module"><div class="le_columns le_entity_spacing_custom le_entity_height_fit-module"><div data-ui-id="layout-entity" data-ui-content="column" class="le_entity le_column render_desktop" style="flex-basis: 100%; width: 100%;"><div class="le_entity_content le_entity_spacing_tight le_entity_height_fit-module"><div data-ui-id="column-modules" class="le_modules le_entity_spacing_tight le_entity_height_fit-module"><div data-ui-id="layout-entity" data-ui-content="module" class="le_entity le_module" style="background-color: transparent;"><div tabindex="-1" class="le_entity_content le_entity_spacing_tight le_element_spacing_default le_entity_height_fit-module le_entity_element_alignment_left le_entity_element_alignment_vertical_center le_module_render_class text Paragraph"><div data-ui-id="module-contents" class="le_module_contents"><div class="le_module_column" style="flex-basis: 100%;"><div data-ui-id="element-render" data-ui-content="text" class="le_element le_element_type_text"><!----> <!----> <!----> <!----> <!----> <div data-ui-id="element-text-preview" class="element-text-preview" style="text-align: left;" element="[object Object]"><p style="text-align: center"><span style="color: rgb(255, 255, 255)">©</span>&nbsp;<a href="http://uconn.edu/" rel="noopener noreferrer nofollow"><span style="color: rgb(255, 255, 255)">University of Connecticut</span></a><span style="color: rgb(255, 255, 255)">     </span><a href="http://uconn.edu/disclaimers-privacy-copyright/" rel="noopener noreferrer nofollow"><span style="color: rgb(255, 255, 255)">Disclaimers, Privacy &amp; Copyright</span></a><span style="color: rgb(255, 255, 255)">     </span><a href="https://accessibility.uconn.edu/" rel="noopener noreferrer nofollow"><span style="color: rgb(255, 255, 255)">Accessibility</span></a><span style="color: rgb(255, 255, 255)">     </span></p><p style="text-align: left"></p></div> <!----> </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div data-v-296dd01c="" class="more_menu"><!----> <!----></div></div><div class="ext_loading" style="display: none;"><div class="loading_spinner"><svg viewBox="25 25 50 50"><circle cx="50" cy="50" fill="none" class="path ext_ui_stroke_primary"></circle></svg></div></div></footer><div class="scroll_container display" title="Scroll to top" style="top: 130px; left: 484px; width: 1292px; height: 3334px;"><div class="before_sticky"></div><div class="scroll_button" tabindex="0"><span class="icon rw_external_icon_angle-up"></span></div></div></div> <!----></div></div> <div><!----> <div data-v-59d08d68="" data-v-64019626="" tabindex="0" class="r_dialog_wrapper" style="display: none;" id="keyboard_shortcut_dialog"><div data-v-59d08d68="" role="dialog" aria-modal="true" aria-label="Keyboard shortcuts" class="r_dialog" style="max-width: none; max-height: 100vh;"><div data-v-59d08d68="" class="dialog_header"><span data-v-59d08d68="" data-ui-id="r-edit-dialog-title" class="dialog_title">Keyboard shortcuts</span> <button data-v-112223d8="" data-v-716d7624="" data-v-59d08d68="" type="button" class="r_icon_button header_button r_icon_button--default r_icon_button--undefined" aria-label="Close"><i data-v-112223d8="" class="rw_ui_icon_cancel"></i></button></div> <div data-v-59d08d68="" class="dialog_body body_max_height has_header" style="max-height: calc(0px - 4rem + 100vh);"><div data-v-64019626="" class="container"><div data-v-1287e2f8="" data-v-64019626="" class="category"><h2 data-v-1287e2f8="" class="category_title">
+    General
+  </h2> <div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Site Structure
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          B
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Configuration
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          G
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Search
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          /
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Jira Administration
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          J
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Confluence Administration
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          C
+        </span></span></span></div></div></div><div data-v-1287e2f8="" data-v-64019626="" class="category"><h2 data-v-1287e2f8="" class="category_title">
+    Confluence Page &amp; Blogpost
+  </h2> <div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Edit
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          E
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Create New
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          C
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Open in Atlassian
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          O
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Favorite page
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          F
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Collapse/Expand Sidebar
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          [
+        </span></span></span></div></div></div><div data-v-1287e2f8="" data-v-64019626="" class="category"><h2 data-v-1287e2f8="" class="category_title">
+    Request
+  </h2> <div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Comment
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          M
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Post comment
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de=""><span data-v-b609e0de=""><!----> <span data-v-b609e0de="">ctrl</span></span><span data-v-b609e0de=""><span data-v-b609e0de="">&nbsp;/&nbsp;</span> <span data-v-b609e0de="" class="rw_ui_icon_key-command"></span></span></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          enter
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Create request
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de=""><span data-v-b609e0de=""><!----> <span data-v-b609e0de="">ctrl</span></span><span data-v-b609e0de=""><span data-v-b609e0de="">&nbsp;/&nbsp;</span> <span data-v-b609e0de="" class="rw_ui_icon_key-command"></span></span></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          enter
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Open in Atlassian
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          O
+        </span></span></span></div></div></div><div data-v-1287e2f8="" data-v-64019626="" class="category"><h2 data-v-1287e2f8="" class="category_title">
+    Admin
+  </h2> <div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Sites
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          S
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Themes
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          T
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Open Site in a New Tab
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          T
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Edit Current Theme
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          E
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Save in dialogs
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de=""><span data-v-b609e0de=""><!----> <span data-v-b609e0de="">ctrl</span></span><span data-v-b609e0de=""><span data-v-b609e0de="">&nbsp;/&nbsp;</span> <span data-v-b609e0de="" class="rw_ui_icon_key-command"></span></span></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          enter
+        </span></span></span></div></div></div><div data-v-1287e2f8="" data-v-64019626="" class="category"><h2 data-v-1287e2f8="" class="category_title">
+    Layout Editor
+  </h2> <div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Edit layout
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="">
+          E
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Publish
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de=""><span data-v-b609e0de=""><!----> <span data-v-b609e0de="">ctrl</span></span><span data-v-b609e0de=""><span data-v-b609e0de="">&nbsp;/&nbsp;</span> <span data-v-b609e0de="" class="rw_ui_icon_key-command"></span></span></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          S
+        </span></span></span></div></div><div data-v-b609e0de="" data-v-1287e2f8="" class="shortcut_row"><div data-v-b609e0de="" class="shortcut_row_description">
+    Close Editor
+  </div> <div data-v-b609e0de="" class="shortcut_row_keys"><span data-v-b609e0de="" class="shortcut_row_key"><span data-v-b609e0de=""><span data-v-b609e0de="" class="rw_ui_icon_key-shift"></span></span><span data-v-b609e0de=""><span data-v-b609e0de="">
+          esc
+        </span></span></span></div></div></div></div></div> <!----></div></div> <!----> <!----> <!----></div></div><div data-v-eb96a78c="" data-v-4749a8ca="" data-v-3e3b5d06="" tabindex="0" class="ext_dialog_wrapper cookie_dialog" style="display: none;" id="cookie_dialog"><div data-v-eb96a78c="" role="dialog" aria-modal="true" aria-label="dialog" class="ext_dialog" style="width: 40rem; max-width: none; max-height: 100vh; overflow: auto;"><!----> <div data-v-eb96a78c="" class="dialog_body body_max_height" style="max-height: calc(0px + 100vh);"><div data-v-4749a8ca="" class="header"><!----> <div data-v-4749a8ca="" class="icon rw_external_icon_cookie-bite"></div> <h2 data-v-4749a8ca="" class="title">
+      We use cookies
+    </h2></div> <div data-v-4749a8ca="" class="overlay_container top"><!----></div> <div data-v-4749a8ca="" class="body"><div data-v-4749a8ca="">Our websites may use cookies to personalize and enhance your experience. For more information, please see our <a target="_blank" rel="nofollow" class="external-link" href="https://privacy.uconn.edu/uconn-websites">University Websites Privacy Notice</a>.</div></div> <div data-v-4749a8ca="" class="overlay_container bottom"><!----></div> <div data-v-4749a8ca="" class="footer"><button data-v-4749a8ca="" type="button" class="ext_ui_button button ext_ui_background_primary ext_ui_border_primary ext_ui_button--primary" data-ui-id="accept-all-cookies"><!----> <span>
+      Accept all
+    </span></button> <button data-v-4749a8ca="" type="button" class="ext_ui_button button secondary_button ext_ui_border_primary ext_ui_color_primary ext_ui_button--default" data-ui-id="deny-all-cookies"><!----> <span>
+      Accept required
+    </span></button></div></div> <!----></div></div><script src="Setting%20up%20OneDrive%20on%20Linux%20-%20Information%20Technology%20-%20UConn%20Knowledge%20Base_files/js" id="googleAnalytics"></script></body></html>
