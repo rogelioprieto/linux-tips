@@ -161,7 +161,7 @@ There is no official OneDrive client for Linux computers. The functionality of d
     ```
     It will appear a listing remote contents:
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-listing-files.png)
+    ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-listing-files.png)
 
 2. Get the config location using:
     ```bash
