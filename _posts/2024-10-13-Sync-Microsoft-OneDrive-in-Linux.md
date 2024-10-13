@@ -126,7 +126,7 @@ There is no official OneDrive client for Linux computers. The functionality of d
     Current remotes:
     Name                 Type
     ====                 ====
-    OneDrive             onedrive
+    OneDriveITC          onedrive
     e) Edit existing remote
     n) New remote
     d) Delete remote
