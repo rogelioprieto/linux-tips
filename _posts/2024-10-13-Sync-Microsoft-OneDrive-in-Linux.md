@@ -234,3 +234,6 @@ After terminating rclone, FUSE usually doesn’t dismount correctly. We’ll hav
 
 - Forum - Rclone is very slow to opening files
 <https://forum.rclone.org/t/rclone-is-very-slow-to-opening-files/33416/4>
+
+- Rclone cache
+<https://rclone.org/commands/rclone_mount/#vfs-file-caching>
