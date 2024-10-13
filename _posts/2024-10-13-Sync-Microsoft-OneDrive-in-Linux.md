@@ -225,15 +225,19 @@ rclone --vfs-cache-mode writes mount OneDriveITC: ~/OneDriveITC &
 
 After terminating rclone, FUSE usually doesn’t dismount correctly. We’ll have to run `fusermount -u <mountpoint>` to unmount it correctly. If it says its busy, force it by `umount -l <mountpoint>` and then using the fusermount command again.
 
-## Source:\
-- Knowledge Base - University of Connecticut\
+## Source:
+
+- Knowledge Base - University of Connecticut  
 <https://kb.uconn.edu/space/IKB/26050527301/Setting+up+OneDrive+on+Linux>
 
-- Mounting Onedrive with Rclone mount on startup with Systemd
+- Mounting Onedrive with Rclone mount on startup with Systemd  
 <https://thunderysteak.github.io/rclone-mount-onedrive>
 
-- Forum - Rclone is very slow to opening files
+- Forum - Rclone is very slow to opening files  
 <https://forum.rclone.org/t/rclone-is-very-slow-to-opening-files/33416/4>
 
-- Rclone cache
+- Rclone cache  
 <https://rclone.org/commands/rclone_mount/#vfs-file-caching>
+
+- Rclone OneDrive setup  
+<https://rclone.org/onedrive/>
