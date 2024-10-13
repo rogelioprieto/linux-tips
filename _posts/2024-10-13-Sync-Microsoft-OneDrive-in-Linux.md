@@ -231,3 +231,6 @@ After terminating rclone, FUSE usually doesn’t dismount correctly. We’ll hav
 
 - Mounting Onedrive with Rclone mount on startup with Systemd
 <https://thunderysteak.github.io/rclone-mount-onedrive>
+
+- Forum - Rclone is very slow to opening files
+<https://forum.rclone.org/t/rclone-is-very-slow-to-opening-files/33416/4>
