@@ -7,7 +7,7 @@ categories: github virtualbox
 
 ## Problem:
 
-I need to use my Microsoft One Drive in a local hard disk and  sync it on Linux.
+I need to use my Microsoft One Drive on Linux as a local hard disk and keep it sync.
 
 ## Solution:
 
