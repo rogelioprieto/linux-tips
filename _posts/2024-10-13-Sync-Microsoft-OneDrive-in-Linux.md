@@ -89,9 +89,9 @@ y/n> y
 ```
 10. A browser window will open to a Microsoft login screen. Login using your TecNM email address and NetID password.
 
-![login screen](images_posts/onedrive-microsoft-login01.png)
+![login screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login01.png)
 
-![password screen](images_posts/onedrive-microsoft-login02.png)
+![password screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login02.png)
 
 11. After logging in, close the browser window and go back to the terminal that is running RClone.
 
@@ -158,12 +158,12 @@ rclone --vfs-cache-mode writes mount OneDriveITC: ~/OneDriveITC &
 
 1. You can verify that your remote is working by using:
 
-```bash
-rclone ls OneDriveITC:
-```
-It will appear a listing remote contents:\
+    ```bash
+    rclone ls OneDriveITC:
+    ```
+    It will appear a listing remote contents:
 
-![](images_posts/onedrive-listing-files.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-listing-files.png)
 
 2. Get the config location using:
     ```bash
