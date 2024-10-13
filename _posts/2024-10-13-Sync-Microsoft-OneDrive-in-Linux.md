@@ -28,26 +28,25 @@ There is no official OneDrive client for Linux computers. The functionality of d
 
 1. Open a terminal window and install RClone using the following command.
 
-```bash
-curl https://rclone.org/install.sh | sudo bash
-
-```
+    ```bash
+    curl https://rclone.org/install.sh | sudo bash
+    ```
 
 2. Start configuring OneDrive in RClone by running the config command.
 
-```bash
-rclone config
-```
+    ```bash
+    rclone config
+    ```
 
 3. You will be prompted with configuration options. Choose **`n`** to create a new remote.
 
-```bash
->>>No remotes found, make a new one?
-n) New remote
-s) Set configuration password
-q) Quit config
-n/s/q> n
-```
+    ```bash
+    >>>No remotes found, make a new one?
+    n) New remote
+    s) Set configuration password
+    q) Quit config
+    n/s/q> n
+    ```
 
 4. Enter **`OneDriveITC`** as the name for the remote.
 
@@ -55,43 +54,43 @@ n/s/q> n
 
 6. Leave client_id and client_secret empty. Press **`enter`** key to leave the fields blank.
 
-```bash
->>>Option client_id.
-OAuth Client Id.
-Leave blank normally.
-Enter a value. Press Enter to leave empty.
-client_id> 
->>>Option client_secret.
-OAuth Client Secret.
-Leave blank normally.
-Enter a value. Press Enter to leave empty.
-client_secret>
-```
+    ```bash
+    >>>Option client_id.
+    OAuth Client Id.
+    Leave blank normally.
+    Enter a value. Press Enter to leave empty.
+    client_id> 
+    >>>Option client_secret.
+    OAuth Client Secret.
+    Leave blank normally.
+    Enter a value. Press Enter to leave empty.
+    client_secret>
+    ```
 
 7. Enter **`1`** for the region.
 
 8. Press **`n`** to skip advanced configuration.
 
-```bash
->>>Edit advanced config?
-y) Yes
-n) No (default)
-y/n> n
-```
+    ```bash
+    >>>Edit advanced config?
+    y) Yes
+    n) No (default)
+    y/n> n
+    ```
 9. Press **`y`** to use auto configuration.
-```bash
->>>Use auto config?
-* Say Y if not sure
-* Say N if you are working on a remote or headless machine
-y) Yes (default)
-n) No
-y/n> y
-```
+    ```bash
+    >>>Use auto config?
+    * Say Y if not sure
+    * Say N if you are working on a remote or headless machine
+    y) Yes (default)
+    n) No
+    y/n> y
+    ```
 10. A browser window will open to a Microsoft login screen. Login using your TecNM email address and NetID password.
 
-![login screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login01.png)
+    ![login screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login01.png)
 
-![password screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login02.png)
+    ![password screen](https://raw.githubusercontent.com/rogelioprieto/linux-tips/refs/heads/master/_posts/images_posts/onedrive-microsoft-login02.png)
 
 11. After logging in, close the browser window and go back to the terminal that is running RClone.
 
@@ -102,55 +101,54 @@ y/n> y
 
 14. You’ll be prompted to connect to the root of your OneDrive. Press **`y`** to continue.
 
-```bash
->>>Drive OK?
-Found drive "root" of type "business"
-URL: URL: https://itculiacanedu-my.sharepoint.com/personal/d24171315_culiacan_tecnm_mx/Documents
+    ```bash
+    >>>Drive OK?
+    Found drive "root" of type "business"
+    URL: URL: https://itculiacanedu-my.sharepoint.com/personal/d24171315_culiacan_tecnm_mx/Documents
 
-y) Yes (default)
-n) No
-y/n> y
-```
+    y) Yes (default)
+    n) No
+    y/n> y
+    ```
 
 15. Press **`y`** to confirm that the remote is ok.
 
-```bash
->>>y) Yes this is OK (default)
-e) Edit this remote
-d) Delete this remote
-y/e/d> y
-```
+    ```bash
+    >>>y) Yes this is OK (default)
+    e) Edit this remote
+    d) Delete this remote
+    y/e/d> y
+    ```
 
 16. Press **`q`** to close the remote configuration procedure.
 
-```bash
-Current remotes:
-Name                 Type
-====                 ====
-OneDrive             onedrive
-e) Edit existing remote
-n) New remote
-d) Delete remote
-r) Rename remote
-c) Copy remote
-s) Set configuration password
-q) Quit config
-e/n/d/r/c/s/q> q
-
-
-```
+    ```bash
+    Current remotes:
+    Name                 Type
+    ====                 ====
+    OneDrive             onedrive
+    e) Edit existing remote
+    n) New remote
+    d) Delete remote
+    r) Rename remote
+    c) Copy remote
+    s) Set configuration password
+    q) Quit config
+    e/n/d/r/c/s/q> q
+    ```
 
 17. Create a **`OneDriveITC`** directory in your home folder to mount the remote that you just created.
 
-```bash
-mkdir ~/OneDriveITC
-```
-17. Mount the remote by using the command:
+    ```bash
+    mkdir ~/OneDriveITC
+    ```
 
-```bash
-rclone --vfs-cache-mode writes mount OneDriveITC: ~/OneDriveITC &
-```
-18. Close the terminal window. You should now have OneDrive mounted in your file system.
+18. Mount the remote by using the command:
+
+    ```bash
+    rclone --vfs-cache-mode writes mount OneDriveITC: ~/OneDriveITC &
+    ```
+19. Close the terminal window. You should now have OneDrive mounted in your file system.
 
 ¡IMPORTANT! If you reboot the computer you will need to remount the remote using the command in _step 17_.
 
