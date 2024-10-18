@@ -1,4 +1,10 @@
+NOTE: AGREGAR UID Y GID
+¿cómo saber tu UID y GID? 
+$id
+EJEMPLO:
+UUID=EC808D3C808D0E70 /media/DATOS2024 ntfs defaults,uid=1000,gid=1000 0 0
 
+ 
 # Auto Mount Drive in Ubuntu Server 22.04 at Startup 
 
 When we connect an external drive, by default, Linux OS (or Ubuntu
