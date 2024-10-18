@@ -34,3 +34,5 @@ Steps taken from this discussion:
 <https://github.com/jonls/redshift/issues/445>  
 This describe the redshift funcionality:  
 <https://itsfoss.com/install-redshift-linux-mint/>
+Discussion: Redshift not working!
+<https://forums.linuxmint.com/viewtopic.php?t=422300>

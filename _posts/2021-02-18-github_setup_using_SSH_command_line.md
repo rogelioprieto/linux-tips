@@ -25,14 +25,14 @@ git --version
 2. Tell to git who you are.
 ```bash
 git config --global user.name "rogelioprieto"
-git config --global user.email "rogelioprieto@googlemail.com"
+git config --global user.email "myname@googlemail.com"
 git config --list
 cat ~/.gitconfig
 ```
 3. Generate a new SSH key 
 ```bash
 ls -al ~/.ssh
-ssh-keygen -t ed25519 -C "rogelioprieto@googlemail.com"
+ssh-keygen -t ed25519 -C "myname@googlemail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
@@ -66,10 +66,10 @@ git push -u origin master
 git status
 ```
 
-    or you can use these commands in one line:
-    ```bash
-    git add . && git commit -m "added minor changes" && git push -u origin master
-    ```
+or you can use these commands in one line:
+```bash
+git add . && git commit -m "added minor changes" && git push -u origin master
+```
 
 ## Source:
 - Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
