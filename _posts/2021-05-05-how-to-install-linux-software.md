@@ -273,7 +273,9 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 Execute this script:
 
-/home/rogelio/Downloads/install-latex-pandoc/03_install-pandoc-2.14-ubuntu-v20.04.sh
+[03_install-pandoc-3.5-ubuntu-v24.04.sh](https://github.com/rogelioprieto/bash-scripts/blob/master/install-latex-pandoc-ubuntu24.04/03_install-pandoc-3.5-ubuntu.sh)
+
+
 
 ### pandoc-crossref
 
