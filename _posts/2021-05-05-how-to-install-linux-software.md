@@ -271,6 +271,11 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 ### Pandoc
 
+Website: [pandoc.org](https://pandoc.org/)
+
+Pandoc is a free-software document (markup format) converter. It works with some formats: html, LaTeX, docx, pptx, epub, docbook, json, markdown, odt, reStructuredText, man, etc.
+
+
 Execute this script:
 
 [03_install-pandoc-3.5-ubuntu-v24.04.sh](https://github.com/rogelioprieto/bash-scripts/blob/master/install-latex-pandoc-ubuntu24.04/03_install-pandoc-3.5-ubuntu.sh)
