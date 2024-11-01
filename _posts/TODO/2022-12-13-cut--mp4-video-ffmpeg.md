@@ -9,7 +9,7 @@ categories: tools video
 You have a video and just need cut a part and save!. 
 You don't need to re-encode the video.
 
-## Solution 1: Using `ffmpeg `in bash
+## Solution 1: Using ffmpeg in bash
 
 ```bash
 INPUT="/media/rogelio/timemachine/curso-linux-gerardoalumno/sesion 06/Sesion 6.mp4"
