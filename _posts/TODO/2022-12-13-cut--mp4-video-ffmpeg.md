@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: How to cut a mp4 video
