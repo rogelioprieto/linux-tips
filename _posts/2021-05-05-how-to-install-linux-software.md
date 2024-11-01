@@ -176,10 +176,11 @@ sudo apt-get install chromium-browser
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 ## Chat clients
 
+
 ### WhatsDesk
 
 If you need a WhatsApp client in Linux, there is not a official app.
-WhatsDesk is a good option!
+WhatsDesk is a good option!, it pretty much works the same way as WhatsApp web.
 
 Install:
 
@@ -189,6 +190,38 @@ $ sudo snap install whatsdesk
 
 Website:\
 <https://snapcraft.io/whatsdesk>
+
+### WhatsApp for linux - app
+
+It's an unofficial WhatsApp desktop application written in C++ with the help of gtkmm and WebKitGtk libraries. It's a lightweight option to use a WhatsApp client.
+
+
+How to install:
+```bash
+$ sudo snap install whatsapp-for-linux
+```
+
+Website:\
+<https://github.com/xeco23/WasIstLos>
+
+
+### Ferdium
+
+«All your services in one place, built by the community». Ferdium is an app for using multiple services: WhatsApp, Telegram, Skype, Google chat, Slack, WeChat and many more. And it has included Todoist, a task manager.
+
+If you need all-in-one communication solutions, Ferdium is a great solution.
+
+Website:\
+<https://ferdium.org/>
+
+How to install:
+```bash
+# to install the latest stable release:
+snap install ferdium
+# connect additional interfaces:
+snap connect ferdium:camera
+snap connect ferdium:audio-record
+```
 
 ### Franz
 
@@ -224,7 +257,6 @@ $ sudo apt install -f
 ```bash
 $ sudo apt-get install filezilla
 ```
-
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 ## PDF software
@@ -271,9 +303,16 @@ pdftk A=first.pdf B=second.pdf cat A2 A5 A6 A9 B6 B7 B15 B19 output final.pdf
 
 ### Pandoc
 
-Execute this script:
+Website: [pandoc.org](https://pandoc.org/)
 
-/home/rogelio/Downloads/install-latex-pandoc/03_install-pandoc-2.14-ubuntu-v20.04.sh
+Pandoc is a free-software document (markup format) converter. It works with many [formats](https://pandoc.org/diagram.svgz?v=20240910103158): HTML, LaTeX, docx, ODT, RTF, pptx, epub, DocBook, JSON, Markdown,reStructuredText, man, etc.
+
+
+To install, execute this script:
+
+[03_install-pandoc-3.5-ubuntu-v24.04.sh](https://github.com/rogelioprieto/bash-scripts/blob/master/install-latex-pandoc-ubuntu24.04/03_install-pandoc-3.5-ubuntu.sh)
+
+
 
 ### pandoc-crossref
 
@@ -296,8 +335,14 @@ To install pandoc-crossref filter:
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 ## LaTeX (TexLive base distribution)
 
-script:
-/home/rogelio/Downloads/install-latex-pandoc/02_install-texlive-ubuntu-v20.04.sh
+To install, execute a script:
+
+- On Ubuntu 20.04:
+[02_install-texlive-ubuntu-v20.04.sh](https://github.com/rogelioprieto/bash-scripts/blob/master/install-latex-pandoc/02_install-texlive-ubuntu-v20.04.sh)
+
+- On Ubuntu 24.04:
+  [01_install-texlive-ubuntu-v24.04.sh](https://github.com/rogelioprieto/bash-scripts/blob/master/install-latex-pandoc-ubuntu24.04/01_install-texlive-ubuntu-v24.04.sh)
+
 
 ### TexStudio (LaTeX IDE)
 website: <https://www.texstudio.org/>
@@ -512,6 +557,37 @@ Draw lets you produce anything from a quick sketch to a complex plan, and gives 
 
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 
+
+## Images (wallpapers)
+
+### Variety
+
+[Variety](https://peterlevi.com/variety/
+) is a feature-rich wallpaper changer focusing on automatic wallpaper change functionality.
+
+Variety is an  automatic downloader and changer wallpaper application. It can download wallpapers from many sources: online sources, including Flickr, Unsplash, NASA Astronomy Picture of the Day, etc.
+
+
+
+Website:
+https://peterlevi.com/variety/
+
+
+How to install:
+```bash
+ sudo apt update && sudo apt install variety
+```
+
+For Ubuntu, a PPA (repository) is also available that provides newer releases than the ones available in the Universe repository:
+
+```bash
+sudo add-apt-repository ppa:variety/stable
+sudo apt update
+sudo apt install variety
+```
+
+
+### Inkscape
 
 ## Compression software
 
