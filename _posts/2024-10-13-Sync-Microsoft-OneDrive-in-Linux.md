@@ -77,7 +77,7 @@ There is no official OneDrive client for Linux computers. The functionality of d
     n) No (default)
     y/n> n
     ```
-9. Press **`y`** to use auto configuration.
+9. Press **`y`** to authenticate using a your default web browser.
 
     ```bash
     Use web browser to automatically authenticate rclone with remote?
