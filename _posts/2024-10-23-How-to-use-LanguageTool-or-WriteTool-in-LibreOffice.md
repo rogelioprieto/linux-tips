@@ -6,7 +6,7 @@ categories: libreoffice
 
 ## Problem: 
 
-You need to check grammar, style and spelling checking in your files in LibreOffice.
+You need to check grammar, style, and spelling checking in your files in LibreOffice.
 
 ## Solution:
 You can use the LanguageTool (LT) in LibreOffice. The most recent LT extension in LibreOffice is called WriteTool.
@@ -18,12 +18,12 @@ You can use the LanguageTool (LT) in LibreOffice. The most recent LT extension i
 sudo apt install libreoffice-java-common
 ```
 
-2. Download Writing Tool extension by Languagetool.\
+2. Download Writing Tool extension by Languagetool.  
 <https://extensions.libreoffice.org/en/extensions/show/99240>
 
-3. Execute the `WritingTool-#.#.oxt` file. Extesions LibreOffice app will appear. Install the extension.
+3. Execute the `WritingTool-#.#.oxt` file. Extensions LibreOffice app will appear. Install the extension.
 
-4. Open LibreOffice app (Writer, Impress, etc) and press `F7` for grammar, style and spelling check.
+4. Open a LibreOffice app (Writer, Impress, etc.) and press `F7` for grammar, style, and spelling check.
 
 
 

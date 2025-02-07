@@ -2,7 +2,7 @@ clone using pv command\
 <https://wolfgang-ziegler.com/blog/migrate-linux-to-larger-ssd>
 
 clone using dd command\
-<https://superuser.com/questions/1050894/using-dd-to-clone-a-hdd-to-an-ssd>
+<https://superuser.com/questions/1050894/using-dd-to-clone-a-hdd-to-an-ssd>\
 <https://linuxhint.com/clone-disk-using-dd-linux/>
 
 
