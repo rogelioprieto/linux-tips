@@ -31,7 +31,8 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
 ```bash
 "extensionsGallery": {
     "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-    "itemUrl": "https://marketplace.visualstudio.com/items"
+    "itemUrl": "https://marketplace.visualstudio.com/items",
+    "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
 }
 ```
 *Option two* A short way, you can use the sed command.
