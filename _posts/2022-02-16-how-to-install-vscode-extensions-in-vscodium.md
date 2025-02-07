@@ -21,13 +21,20 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
 
 ### Step by step:
 
-1. Open a Terminal, and open `/usr/share/codium/resources/app/product.json` file:
+`/usr/share/codium/resources/app/product.json` file
+
+1. Close VSCodium and open a `Terminal`, and go to folder where `product.json`:
 ```bash
-  cd /usr/share/codium/resources/app
-  sudo nano product.json
+cd /usr/share/codium/resources/app
 ```
-2. Modify the `product.json` file.\
-*Option one* Open an editor. Search and modify to set these lines: 
+*Option one*  
+2. Open and editor and modify the `product.json` file.\
+Open the file in an editor. 
+```bash
+sudo nano product.json
+```
+
+Search and modify to set these lines: 
 ```bash
 "extensionsGallery": {
     "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
@@ -35,11 +42,15 @@ VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Regi
     "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
 }
 ```
-*Option two* A short way, you can use the sed command.
+
+*Option two*  
+A short way, you can use the sed command.
 
 ```bash
-sudo cp product.json product.json.BACKUP
-sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.visualstudio.com\/_apis\/public\/gallery\",' -e ';b };\#itemUrl#{a \ \ \ \ \"itemUrl\": \"https:\/\/marketplace.visualstudio.com\/items\"' -e ';b };p'  /usr/share/codium/resources/app/product.json.BACKUP |  sudo tee /usr/share/codium/resources/app/product.json >/dev/null
+sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
+sudo cp product.json product.json.TEMP
+sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.visualstudio.com\/_apis\/public\/gallery\",' -e ';b };\#itemUrl#{a \ \ \ \ \"itemUrl\": \"https:\/\/marketplace.visualstudio.com\/items\",' -e ';b };\#extensionUrlTemplate#{a \ \ \ \ \"extensionUrlTemplate\": \"https:\/\/www.vscode-unpkg.net\/_gallery\/\{publisher\}\/\{name\}\/latest\"' -e ';b };p' /usr/share/codium/resources/app/product.json.TEMP |  sudo tee /usr/share/codium/resources/app/product.json >/dev/null
+sudo rm product.json.TEMP
 ```
 3. Close and open again VSCodium.
 
