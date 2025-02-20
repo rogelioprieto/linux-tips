@@ -44,4 +44,5 @@ In this case, you completely remove a snap package, including all of its revisio
 
 <https://askubuntu.com/a/1431864/822132>  
 <https://snapcraft.io/docs>  
+<https://snapcraft.io/docs/get-started>
 <https://snapcraft.io/docs/installing-snap-on-ubuntu>  
