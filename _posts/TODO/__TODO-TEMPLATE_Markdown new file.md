@@ -19,6 +19,7 @@ lang: es-MX
 urlcolor: NavyBlue
 #### set margins
 #geometry:margin=1in
+geometry:margin=3cm
 #it sets margin 1 inch on each side
 #geometry: "top=1cm" 
 #geometry: "top=2cm, bottom=1.5cm, left=1cm, right=1cm"
