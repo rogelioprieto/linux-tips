@@ -10,7 +10,7 @@ You need install or remove applications or packages using snap.
 
 ## Solution:
 
-You can use the Terminal.
+You can use the Terminal and the snap command.
 
 ### Step by step:
 
