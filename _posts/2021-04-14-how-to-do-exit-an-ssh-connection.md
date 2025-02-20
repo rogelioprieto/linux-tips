@@ -20,7 +20,7 @@ There are two ways:
 1. _Normal_ way. Closing the shell session will usually exit, for example:
 with the shell builtin command, `exit`, followed by `Enter`, or `Ctrl+d`, (end-of-file).
 
-2. Hit the `Enter` key, then type `~.` and ssh should immediately close and return you to your command prompt. This way is used  in the case where you have a **bad connection** and the shell is unresponsive (or due to inactivity),
+2. Hit `Enter~.` Hit the `Enter` key, hold it, then type `~.` and ssh should immediately close and return you to your command prompt. This way is used  in the case where you have a **bad connection** and the shell is unresponsive (or due to inactivity),
 
 **Note:**
 
