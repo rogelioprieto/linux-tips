@@ -42,5 +42,6 @@ In this case, you completely remove a snap package, including all of its revisio
 
 ## Source:
 
-<https://www.diskpart.com/articles/exfat-windows-7-read-only-4125.html>  
-<http://roblomtech.blogspot.com/2010/08/how-to-fix-exfat-drive-being-write.html>
+<https://askubuntu.com/a/1431864/822132>  
+<https://snapcraft.io/docs>  
+<https://snapcraft.io/docs/installing-snap-on-ubuntu>  
