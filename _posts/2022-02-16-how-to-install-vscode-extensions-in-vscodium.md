@@ -39,11 +39,11 @@ sudo nano product.json
 ```
   Search and modify to set these lines: 
   ```bash
-  "extensionsGallery": {
-      "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-      "itemUrl": "https://marketplace.visualstudio.com/items",
-      "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
-  }
+"extensionsGallery": {
+    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "itemUrl": "https://marketplace.visualstudio.com/items",
+    "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
+}
   ```
   
 *Option two*  
