@@ -44,7 +44,8 @@ Search and modify to set these lines:
 ```
 
 *Option two*  
-A short way, you can use the sed command.
+
+2. A short way, you can use the sed command.
 
 ```bash
 sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
