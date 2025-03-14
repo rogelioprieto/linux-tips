@@ -5,6 +5,7 @@ categories: vscode vscodium editors
 author: Rogelio Prieto Alvarado
 ---
 
+
 ## Problem:
 
 I use VSCodium. I need to install an extension that I found in (microsoft) VSCode marketplace.
