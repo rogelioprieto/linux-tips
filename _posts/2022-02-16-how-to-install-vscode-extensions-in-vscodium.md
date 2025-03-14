@@ -53,7 +53,7 @@ sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.vi
 sudo rm product.json.TEMP
 ```
 
-Finally, close and open again VSCodium.
+3. Close and open again VSCodium.
 
 
 Additionally, some extensions request to modify `settings.json` file.
