@@ -17,7 +17,7 @@ The problem is when I search in VSCodium and the extension doesn't appear in the
 To solve it, you need to modify a configuration in the file: ```product.json``` to include the Microsoft marketplace URL.
 
 Reason:\
-VSCodium useS its own marketplace called "[Open VSX Registry](https://open-vsx.org/)". Microsoft is the owner of the VSCode marketplace and use it exclusively in [Visual Studio Code](https://code.visualstudio.com/) (Microsoft version) and this marketplace is not setup by default in [VSCodium](https://vscodium.com/) (Free/Libre Open Source Software).
+VSCodium uses its own marketplace called "[Open VSX Registry](https://open-vsx.org/)". Microsoft is the owner of the VSCode marketplace and use it exclusively in [Visual Studio Code](https://code.visualstudio.com/) (Microsoft version) and this marketplace is not setup by default in [VSCodium](https://vscodium.com/) (Free/Libre Open Source Software).
 
 
 ### Step by step:
