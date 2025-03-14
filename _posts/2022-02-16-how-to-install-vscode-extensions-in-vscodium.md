@@ -29,7 +29,7 @@ Edit the `/usr/share/codium/resources/app/product.json` file is required. Steps:
 ```bash
 cd /usr/share/codium/resources/app
 ```
-Choose and execute, one option.
+Choose and execute, *one option*: using a text editor or using Terminal app.
 
 2. (*Option one*) Open and editor and modify the `product.json` file.\
 Open the file in an editor. 
