@@ -37,16 +37,15 @@ Open the file in an editor.
 ```bash
 sudo nano product.json
 ```
-
-  - Search and modify to set these lines: 
-```bash
-"extensionsGallery": {
-    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-    "itemUrl": "https://marketplace.visualstudio.com/items",
-    "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
-}
-```
-
+  Search and modify to set these lines: 
+  ```bash
+  "extensionsGallery": {
+      "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+      "itemUrl": "https://marketplace.visualstudio.com/items",
+      "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
+  }
+  ```
+  
 *Option two*  
 
   2. A short way, you can use the `sed` command.
@@ -56,7 +55,7 @@ sudo nano product.json
   sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.visualstudio.com\/_apis\/public\/gallery\",' -e ';b };\#itemUrl#{a \ \ \ \ \"itemUrl\": \"https:\/\/marketplace.visualstudio.com\/items\",' -e ';b };\#extensionUrlTemplate#{a \ \ \ \ \"extensionUrlTemplate\": \"https:\/\/www.vscode-unpkg.net\/_gallery\/\{publisher\}\/\{name\}\/latest\"' -e ';b };p' /usr/share/codium/resources/app/product.json.TEMP |  sudo tee /usr/share/codium/resources/app/product.json >/dev/null
   sudo rm product.json.TEMP
   ```
-3. Close and open again VSCodium.
+\3\. Close and open again VSCodium.
 
 
 Additionally, some extensions request to modify `settings.json` file.
