@@ -8,16 +8,16 @@ author: Rogelio Prieto Alvarado
 
 ## Problem:
 
-I use VSCodium. I need to install an extension that I found in (microsoft) VSCode marketplace.
-The problem is when I search in VSCodium and the extension doesn't appears in result list.
+I use VSCodium. I need to install an extension I found in (microsoft) VSCode marketplace.
+The problem is when I search in VSCodium and the extension doesn't appear in the result list.
 
 
 
 ## Solution:
-To solve it, you need to modify a configuration in the file: ```product.json``` to include the microsoft marketplace url.
+To solve it, you need to modify a configuration in the file: ```product.json``` to include the Microsoft marketplace URL.
 
 Reason:\
-VSCodium use their own marketplace called "[https://open-vsx.org/](Open VSX Registry)". Microsoft is owner from VSCode marketplace and use it exclusively.
+VSCodium useS its own marketplace called "[Open VSX Registry](https://open-vsx.org/)". Microsoft is the owner of the VSCode marketplace and use it exclusively in [Visual Studio Code](https://code.visualstudio.com/) (Microsoft) not in [VSCodium](https://vscodium.com/) (Free/Libre Open Source Software).
 
 
 ### Step by step:
