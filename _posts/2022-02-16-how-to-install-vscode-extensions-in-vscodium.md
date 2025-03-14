@@ -8,16 +8,15 @@ author: Rogelio Prieto Alvarado
 
 ## Problem:
 
-I use VSCodium. I need to install an extension I found in (microsoft) VSCode marketplace.
+To keep my data private (I prefer not to allow Microsoft telemetry), I use VSCodium. However, I need to install an extension I found in the (Microsoft) [VSCode marketplace](https://marketplace.visualstudio.com/vscode).
 The problem is when I search in VSCodium and the extension doesn't appear in the result list.
-
 
 
 ## Solution:
 To solve it, you need to modify a configuration in the file: ```product.json``` to include the Microsoft marketplace URL.
 
 Reason:\
-VSCodium uses its own marketplace called "[Open VSX Registry](https://open-vsx.org/)". Microsoft is the owner of the VSCode marketplace and use it exclusively in [Visual Studio Code](https://code.visualstudio.com/) (Microsoft version) and this marketplace is not setup by default in [VSCodium](https://vscodium.com/) (Free/Libre Open Source Software).
+VSCodium uses its own marketplace called "[Open VSX Registry](https://open-vsx.org/)". Microsoft owns the [VSCode marketplace](https://marketplace.visualstudio.com/vscode) and uses it exclusively in its software [Visual Studio Code](https://code.visualstudio.com/) (Microsoft version); this marketplace is not set by default in [VSCodium](https://vscodium.com/) (Free/Libre Open Source Software).
 
 
 ### Step by step:
@@ -25,13 +24,13 @@ VSCodium uses its own marketplace called "[Open VSX Registry](https://open-vsx.o
 
 Edit the `/usr/share/codium/resources/app/product.json` file is required. Steps:
 
-1. Close VSCodium and open a `Terminal`, and go to folder where `product.json`:
+1. Close VSCodium, open a `Terminal`, and go to the folder where `product.json` is located:
 ```bash
 cd /usr/share/codium/resources/app
 ```
-Choose and execute, *one option*: using a text editor or using Terminal app.
+Choose *one of two options*: use a text editor or a `Terminal` app.
 
-2. (*Option one*) Open and editor and modify the `product.json` file.\
+2. (*Option one*) Open an editor and modify the `product.json` file.\
 Open the file in an editor. 
 ```bash
 sudo nano product.json
@@ -45,7 +44,7 @@ sudo nano product.json
 }
   ```
 
-  2. (*Option two*) A short way, you can use the `sed` command.
+  2. (*Option two*) The short way, you can use the `sed` command.
   ```bash
 sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
 sudo cp product.json product.json.TEMP
@@ -53,14 +52,11 @@ sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.vi
 sudo rm product.json.TEMP
 ```
 
-3. Close and open again VSCodium.
+3. Close and open again, VSCodium.
 
 
-Additionally, some extensions request to modify `settings.json` file.
-You can find it in the path (replace YourUsername for yours): `/home/YourUsername/.config/VSCodium/User`. 
-
-
-
+Additionally, some extensions request to modify the `settings.json` file.
+You can find it in the path (replace `YourUsername` with yours): `/home/YourUsername/.config/VSCodium/User`. 
 
 
 ## Source:
