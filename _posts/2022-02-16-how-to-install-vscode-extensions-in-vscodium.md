@@ -48,7 +48,7 @@ sudo nano product.json
   ```bash
 sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
 sudo cp product.json product.json.TEMP
-sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.visualstudio.com\/_apis\/public\/gallery\",' -e ';b };\#itemUrl#{a \ \ \ \ \"itemUrl\": \"https:\/\/marketplace.visualstudio.com\/items\",' -e ';b };\#extensionUrlTemplate#{a \ \ \ \ \"extensionUrlTemplate\": \"https:\/\/www.vscode-unpkg.net\/_gallery\/\{publisher\}\/\{name\}\/latest\"' -e ';b };p' /usr/share/codium/resources/app/product.json.TEMP |  sudo tee /usr/share/codium/resources/app/product.json >/dev/null
+sudo sed -ne '\#serviceUrl#{a \ \ \ \ \"serviceUrl\": \"https:\/\/marketplace.visualstudio.com\/_apis\/public\/gallery\",' -e ';b };\#itemUrl#{a \ \ \ \ \"itemUrl\": \"https:\/\/marketplace.visualstudio.com\/items\",' -e ';b };\#extensionUrlTemplate#{a \ \ \ \ \"extensionUrlTemplate\": \"https:\/\/www.vscode-unpkg.net\/_gallery\/\{publisher\}\/\{name\}\/latest\",' -e ';b };p' /usr/share/codium/resources/app/product.json.TEMP |  sudo tee /usr/share/codium/resources/app/product.json >/dev/null
 sudo rm product.json.TEMP
 ```
 

@@ -23,7 +23,11 @@ so I added these lines to `~/.bashrc`:
 #by RPA, april 2025
 #https://stackoverflow.com/a/55206737
 if [ "$TERM_PROGRAM" = "vscode" ]; then
-  PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\>
+#green+white
+  PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]\[\033[00m\]\$ "
+#green
+#  PS1='\[\033[01;32m\]$ '
+
 fi
 ```
 
