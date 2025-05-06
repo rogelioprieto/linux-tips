@@ -32,7 +32,7 @@ Para Linux
 
 Sigue los pasos solicitados por el instalador.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/00.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/00.png)
 
 
 
@@ -40,7 +40,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/file-icon-32px.png)Ubuntu 22.04.2.vdi.7z](https://universidadautono220-my.sharepoint.com/:u:/g/personal/rogelioprieto_ms_uas_edu_mx/EaDL25v7CXJOnZOhyAd3cB4BhyW86V9VDALdPDwdAzAxJg?e=WXowZ9)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/file-icon-32px.png)Ubuntu 22.04.2.vdi.7z](https://universidadautono220-my.sharepoint.com/:u:/g/personal/rogelioprieto_ms_uas_edu_mx/EaDL25v7CXJOnZOhyAd3cB4BhyW86V9VDALdPDwdAzAxJg?e=WXowZ9)
 
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu 20.04.2.vdi.7z`). Para ello:
@@ -82,13 +82,13 @@ Tipo: `Linux`
 Versión: `64 bits`  
 Clic en `Siguiente`.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/01A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/01A.png)
 
 
 **Paso 5.** En la siguiente ventana, elige la cantidad de memoria RAM que asignarás a tu Máquina virtual.
 Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/02A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/02A.png)
 
 **Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`.\
 Clic el ícono de carpeta (2). Aparecerá una ventana, da clic en `Añadir` (3), navega al directorio (4) donde está almacenado el archivo `.vdi` (fue descargado y descomprimido en el Paso 3).\
@@ -96,13 +96,13 @@ Selecciona el archivo `Ubuntu 22.04.2.vdi` y da clic en `Abrir`.
 Finalmente, (6) selecciona la línea `Ubuntu 22.04.2.vdi` y da clic en el botón `Seleccionar`(7).
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/03A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/03A.png)
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/04A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/04A.png)
 
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/05A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/05A.png)
 
 
 
@@ -113,7 +113,7 @@ En esta captura de pantalla, puedes observar la cantidad de memoria de video má
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desactivarla.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-ciad-mv-2023/06A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/06A.png)
 
 
 **Paso 8.** Selecciona `Ubuntu 22.04.2` y da clic en `Iniciar`. Se ejecutará Ubuntu. La contraseña es `12345678`.
