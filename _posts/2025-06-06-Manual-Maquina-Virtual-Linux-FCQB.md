@@ -8,6 +8,7 @@ date: 2025-05-06
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/bioinformatics-adn-letras.png)
 
+⚠️⚠️ **Enlace 12:25pm:** <https://meet.google.com/svn-tqvv-odc>
 
 ⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/xds-fbnp-rkb>
 
