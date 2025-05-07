@@ -8,6 +8,10 @@ date: 2025-05-06
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2025-images/bioinformatics-adn-letras.png)
 
+
+⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/xds-fbnp-rkb>
+
+
 En la materia «Tópicos Selectos»  del [Posgrado en Ciencias Biomédicas](https://mcb.uas.edu.mx/), se utilizará una [máquina virtual](https://www.redhat.com/es/topics/virtualization/what-is-a-virtual-machine). De esta manera podrás ejecutar Linux desde tu computadora aunque esta cuente con otro sistema operativo instalado. No se afectará el funcionamiento del sistema operativo actual.
 
 - 🚩 **¡Nota!** El tiempo estimado para realizar este manual es de **2 horas** debido al tiempo de descarga y configuración.
