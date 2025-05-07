@@ -122,8 +122,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 
 - 📅 **Miércoles 7/mayo/2025 9:00-11:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-Enlace a la videollamada: <https://meet.google.com/mks-uaup-xku>
-
+⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/xds-fbnp-rkb>
 
 - 📅 **Viernes 9/mayo/2025. 9:00-11:00 horas.** será la primera sesión del curso. \
 Enlace a la videollamada: **PENDIENTE** usaremos Microsoft Teams.\
