@@ -36,4 +36,6 @@ EndSection
 ```
 
 Sources:  
-<https://forums.linuxmint.com/viewtopic.php?t=438762>
+<https://forums.linuxmint.com/viewtopic.php?t=438762>  
+<https://www.reddit.com/r/Ubuntu/comments/1cfzjpj/comment/lpc77o7/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button>
+
