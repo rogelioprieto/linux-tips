@@ -7,8 +7,8 @@ In my case, the display tearing occurs when I do vertical scrool in a web or tex
 
 
 Solution:
-
-Install the latest stable OEM kernel.
+Previously I installed the "latest" stable OEM-kernel (installed in May 2025)
+(https://wiki.ubuntu.com/Kernel/OEMKernel#Stable_Release_Updates_.28SRU.29_cadence) (https://canonical-kernel-docs.readthedocs-hosted.com/latest/reference/oem-kernels/).
 
 ```bash
 sudo apt install linux-oem-24.04a
