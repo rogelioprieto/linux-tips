@@ -11,5 +11,5 @@ This fixed it for me too on Ubuntu 24 LTS. Here’s the steps I took:
 ´´´
 
 
-Source:
-<https://community.frame.work/t/terrible-noise-on-the-internal-microphone/12259/5>
+Source:  
+<https://community.frame.work/t/terrible-noise-on-the-internal-microphone/12259/7>
