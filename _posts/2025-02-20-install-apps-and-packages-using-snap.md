@@ -36,7 +36,7 @@ sudo snap remove packagename
 
 If additionally you wanto to remove the cache:
 ```bash
-sudo snap remove packagename
+sudo snap remove --purge packagename
 ```
 In this case, you completely remove a snap package, including all of its revision loop drives. Only by doing so, will the hard drive space be made available again.
 
