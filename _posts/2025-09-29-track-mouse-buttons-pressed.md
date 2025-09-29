@@ -29,5 +29,9 @@ You can search for specific lines, for example the `ButtonRelease`
 xev | grep -A2 --line-buffered '^ButtonRelease'
 ```
 
+## Source:
+
+<https://superuser.com/a/462789>  
+<https://www.baeldung.com/linux/monitor-device-events>  
 
 
