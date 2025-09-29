@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Track which mouse buttons are pressed or release
+title: Track the mouse or keyboarad buttons pressed or released
 categories: linux packages
 ---
 
@@ -17,7 +17,7 @@ Before trying to remap the button, you should assure that the middle button clic
 
 ### Step by step:
 
-1. Use the `xev` command for view events using the X Window System events framework for creating and managing graphical user interfaces (GUIs).
+1. Use the `xev` (X Event Tester) command for view events using the X Window System, a framework for creating and managing graphical user interfaces (GUIs).
 
 ```bash
 xev
