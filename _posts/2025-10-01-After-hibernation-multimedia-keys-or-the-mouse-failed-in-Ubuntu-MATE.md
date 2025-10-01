@@ -8,7 +8,7 @@ categories: ubuntu mate
 Some keys in the keyboard or mouse failed (stop working) after hibernation.
 
 ## Solution:
-Modify the grub configuration 
+Modify the grub configuration.
 
 ### Step by step:
 (remember execute just the lines beginning with $)
@@ -67,9 +67,9 @@ Modify the grub configuration
 
 
 ## Source: 
-Google search: <https://www.google.com/search?q=after+hibernation+multimedia+keys+failed+in+ubuntu+mate&oq=after+hibernation+multimedia+keys+failed+in+ubuntu+mate&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCTExNzY3ajFqN6gCALACAA&client=ubuntu-chr&sourceid=chrome&ie=UTF-8>\
-<https://www.youtube.com/watch?v=coiPtCFnO-0&t=40s>\
-<https://ubuntu-mate.community/t/after-suspend-resume-cycle-keyboard-mouse-are-not-working/22110>
+- Google search: <https://www.google.com/search?q=after+hibernation+multimedia+keys+failed+in+ubuntu+mate&oq=after+hibernation+multimedia+keys+failed+in+ubuntu+mate&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCTExNzY3ajFqN6gCALACAA&client=ubuntu-chr&sourceid=chrome&ie=UTF-8>
+- <https://www.youtube.com/watch?v=coiPtCFnO-0&t=40s>
+- <https://ubuntu-mate.community/t/after-suspend-resume-cycle-keyboard-mouse-are-not-working/22110>
 
 
 
