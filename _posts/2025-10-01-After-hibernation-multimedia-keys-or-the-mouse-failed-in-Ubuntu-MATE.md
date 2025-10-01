@@ -14,35 +14,36 @@ Modify the grub configuration
 (remember execute just the lines beginning with $)
 
 1. Identify the path of your swap file
-```bash
-cat /etc/fstab
-```
+
+  ```bash
+  cat /etc/fstab
+  ```
 
 2. Identify the UUID of the filesystem containing the swap file and the offset of the swap file. Remember replace `/swap.img` with the path you get in step 1.
-
   ```bash
   $ findmnt -no UUID -T /swap.img
   5c00dcfe-aa4a-47e4-88ad-0cb9de4a4144
   ```
 
-1. Find the `physical offset` of the `swap.img` file within its filesystem.
+3. Find the `physical offset` of the `swap.img` file within its filesystem.
 
   ```bash
   $ sudo filefrag -v /swap.img | head -n 4
   Filesystem type is: ef53
   File size of /swap.img is 8589934592 (2097152 blocks of 4096 bytes)
   ext:     logical_offset:        physical_offset: length:   expected: flags:
-    0:        0..       0:   29923328..  29923328:      1:       
+    0:        0..       0:   29923328..  29923328:      1:            
   ```
 
   This commands will extract the specific (first) value for the `physical_offset`:
   ```bash
-  $ sudo filefrag -v /swap.img | awk '$1=="0:" {print substr($4, 1, length($4)-2); exit}'
-  29923328
+    $ sudo filefrag -v /swap.img | awk '$1=="0:" {print substr($4, 1, length($4)-2); exit}'
+    29923328
   ```
 
-1. Edit the GRUB configuration. 
-   Locate the `GRUB_CMDLINE_LINUX_DEFAULT` line and add or modify the `resume` and `resume_offset` parameters.
+4. Edit the GRUB configuration.
+ 
+  Locate the `GRUB_CMDLINE_LINUX_DEFAULT` line and add or modify the `resume` and `resume_offset` parameters.
 
   a. Open the file `/etc/default/grub`
   ```bash
@@ -56,7 +57,7 @@ cat /etc/fstab
   c. Save the file and exit nano.
 
 
-1. Update GRUB and reboot your computer.
+5. Update GRUB and reboot your computer.
 
   ```bash
   sudo update-grub
