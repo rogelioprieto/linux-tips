@@ -35,3 +35,40 @@ Google search:\
     ```
 
 
+**OTHER STEPS:**
+
+see the groups by user:
+```bash
+id -Gn rogelio
+```
+add to the group:
+```bash
+sudo usermod -a -G libvirt $USER
+sudo usermod -a -G libvirt-qemu $USER
+sudo usermod -a -G kvm $USER
+sudo usermod -a -G polkit $USER
+```
+
+config file for specifying user and group:
+```bash
+sudo nano /etc/libvirt/qemu.conf
+```
+
+get username and groupname
+```bash
+$ getent passwd 64055 | awk -F: '{print $1}'
+libvirt-qemu
+$ getent group 993 | awk -F: '{print $1}'
+kvm
+```
+
+sudo chown -R rogelio:libvirt-qemu /home/rogelio/virtual-machines-kvm-qemu/
+sudo chmod -R 775 /home/rogelio/virtual-machines-kvm-qemu/
+
+
+
+rogelio@tierra:~$ sudo systemctl restart libvirtd.service
+rogelio@tierra:~$ virt-manager
+
+
+
