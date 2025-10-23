@@ -13,7 +13,7 @@ apt-cache policy gimp
 
 Packages installed in your computer:
 ```bash
-snap list
+snap list --all
 ```
 
 Search for packages available in repository:
