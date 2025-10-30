@@ -25,21 +25,21 @@ You can use the Terminal and the snap command.
     ```
 
 
-Additionally you can view all the disk blocks using by the apps or packages:
-```bash
-lsblk
+    Additionally you can view all the disk blocks using by the apps or packages:
+    ```bash
+    lsblk
 ```
 
-1. Install a package:
+2. Install a package:
 ```bash
-sudo snap install packagename
+sudo snap install <packagename>
 ```
 
-2. Remove a package:
+3. Remove a package:
 
     Remove the package but the space in hard disk will not be erased.
     ```bash
-    sudo snap remove packagename
+    sudo snap remove <packagename>
     ```
 
 
@@ -47,11 +47,11 @@ sudo snap install packagename
 
     If additionally you wanto to remove the cache:
     ```bash
-    sudo snap remove --purge packagename
+    sudo snap remove --purge <packagename>
     ```
-      **Warning!**, take care!. In this case, you completely remove a snap package, including all of its revision loop drives. Only by doing so, will the hard drive space be made available again.
+      **Warning! ⚠️**, take care!. In this case, you completely remove a snap package, including all of its revision loop drives. Only by doing so, will the hard drive space be made available again.
 
-3. Remove a package, just an specific revision (version)
+4. Remove a package, just an specific revision (version)
 
     First get a full list, showing all the revisions:
 
@@ -61,14 +61,13 @@ sudo snap install packagename
 
     Expected output:
 
-
     ```bash
     Name                         Version                          Rev    Tracking         Publisher        Notes
     bare                         1.0                              5      latest/stable    canonical✓       base
     chromium                     141.0.7390.54                    3265   latest/stable    canonical✓       -
     chromium-ffmpeg              120726-120170-119605-119293-etc  88     latest/stable    canonical✓       -
     firefox                      144.0.2-1                        7177   latest/stable    mozilla✓         -
-    firefox                      140.4.0esr-2                     7170   latest/stable    mozilla✓         disabled
+    firefox                      140.4.0esr-2                     7084   latest/stable    mozilla✓         disabled
     .
     .
     .
@@ -81,8 +80,10 @@ sudo snap install packagename
     ```bash
     sudo snap remove <packagename> --revision=<revision-number>
     ```
-
-
+    For example, `firefox` appears disabled, you can remove it:
+    ```bash
+    sudo snap remove firefox --revision=7084
+    ```
 
 ## Source:
 
