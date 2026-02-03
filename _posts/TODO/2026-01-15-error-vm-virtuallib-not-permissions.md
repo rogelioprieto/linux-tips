@@ -17,7 +17,7 @@ This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
 ### Solution 01. Load manually.
 Load the kvm module, it's different for amd or intel cpus.
 
-### Step by step:
+#### Step by step:
 
 1.  **Open a Terminal**  
     for **intel** cpu:
@@ -37,6 +37,7 @@ Load the kvm module, it's different for amd or intel cpus.
 
 ### Solution 02. Load automatically the kvm module at startup
 
+#### Step by step:
 1. Create a .conf file:
     ```bash
     cd /etc/modprobe.d/
