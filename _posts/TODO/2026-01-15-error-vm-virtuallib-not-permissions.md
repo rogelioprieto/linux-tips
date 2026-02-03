@@ -13,27 +13,27 @@ This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
 ## Solution:
 
 ### Solution 01. Load manually.
-Load the kvm module, if different for amd or intel cpus.
+Load the kvm module, it's different for amd or intel cpus.
 
 ### Step by step:
 
 1.  **Open a Terminal**  
-    for intel cpu:
+    for **intel** cpu:
     ```bash
     sudo modprobe kvm_intel    
     ```
-    for amd cpu:
+    for **amd** cpu:
     ```bash
     sudo modprobe kvm_amd
     ```
-    Note: if you need to know the cpu architecture your computer is, try: `lscpu | grep 'Model name:'`
+    Note: if you don't know the CPU architecture of your computer, try:  `lscpu | grep 'Model name:'`
 1.  **Verify it loaded**:
     ```bash
     lsmod | grep -E '(kvm_intel|kvm_amd)'
     ```
     The output should be a line with `kvm_intel` or `kvm_amd`.
 
-### Solution 02 Load automatically the kvm module at startup
+### Solution 02. Load automatically the kvm module at startup
 
 1. Create a .conf file:
     ```bash
@@ -68,7 +68,7 @@ If you get output like this:
 /etc/modprobe.d/blacklist-kvm.conf:blacklist kvm_intel
 /etc/modprobe.d/blacklist-kvm.conf:blacklist kvm_amd
 ```
-You can delete or rename this files:
+You can delete or rename this file:
 ```bash
 sudo mv /etc/modprobe.d/blacklist-kvm.conf /etc/modprobe.d/blacklist-kvm.confBACKUP
 ```
