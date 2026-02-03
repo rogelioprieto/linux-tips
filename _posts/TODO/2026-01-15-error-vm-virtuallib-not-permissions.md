@@ -5,7 +5,7 @@ categories: kvm vm
 ---
 
 ## Problem: 
-Open the virtual machine manager (`virt-manager`), select a virtual machine, clic Open. Then, this error appears:\ 
+Open the virtual machine manager (`virt-manager`), select a virtual machine, clic Open. Then, this error appears:\
 `Error starting domain: unsupported configuration: Domain requires KVM, but it is not available. Check that virtualization is enabled in the host BIOS, and host configuration is setup to load the kvm modules.`
 
 This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
@@ -34,7 +34,7 @@ Load the kvm module, it's different for amd or intel cpus.
     ```
     The output should be a line with `kvm_intel` or `kvm_amd`.
 
-### Solution 02. Load automatically the kvm module at startup
+### Solution 02. Load KVM module automatically at startup.
 
 #### Step by step:
 1. Create a .conf file:
