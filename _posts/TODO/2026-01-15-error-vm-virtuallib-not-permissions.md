@@ -5,8 +5,10 @@ categories: kvm vm
 ---
 
 ## Problem: 
-Open the virtual machine manager (`virt-manager`), select a virtual machine, clic Open. Then, this error appears: `Error starting domain: unsupported configuration: Domain requires KVM, but it is not available. Check that virtualization is enabled in the host BIOS, and host configuration is setup to load the kvm modules.`
-
+Open the virtual machine manager (`virt-manager`), select a virtual machine, clic Open. Then, this error appears: 
+```
+Error starting domain: unsupported configuration: Domain requires KVM, but it is not available. Check that virtualization is enabled in the host BIOS, and host configuration is setup to load the kvm modules.
+```
 This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
 
 
