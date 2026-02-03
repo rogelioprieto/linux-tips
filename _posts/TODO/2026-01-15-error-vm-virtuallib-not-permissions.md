@@ -19,16 +19,16 @@ Load the kvm module, it's different for amd or intel cpus.
 #### Step by step:
 
 1.  **Open a Terminal**  
-    for **intel** cpu:
+    for **Intel** cpu:
     ```bash
     sudo modprobe kvm_intel    
     ```
-    for **amd** cpu:
+    for **AMD** cpu:
     ```bash
     sudo modprobe kvm_amd
     ```
     Note: if you don't know the CPU architecture of your computer, try:  `lscpu | grep 'Model name:'`
-1.  **Verify it loaded**:
+2.  **Verify it loaded**:
     ```bash
     lsmod | grep -E '(kvm_intel|kvm_amd)'
     ```
@@ -37,16 +37,23 @@ Load the kvm module, it's different for amd or intel cpus.
 ### Solution 02. Load KVM module automatically at startup.
 
 #### Step by step:
-1. Create a .conf file:
+1. Create a .conf file.\
+   for **Intel** cpu:
     ```bash
     cd /etc/modprobe.d/
     sudo echo "options kvm_intel nested=1" > mykvm.conf
     ```
-3. Restart your computer using the GUI or type in a Terminal:
+    for **AMD** cpu:
+    ```bash
+    cd /etc/modprobe.d/
+    sudo echo "options kvm_amd nested=1" > mykvm.conf
+    ```
+
+2. Restart your computer using the GUI or type in a Terminal:
 ```bash
 sudo reboot
 ```
-4. _(optional)_ If after reboot the error appears again, try this last step:
+1. _(optional)_ If after reboot the error appears again, try this last step:
 ```bash
 sudo update-initramfs -u
 ```
@@ -61,6 +68,8 @@ If you are using a newer Ubuntu kernel (6.12+), KVM initializes immediately upon
     -   If you’re using Grub on a Debian derivative (e.g. Ubuntu), edit `/etc/default/grub`, add the parameter `kvm.enable_virt_at_load=0` to `GRUB_CMDLINE_LINUX_DEFAULT`, and run `sudo update-grub`.
 
 #### NOTE⚠️: Verify kvm module is not in a blacklist file.
+
+If after made all the previous steps, the error continues, try this.
 
 ```bash
 grep -E -r "(kvm_intel|kvm_amd)" /etc/modprobe.d/
