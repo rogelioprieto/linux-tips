@@ -5,7 +5,7 @@ categories: kvm vm
 ---
 
 ## Problem: 
-Open the virtual machine manager (`virt-manager`), select a virtual machine, clic Open. Then, this error appears:\
+Open the virtual machine manager (`virt-manager`), select a virtual machine, and click Open. Then, this error appears:\
 `Error starting domain: unsupported configuration: Domain requires KVM, but it is not available. Check that virtualization is enabled in the host BIOS, and host configuration is setup to load the kvm modules.`
 
 This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
@@ -14,7 +14,7 @@ This error appears in Ubuntu 24.04 with Kernel Linux `6.14.0-1019-oem`.
 ## Solution:
 
 ### Solution 01. Load manually.
-Load the kvm module, it's different for amd or intel cpus.
+Load the kvm module; it's different for AMD or Intel CPUs.
 
 #### Step by step:
 
@@ -34,7 +34,7 @@ Load the kvm module, it's different for amd or intel cpus.
     ```
     The output should be a line with `kvm_intel` or `kvm_amd`.
 
-### Solution 02. Load KVM module automatically at startup.
+### Solution 02. Load the kvm module automatically at startup.
 
 #### Step by step:
 1. Create a .conf file.\
@@ -53,13 +53,13 @@ Load the kvm module, it's different for amd or intel cpus.
 ```bash
 sudo reboot
 ```
-1. _(optional)_ If after reboot the error appears again, try this last step:
+3. _(optional)_ If, after reboot, the error appears again try this last step:
 ```bash
 sudo update-initramfs -u
 ```
 and reboot again.
 
-#### NOTE⚠️: if you has installed Oracle VirtualBox, verify this!
+#### NOTE⚠️: if you have installed Oracle VirtualBox, verify this!
 
 **Conflict with VirtualBox (Kernel 6.12+)**
 If you are using a newer Ubuntu kernel (6.12+), KVM initializes immediately upon loading, locking the CPU and preventing VirtualBox from running. 
@@ -67,9 +67,9 @@ If you are using a newer Ubuntu kernel (6.12+), KVM initializes immediately upon
 -   **Solution:** You can add `kvm.enable_virt_at_load=0` to the kernel boot parameters.
     -   If you’re using Grub on a Debian derivative (e.g. Ubuntu), edit `/etc/default/grub`, add the parameter `kvm.enable_virt_at_load=0` to `GRUB_CMDLINE_LINUX_DEFAULT`, and run `sudo update-grub`.
 
-#### NOTE⚠️: Verify kvm module is not in a blacklist file.
+#### NOTE⚠️: Verify the kvm module is not in a blacklist file.
 
-If after made all the previous steps, the error continues, try this.
+If the error persists after completing all previous steps, try this.
 
 ```bash
 grep -E -r "(kvm_intel|kvm_amd)" /etc/modprobe.d/
