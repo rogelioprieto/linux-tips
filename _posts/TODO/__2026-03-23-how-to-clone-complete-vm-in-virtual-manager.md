@@ -26,8 +26,11 @@ Ensure the VM is completely shut down before proceeding. 
 
 ### 2. Transfer Files 
 
-Copy the `.qcow2` disk image and the `my_vm_config.xml` file to the new computer via a USB drive, `scp`, or `rsync`. Example:
-
+Copy the `.qcow2` disk image and the `my_vm_config.xml` file to the new computer via a USB drive, `cp`, `scp`, or `rsync`.You can use `cp` command with --sparse parameter. `qcow2` files are "sparse," meaning they only take up as much space as the data inside them. Using the `--sparse=always` flag ensures the copy doesn't accidentally expand to its full virtual size.
+```bash
+cp --sparse=always source_image.qcow2 destination_image.qcow2
+```
+or using rsync showing a progress info
 ```bash
   rsync -ah --sparse --progress source.qcow2 path-to-destination`
 ```
