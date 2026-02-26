@@ -19,6 +19,12 @@ To solve it,  You can list and delete them!.
     snap list --all
     ```
 
+	You can filter to get the disabled only:
+
+    ```bash
+    snap list --all | grep -Pz "disabled\n"
+    ```
+
 2. Remove a specific revision ("version") snap package.
 
 
