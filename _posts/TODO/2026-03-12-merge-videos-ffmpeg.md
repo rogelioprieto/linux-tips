@@ -11,7 +11,8 @@ You don't need to re-encode the video.
 
 ## Solution 1: Using ffmpeg in bash
 
-### Step 1. Create a list file with their paths, example:
+### Step 1. Create a list file with their paths
+Example, create the file `list.txt`:
 ```bash
 file 'uno.mp4'
 file 'dos.mp4'
@@ -20,7 +21,8 @@ file 'dos.mp4'
 or generate the file manually:
 
 ```bash
-MYLIST=list.txt; ls -I $MYLIST *.mp4 | xargs -I {} echo "file '{}'" >> $MYLIST
+MYLIST=list.txt
+find *.mp4 -maxdepth 1 ! -name $MYLIST -type f -print0 | xargs -0 -I {} echo "file '{}'" >> $MYLIST
 ```
 
 ### Step 2. Merge the video files
@@ -29,9 +31,8 @@ MYLIST=list.txt; ls -I $MYLIST *.mp4 | xargs -I {} echo "file '{}'" >> $MYLIST
 ffmpeg -f concat -safe 0 -i list.txt -c copy output.mp4
 ```
 
-⚠️ **Note:** If you need to use a more precise unit, less than a second, you need to reencode the video (not copy vcodec or acodec). Example cut video from 0.5 to 12 seconds:
 
 ## Source:
 
-<https://thediveo-e.blogspot.com/2013/09/trimming-video-files-lossless-using.html>  
-<https://forum.kde.org/viewtopic.php?f=265&t=130552&p=459516#p459516>
+<https://stackoverflow.com/questions/7333232/how-to-concatenate-two-mp4-files-using-ffmpeg>  
+<https://trac.ffmpeg.org/wiki/Concatenate>
