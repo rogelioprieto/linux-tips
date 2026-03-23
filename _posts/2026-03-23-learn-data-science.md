@@ -19,28 +19,26 @@ I proposed you learn the basics knowledge, this path is for learning Linux, Pyth
 
 ## 1. Learn Linux
 
-In this tutorial, I have a VM ready to use:\
-Manual Máquina Virtual Linux - FCQB - Tópicos selectos
+- ### In this tutorial, I have a Linux virtual machine ready to use:\
 <https://rogelioprieto.github.io/linux-tips/bioinformatics/2025/05/06/Manual-Maquina-Virtual-Linux-FCQB.html>
 
-Learn Linux:
-Linux Unhatched: A free 8-Hour Course Covering the basics (8 hours. Free)
+- ### Linux Unhatched: A free 8-Hour Course Covering the basics (8 hours. Free)
 <https://www.netacad.com/courses/linux-unhatched?courseLang=en-US>
 
 
-Linux Essentials: Prepare for LPI Linux Essentials Exam (70 hours. Free)
+- ### Linux Essentials: Prepare for LPI Linux Essentials Exam (70 hours. Free)
 <https://www.netacad.com/courses/linux-essentials?courseLang=en-US>
 
 
 ## 2. Learn Python
 
-### [Python Essentials 1 (30 hours. Free)](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US)
+- ### [Python Essentials 1 (30 hours. Free)](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US)
 Learn fundamental concepts of computer programming and start building coding skills with the Python programming language.
 <https://www.netacad.com/courses/python-essentials-1?courseLang=en-US>
 
 
 
-### [(optional) Advance Your Python Skills with Python Essentials 2. (30 hours. Free)](https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US
+- ### [(optional) Advance Your Python Skills with Python Essentials 2. (30 hours. Free)](https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US
 )
 This course is designed for learners already familiar with the basics of Python. Dive into advanced Python concepts, learn Object-Oriented Programming (OOP), and develop your own programming portfolio. This course prepares you for the PCAP – Certified Associate in Python Programming certification (Exam PCAP-31-0x).
 <https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US>
