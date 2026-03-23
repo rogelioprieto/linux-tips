@@ -53,3 +53,7 @@ This course is designed for learners already familiar with the basics of Python.
 	+ How to program serires (C, C++, Java, Python)
 - O'Reilly (editorial)
 - Apress (editorial)
+
+
+
+## 📝️⚠️ Updating is coming...
