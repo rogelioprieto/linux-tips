@@ -33,7 +33,7 @@ I proposed you learn the basics knowledge, this path is for learning Linux, Pyth
 ## 2. Learn Python
 
 - ### [Python Essentials 1 (30 hours. Free)](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US)
-Learn fundamental concepts of computer programming and start building coding skills with the Python programming language.
+Learn fundamental concepts of computer programming and start building coding skills with the Python programming language.\
 <https://www.netacad.com/courses/python-essentials-1?courseLang=en-US>
 
 
