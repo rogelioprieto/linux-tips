@@ -33,13 +33,13 @@ I proposed you learn the basics knowledge, this path is for learning Linux, Pyth
 
 - ### [Python Essentials 1 (30 hours. Free)](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US)
 Learn fundamental concepts of computer programming and start building coding skills with the Python programming language.\
-<https://www.netacad.com/courses/python-essentials-1?courseLang=en-US>
+  <https://www.netacad.com/courses/python-essentials-1?courseLang=en-US>
 
 
 
 - ### [*(Optional)* Advance Your Python Skills with Python Essentials 2. (30 hours. Free)](https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US)
 This course is designed for learners already familiar with the basics of Python. Dive into advanced Python concepts, learn Object-Oriented Programming (OOP), and develop your own programming portfolio. This course prepares you for the PCAP – Certified Associate in Python Programming certification (Exam PCAP-31-0x).
-<https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US>
+  <https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US>
 
 ## 3. Learn R language
 
