@@ -20,14 +20,13 @@ I proposed you learn the basics knowledge, this path is for learning Linux, Pyth
 ## 1. Learn Linux
 
 - ### In this tutorial, I have a Linux virtual machine ready to use:\
-<https://rogelioprieto.github.io/linux-tips/bioinformatics/2025/05/06/Manual-Maquina-Virtual-Linux-FCQB.html>
+  <https://rogelioprieto.github.io/linux-tips/bioinformatics/2025/05/06/Manual-Maquina-Virtual-Linux-FCQB.html>
 
 - ### Linux Unhatched: A free 8-Hour Course Covering the basics (8 hours. Free)
-<https://www.netacad.com/courses/linux-unhatched?courseLang=en-US>
-
+  <https://www.netacad.com/courses/linux-unhatched?courseLang=en-US>
 
 - ### Linux Essentials: Prepare for LPI Linux Essentials Exam (70 hours. Free)
-<https://www.netacad.com/courses/linux-essentials?courseLang=en-US>
+  <https://www.netacad.com/courses/linux-essentials?courseLang=en-US>
 
 
 ## 2. Learn Python
@@ -45,7 +44,7 @@ This course is designed for learners already familiar with the basics of Python.
 ## 3. Learn R language
 
 ### Introducción a Data Science: Programación Estadística con R. UNAM-Coursera.
-<https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r>
+  <https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r>
 
 ## 4. Books or editorials I like
 
