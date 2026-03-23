@@ -37,13 +37,13 @@ Learn fundamental concepts of computer programming and start building coding ski
 
 
 
-- ### [*(Optional)* Advance Your Python Skills with Python Essentials 2. (30 hours. Free)](https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US)
+- ### [*(Optional)* Advance Your Python Skills with Python Essentials 2. (40 hours. Free)](https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US)
 This course is designed for learners already familiar with the basics of Python. Dive into advanced Python concepts, learn Object-Oriented Programming (OOP), and develop your own programming portfolio. This course prepares you for the PCAP – Certified Associate in Python Programming certification (Exam PCAP-31-0x).
   <https://www.netacad.com/courses/python-essentials-2?course=&courseLang=en-US>
 
 ## 3. Learn R language
 
-### Introducción a Data Science: Programación Estadística con R. UNAM-Coursera.
+- ### Introducción a Data Science: Programación Estadística con R. UNAM-Coursera.
   <https://www.coursera.org/learn/intro-data-science-programacion-estadistica-r>
 
 ## 4. Books or editorials I like
