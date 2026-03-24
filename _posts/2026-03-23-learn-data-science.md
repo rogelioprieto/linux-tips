@@ -14,7 +14,7 @@ You're interested in learn data science. You need a learning path.
 
 This text is for my "Becalos" friends.
 
-I proposed you learn the basics knowledge, this path is for learning Linux, Python, R, and visualization data.
+I proposed that you learn the basic knowledge. This path is for learning Linux, Python, R, and visualizing data.
 
 
 ## 1. Learn Linux
@@ -49,7 +49,7 @@ This course is designed for learners already familiar with the basics of Python.
 ## 4. Books or editorials I like
 
 - Deitel and Deitel  (authors), for C++, Java
-	+ How to program serires (C, C++, Java, Python)
+	+ How to program book series (C, C++, Java, Python)
 - O'Reilly (editorial)
 - Apress (editorial)
 
