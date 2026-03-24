@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do you want to learn science data?
+title: Do you want to learn data science?
 categories: datascience
 ---
 
