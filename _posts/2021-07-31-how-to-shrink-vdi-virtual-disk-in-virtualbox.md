@@ -89,7 +89,7 @@ If enabled, then disable them:
 sudo swapoff -a
 ```
 
-Then finally you should be able to mount dev/sda1 as read-only. (Your filesystem type might be different from ext2. To find the filesystem, run df -T)
+Then finally you should be able to mount dev/sda1 as read-only. (Your filesystem type might be different from ext2. To find the filesystem, run `df -T`)
 ```
 mount -n -o remount,ro -t ext2 /dev/sda1 /
 ```
