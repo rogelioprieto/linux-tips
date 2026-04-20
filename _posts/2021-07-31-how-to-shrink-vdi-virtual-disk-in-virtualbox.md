@@ -67,6 +67,7 @@ VBoxManage modifymedium --compact '/path/to/thedisk.vdi'
 <https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/>\
 <https://gist.github.com/bitstarr/01e4946d9ab4ca368953300415cb934a>\
 <https://blog.lazy-evaluation.net/posts/reclaiming-vm-space-virtualbox.html>
+<https://bbs.archlinux.org/viewtopic.php?id=281224>
 
 ========
 
