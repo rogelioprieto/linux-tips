@@ -62,15 +62,15 @@ VBoxManage modifymedium --compact '/path/to/thedisk.vdi'
 	
 
 ## Source:
-<https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04>\¸
+<https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04>\
 <http://manpages.ubuntu.com/manpages/focal/en/man1/systemctl.1.html>\
 <https://www.howtogeek.com/312883/how-to-shrink-a-virtualbox-virtual-machine-and-free-up-disk-space/>\
+<https://wiki.ubuntu.com/RecoveryMode>\
 <https://gist.github.com/bitstarr/01e4946d9ab4ca368953300415cb934a>\
-<https://blog.lazy-evaluation.net/posts/reclaiming-vm-space-virtualbox.html>
+<https://blog.lazy-evaluation.net/posts/reclaiming-vm-space-virtualbox.html>\
 <https://bbs.archlinux.org/viewtopic.php?id=281224>
 
 ========
-
 
 ## (bonus!) brief explanation:
 
