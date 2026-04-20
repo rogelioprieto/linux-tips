@@ -14,24 +14,24 @@ You shouldn't share the `.ova` file, you can share the virtual hard disk (`.vdi`
 
 ### Step by step:
 
-1. Start you guest virtual machine con `root`.
+1. Start you guest virtual machine with `root`.
 
-Reboot to GRUB menu (Press `Esc` as Ubuntu is booting up).
-
-```
-Advanced options for Ubuntu > Recovery Mode (choose highest version number)
-```
-From the `Recovery Menu` select `Drop to root shell prompt` (_root - Consola de superusuario_)
-
-`df` to get your partitions (to see the partition you want to shrink e.g. sda1, sda4 etc. usually its `/dev/sda1`)
-```bash
-df
-```
-IMPORTANT! In next step, REVIEW and set the partition you want to shrink.
+	Reboot to GRUB menu (Press `Esc` as Ubuntu is booting up).
+	
+	```
+	Advanced options for Ubuntu > Recovery Mode (choose highest version number)
+	```
+	From the `Recovery Menu` select `Drop to root shell prompt` (_root - Consola de superusuario_)
+	
+	`df` to get your partitions (to see the partition you want to shrink e.g. sda1, sda4 etc. usually its `/dev/sda1`)
+	```bash
+	df
+	```
+	IMPORTANT! In next step, REVIEW and set the partition you want to shrink.
 
 2. In Terminal, execute:
 ```bash
-systemctl stop systemd-journald.socket && systemctl stop systemd-journald.service && sudo swapoff -a && mount -n -o remount,ro -t ext2 /dev/sda1 / && zerofree /dev/sda1
+systemctl stop systemd-journald.socket && systemctl stop systemd-journald.service && systemctl stop systemd-journald-dev-log.socket systemd-journald-audit.socket && sudo swapoff -a && mount -n -o remount,ro -t ext2 /dev/sda1 / && zerofree /dev/sda1
 ```
 
 3. shutdown your guest in `VirtualBox`.
@@ -45,21 +45,21 @@ after that clic in Machine -> Power off
 VBoxManage modifymedium --compact '/path/to/thedisk.vdi'
 ```
 
-IMPORTANT! remember specify the absolute path to `.vdi` file.
-
-
-If your host is Windows OS:
-```
-VBoxManage.exe modifymedium disk "C:\path\to\disk.vdi" --compact
-```
-
-
-If your host is MacOS (example, Ubuntu OS):
-```
-VBoxManage modifyhd /path/to/thedisk.vdi --compact
-```
-
-
+	IMPORTANT! remember specify the absolute path to `.vdi` file.
+	
+	
+	If your host is Windows OS:
+	```
+	VBoxManage.exe modifymedium disk "C:\path\to\disk.vdi" --compact
+	```
+	
+	
+	If your host is MacOS (example, Ubuntu OS):
+	```
+	VBoxManage modifyhd /path/to/thedisk.vdi --compact
+	```
+	
+	
 
 ## Source:
 <https://askubuntu.com/questions/1092812/zerofree-on-ubuntu-18-04>\¸
