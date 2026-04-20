@@ -25,10 +25,19 @@ $ sudo add-apt-repository universe
 
 ```bash
 $ sudo apt update 
-$ sudo apt install exfat-fuse exfat-utils
-
 ```
-## Source:
+For **Ubuntu 20.04** and later:
+
+```bash
+sudo apt install exfatprogs
+```
+
+For previous versions (18.04 or less):
+```bash
+$ sudo apt install exfat-fuse exfat-utils
+```
+
+## Sources:
 
  <https://linuxize.com/post/how-to-mount-an-exfat-drive-on-ubuntu/>\
  <https://help.ubuntu.com/community/Repositories/Ubuntu>
