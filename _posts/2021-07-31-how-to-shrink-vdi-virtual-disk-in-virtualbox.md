@@ -78,6 +78,8 @@ First, stop all processes writing to the disk so you don't get `mount /: mount b
 ```
 systemctl stop systemd-journald.socket
 systemctl stop systemd-journald.service
+systemctl stop systemd-journald-dev-log.socket 
+systemctl stop systemd-journald-audit.socket
 ```
 
 Check if any swap partitions are enabled:
