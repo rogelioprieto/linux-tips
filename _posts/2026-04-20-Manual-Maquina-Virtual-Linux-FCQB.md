@@ -89,23 +89,23 @@ Clic en `Siguiente`.
 
 
 **Paso 5.** En la siguiente ventana, elige la cantidad de memoria RAM que asignarás a tu Máquina virtual.
-Se recomienda asignar 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
+Se recomienda asignar al menos 4096 MB (4GB). Verifica que tu computadora tiene la cantidad de RAM suficiente para ello.
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/02.png)
 
-**Paso 6.** Cuando aparezca esta ventana, selecciona la 3ra opción: `Usar un disco duro virtual existente`.\
-Clic el ícono de carpeta (2). Aparecerá una ventana, da clic en `Añadir` (3), navega al directorio (4) donde está almacenado el archivo `.vdi` (fue descargado y descomprimido en el Paso 3).\
-Selecciona el archivo `Ubuntu 24.04.4.vdi` y da clic en `Abrir`.
-Finalmente, (6) selecciona la línea `Ubuntu 24.04.4.vdi` y da clic en el botón `Seleccionar`(7).
+**Paso 6.** Cuando aparezca esta ventana (1), selecciona la 2da opción: `Usar un disco duro virtual existente` (2).\
+Clic el ícono de carpeta (3).
 
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/03.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/03A.png)
+Aparecerá una ventana, da clic en `Añadir` (1), navega al directorio (2) donde está almacenado el archivo `.vdi` (fue descargado y descomprimido en el Paso 3).\
+Selecciona el archivo `Ubuntu 24.04.4.vdi` (3) y da clic en `Abrir`.
 
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/03B.png)
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/04A.png)
+Finalmente, (4) selecciona la línea `Ubuntu 24.04.4.vdi` y da clic en el botón `Seleccionar`(7).
 
-
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/05A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/03C.png)
 
 
 
@@ -116,7 +116,9 @@ En esta captura de pantalla, puedes observar la cantidad de memoria de video má
 
 También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún problema con VirtualBox después de activar esta opción, entonces puedes desactivarla.
 
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/06A.png)
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/04.png)
+
+![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/05.png)
 
 
 **Paso 8.** Selecciona `Ubuntu 24.04.4` y da clic en `Iniciar`. Se ejecutará Ubuntu. La contraseña es `12345678`.
@@ -124,14 +126,14 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
 
-- 📅 **Miércoles 7/mayo/2025 9:00-11:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/xds-fbnp-rkb>
+- 📅 **Miércoles 22/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/pgp-tpbe-dgo>
 
-- 📅 **Viernes 9/mayo/2025. 9:00-11:00 horas.** será la primera sesión del curso. \
+- 📅 **Jueves 12/abril/2026.** será la primera sesión del curso. \
 Enlace a la videollamada: **PENDIENTE** usaremos Microsoft Teams.\
 (no requiere correo de Microsoft, puede conectarse desde su navegador web)
 
 
-**PD.** Si seguiste este manual y no fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puedes solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02-vsm.png)\
+**PD.** Si seguiste este manual y NO fue posible ejecutar (_correr_) con éxito la Máquina Virtual. Puedes solicitar soporte al correo: ![rogelio-prieto-correo-uas-v02](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/images/rogelio-prieto-correo-uas-v02-vsm.png)\
 También, puede asistir a la sesión de asesoría.
 
