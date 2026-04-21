@@ -3,7 +3,7 @@ layout: post
 title: Manual Máquina Virtual Linux - FCQB - Tópicos selectos
 categories: bioinformatics
 author: Rogelio Prieto Alvarado
-date: 2026-04-20
+date: 2026-04-21
 ---
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/bioinformatics-adn-letras.png)
