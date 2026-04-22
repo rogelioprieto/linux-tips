@@ -42,7 +42,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/file-icon-32px.png)Ubuntu 24.04.4.7z](https://universidadautono220-my.sharepoint.com/:u:/g/personal/rogelioprieto_ms_uas_edu_mx/EaDL25v7CXJOnZOhyAd3cB4BhyW86V9VDALdPDwdAzAxJg?e=WXowZ9)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/file-icon-32px.png)Ubuntu 24.04.4.7z](https://drive.google.com/file/d/1p-mGVLLKuwKLdjKaS5h9dXnIKiWkEdLB/view?usp=drivesdk)
 
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu 24.04.4.7z`). Para ello:
