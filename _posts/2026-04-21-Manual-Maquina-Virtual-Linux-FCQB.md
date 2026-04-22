@@ -127,9 +127,9 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 
 
 - 📅 **Miércoles 22/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/pgp-tpbe-dgo>
+☎️📲️: <https://meet.google.com/pgp-tpbe-dgo>
 
-- 📅 **Jueves 23/abril/2026. 08:30 horas** será la primera sesión del curso. \
+- 📅 **Jueves 30/abril/2026. 08:30 horas** será la primera sesión del curso. \
 Enlace a la videollamada: **PENDIENTE** usaremos Microsoft Teams.\
 (no requiere correo de Microsoft, puede conectarse desde su navegador web)
 
