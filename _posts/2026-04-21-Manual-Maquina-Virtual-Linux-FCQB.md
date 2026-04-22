@@ -126,7 +126,7 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
 
-- 📅 **Miércoles 22/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+- 📅 **Miércoles 22/abril/2026 y viernes 24/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
 ☎️📲️: <https://meet.google.com/pgp-tpbe-dgo>
 
 - 📅 **Jueves 30/abril/2026. 08:30 horas** será la primera sesión del curso. \
