@@ -52,7 +52,7 @@ gh ssh-key add ~/.ssh/id_ed25519.pub
 	```
 
 
-4.  Paste the new SSH key to your GitHub account:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
+4.  Paste the new SSH key to your GitHub account, follow these steps:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
 5. Connect to and clone the repository
 ```bash
 #Test ssh connection
