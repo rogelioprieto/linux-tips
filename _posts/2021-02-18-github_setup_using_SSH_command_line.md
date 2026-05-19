@@ -38,6 +38,7 @@ ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
 ```
 4.  Copy the new SSH key into clipboard
+
 For Ubuntu:
 ```bash
 #copy the ssh key into clipboard
