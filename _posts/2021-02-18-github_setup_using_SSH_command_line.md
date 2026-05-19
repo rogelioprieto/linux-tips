@@ -17,26 +17,26 @@ Setup your github account using the Terminal and SSH.
 ### Step by step
 
 1. How to Install Git on Ubuntu 22.04 and 24.04
-```bash
-sudo apt update
-sudo apt install git
-git --version
-```
+	```bash
+	sudo apt update
+	sudo apt install git
+	git --version
+	```
 2. Tell to git who you are.
-```bash
-git config --global user.name "rogelioprieto"
-git config --global user.email "myname@googlemail.com"
-git config --list
-cat ~/.gitconfig
-```
+	```bash
+	git config --global user.name "rogelioprieto"
+	git config --global user.email "myname@googlemail.com"
+	git config --list
+	cat ~/.gitconfig
+	```
 3. Generate a new SSH key 
-```bash
-ls -al ~/.ssh
-ssh-keygen -t ed25519 -C "myname@googlemail.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-gh ssh-key add ~/.ssh/id_ed25519.pub
-```
+	```bash
+	ls -al ~/.ssh
+	ssh-keygen -t ed25519 -C "myname@googlemail.com"
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/id_ed25519
+	gh ssh-key add ~/.ssh/id_ed25519.pub
+	```
 4.  Copy the new SSH key into clipboard
 
 	For Ubuntu:
