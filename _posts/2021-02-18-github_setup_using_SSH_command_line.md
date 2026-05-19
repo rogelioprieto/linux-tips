@@ -52,32 +52,34 @@ gh ssh-key add ~/.ssh/id_ed25519.pub
 	```
 
 
-4.  Paste the new SSH key to your GitHub account, follow these steps:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
-5. Connect to and clone the repository
-```bash
-#Test ssh connection
-ssh -T git@github.com
-#make dir and clone
-mkdir ~/github
-cd ~/github/
-git clone git@github.com:rogelioprieto/linux-tips.git
-ls -la
-cd linux-tips
-git status
-```
-6. Finally, you can edit or create a file and push into the repository
-```bash
-git add .
-git status
-git commit -m "added minor changes"
-git push -u origin master
-git status
-```
+5. Paste the new SSH key to your GitHub account, follow these steps:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
+6. Connect to and clone the repository
 
-or you can use these commands in one line:
-```bash
-git add . && git commit -m "added minor changes" && git push -u origin master
-```
+	```bash
+	#Test ssh connection
+	ssh -T git@github.com
+	#make dir and clone
+	mkdir ~/github
+	cd ~/github/
+	git clone git@github.com:rogelioprieto/linux-tips.git
+	ls -la
+	cd linux-tips
+	git status
+	```
+	
+7. Finally, you can edit or create a file and push into the repository
+	```bash
+	git add .
+	git status
+	git commit -m "added minor changes"
+	git push -u origin master
+	git status
+	```
+	
+	or you can use these commands in one line:
+	```bash
+	git add . && git commit -m "added minor changes" && git push -u origin master
+	```
 
 ## Source:
 - Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
