@@ -38,11 +38,19 @@ ssh-add ~/.ssh/id_ed25519
 gh ssh-key add ~/.ssh/id_ed25519.pub
 ```
 4.  Copy the new SSH key into clipboard
+For Ubuntu:
 ```bash
 #copy the ssh key into clipboard
 sudo apt-get install xclip
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
+For Fedora 43 using wl-clipboard package
+```bash
+#copy the ssh key into clipboard
+wl-copy < ~/.ssh/id_ed25519.pub < ~/.ssh/id_ed25519.pub
+```
+
+
 4.  Paste the new SSH key to your GitHub account:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
 5. Connect to and clone the repository
 ```bash
@@ -52,7 +60,6 @@ ssh -T git@github.com
 mkdir ~/github
 cd ~/github/
 git clone git@github.com:rogelioprieto/linux-tips.git
-git status
 ls -la
 cd linux-tips
 git status
