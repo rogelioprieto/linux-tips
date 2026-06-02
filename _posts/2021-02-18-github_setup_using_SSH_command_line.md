@@ -17,59 +17,69 @@ Setup your github account using the Terminal and SSH.
 ### Step by step
 
 1. How to Install Git on Ubuntu 22.04 and 24.04
-```bash
-sudo apt update
-sudo apt install git
-git --version
-```
+	```bash
+	sudo apt update
+	sudo apt install git
+	git --version
+	```
 2. Tell to git who you are.
-```bash
-git config --global user.name "rogelioprieto"
-git config --global user.email "myname@googlemail.com"
-git config --list
-cat ~/.gitconfig
-```
+	```bash
+	git config --global user.name "rogelioprieto"
+	git config --global user.email "myname@googlemail.com"
+	git config --list
+	cat ~/.gitconfig
+	```
 3. Generate a new SSH key 
-```bash
-ls -al ~/.ssh
-ssh-keygen -t ed25519 -C "myname@googlemail.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-gh ssh-key add ~/.ssh/id_ed25519.pub
-```
+	```bash
+	ls -al ~/.ssh
+	ssh-keygen -t ed25519 -C "myname@googlemail.com"
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/id_ed25519
+	gh ssh-key add ~/.ssh/id_ed25519.pub
+	```
 4.  Copy the new SSH key into clipboard
-```bash
-#copy the ssh key into clipboard
-sudo apt-get install xclip
-xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-```
-4.  Paste the new SSH key to your GitHub account:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
-5. Connect to and clone the repository
-```bash
-#Test ssh connection
-ssh -T git@github.com
-#make dir and clone
-mkdir ~/github
-cd ~/github/
-git clone git@github.com:rogelioprieto/linux-tips.git
-git status
-ls -la
-cd linux-tips
-git status
-```
-6. Finally, you can edit or create a file and push into the repository
-```bash
-git add .
-git status
-git commit -m "added minor changes"
-git push -u origin master
-git status
-```
 
-or you can use these commands in one line:
-```bash
-git add . && git commit -m "added minor changes" && git push -u origin master
-```
+	For Ubuntu:
+	```bash
+	#copy the ssh key into clipboard
+	sudo apt-get install xclip
+	xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+	```
+	For Fedora 43 using wl-clipboard package
+	```bash
+	#copy the ssh key into clipboard
+	wl-copy < ~/.ssh/id_ed25519.pub < ~/.ssh/id_ed25519.pub
+	```
+
+
+5. Paste the new SSH key to your GitHub account, follow these steps:  <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
+6. Connect to and clone the repository
+
+	```bash
+	#Test ssh connection
+	ssh -T git@github.com
+	#make dir and clone
+	mkdir ~/github
+	cd ~/github/
+	git clone git@github.com:rogelioprieto/linux-tips.git
+	ls -la
+	cd linux-tips
+	git status
+	```
+	
+7. Finally, you can edit or create a file and push into the repository
+	```bash
+	git add .
+	git status
+	git commit -m "added minor changes"
+	git push -u origin master
+	git status
+	```
+	
+	or you can use these commands in one line:
+	```bash
+	git add . && git commit -m "added minor changes" && git push -u origin master
+	```
 
 ## Source:
 - Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>

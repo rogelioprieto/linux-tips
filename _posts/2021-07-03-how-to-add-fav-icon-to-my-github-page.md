@@ -6,17 +6,17 @@ categories: github virtualbox
 
 ## Problem: 
 
-I want to specify a favicon to my github page. 
+I want to specify a favicon to my GitHub page. 
 Set a favicon can be nice. How can I do that?
 
 ## Solution:
 To specify a favicon you need to create it and setup your github page.
 
-### Step by step:
+### Step by Step:
 
 1. Create your favicon using an online tool: <https://realfavicongenerator.net/>
 
-Please specify  the path `/assets/images` in *Favicon Generator Options*. This is a recomendation at the Jekyll documentation.
+Please specify the path `/assets/images` in *Favicon Generator Options*. This is a recommendation at the Jekyll documentation.
 
 Download the zip file.
 

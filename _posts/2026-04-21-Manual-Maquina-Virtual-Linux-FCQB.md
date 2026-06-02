@@ -42,7 +42,7 @@ Sigue los pasos solicitados por el instalador.
 
 _3.1_ Para descargar la máquina virtual en formato comprimido (archivo `.7z`), use este enlace:
 
-[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/file-icon-32px.png)Ubuntu 24.04.4.7z](https://universidadautono220-my.sharepoint.com/:u:/g/personal/rogelioprieto_ms_uas_edu_mx/EaDL25v7CXJOnZOhyAd3cB4BhyW86V9VDALdPDwdAzAxJg?e=WXowZ9)
+[![file-icon-32px](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/biomedicas-2026-images/file-icon-32px.png)Ubuntu 24.04.4.7z](https://drive.google.com/file/d/1p-mGVLLKuwKLdjKaS5h9dXnIKiWkEdLB/view?usp=drivesdk)
 
 
 _3.2_ Descomprima el archivo descargado (archivo `Ubuntu 24.04.4.7z`). Para ello:
@@ -126,10 +126,10 @@ También revisa y activa la `Activar la Aceleración 3D`. Si tienes algún probl
 ¡Felicidades👏🥳, te esperamos en el inicio del curso!. Revisa el calendario.
 
 
-- 📅 **Miércoles 22/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
-⚠️⚠️⚠️*¡NUEVO ENLACE!* a la videollamada: <https://meet.google.com/pgp-tpbe-dgo>
+- 📅 **Miércoles 22/abril/2026 y viernes 24/abril/2026 10:30-12:00 horas.** Asesoría para responder preguntas o problemas específicos de este manual.\
+☎️📲️: <https://meet.google.com/pgp-tpbe-dgo>
 
-- 📅 **Jueves 23/abril/2026. 08:30 horas** será la primera sesión del curso. \
+- 📅 **Jueves 30/abril/2026. 08:30 horas** será la primera sesión del curso. \
 Enlace a la videollamada: **PENDIENTE** usaremos Microsoft Teams.\
 (no requiere correo de Microsoft, puede conectarse desde su navegador web)
 
