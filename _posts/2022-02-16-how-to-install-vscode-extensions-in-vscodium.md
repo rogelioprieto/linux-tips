@@ -30,21 +30,22 @@ cd /usr/share/codium/resources/app
 ```
 Choose *one of two options*: use a text editor or a `Terminal` app.
 
-2. (*Option one*) Open an editor and modify the `product.json` file.\
-Open the file in an editor. 
-```bash
-sudo nano product.json
-```
+2. Open an editor and modify the `product.json` file.\
+
+  (*Option one*) Open the file in an editor. 
+  ```bash
+  sudo nano product.json
+  ```
   Search and modify to set these lines: 
   ```bash
 "extensionsGallery": {
     "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
     "itemUrl": "https://marketplace.visualstudio.com/items",
     "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
-}
+},
   ```
 
-  2. (*Option two*) The short way, you can use the `sed` command.
+  (*Option two*) The short way, you can use the `sed` command.
   ```bash
 sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
 sudo cp product.json product.json.TEMP
