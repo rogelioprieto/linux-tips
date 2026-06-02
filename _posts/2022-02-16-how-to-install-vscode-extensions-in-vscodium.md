@@ -31,7 +31,6 @@ cd /usr/share/codium/resources/app
 Choose *one of two options*: use a text editor or a `Terminal` app.
 
 2. Open an editor and modify the `product.json` file.\
-
   (*Option one*) Open the file in an editor. 
   ```bash
   sudo nano product.json
