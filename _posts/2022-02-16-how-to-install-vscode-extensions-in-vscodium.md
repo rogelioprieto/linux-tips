@@ -43,7 +43,6 @@ Choose *one of two options*: use a text editor or a `Terminal` app.
     "extensionUrlTemplate": "https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest"
 },
   ```
-
   (*Option two*) The short way, you can use the `sed` command.
   ```bash
 sudo cp product.json product.json.BACKUP-$(date '+%Y%m%d_%H%M%S')
