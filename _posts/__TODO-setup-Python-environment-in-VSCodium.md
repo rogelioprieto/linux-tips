@@ -9,3 +9,8 @@ source env/bin/activate
 ### Step 2: Install Pandas
 
 Now that the environment is active, any package you install will stay isolated inside `env`. Run:
+
+
+```bash
+pip3 install packagename
+```
