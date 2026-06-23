@@ -1,7 +1,7 @@
 ---
 layout: post
 title: how to see which conda packages are installed in a environment
-categories: conda bioinformatics
+categories: bioinformatics
 ---
 
 
