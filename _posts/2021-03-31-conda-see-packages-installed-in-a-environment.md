@@ -1,4 +1,9 @@
-# how to see which conda packages are installed in a environment
+---
+layout: post
+title: how to see which conda packages are installed in a environment
+categories: conda bioinformatics
+---
+
 
 ## Problem:
 You are using conda or minicoonda, you have created an environment and need to know which packages (names and versions) are installed. 
