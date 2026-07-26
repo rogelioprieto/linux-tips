@@ -80,10 +80,17 @@ Setup your github account using the Terminal and SSH.
 	```bash
 	git add . && git commit -m "added minor changes" && git push -u origin master
 	```
+	If after that, github request your login, try to change your repository URL: Switch your repository's tracking URL from HTTPS to SSH format, execute this:
+	```bash
+	git remote set-url origin git@github.com:your_username/your_repository.git
+	```
+
 
 ## Source:
-- Install git on Ubuntu 20.04 <https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
-- Connecting to GitHub with SSH. <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
+- Install git on Ubuntu 20.04  
+	<https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
+- Connecting to GitHub with SSH.  
+	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
 -  Checking for existing SSH keys.<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys>
 - Generating a new SSH key and adding it to the ssh-agent <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
 - Adding a new SSH key to your GitHub account <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
