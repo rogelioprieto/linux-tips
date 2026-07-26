@@ -91,11 +91,16 @@ Setup your github account using the Terminal and SSH.
 	<https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/>
 - Connecting to GitHub with SSH.  
 	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
--  Checking for existing SSH keys.<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys>
-- Generating a new SSH key and adding it to the ssh-agent <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
-- Adding a new SSH key to your GitHub account <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
-- SSH Keys <https://github.com/settings/keys>
-- Testing your SSH connection. <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection>
+-  Checking for existing SSH keys.  
+	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys>
+- Generating a new SSH key and adding it to the ssh-agent\
+	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+- Adding a new SSH key to your GitHub account\
+	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>
+- SSH Keys.\
+	<https://github.com/settings/keys>
+- Testing your SSH connection.\
+	<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection>
 - <https://docs.github.com/en/github/using-git/why-is-git-always-asking-for-my-password>
 - <https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git>
 - <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
