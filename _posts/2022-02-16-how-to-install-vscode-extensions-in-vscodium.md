@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to install VS Code extensions in VSCodium
-categories: vscode vscodium editors
+categories: vscodium
 author: Rogelio Prieto Alvarado
 ---
 
