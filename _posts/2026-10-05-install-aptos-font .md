@@ -12,7 +12,11 @@ I need to open a document that use the Microsoft Aptos Font.
 To solve it, download and install the Microsoft Aptos font, then update the system's font cache.
 
 ### Tested
-Tested in Fedora 44.
+
+
+✅ Ubuntu 24.04\
+✅ Fedora 44
+
 
 ### Step by step:
 
