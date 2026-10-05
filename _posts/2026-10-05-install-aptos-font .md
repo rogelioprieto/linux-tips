@@ -25,6 +25,7 @@ To solve it, download and install the Microsoft Aptos font, then update the syst
 ```bash
 # 1. Create a local fonts directory for Apto
 mkdir -p ~/.local/share/fonts/aptos
+
 # 2. Download the official Microsoft Aptos Fonts package into /tmp
 wget -O /tmp/aptos.zip "https://download.microsoft.com/download/8/6/0/860a94fa-7feb-44ef-ac79-c072d9113d69/Microsoft%20Aptos%20Fonts.zip"
 
