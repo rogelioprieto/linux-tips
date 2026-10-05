@@ -5,7 +5,7 @@ title: Install Microsoft Aptos font
 
 ## Problem: 
 
-I need to open a document that using the Microsoft Aptos Font.
+I need to open a document that use the Microsoft Aptos Font.
 
 ## Solution:
 
