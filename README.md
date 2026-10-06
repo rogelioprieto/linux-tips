@@ -1,11 +1,10 @@
 
-**Linux in a easy way!**
+# Linux in a easy way!
 
-Here you will find tips for everyday use of GNU/Linux and Ubuntu. How to install, setup and custom software tools for all-purpose that use command line (CLI) or a Graphic User Interface (GUI).
 
-Welcome and save your time!
+Here you will find tips for everyday use of GNU/Linux and Ubuntu. How to install, set up, and customize software tools for all purposes that use the command line (CLI) or a Graphical User Interface (GUI). **Welcome and save your time!**
 
-In 2021, we celebrated Linux's 30th anniversary! And in 2026, we're celebrating 35 Years of the Codebase!
+**In 2021**, we celebrated Linux's **30th anniversary**! And **in 2026**, we're celebrating **35 Years** of the Codebase!
 
 | |  |
 | :---: | :---:    |
