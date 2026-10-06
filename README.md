@@ -1,5 +1,5 @@
 
-# Linux in a easy way!
+**Linux in a easy way!**
 
 
 Here you will find tips for everyday use of GNU/Linux and Ubuntu. How to install, set up, and customize software tools for all purposes that use the command line (CLI) or a Graphical User Interface (GUI). **Welcome and save your time!**
