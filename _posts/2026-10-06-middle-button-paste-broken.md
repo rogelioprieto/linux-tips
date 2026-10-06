@@ -28,5 +28,5 @@ gsettings get org.gnome.desktop.interface gtk-enable-primary-paste
 
 ## Sources:
 
-<https://jmainguy.com/logbook/middle-click-paste-fedora-44/>
+<https://jmainguy.com/logbook/middle-click-paste-fedora-44/>\
 <https://www.freedesktop.org/wiki/Specifications/ClipboardsWiki/>
