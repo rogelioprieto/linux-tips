@@ -9,10 +9,9 @@ Here, I'm sharing tips and solutions to problems I’ve faced recently as a GNU/
 
 I hope this helps you save time and learn!
 
-
-![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/avatar-rpa.jpg)
-
-## Rogelio Prieto
+| | |
+|:--:|:--:|
+| ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/avatar-rpa.jpg) | Rogelio Prieto | 
 
 ___
 
