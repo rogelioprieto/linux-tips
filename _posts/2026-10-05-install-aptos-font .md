@@ -5,7 +5,12 @@ title: Install Microsoft Aptos font
 
 ## Problem: 
 
-I need to open a document that use the Microsoft Aptos Font.
+I need to open a document that uses the Microsoft Aptos font, but the font is replaced by another. In LibreOffice, the font name is shown in italics: *Aptos*.
+
+Legal advice: 
+- Aptos is a **proprietary** typeface owned by Microsoft.
+- **Permitted Use**: install and use copies of the font on non-Windows operating systems (like Ubuntu) for personal or professional document creation.
+- **Redistribution Limits**: You cannot repackage, sublicense, or redistribute the font files themselves in your own software repositories or public downloads.
 
 ## Solution:
 
@@ -42,4 +47,5 @@ fc-cache -fv
 <https://www.microsoft.com/en-us/download/details.aspx?id=106087>\
 <https://www.techspot.com/downloads/7566-aptos-font.html>\
 <https://docs.stg.fedoraproject.org/en-US/quick-docs/fonts/>\
-<https://alexhost.com/faq/how-to-install-fonts-on-gnu-linux/>
+<https://alexhost.com/faq/how-to-install-fonts-on-gnu-linux/>\
+<https://learn.microsoft.com/zh-tw/typography/font-list/aptos>
