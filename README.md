@@ -13,6 +13,7 @@ In 2026, we're celebrating 35 Years of the Codebase!
 
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/linux-35th-images/Linux-35-years.png)
 
+
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
