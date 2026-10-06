@@ -9,11 +9,7 @@ Here, I'm sharing tips and solutions to problems I’ve faced recently as a GNU/
 
 I hope this helps you save time and learn!
 
-<p style="text-align: center;">
-
 ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/avatar-rpa-letters.png)
-
-<p style="text-align: center;">
 
 
 ___
