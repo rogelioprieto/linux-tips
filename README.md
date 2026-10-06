@@ -14,9 +14,6 @@ In 2021, we celebrated Linux's 30th anniversary! And in 2026, we're celebrating 
 
 
 
-
-
-
 [![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
