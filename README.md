@@ -15,3 +15,6 @@ Here you will find tips for everyday use of GNU/Linux and Ubuntu. How to install
 This work and repository is licensed under a [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
+
+
+
