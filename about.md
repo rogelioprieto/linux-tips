@@ -28,7 +28,7 @@ You can see all the **tips and posts** here:\
 [![apps-icon](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/menu-32px.png) Linux tips](https://rogelioprieto.github.io/linux-tips/)
 
 
-
+---
 
 ## License:
 
