@@ -11,7 +11,7 @@ I hope this helps you save time and learn!
 
 | | |
 |:--:|:--:|
-| ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/avatar-rpa.jpg) | Rogelio Prieto | 
+| ![](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/_posts/images-all/avatar-rpa-letters.png) | Rogelio Prieto | 
 
 ___
 
