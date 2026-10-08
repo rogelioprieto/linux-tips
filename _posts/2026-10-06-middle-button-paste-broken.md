@@ -6,9 +6,9 @@ categories: ubuntu fedora
 
 ## Problem: 
 
-Middle-Click Paste (is called [Primary Paste](https://www.freedesktop.org/wiki/Specifications/Clipboa)) broke after upgrading to Ubuntu 26.04 and Fedora 44. Gnome 50 the Desktop Environment, used by Ubuntu and Fedora, disabled the button.
+Middle-Click Paste (is called [Primary Paste](https://www.freedesktop.org/wiki/Specifications/Clipboa)) broke after upgrading to Ubuntu 26.04 and Fedora 44. GNOME 50 the Desktop Environment, used by Ubuntu and Fedora, disabled the button.
 
-This problem was well described by Jonathan Mainguy in his [blog](https://jmainguy.com/logbook/middle-click-paste-fedora-44/).
+Jonathan Mainguy described this problem well in his [blog](https://jmainguy.com/logbook/middle-click-paste-fedora-44/).
 
 ## Solution:
 Re-enable primary paste for your user.
