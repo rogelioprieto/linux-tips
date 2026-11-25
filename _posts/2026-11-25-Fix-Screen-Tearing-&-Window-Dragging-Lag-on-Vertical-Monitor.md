@@ -84,6 +84,8 @@ sudo reboot
 
 ## Sources:
 
+AI used: this solution was generated with Google AI.
+
 - **Intel Xorg Driver Manual (`man 4 intel`)**: Documents the `Driver "intel"`, `Option "TearFree" "true"`, and `Option "TripleBuffer" "true"` flags for eliminating screen tearing on Intel integrated graphics.
   - Link: <https://manpages.ubuntu.com/manpages/noble/man4/intel.4.html>
 - **Ubuntu 24.04 Package (`xserver-xorg-video-intel`)**: Dedicated DDX (Device-Dependent X) display driver package for Intel integrated graphics in Ubuntu 24.04 LTS (Noble Numbat), replacing the generic `modesetting` driver.
