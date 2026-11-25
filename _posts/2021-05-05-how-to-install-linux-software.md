@@ -647,6 +647,12 @@ Source:\
 <https://todoist.com/es/downloads>
 
 
+## Time management
+
+### Focus Timer: Work better with regular breaks - a pomodoro app
+<https://focustimerhq.github.io/?referer=gnome-pomodoro>
+
+
 [![↑](https://raw.githubusercontent.com/rogelioprieto/linux-tips/master/assets/icons/up-arrow-32px.png) Back to top](#)
 ## Video call or web conferences
 

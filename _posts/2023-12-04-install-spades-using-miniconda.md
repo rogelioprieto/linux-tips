@@ -13,7 +13,7 @@ categories: bioinformatics
 
 1. Download and install Ubuntu 22.04.3 LTS (Desktop)
 2. Install Ubuntu, create `bioinfoman` user. Set new password and keep it private.
-3. After installation finished, create a new user, set `bioinfo123` password.
+3. After installation finished, create a new user, set `bioinformatica12345678` password.
 ```bash
 sudo adduser fcqb2023
 ```

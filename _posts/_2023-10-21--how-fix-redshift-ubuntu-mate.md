@@ -6,7 +6,7 @@ at startup
 
 ## Solution:
 
-Add to `/etc/geoclue/geoclue.conf`:
+1. Set your location. Add to `/etc/geoclue/geoclue.conf`:
 
 ```
 [redshift]
@@ -27,6 +27,26 @@ lon=-107.3586803
 
 You can get the latitude and longitud values from Google Maps:  
 <https://support.google.com/maps/answer/18539?hl=en&co=GENIE.Platform%3DDesktop>
+
+2. Config Redshift app.
+
+```bash
+nano ~/.config/redshift.conf
+```
+
+```bash
+[redshift]
+temp-day=4800
+temp-night=4500
+transition=1
+adjustment-method=randr
+location-provider=manual
+
+[manual]
+lat=24.8
+lon=-107.4
+```
+
 
 
 ## Source:
