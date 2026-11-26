@@ -46,9 +46,10 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 		2. **Resume on Focus**
 
 			-   **Name:** `Resume Media`
-			-   **Command:** 	
+			-   **Command:**
 				```sh
-				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'									```
+				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'
+				```
 			-   **Trigger / Event:** Select **Pomodoro** (when a focus session starts/resumes)
 
 		3. **Start Screensaver**
