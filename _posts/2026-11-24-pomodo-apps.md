@@ -79,12 +79,12 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 3. Show All Three Timers in the MATE panel.
 
-By default, Workrave sometimes only displays one or two timers in the panel. To make sure Micro-break, Rest break, and Daily limit are all visible:
-
-1. Right-click the Workrave applet on your panel (or the Workrave tray icon) and choose Preferences.
-2. In the left sidebar, expand User interface and click Applet.
-3. Look for the Timers section (or Layout settings) where each break type is listed.
-4. Set the display position/visibility for Micro-break, Rest break, and Daily limit to Always (instead of Never or Cycle).
+	By default, Workrave sometimes only displays one or two timers in the panel. To make sure Micro-break, Rest break, and Daily limit are all visible:
+	
+	1. Right-click the Workrave applet on your panel (or the Workrave tray icon) and choose Preferences.
+	2. In the left sidebar, expand User interface and click Applet.
+	3. Look for the Timers section (or Layout settings) where each break type is listed.
+	4. Set the display position/visibility for Micro-break, Rest break, and Daily limit to Always (instead of Never or Cycle).
 
 
 4. Activate "Reading mode"
