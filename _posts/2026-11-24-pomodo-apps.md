@@ -45,6 +45,7 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** (or set **State** to **Break**).
 		2. **Resume on Focus**
+
 			-   **Name:** `Resume Media`
 			-   **Command:** 	
 				```sh
