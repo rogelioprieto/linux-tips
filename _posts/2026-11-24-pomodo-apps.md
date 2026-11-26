@@ -25,7 +25,7 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 
 
-**Option 2.** Install from apt the version 0.25.1 and manually custom its options.
+**Option 2.** Install version 0.25.1 via apt, then manually customize its options.
 
 1. Install from:
 <https://focustimerhq.github.io/>
@@ -39,17 +39,17 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 			-   **Name:** `Pause Media`
 			-   **Command:**
-				```sh
-					sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
-				```
+			```sh
+				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
+			```
 
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** (or set **State** to **Break**).
 		2. **Resume on Focus**
 			-   **Name:** `Resume Media`
 			-   **Command:** 
 			
-				```sh
-				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'									```
+			```sh
+			sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'						```
 		
 			-   **Trigger / Event:** Select **Pomodoro** (when a focus session starts/resumes)
 			```
@@ -57,9 +57,9 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 		3. **Start Screensaver**
 			- **Name:** `Screensaver`
 			- **Command:** 
-				```sh
-				sh -c 'sleep 10 && mate-screensaver-command -a' 
-				```
+			```sh
+			sh -c 'sleep 10 && mate-screensaver-command -a' 
+			```
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** and set **Start**.
 
 
