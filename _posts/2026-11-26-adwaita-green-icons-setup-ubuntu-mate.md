@@ -78,15 +78,27 @@ Install the adwaita icon theme and the gnome-icon-theme. Run a script to generat
 	
 5. Fix the Blurry Volume OSD Icon
 
-MATE's volume overlay can fall back to a low-resolution speaker icon from `Adwaita`. Copy the crisp 256x256 speaker icons from `gnome-icon-theme` directly into your `Adwaita-green` theme and refresh the icon cache:
+	MATE's volume overlay can fall back to a low-resolution speaker icon from `Adwaita`. Copy the crisp 256x256 speaker icons from `gnome-icon-theme` directly into your `Adwaita-green` theme and refresh the icon cache:
+	
+	```bash
+	mkdir -p ~/.icons/Adwaita-green/scalable/status
+	cp -L /usr/share/icons/gnome/256x256/status/audio-volume-*.png ~/.icons/Adwaita-green/scalable/status/
+	gtk-update-icon-cache -f -t ~/.icons/Adwaita-green
+	```
 
-```bash
-mkdir -p ~/.icons/Adwaita-green/scalable/status
-cp -L /usr/share/icons/gnome/256x256/status/audio-volume-*.png ~/.icons/Adwaita-green/scalable/status/
-gtk-update-icon-cache -f -t ~/.icons/Adwaita-green
-```
+6. Copy  `multimedia-volume-control` `Yaru's color-wheel` (gtk-select-color and mate-color-select) icons into `Adwaita-green`. 
 
-6. Apply the Theme in MATE Appearance
+	```bash
+	mkdir -p ~/.icons/Adwaita-green/scalable/apps
+	cp -L /usr/share/icons/Yaru/32x32@2x/categories/gtk-select-color.png ~/.icons/Adwaita-green/scalable/apps/gtk-select-color.png
+	cp -L /usr/share/icons/Yaru/32x32@2x/categories/gtk-select-color.png ~/.icons/Adwaita-green/scalable/apps/mate-color-select.png
+	cp -L /usr/share/icons/Yaru/32x32@2x/devices/multimedia-volume-control.png ~/.icons/Adwaita-green/scalable/apps/
+	gtk-update-icon-cache -f -t ~/.icons/Adwaita-green
+	mate-panel --replace &
+	```
+
+
+7. Apply the Theme in MATE Appearance
 	1. Open **Appearance** from the MATE Control Center (or run `mate-appearance-properties`).
 	2. Click **Customize...** in the bottom-right corner.
 	3. Switch to the **Icons** tab and select **Adwaita-green**.
