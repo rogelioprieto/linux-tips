@@ -95,6 +95,6 @@ By default, Workrave pauses timers after ~5 seconds of no mouse or keyboard inpu
 
 Workrave does not have a built-in "every 4th break is longer" counter, so you have two ways to handle the other timers:
 
-- Option A: Classic Strict Pomodoro (Disable Micro-break). Go to Timers > Micro-break and uncheck Enable timer. Use Daily limit to set your total daily Pomodoro goal (e.g., 4:00:00 for eight 25-minute Pomodoros plus breaks). When you finish 4 cycles, manually click the applet and choose Rest break to take a 15–20 minute break.
+- **Option A:** Classic Strict Pomodoro (Disable Micro-break). Go to Timers > Micro-break and uncheck Enable timer. Use Daily limit to set your total daily Pomodoro goal (e.g., 4:00:00 for eight 25-minute Pomodoros plus breaks). When you finish 4 cycles, manually click the applet and choose Rest break to take a 15–20 minute break.
 
-- Option B: Automated Long Break Approximation. Set Micro-break to 0:25:00 work / 0:05:00 break, and set Rest break to 1:40:00 (100 minutes, equal to four 25-minute sprints) with a 0:15:00 break duration. This mimics a long break every 4 sessions.
+- **Option B:** Automated Long Break Approximation. Set Micro-break to 0:25:00 work / 0:05:00 break, and set Rest break to 1:40:00 (100 minutes, equal to four 25-minute sprints) with a 0:15:00 break duration. This mimics a long break every 4 sessions.
