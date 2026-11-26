@@ -54,9 +54,9 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 		3. **Start Screensaver**
 			- **Name:** `Screensaver`
 			- **Command:** 
-			```sh
-			sh -c 'sleep 10 && mate-screensaver-command -a' 
-			```
+				```sh
+				sh -c 'sleep 10 && mate-screensaver-command -a' 
+				```
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** and set **Start**.
 
 
