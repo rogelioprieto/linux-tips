@@ -31,31 +31,31 @@ To solve it, you need to install the `xserver-xorg-video-intel`  and  enable Tea
 
 Ubuntu 24.04's default `modesetting` driver ignores `TearFree` on rotated screens. Installing the dedicated Intel X11 driver enables hardware-level frame synchronization: 
 
-	```bash
-	sudo apt update
-	sudo apt install xserver-xorg-video-intel
-	```
+```bash
+sudo apt update
+sudo apt install xserver-xorg-video-intel
+```
 
 2\. Configure `TearFree` and `TripleBuffer` in X11 
 
 Create and edit the X11 graphics configuration file so the Intel driver forces tear-free rendering across both horizontal and vertical monitors: 
 	
-	```bash
-	sudo mkdir -p /etc/X11/xorg.conf.d
-	sudo nano /etc/X11/xorg.conf.d/20-intel.conf
-	```
+```bash
+sudo mkdir -p /etc/X11/xorg.conf.d
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+```
 
 Add the following configuration: 
 	
-	```
-	Section "Device"
-	   Identifier  "Intel Graphics"
-	   Driver      "intel"
-	   Option      "TearFree"      "true"
-	   Option      "TripleBuffer"  "true"
-	EndSection
-	```
-	
+```
+Section "Device"
+   Identifier  "Intel Graphics"
+   Driver      "intel"
+   Option      "TearFree"      "true"
+   Option      "TripleBuffer"  "true"
+EndSection
+```
+
 _(Save and exit with `Ctrl + O`, `Enter`, then `Ctrl + X`.)_ 
 
 3\. Use Marco's Built-in Compositor 
