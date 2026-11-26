@@ -42,7 +42,6 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 				```sh
 				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
 				```
-
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** (or set **State** to **Break**).
 		2. **Resume on Focus**
 
