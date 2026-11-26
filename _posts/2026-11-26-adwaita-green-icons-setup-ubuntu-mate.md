@@ -7,9 +7,6 @@ categories: mate gnome themes
 ## Problem: 
 Install [Adwaita icon theme](https://github.com/GNOME/adwaita-icon-theme) on Ubuntu MATE 24.04 with its [green variant color](https://github.com/dpejoh/Adwaita-colors). Installing in a straighforward steps works in Ubuntu 24.04 (gnome) but it didn't work in Ubuntu MATE 24.04.
 
-![Adwaita colors](https://github.com/dpejoh/Adwaita-Colors/raw/main/v2.3.1.jpg){width=40%}
-
-
 
 <img src="https://github.com/dpejoh/Adwaita-Colors/raw/main/v2.3.1.jpg" alt="Adwaita colors" width="40%">
 
