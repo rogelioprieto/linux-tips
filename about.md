@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-
-Here, I'm sharing tips and solutions to problems I’ve faced recently as a GNU/Linux user. I got some of these solutions while helping students use GNU/Linux for data science and bioinformatics. I have been working in computer science since 2002.
+I'm sharing some tips and solutions to problems I've encountered recently as a GNU/Linux user. Many of these solutions came about while assisting students who are using GNU/Linux for data science and bioinformatics. I have been working in computer science since 2002.
 
 I hope this helps you save time and learn!
 
