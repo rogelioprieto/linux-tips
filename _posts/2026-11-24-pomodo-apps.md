@@ -89,7 +89,7 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 4. Activate "Reading mode"
 
-By default, Workrave pauses timers after ~5 seconds of no mouse or keyboard input. If your Pomodoro work involves reading documentation or thinking without typing. 
+	By default, Workrave pauses timers after ~5 seconds of no mouse or keyboard input. If your Pomodoro work involves reading documentation or thinking without typing. 
 
 5. Handle the Micro-Break & Long Break
 
