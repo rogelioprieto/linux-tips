@@ -9,6 +9,10 @@ Install [Adwaita icon theme](https://github.com/GNOME/adwaita-icon-theme) on Ubu
 
 ![Adwaita colors](https://github.com/dpejoh/Adwaita-Colors/raw/main/v2.3.1.jpg){width=40%}
 
+
+
+<img src="https://github.com/dpejoh/Adwaita-Colors/raw/main/v2.3.1.jpg" alt="Adwaita colors" width="40%">
+
 ## Solution:
 
 Install the adwaita icon theme and the gnome-icon-theme. Run a script to generate the green variant and finally, modify the configuration file.
