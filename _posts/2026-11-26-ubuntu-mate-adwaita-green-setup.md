@@ -1,4 +1,8 @@
-# Installing Adwaita and Adwaita-green Icons on Ubuntu MATE 24.04
+---
+layout: post
+title: Installing Adwaita and Adwaita-green Icons on Ubuntu MATE 24.04 
+categories: conda bioinformatics
+---
 
 ## Problem: 
 Install [Adwaita icon theme](https://github.com/GNOME/adwaita-icon-theme) on Ubuntu MATE 24.04 with its [green variant color](https://github.com/dpejoh/Adwaita-colors). Installing in a straighforward steps works in Ubuntu 24.04 (gnome) but it didn't work in Ubuntu MATE 24.04.
@@ -8,6 +12,8 @@ Install [Adwaita icon theme](https://github.com/GNOME/adwaita-icon-theme) on Ubu
 ## Solution:
 
 Install the adwaita icon theme and the gnome-icon-theme. Run a script to generate the green variant and finally, modify the configuration file.
+
+### Step by step:
 
 1. Install the Base Icon Packages
 
@@ -80,8 +86,6 @@ gtk-update-icon-cache -f -t ~/.icons/Adwaita-green
 	1. Open **Appearance** from the MATE Control Center (or run `mate-appearance-properties`).
 	2. Click **Customize...** in the bottom-right corner.
 	3. Switch to the **Icons** tab and select **Adwaita-green**.
-
-
 
 
 

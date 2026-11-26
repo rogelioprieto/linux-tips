@@ -4,8 +4,6 @@ title: Pomodoro and time tracking apps
 categories: conda bioinformatics
 ---
 
-# Pomodoro apps
-
 ## For Fedora 44+ or Ubuntu 24.04
 
 
