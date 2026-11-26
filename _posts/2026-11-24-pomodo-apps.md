@@ -39,9 +39,9 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 
 			-   **Name:** `Pause Media`
 			-   **Command:**
-				```sh
+			```sh
 				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
-			
+			```
 
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** (or set **State** to **Break**).
 		2. **Resume on Focus**
@@ -52,7 +52,7 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 			sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'						```
 		
 			-   **Trigger / Event:** Select **Pomodoro** (when a focus session starts/resumes)
-
+			```
 
 		3. **Start Screensaver**
 			- **Name:** `Screensaver`
@@ -66,11 +66,11 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 ### workrave
 
 1. Install the MATE Panel Applet
-```bash
-sudo apt update
-sudo apt install workrave workrave-mate
-```
-
+	```bash
+	sudo apt update
+	sudo apt install workrave workrave-mate
+	```
+	
 2. Add Workrave to the Panel
 
 	1.  **Right-click** an empty area on your top or bottom MATE panel.
