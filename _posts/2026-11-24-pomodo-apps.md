@@ -40,7 +40,7 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 			-   **Name:** `Pause Media`
 			-   **Command:**
 			```sh
-				sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
+			sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause; done'
 			```
 
 			-   **Trigger / Event:** Select **Short Break** and **Long Break** (or set **State** to **Break**).
@@ -49,10 +49,10 @@ This version has tray icon compatibility with Ubuntu & Ubuntu MATE 24.04 and Fed
 			-   **Command:** 
 			
 			```sh
-			sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'						```
+			sh -c 'for p in $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -o "org.mpris.MediaPlayer2[^\"]*"); do dbus-send --session --type=method_call --dest="$p" /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play; done'								```
+
 		
 			-   **Trigger / Event:** Select **Pomodoro** (when a focus session starts/resumes)
-			```
 
 		3. **Start Screensaver**
 			- **Name:** `Screensaver`
